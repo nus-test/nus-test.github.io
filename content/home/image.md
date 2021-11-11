@@ -18,7 +18,7 @@ subtitle:
 design:
   columns: "1"
   background:
-    image: coders.jpg
+    image: singapore2.jpg # TODO: acknowledge https://unsplash.com/photos/As_WAg_6BPg
     image_darken: 0
     image_parallax: false
     image_position: center
