@@ -17,7 +17,9 @@ advanced:
   css_class:
 ---
 
-The *Practical and Principled Software Technologies Group* at the [School of Computing](https://www.comp.nus.edu.sg/) at the [National University of Singapore](https://www.nus.edu.sg/) is working on practical and conceptual software solutions. We aim to have real-world impact both by creating practical tools as well as by designing principled, fundamental techniques. We are actively looking for PhD students, postdocs, visitors, and interns to expand our group. Reach out to manuel.rigger@inf.ethz.ch if you are interested.
+The *Practical and Principled Software Technologies Group* at the [National University of Singapore](https://www.nus.edu.sg/) ([School of Computing](https://www.comp.nus.edu.sg/)) is working on practical and conceptual software solutions. We aim to have a real-world impact both by creating practical tools as well as by designing principled, fundamental techniques. We are actively looking for PhD students, postdocs, visitors, and interns to expand our group. Check out [our openings](positions) if you are interested.
+
+PI: [Manuel Rigger](https://www.manuelrigger.at/) (rigger@comp.nus.edu.sg)
 
 Core Areas:
 * Software Engineering
