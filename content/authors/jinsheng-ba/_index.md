@@ -45,9 +45,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:bajinsheng@u.nus.edu'
-# - icon: twitter
-#   icon_pack: fab
-#   link: https://twitter.com/GeorgeCushen
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/JinshengBa
 # - icon: google-scholar
 #   icon_pack: ai
 #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
