@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Trustworthy Engineering of Software Technologies (TEST) Lab # Website name
-baseurl: '' # Website URL
+baseurl: 'https://nus-test.github.io/' # Website URL
 copyright: '' # Footer text, e.g. '© {year} Me'
 
 ############################
@@ -19,6 +19,12 @@ removePathAccents: true
 ############################
 ## MODULES
 ############################
+
+security:
+  funcs:
+    getenv:
+      - ^HUGO_
+      - ^WC_
 
 module:
   imports:
