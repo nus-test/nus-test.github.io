@@ -66,7 +66,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Grad Students
+- PhD Students
 ---
 
 Suyang is a senior undergraduate in the [School of Computer Science and Technology](http://en.cs.ustc.edu.cn/) at [University of Science and Technology of China (USTC)](http://en.ustc.edu.cn/). He will join [NUS](https://nus.edu.sg/) as a Ph.D. candidate in Fall 2022.
