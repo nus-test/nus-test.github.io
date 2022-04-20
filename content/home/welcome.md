@@ -17,7 +17,7 @@ advanced:
   css_class:
 ---
 
-The *Practical and Principled Software Technologies Group* at the [National University of Singapore](https://www.nus.edu.sg/) ([School of Computing](https://www.comp.nus.edu.sg/)) is working on practical and conceptual software solutions. We aim to have a real-world impact both by creating practical tools as well as by designing principled, fundamental techniques. We are actively looking for PhD students, postdocs, visitors, and interns to expand our group. Check out [our openings](positions) if you are interested.
+The *Trustworthy Engineering of Software Technologies (TEST) Lab* at the [National University of Singapore](https://www.nus.edu.sg/) ([School of Computing](https://www.comp.nus.edu.sg/)) is working on practical and conceptual software solutions. We aim to have a real-world impact both by creating practical tools as well as by designing principled, fundamental techniques. We are actively looking for PhD students, postdocs, visitors, and interns to expand our group. Check out [our openings](positions) if you are interested.
 
 
 Contact: [Manuel Rigger](https://www.manuelrigger.at/) (rigger@comp.nus.edu.sg)
