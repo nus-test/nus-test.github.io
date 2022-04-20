@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+    <link>https://nus-test.github.io/</link>
+      <atom:link href="https://nus-test.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Trustworthy Engineering of Software Technologies (TEST) Lab</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://nus-test.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+      <link>https://nus-test.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Open Positions</title>
+      <link>https://nus-test.github.io/positions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/positions/</guid>
+      <description>&lt;p&gt;I am looking for PhD students, postdocs, interns, and visitors whose vision aligns with ours to join our lab. In general, we aim to both have a practical impact by creating relevant and usable tools as well as by designing principled and fundamental approaches.&lt;/p&gt;
+&lt;p&gt;The group&amp;rsquo;s core areas are software engineering, computer systems, and programming languages. Topics of interest include, but are not limited to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Software reliability using techniques such as automated testing and program analysis&lt;/li&gt;
+&lt;li&gt;Creating and improving essential systems such as compilers, programming language environments, and data processing systems&lt;/li&gt;
+&lt;li&gt;Programming languages, in particular, their efficient implementation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A current research focus is to improve the reliability of data-centric systems. To get a taste of the kind of research that falls under this term, have a look at the &lt;a href=&#34;https://github.com/sqlancer/sqlancer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SQLancer project&lt;/a&gt; and &lt;a href=&#34;https://dl.acm.org/doi/abs/10.1145/3428279&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ternary Logic Partitioning paper&lt;/a&gt;. You can also consult my &lt;a href=&#34;https://scholar.google.com/citations?hl=de&amp;amp;user=yRsLClYAAAAJ&amp;amp;view_op=list_works&amp;amp;sortby=pubdate&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Scholar page&lt;/a&gt; for an up-to-date view of our research activities.&lt;/p&gt;
+&lt;p&gt;An ideal candidate has some of the following qualities:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Strong implementation skills and a desire to create open-source tools&lt;/li&gt;
+&lt;li&gt;The ability to come up with ideas and develop new approaches&lt;/li&gt;
+&lt;li&gt;Not being afraid to tackle challenging, important problems&lt;/li&gt;
+&lt;li&gt;The resilience to deal with fallbacks (which are quite common in research) and maintaining a work-life balance&lt;/li&gt;
+&lt;li&gt;An interest in working on improving technical and non-technical skills&lt;/li&gt;
+&lt;li&gt;A desire to write papers and publish at top venues (ICSE, ASPLOS, OOPSLA, &amp;hellip;)&lt;/li&gt;
+&lt;li&gt;A motivation to share your work with the community (through presentations, talking to your peers, on your website, &amp;hellip;)&lt;/li&gt;
+&lt;li&gt;An interest to learn about what other people are working on (e.g., by reading papers)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It is not expected that you have all of these qualities; I am unsure whether I have all of them myself. However, keep in consideration that these qualities reflect ways in which you will likely be challenged and develop further if you decide to join the lab.&lt;/p&gt;
+&lt;p&gt;If you are interested in a position, feel free to reach out to me and send me your CV. If you are considering a PhD position, you can also directly &lt;a href=&#34;https://www.comp.nus.edu.sg/programmes/pg/phdcs/application/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;apply here&lt;/a&gt; and mention my name in the application. The next application deadline is June 15, 2022.&lt;/p&gt;
+&lt;p&gt;&amp;ndash; Manuel RIGGER (&lt;a href=&#34;mailto:rigger@comp.nus.edu.sg&#34;&gt;rigger@comp.nus.edu.sg&lt;/a&gt;)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Event</title>
+      <link>https://nus-test.github.io/event/example/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/example/</guid>
+      <description>&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further event details, including page elements such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Manuel shared his experience on the academic job market at a seminar and panel discussion at NUS</title>
+      <link>https://nus-test.github.io/post/21-09-27-nus-academic-job-experience-talk/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/post/21-09-27-nus-academic-job-experience-talk/</guid>
+      <description>&lt;p&gt;Manuel presented his experience interviewing for faculty positions at a seminar and panel discussion to PhD students and postdocs at the School of Computing at NUS.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example preprint / working paper</title>
+      <link>https://nus-test.github.io/publication/preprint/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/preprint/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example journal article</title>
+      <link>https://nus-test.github.io/publication/journal-article/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/journal-article/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example conference paper</title>
+      <link>https://nus-test.github.io/publication/conference-paper/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/conference-paper/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nus-test.github.io/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nus-test.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nus-test.github.io/people/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/people/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
