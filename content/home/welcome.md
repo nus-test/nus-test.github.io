@@ -17,12 +17,13 @@ advanced:
   css_class:
 ---
 
-The *Trustworthy Engineering of Software Technologies (TEST) Lab* at the [National University of Singapore](https://www.nus.edu.sg/) ([School of Computing](https://www.comp.nus.edu.sg/)) is working on practical and conceptual software solutions. We aim to have a real-world impact both by creating practical tools as well as by designing principled, fundamental techniques. We are actively looking for PhD students, postdocs, visitors, and interns to expand our group. Check out [our openings](positions) if you are interested.
-
-
-Contact: [Manuel Rigger](https://www.manuelrigger.at/) (rigger@comp.nus.edu.sg)
+The *Trustworthy Engineering of Software Technologies (TEST) Lab* at the [National University of Singapore](https://www.nus.edu.sg/) ([School of Computing](https://www.comp.nus.edu.sg/)), led by [Manuel Rigger](https://www.manuelrigger.at/), is working on practical and conceptual software solutions. We aim to have a real-world impact both by creating practical tools as well as by designing principled, fundamental techniques.
 
 Core Areas:
 * Software Engineering
 * Systems
 * Programming Languages
+
+[{{<icon name="twitter" pack="fab" >}}](https://twitter.com/test_nus)
+[{{<icon name="github" pack="fab" >}}](https://github.com/nus-test/)
+[{{<icon name="envelope" pack="fas" >}}](mailto:rigger@comp.nus.edu.sg)
