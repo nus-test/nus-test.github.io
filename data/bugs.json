@@ -1,8 +1,11 @@
 [
     {
-		"title" : "BETWEEN with subquery and column results in unexpected error",
-        "url" : "https://github.com/duckdb/duckdb/issues/3588",
-        "found_by" : "Kok Rui Wong",
-        "domain" : "dbms"
+        "url": "https://github.com/duckdb/duckdb/issues/3588",
+        "title": "BETWEEN with subquery and column results in unexpected error",
+        "created_at": "06/05/2022",
+        "fix_date": "09/05/2022",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "kokrui"
     }
 ]

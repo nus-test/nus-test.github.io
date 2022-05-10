@@ -18,7 +18,7 @@ domain_map = {
 
 for (domain,) in c.execute('SELECT DISTINCT domain FROM bugs;').fetchall():
 	print('<h2>%s</h2>' % (domain_map[domain], ))
-	for title, url, found_by in c.execute("SELECT title, url, found_by FROM bugs WHERE domain='%s';" % (domain)).fetchall():
+	for title, url, found_by in c.execute("SELECT title, url, reported_by FROM bugs WHERE domain='%s';" % (domain)).fetchall():
 		print('<details>')
 		print('<summary>%s</summary>'% (title, ))
 		print('link: <a href="%s">%s</a> <br />' % (url, url))
