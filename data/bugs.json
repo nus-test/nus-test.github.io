@@ -1,0 +1,8 @@
+[
+    {
+		"title" : "BETWEEN with subquery and column results in unexpected error",
+        "url" : "https://github.com/duckdb/duckdb/issues/3588",
+        "found_by" : "Kok Rui Wong",
+        "domain" : "dbms"
+    }
+]
