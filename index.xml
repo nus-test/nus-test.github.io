@@ -17,7 +17,7 @@
       <link>https://nus-test.github.io/bugs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://nus-test.github.io/bugs/</guid>
-      <description>&lt;h2&gt;Database Management Systems (15 bugs)&lt;/h2&gt;
+      <description>&lt;h2&gt;Database Management Systems (40 bugs)&lt;/h2&gt;
 &lt;h3&gt;CockroachDB (6 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;sql: support SCRUB on temp tables&lt;/summary&gt;
@@ -66,6 +66,157 @@ Found by: kokrui
 &lt;summary&gt;Unexpected Error for RTRIM Function in Where Clause&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/3616&#34;&gt;https://github.com/duckdb/duckdb/issues/3616&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;h3&gt;SQLite (25 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;An Inconsistent Result Depending on Parenthesization&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/af3d07f908&#34;&gt;https://sqlite.org/forum/forumpost/af3d07f908&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;An Unexpected NULL Column Caused by Where Clause in RIGHT JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/41cc3851d8&#34;&gt;https://sqlite.org/forum/forumpost/41cc3851d8&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Rows are Unexpectedly Filtered Out by DISTINCT in RIGHT JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/c06b10ad7e&#34;&gt;https://sqlite.org/forum/forumpost/c06b10ad7e&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Expression or Constant in GroupBy Clause&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/2458c5dea2&#34;&gt;https://sqlite.org/forum/forumpost/2458c5dea2&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Result by WHERE when Joining Tables&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/687b0bf563&#34;&gt;https://sqlite.org/forum/forumpost/687b0bf563&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Result by WHERE/RIGHT JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/5cfe08eed6&#34;&gt;https://sqlite.org/forum/forumpost/5cfe08eed6&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Result in Joining Virtual Tables&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/3902c7b833&#34;&gt;https://sqlite.org/forum/forumpost/3902c7b833&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Result by Joining&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/c2554d560b&#34;&gt;https://sqlite.org/forum/forumpost/c2554d560b&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Result by RIGHT JOIN on RTree Tables&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/087de2d9ec&#34;&gt;https://sqlite.org/forum/forumpost/087de2d9ec&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Result by WHERE Again&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/de16c4abe2&#34;&gt;https://sqlite.org/forum/forumpost/de16c4abe2&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Result by RIGHT JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/206d99a16d&#34;&gt;https://sqlite.org/forum/forumpost/206d99a16d&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Assertion Error in SQLite3MemCompare&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/800eecf5e6&#34;&gt;https://sqlite.org/forum/forumpost/800eecf5e6&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Result by ORDER BY&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/323f86cc30&#34;&gt;https://sqlite.org/forum/forumpost/323f86cc30&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Result by RIGHT JOIN with INDEX&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/c4676c4956&#34;&gt;https://sqlite.org/forum/forumpost/c4676c4956&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Result by JSON&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/3d9caa45cb&#34;&gt;https://sqlite.org/forum/forumpost/3d9caa45cb&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Result by Complicated JOINING&lt;/summary&gt;
+Status: unconfirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/eeb8173cf8&#34;&gt;https://sqlite.org/forum/forumpost/eeb8173cf8&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Assertion `pCur-&gt;eCurType==CURTYPE_VTAB&#39; failed&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/dafe0500b0&#34;&gt;https://sqlite.org/forum/forumpost/dafe0500b0&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Result by RIGHT JOIN Again&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/51e6959f61&#34;&gt;https://sqlite.org/forum/forumpost/51e6959f61&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Result by Complicated JOINING Again&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/b40696f501&#34;&gt;https://sqlite.org/forum/forumpost/b40696f501&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Assertion Error in valueFromFunction&lt;/summary&gt;
+Status: unconfirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/e3243e07e8&#34;&gt;https://sqlite.org/forum/forumpost/e3243e07e8&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Result by FULL OUTER JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/5610c17c3d&#34;&gt;https://sqlite.org/forum/forumpost/5610c17c3d&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Expression on ON clause&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/57bdf2217d&#34;&gt;https://sqlite.org/forum/forumpost/57bdf2217d&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Expression Result by FULL OUTER JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/6650cd40b5&#34;&gt;https://sqlite.org/forum/forumpost/6650cd40b5&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Parse Error&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/1a7fea4651&#34;&gt;https://sqlite.org/forum/forumpost/1a7fea4651&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Assertion Error in whereRangeScanEst&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/c3496cf6b1&#34;&gt;https://sqlite.org/forum/forumpost/c3496cf6b1&lt;/a&gt; &lt;br /&gt;
 Found by: bajinsheng
 &lt;/details&gt;
 &lt;h3&gt;TiDB (7 bugs)&lt;/h3&gt;
