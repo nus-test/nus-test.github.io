@@ -13,6 +13,109 @@
     </image>
     
     <item>
+      <title></title>
+      <link>https://nus-test.github.io/bugs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/bugs/</guid>
+      <description>&lt;h2&gt;Database Management Systems (15 bugs)&lt;/h2&gt;
+&lt;h3&gt;CockroachDB (6 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;sql: support SCRUB on temp tables&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/83770&#34;&gt;https://github.com/cockroachdb/cockroach/issues/83770&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Internal Error: Comparison Overload not Found&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/83792&#34;&gt;https://github.com/cockroachdb/cockroach/issues/83792&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;ERROR: no builtin aggregate for SUM_INT on [unknown]&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/83874&#34;&gt;https://github.com/cockroachdb/cockroach/issues/83874&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Crashing by EXPLAIN Statement&lt;/summary&gt;
+Status: unconfirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/83965&#34;&gt;https://github.com/cockroachdb/cockroach/issues/83965&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Invalid Memory Address Error of Specific SQL Query&lt;/summary&gt;
+Status: unconfirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/83973&#34;&gt;https://github.com/cockroachdb/cockroach/issues/83973&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Error of Unique Index&lt;/summary&gt;
+Status: unconfirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/83976&#34;&gt;https://github.com/cockroachdb/cockroach/issues/83976&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;h3&gt;DuckDB (2 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;BETWEEN with subquery and column results in unexpected error&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/3588&#34;&gt;https://github.com/duckdb/duckdb/issues/3588&lt;/a&gt; &lt;br /&gt;
+Found by: kokrui
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Error for RTRIM Function in Where Clause&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/3616&#34;&gt;https://github.com/duckdb/duckdb/issues/3616&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;h3&gt;TiDB (7 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;incorrect unresolved column when using natural join&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/35522&#34;&gt;https://github.com/pingcap/tidb/issues/35522&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;unexpected unresolved column error when the view refers to dual table&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/35527&#34;&gt;https://github.com/pingcap/tidb/issues/35527&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Runtime error: invalid memory address&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/35623&#34;&gt;https://github.com/pingcap/tidb/issues/35623&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Result with a FALSE Expression in WHERE&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/35645&#34;&gt;https://github.com/pingcap/tidb/issues/35645&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Error by CAST and CHAR functions&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/35652&#34;&gt;https://github.com/pingcap/tidb/issues/35652&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Error for Function INET_ATON&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/35677&#34;&gt;https://github.com/pingcap/tidb/issues/35677&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Connection Lost&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/35678&#34;&gt;https://github.com/pingcap/tidb/issues/35678&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+
+</description>
+    </item>
+    
+    <item>
       <title>Open Positions</title>
       <link>https://nus-test.github.io/positions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
