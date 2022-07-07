@@ -3,9 +3,151 @@
         "url": "https://github.com/duckdb/duckdb/issues/3588",
         "title": "BETWEEN with subquery and column results in unexpected error",
         "created_at": "06/05/2022",
-        "fix_date": "09/05/2022",
+        "closed_at": "09/05/2022",
         "state": "closed",
         "domain": "dbms",
-        "reported_by": "kokrui"
+        "reported_by": "kokrui",
+        "resolution": "fixed",
+        "system": "DuckDB"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/3616",
+        "title": "Unexpected Error for RTRIM Function in Where Clause",
+        "created_at": "11/05/2022",
+        "closed_at": "20/05/2022",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "DuckDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/35522",
+        "title": "incorrect unresolved column when using natural join",
+        "created_at": "20/06/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/35527",
+        "title": "unexpected unresolved column error when the view refers to dual table",
+        "created_at": "20/06/2022",
+        "closed_at": "30/06/2022",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/35623",
+        "title": "Runtime error: invalid memory address",
+        "created_at": "21/06/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/35645",
+        "title": "Unexpected Result with a FALSE Expression in WHERE",
+        "created_at": "22/06/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/35652",
+        "title": "Unexpected Error by CAST and CHAR functions",
+        "created_at": "22/06/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB",
+        "resolution": "confirmed",
+        "comment": "Seems to be a bug in MySQL rather than in TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/35677",
+        "title": "Unexpected Error for Function INET_ATON",
+        "created_at": "23/06/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/35678",
+        "title": "Unexpected Connection Lost",
+        "created_at": "23/06/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/83770",
+        "title": "sql: support SCRUB on temp tables",
+        "created_at": "04/07/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/83792",
+        "title": "Internal Error: Comparison Overload not Found",
+        "created_at": "05/07/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/83874",
+        "title": "ERROR: no builtin aggregate for SUM_INT on [unknown]",
+        "created_at": "06/07/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/83965",
+        "title": "Crashing by EXPLAIN Statement",
+        "created_at": "07/07/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/83973",
+        "title": "Invalid Memory Address Error of Specific SQL Query",
+        "created_at": "07/07/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/83976",
+        "title": "Unexpected Error of Unique Index",
+        "created_at": "07/07/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
     }
 ]
