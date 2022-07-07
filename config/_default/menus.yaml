@@ -10,4 +10,6 @@ main:
   - name: Openings
     url: positions
     weight: 40
-
+  - name: Found Bugs
+    url: bugs
+    weight: 50
