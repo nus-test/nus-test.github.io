@@ -149,5 +149,246 @@
         "domain": "dbms",
         "reported_by": "bajinsheng",
         "system": "CockroachDB"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/af3d07f908",
+        "title": "An Inconsistent Result Depending on Parenthesization",
+        "created_at": "11/05/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/41cc3851d8",
+        "title": "An Unexpected NULL Column Caused by Where Clause in RIGHT JOIN",
+        "created_at": "13/05/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/c06b10ad7e",
+        "title": "Rows are Unexpectedly Filtered Out by DISTINCT in RIGHT JOIN",
+        "created_at": "14/05/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/c4c4fcff3d",
+        "title": "Null value returned by TOTAL",
+        "created_at": "15/05/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "not a bug"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/2458c5dea2",
+        "title": "Expression or Constant in GroupBy Clause",
+        "created_at": "17/05/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/e90a8e6e6f",
+        "title": "Ambiguous Reference Error for Right Join",
+        "created_at": "23/05/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "not a bug"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/687b0bf563",
+        "title": "Unexpected Result by WHERE when Joining Tables",
+        "created_at": "24/05/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/5cfe08eed6",
+        "title": "Unexpected Result by WHERE/RIGHT JOIN",
+        "created_at": "25/05/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/3902c7b833",
+        "title": "Unexpected Result in Joining Virtual Tables",
+        "created_at": "30/05/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/c2554d560b",
+        "title": "Unexpected Result by Joining",
+        "created_at": "31/05/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/087de2d9ec",
+        "title": "Unexpected Result by RIGHT JOIN on RTree Tables",
+        "created_at": "01/06/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution" : "fixed"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/de16c4abe2",
+        "title": "Unexpected Result by WHERE Again",
+        "created_at": "02/06/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/206d99a16d",
+        "title": "Unexpected Result by RIGHT JOIN",
+        "created_at": "06/06/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution" : "fixed"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/800eecf5e6",
+        "title": "Unexpected Assertion Error in SQLite3MemCompare",
+        "created_at": "07/06/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/323f86cc30",
+        "title": "Unexpected Result by ORDER BY",
+        "created_at": "07/06/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/c4676c4956",
+        "title": "Unexpected Result by RIGHT JOIN with INDEX",
+        "created_at": "08/06/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/3d9caa45cb",
+        "title": "Unexpected Result by JSON",
+        "created_at": "09/06/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/eeb8173cf8",
+        "title": "Unexpected Result by Complicated JOINING",
+        "created_at": "10/06/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/dafe0500b0",
+        "title": "Assertion `pCur->eCurType==CURTYPE_VTAB' failed",
+        "created_at": "10/06/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/51e6959f61",
+        "title": "Unexpected Result by RIGHT JOIN Again",
+        "created_at": "10/06/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/b40696f501",
+        "title": "Unexpected Result by Complicated JOINING Again",
+        "created_at": "13/06/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/e3243e07e8",
+        "title": "Unexpected Assertion Error in valueFromFunction",
+        "created_at": "25/06/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/5610c17c3d",
+        "title": "Unexpected Result by FULL OUTER JOIN",
+        "created_at": "17/06/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/57bdf2217d",
+        "title": "Unexpected Expression on ON clause",
+        "created_at": "20/06/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/6650cd40b5",
+        "title": "Unexpected Expression Result by FULL OUTER JOIN",
+        "created_at": "20/06/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/1a7fea4651",
+        "title": "Unexpected Parse Error",
+        "created_at": "21/06/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/c3496cf6b1",
+        "title": "Unexpected Assertion Error in whereRangeScanEst",
+        "created_at": "24/06/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
     }
 ]

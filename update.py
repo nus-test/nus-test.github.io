@@ -2,7 +2,9 @@ import json
 import re
 import os
 from github import Github
-
+import requests
+from bs4 import BeautifulSoup
+import datetime
 
 f = open("data/bugs.json", "r")
 original_content = f.read()
@@ -49,5 +51,28 @@ for entry in parsed_content:
                 entry['reported_by'] = issue.user.login
             if 'system' not in entry:
                 entry['system'] = repo_to_system_mapping[repo_name]
+        if entry['url'].startswith('https://sqlite.org/forum/'):
+            page = requests.get(entry['url']).content
+            soup = BeautifulSoup(page, "html.parser")
+            titles = soup.find_all('h1')
+            assert titles[0].text == 'SQLite Forum'
+            report_title = titles[1].text
+            if 'title' not in entry:
+                entry['title'] = report_title
+            report_title = soup.find('h3', { 'class' : 'forumPostHdr'}).text
+            m = re.search('By (.*)\((.*)\) on ([0-9\-]* [0-9:]*)', report_title)
+            assert m, report_title
+            full_name = m.group(1)
+            user_name = m.group(2)
+            # e.g., 2022-05-11 14:22:28
+            date_reported = datetime.datetime.strptime(m.group(3), '%Y-%m-%d %H:%M:%S')
+            if 'created_at' not in entry:
+                entry['created_at'] = format_date(date_reported)
+            if 'reported_by' not in entry:
+                entry['reported_by'] = user_name
+            if 'domain' not in entry:
+                entry['domain'] = 'dbms'
+            if 'system' not in entry:
+                entry['system'] = 'SQLite'
 
 print(json.dumps(parsed_content, indent=4))
