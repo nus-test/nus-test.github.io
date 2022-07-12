@@ -17,8 +17,8 @@
       <link>https://nus-test.github.io/bugs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://nus-test.github.io/bugs/</guid>
-      <description>&lt;h2&gt;Database Management Systems (40 bugs)&lt;/h2&gt;
-&lt;h3&gt;CockroachDB (6 bugs)&lt;/h3&gt;
+      <description>&lt;h2&gt;Database Management Systems (41 bugs)&lt;/h2&gt;
+&lt;h3&gt;CockroachDB (7 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;sql: support SCRUB on temp tables&lt;/summary&gt;
 Status: confirmed&lt;br /&gt;
@@ -53,6 +53,12 @@ Found by: bajinsheng
 &lt;summary&gt;Unexpected Error of Unique Index&lt;/summary&gt;
 Status: unconfirmed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/83976&#34;&gt;https://github.com/cockroachdb/cockroach/issues/83976&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Overflow Error by Huge Interval Value&lt;/summary&gt;
+Status: unconfirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/84154&#34;&gt;https://github.com/cockroachdb/cockroach/issues/84154&lt;/a&gt; &lt;br /&gt;
 Found by: bajinsheng
 &lt;/details&gt;
 &lt;h3&gt;DuckDB (2 bugs)&lt;/h3&gt;
