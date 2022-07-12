@@ -151,6 +151,15 @@
         "system": "CockroachDB"
     },
     {
+        "url": "https://github.com/cockroachdb/cockroach/issues/84154",
+        "title": "Unexpected Overflow Error by Huge Interval Value",
+        "created_at": "10/07/2022",
+        "state": "open",
+        "domain":"dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
+    },
+    {
         "url": "https://sqlite.org/forum/forumpost/af3d07f908",
         "title": "An Inconsistent Result Depending on Parenthesization",
         "created_at": "11/05/2022",
