@@ -17,7 +17,7 @@
         "closed_at": "20/05/2022",
         "state": "closed",
         "domain": "dbms",
-        "reported_by": "bajinsheng",
+        "reported_by": "kokrui",
         "system": "DuckDB",
         "resolution": "fixed"
     },
@@ -127,19 +127,21 @@
         "url": "https://github.com/cockroachdb/cockroach/issues/83965",
         "title": "Crashing by EXPLAIN Statement",
         "created_at": "07/07/2022",
-        "state": "open",
+        "state": "closed",
         "domain": "dbms",
         "reported_by": "bajinsheng",
-        "system": "CockroachDB"
+        "system": "CockroachDB",
+        "closed_at": "11/07/2022"
     },
     {
         "url": "https://github.com/cockroachdb/cockroach/issues/83973",
         "title": "Invalid Memory Address Error of Specific SQL Query",
         "created_at": "07/07/2022",
-        "state": "open",
+        "state": "closed",
         "domain": "dbms",
         "reported_by": "bajinsheng",
-        "system": "CockroachDB"
+        "system": "CockroachDB",
+        "closed_at": "12/07/2022"
     },
     {
         "url": "https://github.com/cockroachdb/cockroach/issues/83976",
@@ -151,13 +153,24 @@
         "system": "CockroachDB"
     },
     {
+        "url": "https://github.com/cockroachdb/cockroach/issues/84056",
+        "title": "Crash: panic: RecordingStructured has 30 recordings; expected 1",
+        "created_at": "08/07/2022",
+        "closed_at": "08/07/2022",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
+    },
+    {
         "url": "https://github.com/cockroachdb/cockroach/issues/84154",
         "title": "Unexpected Overflow Error by Huge Interval Value",
         "created_at": "10/07/2022",
-        "state": "open",
-        "domain":"dbms",
+        "state": "closed",
+        "domain": "dbms",
         "reported_by": "bajinsheng",
-        "system": "CockroachDB"
+        "system": "CockroachDB",
+        "closed_at": "11/07/2022"
     },
     {
         "url": "https://sqlite.org/forum/forumpost/af3d07f908",
@@ -256,7 +269,7 @@
         "reported_by": "bajinsheng",
         "domain": "dbms",
         "system": "SQLite",
-        "resolution" : "fixed"
+        "resolution": "fixed"
     },
     {
         "url": "https://sqlite.org/forum/forumpost/de16c4abe2",
@@ -274,7 +287,7 @@
         "reported_by": "bajinsheng",
         "domain": "dbms",
         "system": "SQLite",
-        "resolution" : "fixed"
+        "resolution": "fixed"
     },
     {
         "url": "https://sqlite.org/forum/forumpost/800eecf5e6",
