@@ -1,5 +1,5 @@
-<h2>Database Management Systems (41 bugs)</h2>
-<h3>CockroachDB (7 bugs)</h3>
+<h2>Database Management Systems (43 bugs)</h2>
+<h3>CockroachDB (8 bugs)</h3>
 <details>
 <summary>sql: support SCRUB on temp tables</summary>
 Status: confirmed<br />
@@ -37,6 +37,12 @@ Link: <a href="https://github.com/cockroachdb/cockroach/issues/83976">https://gi
 Found by: bajinsheng
 </details>
 <details>
+<summary>Crash: panic: RecordingStructured has 30 recordings; expected 1</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/84056">https://github.com/cockroachdb/cockroach/issues/84056</a> <br />
+Found by: bajinsheng
+</details>
+<details>
 <summary>Unexpected Overflow Error by Huge Interval Value</summary>
 Status: unconfirmed<br />
 Link: <a href="https://github.com/cockroachdb/cockroach/issues/84154">https://github.com/cockroachdb/cockroach/issues/84154</a> <br />
@@ -53,9 +59,9 @@ Found by: kokrui
 <summary>Unexpected Error for RTRIM Function in Where Clause</summary>
 Status: fixed<br />
 Link: <a href="https://github.com/duckdb/duckdb/issues/3616">https://github.com/duckdb/duckdb/issues/3616</a> <br />
-Found by: bajinsheng
+Found by: kokrui
 </details>
-<h3>SQLite (25 bugs)</h3>
+<h3>SQLite (26 bugs)</h3>
 <details>
 <summary>An Inconsistent Result Depending on Parenthesization</summary>
 Status: fixed<br />
@@ -78,6 +84,12 @@ Found by: bajinsheng
 <summary>Expression or Constant in GroupBy Clause</summary>
 Status: fixed<br />
 Link: <a href="https://sqlite.org/forum/forumpost/2458c5dea2">https://sqlite.org/forum/forumpost/2458c5dea2</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Ambiguous Reference Error for Right Join</summary>
+Status: confirmed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/e90a8e6e6f">https://sqlite.org/forum/forumpost/e90a8e6e6f</a> <br />
 Found by: bajinsheng
 </details>
 <details>

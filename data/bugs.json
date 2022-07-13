@@ -224,7 +224,7 @@
         "reported_by": "bajinsheng",
         "domain": "dbms",
         "system": "SQLite",
-        "resolution": "not a bug"
+        "resolution": "confirmed"
     },
     {
         "url": "https://sqlite.org/forum/forumpost/687b0bf563",
