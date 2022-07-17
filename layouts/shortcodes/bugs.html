@@ -1,4 +1,4 @@
-<h2>Database Management Systems (43 bugs)</h2>
+<h2>Database Management Systems (45 bugs)</h2>
 <h3>CockroachDB (8 bugs)</h3>
 <details>
 <summary>sql: support SCRUB on temp tables</summary>
@@ -61,7 +61,7 @@ Status: fixed<br />
 Link: <a href="https://github.com/duckdb/duckdb/issues/3616">https://github.com/duckdb/duckdb/issues/3616</a> <br />
 Found by: kokrui
 </details>
-<h3>SQLite (26 bugs)</h3>
+<h3>SQLite (28 bugs)</h3>
 <details>
 <summary>An Inconsistent Result Depending on Parenthesization</summary>
 Status: fixed<br />
@@ -216,6 +216,18 @@ Found by: bajinsheng
 <summary>Unexpected Assertion Error in whereRangeScanEst</summary>
 Status: fixed<br />
 Link: <a href="https://sqlite.org/forum/forumpost/c3496cf6b1">https://sqlite.org/forum/forumpost/c3496cf6b1</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by Union</summary>
+Status: unconfirmed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/174afeae57">https://sqlite.org/forum/forumpost/174afeae57</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Assertion `pRec->nField>0 && pRec->nField<=pIdx->nSampleCol' failed.</summary>
+Status: unconfirmed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/3607259d3c">https://sqlite.org/forum/forumpost/3607259d3c</a> <br />
 Found by: bajinsheng
 </details>
 <h3>TiDB (7 bugs)</h3>

@@ -412,5 +412,21 @@
         "domain": "dbms",
         "system": "SQLite",
         "resolution": "fixed"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/174afeae57",
+        "title": "Unexpected Result by Union",
+        "created_at": "13/07/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/3607259d3c",
+        "title": "Assertion `pRec->nField>0 && pRec->nField<=pIdx->nSampleCol' failed.",
+        "created_at": "15/07/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "SQLite"
     }
 ]
