@@ -17,7 +17,7 @@
       <link>https://nus-test.github.io/bugs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://nus-test.github.io/bugs/</guid>
-      <description>&lt;h2&gt;Database Management Systems (43 bugs)&lt;/h2&gt;
+      <description>&lt;h2&gt;Database Management Systems (45 bugs)&lt;/h2&gt;
 &lt;h3&gt;CockroachDB (8 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;sql: support SCRUB on temp tables&lt;/summary&gt;
@@ -80,7 +80,7 @@ Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/3616&#34;&gt;https://github.com/duckdb/duckdb/issues/3616&lt;/a&gt; &lt;br /&gt;
 Found by: kokrui
 &lt;/details&gt;
-&lt;h3&gt;SQLite (26 bugs)&lt;/h3&gt;
+&lt;h3&gt;SQLite (28 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;An Inconsistent Result Depending on Parenthesization&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
@@ -235,6 +235,18 @@ Found by: bajinsheng
 &lt;summary&gt;Unexpected Assertion Error in whereRangeScanEst&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/c3496cf6b1&#34;&gt;https://sqlite.org/forum/forumpost/c3496cf6b1&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Result by Union&lt;/summary&gt;
+Status: unconfirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/174afeae57&#34;&gt;https://sqlite.org/forum/forumpost/174afeae57&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Assertion `pRec-&gt;nField&gt;0 &amp;&amp; pRec-&gt;nField&amp;lt;=pIdx-&gt;nSampleCol&#39; failed.&lt;/summary&gt;
+Status: unconfirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/3607259d3c&#34;&gt;https://sqlite.org/forum/forumpost/3607259d3c&lt;/a&gt; &lt;br /&gt;
 Found by: bajinsheng
 &lt;/details&gt;
 &lt;h3&gt;TiDB (7 bugs)&lt;/h3&gt;
