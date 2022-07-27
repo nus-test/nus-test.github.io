@@ -10,11 +10,11 @@ title: Suyang Zhong
 superuser: false
 
 # Role/position
-role: Incoming Ph.D.
+role: Ph.D. Student
 
 # Organizations/Affiliations
 organizations:
-- name: USTC
+- name: National University of Singapore
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -44,7 +44,7 @@ bio: Suyang Zhong is an incoming Ph.D. student.
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:zhongsuyang@mail.ustc.edu.cn'
+  link: 'mailto:suyang@u.nus.edu'
 # - icon: twitter
 #   icon_pack: fab
 #   link: https://twitter.com/GeorgeCushen
@@ -69,6 +69,6 @@ user_groups:
 - PhD Students
 ---
 
-Suyang is a senior undergraduate in the [School of Computer Science and Technology](http://en.cs.ustc.edu.cn/) at [University of Science and Technology of China (USTC)](http://en.ustc.edu.cn/). He will join [NUS](https://nus.edu.sg/) as a Ph.D. candidate in Fall 2022.
+Suyang was an undergraduate in the [School of Computer Science and Technology](http://en.cs.ustc.edu.cn/) at [University of Science and Technology of China (USTC)](http://en.ustc.edu.cn/). He joined [NUS](https://nus.edu.sg/) as a Ph.D. student in Fall 2022.
 
 Find more information about Suyang at [https://suyang.zone/](https://suyang.zone/).
