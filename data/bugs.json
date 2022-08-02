@@ -173,6 +173,69 @@
         "closed_at": "11/07/2022"
     },
     {
+        "url": "https://github.com/cockroachdb/cockroach/issues/85356",
+        "title": "Inconsistent Case Return Types Decimal Int",
+        "created_at": "30/07/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/85371",
+        "title": "Unexpected Crash in Multiple Table Join",
+        "created_at": "31/07/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/85388",
+        "title": "No Result Returned by SHOW COLUMN",
+        "created_at": "01/08/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/85389",
+        "title": "internal error: no volatility for cast decimal::timestamp",
+        "created_at": "01/08/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/85390",
+        "title": "opt: internal error: lookup for ComparisonExpr",
+        "created_at": "01/08/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/85393",
+        "title": "opt: internal error: no output column equivalent to 2",
+        "created_at": "01/08/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/85394",
+        "title": "Unexpected Error in SHOW COLUMNS",
+        "created_at": "01/08/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
+    },
+    {
         "url": "https://sqlite.org/forum/forumpost/af3d07f908",
         "title": "An Inconsistent Result Depending on Parenthesization",
         "created_at": "11/05/2022",
