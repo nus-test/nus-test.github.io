@@ -17,8 +17,8 @@
       <link>https://nus-test.github.io/bugs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://nus-test.github.io/bugs/</guid>
-      <description>&lt;h2&gt;Database Management Systems (45 bugs)&lt;/h2&gt;
-&lt;h3&gt;CockroachDB (8 bugs)&lt;/h3&gt;
+      <description>&lt;h2&gt;Database Management Systems (52 bugs)&lt;/h2&gt;
+&lt;h3&gt;CockroachDB (15 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;sql: support SCRUB on temp tables&lt;/summary&gt;
 Status: confirmed&lt;br /&gt;
@@ -65,6 +65,48 @@ Found by: bajinsheng
 &lt;summary&gt;Unexpected Overflow Error by Huge Interval Value&lt;/summary&gt;
 Status: unconfirmed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/84154&#34;&gt;https://github.com/cockroachdb/cockroach/issues/84154&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Inconsistent Case Return Types Decimal Int&lt;/summary&gt;
+Status: unconfirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/85356&#34;&gt;https://github.com/cockroachdb/cockroach/issues/85356&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Crash in Multiple Table Join&lt;/summary&gt;
+Status: unconfirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/85371&#34;&gt;https://github.com/cockroachdb/cockroach/issues/85371&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;No Result Returned by SHOW COLUMN&lt;/summary&gt;
+Status: unconfirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/85388&#34;&gt;https://github.com/cockroachdb/cockroach/issues/85388&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;internal error: no volatility for cast decimal::timestamp&lt;/summary&gt;
+Status: unconfirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/85389&#34;&gt;https://github.com/cockroachdb/cockroach/issues/85389&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;opt: internal error: lookup for ComparisonExpr&lt;/summary&gt;
+Status: unconfirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/85390&#34;&gt;https://github.com/cockroachdb/cockroach/issues/85390&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;opt: internal error: no output column equivalent to 2&lt;/summary&gt;
+Status: unconfirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/85393&#34;&gt;https://github.com/cockroachdb/cockroach/issues/85393&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Error in SHOW COLUMNS&lt;/summary&gt;
+Status: unconfirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/85394&#34;&gt;https://github.com/cockroachdb/cockroach/issues/85394&lt;/a&gt; &lt;br /&gt;
 Found by: bajinsheng
 &lt;/details&gt;
 &lt;h3&gt;DuckDB (2 bugs)&lt;/h3&gt;
