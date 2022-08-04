@@ -5,12 +5,29 @@
     <link>https://nus-test.github.io/post/</link>
       <atom:link href="https://nus-test.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Latest News</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 27 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Latest News</title>
       <link>https://nus-test.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Jinsheng Ba and Suyang Zhong officially joined the NUS TEST lab. Welcome!</title>
+      <link>https://nus-test.github.io/post/22-08-01-jinsheng-suyang/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/post/22-08-01-jinsheng-suyang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>We will offer module CS6218 on &#34;Ensuring the Correctness and Reliability of Data-Centric Systems&#34; next semester.</title>
+      <link>https://nus-test.github.io/post/22-08-01-cs6218/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/post/22-08-01-cs6218/</guid>
+      <description>&lt;p&gt;More information about the module is provided on the &lt;a href=&#34;https://canvas.nus.edu.sg/courses/25019&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Canvas page&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Manuel shared his experience on the academic job market at a seminar and panel discussion at NUS</title>
