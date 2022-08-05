@@ -94,6 +94,24 @@
         "resolution": "confirmed"
     },
     {
+        "url": "https://github.com/pingcap/tidb/issues/36853",
+        "title": "Inconsistent Results in SELECT",
+        "created_at": "03/08/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/36888",
+        "title": "Unexpected Result by CONCAT_WS",
+        "created_at": "04/08/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
         "url": "https://github.com/cockroachdb/cockroach/issues/83770",
         "title": "sql: support SCRUB on temp tables",
         "created_at": "04/07/2022",
@@ -182,15 +200,6 @@
         "system": "CockroachDB"
     },
     {
-        "url": "https://github.com/cockroachdb/cockroach/issues/85371",
-        "title": "Unexpected Crash in Multiple Table Join",
-        "created_at": "31/07/2022",
-        "state": "open",
-        "domain": "dbms",
-        "reported_by": "bajinsheng",
-        "system": "CockroachDB"
-    },
-    {
         "url": "https://github.com/cockroachdb/cockroach/issues/85388",
         "title": "No Result Returned by SHOW COLUMN",
         "created_at": "01/08/2022",
@@ -231,6 +240,25 @@
         "title": "Unexpected Error in SHOW COLUMNS",
         "created_at": "01/08/2022",
         "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/85499",
+        "title": "opt: internal error: estimated row count must be non-zero ",
+        "created_at": "03/08/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/85502",
+        "title": "Unexpected Result by UNION",
+        "created_at": "03/08/2022",
+        "closed_at": "05/08/2022",
+        "state": "closed",
         "domain": "dbms",
         "reported_by": "bajinsheng",
         "system": "CockroachDB"
