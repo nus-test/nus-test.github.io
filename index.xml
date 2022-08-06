@@ -17,8 +17,8 @@
       <link>https://nus-test.github.io/bugs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://nus-test.github.io/bugs/</guid>
-      <description>&lt;h2&gt;Database Management Systems (52 bugs)&lt;/h2&gt;
-&lt;h3&gt;CockroachDB (15 bugs)&lt;/h3&gt;
+      <description>&lt;h2&gt;Database Management Systems (55 bugs)&lt;/h2&gt;
+&lt;h3&gt;CockroachDB (16 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;sql: support SCRUB on temp tables&lt;/summary&gt;
 Status: confirmed&lt;br /&gt;
@@ -74,12 +74,6 @@ Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/85356&#34;
 Found by: bajinsheng
 &lt;/details&gt;
 &lt;details&gt;
-&lt;summary&gt;Unexpected Crash in Multiple Table Join&lt;/summary&gt;
-Status: unconfirmed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/85371&#34;&gt;https://github.com/cockroachdb/cockroach/issues/85371&lt;/a&gt; &lt;br /&gt;
-Found by: bajinsheng
-&lt;/details&gt;
-&lt;details&gt;
 &lt;summary&gt;No Result Returned by SHOW COLUMN&lt;/summary&gt;
 Status: unconfirmed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/85388&#34;&gt;https://github.com/cockroachdb/cockroach/issues/85388&lt;/a&gt; &lt;br /&gt;
@@ -107,6 +101,18 @@ Found by: bajinsheng
 &lt;summary&gt;Unexpected Error in SHOW COLUMNS&lt;/summary&gt;
 Status: unconfirmed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/85394&#34;&gt;https://github.com/cockroachdb/cockroach/issues/85394&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;opt: internal error: estimated row count must be non-zero &lt;/summary&gt;
+Status: unconfirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/85499&#34;&gt;https://github.com/cockroachdb/cockroach/issues/85499&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Result by UNION&lt;/summary&gt;
+Status: unconfirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/85502&#34;&gt;https://github.com/cockroachdb/cockroach/issues/85502&lt;/a&gt; &lt;br /&gt;
 Found by: bajinsheng
 &lt;/details&gt;
 &lt;h3&gt;DuckDB (2 bugs)&lt;/h3&gt;
@@ -291,7 +297,7 @@ Status: unconfirmed&lt;br /&gt;
 Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/3607259d3c&#34;&gt;https://sqlite.org/forum/forumpost/3607259d3c&lt;/a&gt; &lt;br /&gt;
 Found by: bajinsheng
 &lt;/details&gt;
-&lt;h3&gt;TiDB (7 bugs)&lt;/h3&gt;
+&lt;h3&gt;TiDB (9 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;incorrect unresolved column when using natural join&lt;/summary&gt;
 Status: confirmed&lt;br /&gt;
@@ -332,6 +338,18 @@ Found by: bajinsheng
 &lt;summary&gt;Unexpected Connection Lost&lt;/summary&gt;
 Status: confirmed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/35678&#34;&gt;https://github.com/pingcap/tidb/issues/35678&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Inconsistent Results in SELECT&lt;/summary&gt;
+Status: unconfirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/36853&#34;&gt;https://github.com/pingcap/tidb/issues/36853&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Result by CONCAT_WS&lt;/summary&gt;
+Status: unconfirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/36888&#34;&gt;https://github.com/pingcap/tidb/issues/36888&lt;/a&gt; &lt;br /&gt;
 Found by: bajinsheng
 &lt;/details&gt;
 
