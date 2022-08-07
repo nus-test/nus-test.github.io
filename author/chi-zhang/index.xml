@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chi Zhang | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+    <link>https://nus-test.github.io/author/chi-zhang/</link>
+      <atom:link href="https://nus-test.github.io/author/chi-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Chi Zhang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://nus-test.github.io/author/chi-zhang/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Chi Zhang</title>
+      <link>https://nus-test.github.io/author/chi-zhang/</link>
+    </image>
+    
+  </channel>
+</rss>
