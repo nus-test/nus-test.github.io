@@ -7,9 +7,12 @@ main:
   - name: People
     url: people
     weight: 30
+  - name: Publications
+    url: publication
+    weight: 35
+  - name: Found Bugs
+    url: bugs
+    weight: 38
   - name: Openings
     url: positions
     weight: 40
-  - name: Found Bugs
-    url: bugs
-    weight: 50
