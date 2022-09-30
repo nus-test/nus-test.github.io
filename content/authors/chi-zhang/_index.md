@@ -45,9 +45,14 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'zhangchi_seg@smail.nju.edu.cn'
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=dGv4EHAAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/DerZc
+
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -62,5 +67,4 @@ email: ""
 user_groups:
 - Visitors
 ---
-
 Find Chi Zhang's homepage at [https://ch1zhang.github.io/](https://ch1zhang.github.io/).
