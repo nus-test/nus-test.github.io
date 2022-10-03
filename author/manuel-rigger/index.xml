@@ -5,7 +5,7 @@
     <link>https://nus-test.github.io/author/manuel-rigger/</link>
       <atom:link href="https://nus-test.github.io/author/manuel-rigger/index.xml" rel="self" type="application/rss+xml" />
     <description>Manuel Rigger</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 03 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/author/manuel-rigger/avatar_hub2fbc2a51893b10725e83a6c365f6d63_756586_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Manuel Rigger</title>
@@ -13,9 +13,17 @@
     </image>
     
     <item>
+      <title>Forest: Structural Code Editing with Multiple Cursors</title>
+      <link>https://nus-test.github.io/publication/2022-onward-forest/</link>
+      <pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2022-onward-forest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Intramorphic Testing: A New Approach to the Test Oracle Problem</title>
       <link>https://nus-test.github.io/publication/2022-onward-intramorphic/</link>
-      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate>
       <guid>https://nus-test.github.io/publication/2022-onward-intramorphic/</guid>
       <description></description>
     </item>

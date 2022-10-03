@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="A test oracle determines whether a system behaves correctly for a given input. Automatic testing techniques rely on an automated test oracle to test the system without user interaction. Important families of automated test oracles include Differential Testing and Metamorphic Testing, which are both black-box approaches; that is, they provide a test oracle that is oblivious to the system’s internals. In this work, we propose Intramorphic Testing, which is a new methodology to tackle the test oracle problem. To realize an Intramorphic Testing testing approach, a modified version of the system is created, for which, given a single input, a test oracle can be provided that relates the output of the original and modified systems. As a concrete example, by replacing a greater-equals operator in the implementation of a sorting algorithm with smaller-equals, it would be expected that the output of the modified implementation is the reverse output of the original implementation. In this paper, we introduce the methodology and illustrate it via a set of use cases." />
+  <meta name="description" content="Software developers frequently refactor code. Often, a single logical refactoring change involves changing multiple related components in a source base such as renaming each occurrence of a variable or function. While many code editors can perform such common and generic refactorings, they do not support more complex refactorings or those that are specific to a given code base. For those, as a flexible — albeit less interactive — alternative, developers can write refactoring scripts that can implement arbitrarily complex logic by manipulating the program&#39;s tree representation. In this work, we present Forest, a structural code editor that aims to bridge the gap between the interactiveness of code editors and the expressiveness of refactoring scripts. While structural editors have occupied a niche as general code editors, the key insight of this work is that they enable a novel structural multi-cursor design that allows Forest to reach a similar expressiveness as refactoring scripts; Forest allows to perform a single action simultaneously in multiple program locations and thus support complex refactorings. To support interactivity, Forest provides features typical for text code editors such as writing and displaying the program through its textual representation. Our evaluation demonstrates that Forest allows performing edits similar to those from refactoring scripts, while still being interactive. We attempted to perform edits from 48 real-world refactoring scripts using Forest and found that 11 were possible, while another 17 would be possible with added features. We believe that a multi-cursor setting plays to the strengths of structural editing, since it benefits from reliable and expressive. Our results suggest that multi-cursor structural editors could be practical for performing small-scale specialized refactorings." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://nus-test.github.io/publication/2022-onward-intramorphic/" />
+  <link rel="alternate" hreflang="en-us" href="https://nus-test.github.io/publication/2022-onward-forest/" />
 
   
 
@@ -259,7 +259,7 @@
   <link rel="icon" type="image/png" href="/media/icon_huf39aebee443421be528cbdbb4c78ede7_7416_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_huf39aebee443421be528cbdbb4c78ede7_7416_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://nus-test.github.io/publication/2022-onward-intramorphic/" />
+  <link rel="canonical" href="https://nus-test.github.io/publication/2022-onward-forest/" />
 
   
   
@@ -279,9 +279,9 @@
     <meta property="twitter:creator" content="@test_nus" />
   
   <meta property="og:site_name" content="Trustworthy Engineering of Software Technologies (TEST) Lab" />
-  <meta property="og:url" content="https://nus-test.github.io/publication/2022-onward-intramorphic/" />
-  <meta property="og:title" content="Intramorphic Testing: A New Approach to the Test Oracle Problem | Trustworthy Engineering of Software Technologies (TEST) Lab" />
-  <meta property="og:description" content="A test oracle determines whether a system behaves correctly for a given input. Automatic testing techniques rely on an automated test oracle to test the system without user interaction. Important families of automated test oracles include Differential Testing and Metamorphic Testing, which are both black-box approaches; that is, they provide a test oracle that is oblivious to the system’s internals. In this work, we propose Intramorphic Testing, which is a new methodology to tackle the test oracle problem. To realize an Intramorphic Testing testing approach, a modified version of the system is created, for which, given a single input, a test oracle can be provided that relates the output of the original and modified systems. As a concrete example, by replacing a greater-equals operator in the implementation of a sorting algorithm with smaller-equals, it would be expected that the output of the modified implementation is the reverse output of the original implementation. In this paper, we introduce the methodology and illustrate it via a set of use cases." /><meta property="og:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" />
+  <meta property="og:url" content="https://nus-test.github.io/publication/2022-onward-forest/" />
+  <meta property="og:title" content="Forest: Structural Code Editing with Multiple Cursors | Trustworthy Engineering of Software Technologies (TEST) Lab" />
+  <meta property="og:description" content="Software developers frequently refactor code. Often, a single logical refactoring change involves changing multiple related components in a source base such as renaming each occurrence of a variable or function. While many code editors can perform such common and generic refactorings, they do not support more complex refactorings or those that are specific to a given code base. For those, as a flexible — albeit less interactive — alternative, developers can write refactoring scripts that can implement arbitrarily complex logic by manipulating the program&#39;s tree representation. In this work, we present Forest, a structural code editor that aims to bridge the gap between the interactiveness of code editors and the expressiveness of refactoring scripts. While structural editors have occupied a niche as general code editors, the key insight of this work is that they enable a novel structural multi-cursor design that allows Forest to reach a similar expressiveness as refactoring scripts; Forest allows to perform a single action simultaneously in multiple program locations and thus support complex refactorings. To support interactivity, Forest provides features typical for text code editors such as writing and displaying the program through its textual representation. Our evaluation demonstrates that Forest allows performing edits similar to those from refactoring scripts, while still being interactive. We attempted to perform edits from 48 real-world refactoring scripts using Forest and found that 11 were possible, while another 17 would be possible with added features. We believe that a multi-cursor setting plays to the strengths of structural editing, since it benefits from reliable and expressive. Our results suggest that multi-cursor structural editors could be practical for performing small-scale specialized refactorings." /><meta property="og:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" />
     <meta property="twitter:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -312,16 +312,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://nus-test.github.io/publication/2022-onward-intramorphic/"
+    "@id": "https://nus-test.github.io/publication/2022-onward-forest/"
   },
-  "headline": "Intramorphic Testing: A New Approach to the Test Oracle Problem",
+  "headline": "Forest: Structural Code Editing with Multiple Cursors",
   
   "datePublished": "2017-01-01T00:00:00Z",
   "dateModified": "2022-10-03T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Manuel Rigger"
+    "name": "Philippe Voinov"
   },
   
   "publisher": {
@@ -332,7 +332,7 @@
       "url": "https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_192x192_fit_lanczos_3.png"
     }
   },
-  "description": "A test oracle determines whether a system behaves correctly for a given input. Automatic testing techniques rely on an automated test oracle to test the system without user interaction. Important families of automated test oracles include Differential Testing and Metamorphic Testing, which are both black-box approaches; that is, they provide a test oracle that is oblivious to the system’s internals. In this work, we propose Intramorphic Testing, which is a new methodology to tackle the test oracle problem. To realize an Intramorphic Testing testing approach, a modified version of the system is created, for which, given a single input, a test oracle can be provided that relates the output of the original and modified systems. As a concrete example, by replacing a greater-equals operator in the implementation of a sorting algorithm with smaller-equals, it would be expected that the output of the modified implementation is the reverse output of the original implementation. In this paper, we introduce the methodology and illustrate it via a set of use cases."
+  "description": "Software developers frequently refactor code. Often, a single logical refactoring change involves changing multiple related components in a source base such as renaming each occurrence of a variable or function. While many code editors can perform such common and generic refactorings, they do not support more complex refactorings or those that are specific to a given code base. For those, as a flexible — albeit less interactive — alternative, developers can write refactoring scripts that can implement arbitrarily complex logic by manipulating the program's tree representation. In this work, we present Forest, a structural code editor that aims to bridge the gap between the interactiveness of code editors and the expressiveness of refactoring scripts. While structural editors have occupied a niche as general code editors, the key insight of this work is that they enable a novel structural multi-cursor design that allows Forest to reach a similar expressiveness as refactoring scripts; Forest allows to perform a single action simultaneously in multiple program locations and thus support complex refactorings. To support interactivity, Forest provides features typical for text code editors such as writing and displaying the program through its textual representation. Our evaluation demonstrates that Forest allows performing edits similar to those from refactoring scripts, while still being interactive. We attempted to perform edits from 48 real-world refactoring scripts using Forest and found that 11 were possible, while another 17 would be possible with added features. We believe that a multi-cursor setting plays to the strengths of structural editing, since it benefits from reliable and expressive. Our results suggest that multi-cursor structural editors could be practical for performing small-scale specialized refactorings."
 }
 </script>
 
@@ -348,11 +348,11 @@
 
 
 
-  <title>Intramorphic Testing: A New Approach to the Test Oracle Problem | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+  <title>Forest: Structural Code Editing with Multiple Cursors | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="eca017828c70a5a478ad171c1351cdd5" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="6dba1463fe05703a1705ea6cbda2523e" >
 
   
   
@@ -636,7 +636,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Intramorphic Testing: A New Approach to the Test Oracle Problem</h1>
+  <h1>Forest: Structural Code Editing with Multiple Cursors</h1>
 
   
 
@@ -653,7 +653,8 @@
   <div>
     
 
-  <span class="author-highlighted">
+  <span >
+      <a href="/author/philippe-voinov/">Philippe Voinov</a></span>, <span class="author-highlighted">
       <a href="/author/manuel-rigger/">Manuel Rigger</a></span>, <span >
       <a href="/author/zhendong-su/">Zhendong Su</a></span>
   </div>
@@ -709,7 +710,7 @@
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
-        data-filename="/publication/2022-onward-intramorphic/cite.bib">
+        data-filename="/publication/2022-onward-forest/cite.bib">
   Cite
 </a>
 
@@ -739,7 +740,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">A test oracle determines whether a system behaves correctly for a given input. Automatic testing techniques rely on an automated test oracle to test the system without user interaction. Important families of automated test oracles include Differential Testing and Metamorphic Testing, which are both black-box approaches; that is, they provide a test oracle that is oblivious to the system’s internals. In this work, we propose Intramorphic Testing, which is a new methodology to tackle the test oracle problem. To realize an Intramorphic Testing testing approach, a modified version of the system is created, for which, given a single input, a test oracle can be provided that relates the output of the original and modified systems. As a concrete example, by replacing a greater-equals operator in the implementation of a sorting algorithm with smaller-equals, it would be expected that the output of the modified implementation is the reverse output of the original implementation. In this paper, we introduce the methodology and illustrate it via a set of use cases.</p>
+    <p class="pub-abstract">Software developers frequently refactor code. Often, a single logical refactoring change involves changing multiple related components in a source base such as renaming each occurrence of a variable or function. While many code editors can perform such common and generic refactorings, they do not support more complex refactorings or those that are specific to a given code base. For those, as a flexible — albeit less interactive — alternative, developers can write refactoring scripts that can implement arbitrarily complex logic by manipulating the program&rsquo;s tree representation. In this work, we present Forest, a structural code editor that aims to bridge the gap between the interactiveness of code editors and the expressiveness of refactoring scripts. While structural editors have occupied a niche as general code editors, the key insight of this work is that they enable a novel structural multi-cursor design that allows Forest to reach a similar expressiveness as refactoring scripts; Forest allows to perform a single action simultaneously in multiple program locations and thus support complex refactorings. To support interactivity, Forest provides features typical for text code editors such as writing and displaying the program through its textual representation. Our evaluation demonstrates that Forest allows performing edits similar to those from refactoring scripts, while still being interactive. We attempted to perform edits from 48 real-world refactoring scripts using Forest and found that 11 were possible, while another 17 would be possible with added features. We believe that a multi-cursor setting plays to the strengths of structural editing, since it benefits from reliable and expressive. Our results suggest that multi-cursor structural editors could be practical for performing small-scale specialized refactorings.</p>
     
 
     
@@ -797,7 +798,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://nus-test.github.io/publication/2022-onward-intramorphic/&amp;text=Intramorphic%20Testing:%20A%20New%20Approach%20to%20the%20Test%20Oracle%20Problem" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://nus-test.github.io/publication/2022-onward-forest/&amp;text=Forest:%20Structural%20Code%20Editing%20with%20Multiple%20Cursors" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -810,7 +811,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://nus-test.github.io/publication/2022-onward-intramorphic/&amp;t=Intramorphic%20Testing:%20A%20New%20Approach%20to%20the%20Test%20Oracle%20Problem" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://nus-test.github.io/publication/2022-onward-forest/&amp;t=Forest:%20Structural%20Code%20Editing%20with%20Multiple%20Cursors" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -823,7 +824,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Intramorphic%20Testing:%20A%20New%20Approach%20to%20the%20Test%20Oracle%20Problem&amp;body=https://nus-test.github.io/publication/2022-onward-intramorphic/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Forest:%20Structural%20Code%20Editing%20with%20Multiple%20Cursors&amp;body=https://nus-test.github.io/publication/2022-onward-forest/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -836,7 +837,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://nus-test.github.io/publication/2022-onward-intramorphic/&amp;title=Intramorphic%20Testing:%20A%20New%20Approach%20to%20the%20Test%20Oracle%20Problem" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://nus-test.github.io/publication/2022-onward-forest/&amp;title=Forest:%20Structural%20Code%20Editing%20with%20Multiple%20Cursors" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -849,7 +850,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Intramorphic%20Testing:%20A%20New%20Approach%20to%20the%20Test%20Oracle%20Problem%20https://nus-test.github.io/publication/2022-onward-intramorphic/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Forest:%20Structural%20Code%20Editing%20with%20Multiple%20Cursors%20https://nus-test.github.io/publication/2022-onward-forest/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -862,7 +863,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://nus-test.github.io/publication/2022-onward-intramorphic/&amp;title=Intramorphic%20Testing:%20A%20New%20Approach%20to%20the%20Test%20Oracle%20Problem" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://nus-test.github.io/publication/2022-onward-forest/&amp;title=Forest:%20Structural%20Code%20Editing%20with%20Multiple%20Cursors" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -881,6 +882,12 @@
 
 
   
+  
+    
+
+
+
+
   
     
 
