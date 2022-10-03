@@ -1,6 +1,7 @@
 ---
-title: "Intramorphic Testing: A New Approach to the Test Oracle Problem"
+title: "Forest: Structural Code Editing with Multiple Cursors"
 authors:
+- Philippe Voinov
 - Manuel Rigger
 - Zhendong Su
 date: "2022-10-03T00:00:00Z"
@@ -19,8 +20,7 @@ publication_types: ["1"]
 publication: In *Proceedings of the 2022 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software*
 publication_short: In *Onward! 2022*
 
-abstract: A test oracle determines whether a system behaves correctly for a given input. Automatic testing techniques rely on an automated test oracle to test the system without user interaction. Important families of automated test oracles include Differential Testing and Metamorphic Testing, which are both black-box approaches; that is, they provide a test oracle that is oblivious to the system’s internals. In this work, we propose Intramorphic Testing, which is a new methodology to tackle the test oracle problem. To realize an Intramorphic Testing testing approach, a modified version of the system is created, for which, given a single input, a test oracle can be provided that relates the output of the original and modified systems. As a concrete example, by replacing a greater-equals operator in the implementation of a sorting algorithm with smaller-equals, it would be expected that the output of the modified implementation is the reverse output of the original implementation. In this paper, we introduce the methodology and illustrate it via a set of use cases.
-
+abstract: Software developers frequently refactor code. Often, a single logical refactoring change involves changing multiple related components in a source base such as renaming each occurrence of a variable or function. While many code editors can perform such common and generic refactorings, they do not support more complex refactorings or those that are specific to a given code base. For those, as a flexible — albeit less interactive — alternative, developers can write refactoring scripts that can implement arbitrarily complex logic by manipulating the program's tree representation. In this work, we present Forest, a structural code editor that aims to bridge the gap between the interactiveness of code editors and the expressiveness of refactoring scripts. While structural editors have occupied a niche as general code editors, the key insight of this work is that they enable a novel structural multi-cursor design that allows Forest to reach a similar expressiveness as refactoring scripts; Forest allows to perform a single action simultaneously in multiple program locations and thus support complex refactorings. To support interactivity, Forest provides features typical for text code editors such as writing and displaying the program through its textual representation. Our evaluation demonstrates that Forest allows performing edits similar to those from refactoring scripts, while still being interactive. We attempted to perform edits from 48 real-world refactoring scripts using Forest and found that 11 were possible, while another 17 would be possible with added features. We believe that a multi-cursor setting plays to the strengths of structural editing, since it benefits from reliable and expressive. Our results suggest that multi-cursor structural editors could be practical for performing small-scale specialized refactorings.
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
