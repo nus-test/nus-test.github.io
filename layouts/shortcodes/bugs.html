@@ -1,5 +1,5 @@
-<h2>Database Management Systems (55 bugs)</h2>
-<h3>CockroachDB (16 bugs)</h3>
+<h2>Database Management Systems (66 bugs)</h2>
+<h3>CockroachDB (17 bugs)</h3>
 <details>
 <summary>sql: support SCRUB on temp tables</summary>
 Status: confirmed<br />
@@ -96,7 +96,13 @@ Status: unconfirmed<br />
 Link: <a href="https://github.com/cockroachdb/cockroach/issues/85502">https://github.com/cockroachdb/cockroach/issues/85502</a> <br />
 Found by: bajinsheng
 </details>
-<h3>DuckDB (2 bugs)</h3>
+<details>
+<summary>An Unexpected Error in `CROSS MERGE JOIN`</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/88104">https://github.com/cockroachdb/cockroach/issues/88104</a> <br />
+Found by: bajinsheng
+</details>
+<h3>DuckDB (3 bugs)</h3>
 <details>
 <summary>BETWEEN with subquery and column results in unexpected error</summary>
 Status: fixed<br />
@@ -108,6 +114,12 @@ Found by: kokrui
 Status: fixed<br />
 Link: <a href="https://github.com/duckdb/duckdb/issues/3616">https://github.com/duckdb/duckdb/issues/3616</a> <br />
 Found by: kokrui
+</details>
+<details>
+<summary>Crash When Creating Index</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/4976">https://github.com/duckdb/duckdb/issues/4976</a> <br />
+Found by: bajinsheng
 </details>
 <h3>SQLite (28 bugs)</h3>
 <details>
@@ -278,7 +290,7 @@ Status: unconfirmed<br />
 Link: <a href="https://sqlite.org/forum/forumpost/3607259d3c">https://sqlite.org/forum/forumpost/3607259d3c</a> <br />
 Found by: bajinsheng
 </details>
-<h3>TiDB (9 bugs)</h3>
+<h3>TiDB (18 bugs)</h3>
 <details>
 <summary>incorrect unresolved column when using natural join</summary>
 Status: confirmed<br />
@@ -331,5 +343,59 @@ Found by: bajinsheng
 <summary>Unexpected Result by CONCAT_WS</summary>
 Status: unconfirmed<br />
 Link: <a href="https://github.com/pingcap/tidb/issues/36888">https://github.com/pingcap/tidb/issues/36888</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>ERROR 8141 (HY000): assertion failed</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/38295">https://github.com/pingcap/tidb/issues/38295</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Incorrect Results by `REGEXP`</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/38303">https://github.com/pingcap/tidb/issues/38303</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Incorrect Result by `LEFT JOIN`</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/38304">https://github.com/pingcap/tidb/issues/38304</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>runtime error: invalid memory address or nil pointer dereference</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/38305">https://github.com/pingcap/tidb/issues/38305</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Results</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/38310">https://github.com/pingcap/tidb/issues/38310</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Error [types:1690]%s value is out of range in '%s'</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/38352">https://github.com/pingcap/tidb/issues/38352</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Error: Failed to read auto-increment value from storage engine</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/38483">https://github.com/pingcap/tidb/issues/38483</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Results by RIGHT JOIN</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/38654">https://github.com/pingcap/tidb/issues/38654</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>rule PredicatePushDown pushes wrong filter across projection</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/38736">https://github.com/pingcap/tidb/issues/38736</a> <br />
 Found by: bajinsheng
 </details>
