@@ -22,6 +22,16 @@
         "resolution": "fixed"
     },
     {
+        "url": "https://github.com/duckdb/duckdb/issues/4976",
+        "title": "Crash When Creating Index",
+        "created_at": "13/10/2022",
+        "closed_at": "22/10/2022",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "DuckDB"
+    },
+    {
         "url": "https://github.com/pingcap/tidb/issues/35522",
         "title": "incorrect unresolved column when using natural join",
         "created_at": "20/06/2022",
@@ -46,21 +56,23 @@
         "url": "https://github.com/pingcap/tidb/issues/35623",
         "title": "Runtime error: invalid memory address",
         "created_at": "21/06/2022",
-        "state": "open",
+        "state": "closed",
         "domain": "dbms",
         "reported_by": "bajinsheng",
         "system": "TiDB",
-        "resolution": "confirmed"
+        "resolution": "confirmed",
+        "closed_at": "26/09/2022"
     },
     {
         "url": "https://github.com/pingcap/tidb/issues/35645",
         "title": "Unexpected Result with a FALSE Expression in WHERE",
         "created_at": "22/06/2022",
-        "state": "open",
+        "state": "closed",
         "domain": "dbms",
         "reported_by": "bajinsheng",
         "system": "TiDB",
-        "resolution": "confirmed"
+        "resolution": "confirmed",
+        "closed_at": "23/11/2022"
     },
     {
         "url": "https://github.com/pingcap/tidb/issues/35652",
@@ -87,26 +99,117 @@
         "url": "https://github.com/pingcap/tidb/issues/35678",
         "title": "Unexpected Connection Lost",
         "created_at": "23/06/2022",
-        "state": "open",
+        "state": "closed",
         "domain": "dbms",
         "reported_by": "bajinsheng",
         "system": "TiDB",
-        "resolution": "confirmed"
+        "resolution": "confirmed",
+        "closed_at": "28/11/2022"
     },
     {
         "url": "https://github.com/pingcap/tidb/issues/36853",
         "title": "Inconsistent Results in SELECT",
         "created_at": "03/08/2022",
-        "state": "open",
+        "state": "closed",
         "domain": "dbms",
         "reported_by": "bajinsheng",
-        "system": "TiDB"
+        "system": "TiDB",
+        "closed_at": "25/10/2022"
     },
     {
         "url": "https://github.com/pingcap/tidb/issues/36888",
         "title": "Unexpected Result by CONCAT_WS",
         "created_at": "04/08/2022",
         "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/38295",
+        "title": "ERROR 8141 (HY000): assertion failed",
+        "created_at": "04/10/2022",
+        "closed_at": "09/10/2022",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/38303",
+        "title": "Incorrect Results by `REGEXP`",
+        "created_at": "06/10/2022",
+        "closed_at": "19/10/2022",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/38304",
+        "title": "Incorrect Result by `LEFT JOIN`",
+        "created_at": "06/10/2022",
+        "closed_at": "13/10/2022",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/38305",
+        "title": "runtime error: invalid memory address or nil pointer dereference",
+        "created_at": "06/10/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/38310",
+        "title": "Unexpected Results",
+        "created_at": "07/10/2022",
+        "closed_at": "11/10/2022",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/38352",
+        "title": "Error [types:1690]%s value is out of range in '%s'",
+        "created_at": "10/10/2022",
+        "closed_at": "10/10/2022",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/38483",
+        "title": "Unexpected Error: Failed to read auto-increment value from storage engine",
+        "created_at": "15/10/2022",
+        "closed_at": "07/11/2022",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/38654",
+        "title": "Unexpected Results by RIGHT JOIN",
+        "created_at": "26/10/2022",
+        "closed_at": "28/10/2022",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/38736",
+        "title": "rule PredicatePushDown pushes wrong filter across projection",
+        "created_at": "29/10/2022",
+        "closed_at": "02/11/2022",
+        "state": "closed",
         "domain": "dbms",
         "reported_by": "bajinsheng",
         "system": "TiDB"
@@ -230,10 +333,11 @@
         "url": "https://github.com/cockroachdb/cockroach/issues/85393",
         "title": "opt: internal error: no output column equivalent to 2",
         "created_at": "01/08/2022",
-        "state": "open",
+        "state": "closed",
         "domain": "dbms",
         "reported_by": "bajinsheng",
-        "system": "CockroachDB"
+        "system": "CockroachDB",
+        "closed_at": "18/08/2022"
     },
     {
         "url": "https://github.com/cockroachdb/cockroach/issues/85394",
@@ -248,16 +352,27 @@
         "url": "https://github.com/cockroachdb/cockroach/issues/85499",
         "title": "opt: internal error: estimated row count must be non-zero ",
         "created_at": "03/08/2022",
-        "state": "open",
+        "state": "closed",
         "domain": "dbms",
         "reported_by": "bajinsheng",
-        "system": "CockroachDB"
+        "system": "CockroachDB",
+        "closed_at": "22/09/2022"
     },
     {
         "url": "https://github.com/cockroachdb/cockroach/issues/85502",
         "title": "Unexpected Result by UNION",
         "created_at": "03/08/2022",
         "closed_at": "05/08/2022",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/88104",
+        "title": "An Unexpected Error in `CROSS MERGE JOIN`",
+        "created_at": "18/09/2022",
+        "closed_at": "18/09/2022",
         "state": "closed",
         "domain": "dbms",
         "reported_by": "bajinsheng",
