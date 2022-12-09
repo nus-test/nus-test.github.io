@@ -15,17 +15,32 @@
     <loc>https://nus-test.github.io/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://nus-test.github.io/publication-type/1/</loc>
+    <lastmod>2022-12-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/authors/</loc>
+    <lastmod>2022-12-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/author/jinsheng-ba/</loc>
+    <lastmod>2022-12-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://nus-test.github.io/post/</loc>
+    <lastmod>2022-12-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/author/manuel-rigger/</loc>
     <lastmod>2022-12-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/post/22-12-09-qpg-icse23/</loc>
     <lastmod>2022-12-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nus-test.github.io/publication-type/1/</loc>
-    <lastmod>2022-10-03T00:00:00+00:00</lastmod>
+    <loc>https://nus-test.github.io/publication_types/</loc>
+    <lastmod>2022-12-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nus-test.github.io/authors/</loc>
-    <lastmod>2022-10-03T00:00:00+00:00</lastmod>
+    <loc>https://nus-test.github.io/publication/</loc>
+    <lastmod>2022-12-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/publication/2023-icse-qpg/</loc>
+    <lastmod>2022-12-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/post/22-10-03-chi-plse-talk/</loc>
     <lastmod>2022-10-03T00:00:00+00:00</lastmod>
@@ -36,16 +51,7 @@
     <loc>https://nus-test.github.io/publication/2022-onward-intramorphic/</loc>
     <lastmod>2022-10-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nus-test.github.io/author/manuel-rigger/</loc>
-    <lastmod>2022-10-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://nus-test.github.io/author/philippe-voinov/</loc>
-    <lastmod>2022-10-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/publication_types/</loc>
-    <lastmod>2022-10-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/publication/</loc>
     <lastmod>2022-10-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/author/zhendong-su/</loc>
@@ -75,8 +81,6 @@
     <loc>https://nus-test.github.io/categories/</loc>
   </url><url>
     <loc>https://nus-test.github.io/author/chi-zhang/</loc>
-  </url><url>
-    <loc>https://nus-test.github.io/author/jinsheng-ba/</loc>
   </url><url>
     <loc>https://nus-test.github.io/author/suyang-zhong/</loc>
   </url><url>

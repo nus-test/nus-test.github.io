@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="" />
+  <meta name="description" content="Database systems are widely used to store and query data. Test oracles have been proposed to find logic bugs in such systems, that is, bugs that cause the database system to compute an incorrect result. To realize a fully automated testing approach, such test oracles are paired with a test case generation technique; a test case refers to a database state and a query on which the test oracle can be applied. In this work, we propose the concept of Query Plan Guidance (QPG) for guiding automated testing towards &#34;interesting&#34; test cases. SQL and other query languages are declarative. Thus, to execute a query, the database system translates every operator in the source language to one of potentially many so-called physical operators that can be executed; the tree of physical operators is referred to as the query plan. Our intuition is that by steering testing towards exploring diverse query plans, we also explore more interesting behaviors—some of which are potentially incorrect. To this end, we propose a mutation technique that gradually applies promising mutations to the database state, causing the DBMS to create diverse query plans for subsequent queries. We applied our method to three mature, widely-used, and extensively-tested database systems—SQLite, TiDB, and CockroachDB—and found 53 unique, previously unknown bugs. Our method exercises 4.85—408.48× more unique query plans than a naive random generation method and 7.46× more than a code coverage guidance method. Since most database systems—including commercial ones—expose query plans to the user, we consider QPG a generally applicable, black-box approach and believe that the core idea could also be applied in other contexts (e.g., to measure the quality of a test suite)." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://nus-test.github.io/post/22-12-09-qpg-icse23/" />
+  <link rel="alternate" hreflang="en-us" href="https://nus-test.github.io/publication/2023-icse-qpg/" />
 
   
 
@@ -259,7 +259,7 @@
   <link rel="icon" type="image/png" href="/media/icon_huf39aebee443421be528cbdbb4c78ede7_7416_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_huf39aebee443421be528cbdbb4c78ede7_7416_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://nus-test.github.io/post/22-12-09-qpg-icse23/" />
+  <link rel="canonical" href="https://nus-test.github.io/publication/2023-icse-qpg/" />
 
   
   
@@ -279,15 +279,15 @@
     <meta property="twitter:creator" content="@test_nus" />
   
   <meta property="og:site_name" content="Trustworthy Engineering of Software Technologies (TEST) Lab" />
-  <meta property="og:url" content="https://nus-test.github.io/post/22-12-09-qpg-icse23/" />
-  <meta property="og:title" content="Our paper &#34;Testing Database Engines via Query Plan Guidance&#34; is accepted by ICSE&#39;23! | Trustworthy Engineering of Software Technologies (TEST) Lab" />
-  <meta property="og:description" content="" /><meta property="og:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" />
+  <meta property="og:url" content="https://nus-test.github.io/publication/2023-icse-qpg/" />
+  <meta property="og:title" content="Testing Database Engines via Query Plan Guidance | Trustworthy Engineering of Software Technologies (TEST) Lab" />
+  <meta property="og:description" content="Database systems are widely used to store and query data. Test oracles have been proposed to find logic bugs in such systems, that is, bugs that cause the database system to compute an incorrect result. To realize a fully automated testing approach, such test oracles are paired with a test case generation technique; a test case refers to a database state and a query on which the test oracle can be applied. In this work, we propose the concept of Query Plan Guidance (QPG) for guiding automated testing towards &#34;interesting&#34; test cases. SQL and other query languages are declarative. Thus, to execute a query, the database system translates every operator in the source language to one of potentially many so-called physical operators that can be executed; the tree of physical operators is referred to as the query plan. Our intuition is that by steering testing towards exploring diverse query plans, we also explore more interesting behaviors—some of which are potentially incorrect. To this end, we propose a mutation technique that gradually applies promising mutations to the database state, causing the DBMS to create diverse query plans for subsequent queries. We applied our method to three mature, widely-used, and extensively-tested database systems—SQLite, TiDB, and CockroachDB—and found 53 unique, previously unknown bugs. Our method exercises 4.85—408.48× more unique query plans than a naive random generation method and 7.46× more than a code coverage guidance method. Since most database systems—including commercial ones—expose query plans to the user, we consider QPG a generally applicable, black-box approach and believe that the core idea could also be applied in other contexts (e.g., to measure the quality of a test suite)." /><meta property="og:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" />
     <meta property="twitter:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2022-12-09T00:00:00&#43;00:00"
+        content="2017-05-11T00:00:00&#43;00:00"
       />
     
     <meta property="article:modified_time" content="2022-12-09T00:00:00&#43;00:00">
@@ -303,27 +303,25 @@
 
 
 
-  
-
 
 
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
+  "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://nus-test.github.io/post/22-12-09-qpg-icse23/"
+    "@id": "https://nus-test.github.io/publication/2023-icse-qpg/"
   },
-  "headline": "Our paper \"Testing Database Engines via Query Plan Guidance\" is accepted by ICSE'23!",
+  "headline": "Testing Database Engines via Query Plan Guidance",
   
-  "datePublished": "2022-12-09T00:00:00Z",
+  "datePublished": "2017-05-11T00:00:00Z",
   "dateModified": "2022-12-09T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Manuel Rigger"
+    "name": "Jinsheng Ba"
   },
   
   "publisher": {
@@ -334,7 +332,7 @@
       "url": "https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_192x192_fit_lanczos_3.png"
     }
   },
-  "description": ""
+  "description": "Database systems are widely used to store and query data. Test oracles have been proposed to find logic bugs in such systems, that is, bugs that cause the database system to compute an incorrect result. To realize a fully automated testing approach, such test oracles are paired with a test case generation technique; a test case refers to a database state and a query on which the test oracle can be applied. In this work, we propose the concept of Query Plan Guidance (QPG) for guiding automated testing towards \"interesting\" test cases. SQL and other query languages are declarative. Thus, to execute a query, the database system translates every operator in the source language to one of potentially many so-called physical operators that can be executed; the tree of physical operators is referred to as the query plan. Our intuition is that by steering testing towards exploring diverse query plans, we also explore more interesting behaviors—some of which are potentially incorrect. To this end, we propose a mutation technique that gradually applies promising mutations to the database state, causing the DBMS to create diverse query plans for subsequent queries. We applied our method to three mature, widely-used, and extensively-tested database systems—SQLite, TiDB, and CockroachDB—and found 53 unique, previously unknown bugs. Our method exercises 4.85—408.48× more unique query plans than a naive random generation method and 7.46× more than a code coverage guidance method. Since most database systems—including commercial ones—expose query plans to the user, we consider QPG a generally applicable, black-box approach and believe that the core idea could also be applied in other contexts (e.g., to measure the quality of a test suite)."
 }
 </script>
 
@@ -350,11 +348,11 @@
 
 
 
-  <title>Our paper &#34;Testing Database Engines via Query Plan Guidance&#34; is accepted by ICSE&#39;23! | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+  <title>Testing Database Engines via Query Plan Guidance | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="6689cfd9f4ecef2ebf0beda866702603" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="ff85067ccb75b9add56fa65f371f35bb" >
 
   
   
@@ -608,7 +606,16 @@
   </div>
 
   <div class="page-body">
-    <article class="article">
+    
+
+
+
+
+
+
+
+
+<div class="pub">
 
   
 
@@ -629,7 +636,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Our paper &#34;Testing Database Engines via Query Plan Guidance&#34; is accepted by ICSE&#39;23!</h1>
+  <h1>Testing Database Engines via Query Plan Guidance</h1>
 
   
 
@@ -641,6 +648,17 @@
 
   
   
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/jinsheng-ba/">Jinsheng Ba</a></span>, <span class="author-highlighted">
+      <a href="/author/manuel-rigger/">Manuel Rigger</a></span>
+  </div>
+  
+  
 
   
   <span class="article-date">
@@ -648,17 +666,12 @@
     
       
     
-    Dec 9, 2022
+    December 2022
   </span>
   
 
   
 
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    0 min read
-  </span>
   
 
   
@@ -677,6 +690,44 @@
 
 
 
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
+        data-filename="/publication/2023-icse-qpg/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
 
 
   
@@ -686,9 +737,47 @@
 
   <div class="article-container">
 
-    <div class="article-style">
-      
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Database systems are widely used to store and query data. Test oracles have been proposed to find logic bugs in such systems, that is, bugs that cause the database system to compute an incorrect result. To realize a fully automated testing approach, such test oracles are paired with a test case generation technique; a test case refers to a database state and a query on which the test oracle can be applied. In this work, we propose the concept of Query Plan Guidance (QPG) for guiding automated testing towards &ldquo;interesting&rdquo; test cases. SQL and other query languages are declarative. Thus, to execute a query, the database system translates every operator in the source language to one of potentially many so-called physical operators that can be executed; the tree of physical operators is referred to as the query plan. Our intuition is that by steering testing towards exploring diverse query plans, we also explore more interesting behaviors—some of which are potentially incorrect. To this end, we propose a mutation technique that gradually applies promising mutations to the database state, causing the DBMS to create diverse query plans for subsequent queries. We applied our method to three mature, widely-used, and extensively-tested database systems—SQLite, TiDB, and CockroachDB—and found 53 unique, previously unknown bugs. Our method exercises 4.85—408.48× more unique query plans than a naive random generation method and 7.46× more than a code coverage guidance method. Since most database systems—including commercial ones—expose query plans to the user, we consider QPG a generally applicable, black-box approach and believe that the core idea could also be applied in other contexts (e.g., to measure the quality of a test suite).</p>
+    
+
+    
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In <em>Proceedings of the 45th International Conference on Software Engineering</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
 
     
 
@@ -708,7 +797,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://nus-test.github.io/post/22-12-09-qpg-icse23/&amp;text=Our%20paper%20&amp;#34;Testing%20Database%20Engines%20via%20Query%20Plan%20Guidance&amp;#34;%20is%20accepted%20by%20ICSE&amp;#39;23!" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://nus-test.github.io/publication/2023-icse-qpg/&amp;text=Testing%20Database%20Engines%20via%20Query%20Plan%20Guidance" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -721,7 +810,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://nus-test.github.io/post/22-12-09-qpg-icse23/&amp;t=Our%20paper%20&amp;#34;Testing%20Database%20Engines%20via%20Query%20Plan%20Guidance&amp;#34;%20is%20accepted%20by%20ICSE&amp;#39;23!" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://nus-test.github.io/publication/2023-icse-qpg/&amp;t=Testing%20Database%20Engines%20via%20Query%20Plan%20Guidance" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -734,7 +823,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Our%20paper%20&amp;#34;Testing%20Database%20Engines%20via%20Query%20Plan%20Guidance&amp;#34;%20is%20accepted%20by%20ICSE&amp;#39;23!&amp;body=https://nus-test.github.io/post/22-12-09-qpg-icse23/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Testing%20Database%20Engines%20via%20Query%20Plan%20Guidance&amp;body=https://nus-test.github.io/publication/2023-icse-qpg/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -747,7 +836,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://nus-test.github.io/post/22-12-09-qpg-icse23/&amp;title=Our%20paper%20&amp;#34;Testing%20Database%20Engines%20via%20Query%20Plan%20Guidance&amp;#34;%20is%20accepted%20by%20ICSE&amp;#39;23!" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://nus-test.github.io/publication/2023-icse-qpg/&amp;title=Testing%20Database%20Engines%20via%20Query%20Plan%20Guidance" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -760,7 +849,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Our%20paper%20&amp;#34;Testing%20Database%20Engines%20via%20Query%20Plan%20Guidance&amp;#34;%20is%20accepted%20by%20ICSE&amp;#39;23!%20https://nus-test.github.io/post/22-12-09-qpg-icse23/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Testing%20Database%20Engines%20via%20Query%20Plan%20Guidance%20https://nus-test.github.io/publication/2023-icse-qpg/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -773,7 +862,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://nus-test.github.io/post/22-12-09-qpg-icse23/&amp;title=Our%20paper%20&amp;#34;Testing%20Database%20Engines%20via%20Query%20Plan%20Guidance&amp;#34;%20is%20accepted%20by%20ICSE&amp;#39;23!" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://nus-test.github.io/publication/2023-icse-qpg/&amp;title=Testing%20Database%20Engines%20via%20Query%20Plan%20Guidance" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -793,6 +882,99 @@
 
   
   
+    
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/jinsheng-ba/"><img class="avatar mr-3 avatar-circle" src="/author/jinsheng-ba/avatar_hu0b504f3cded38ead58260b4531409a95_1936376_270x270_fill_q75_lanczos_center.jpg" alt="Jinsheng Ba"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/jinsheng-ba/">Jinsheng Ba</a></h5>
+      <h6 class="card-subtitle">Ph.D. Student</h6>
+      <p class="card-text">Jinsheng Ba is an Ph.D. student working on fuzzing.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:jinsheng@comp.nus.edu.sg" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/JinshengBa" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=FIirppQAAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/bajinsheng" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
 
 
 
@@ -900,6 +1082,7 @@
   </div>
 
 
+  
 
 
 
@@ -922,7 +1105,7 @@
 
 
   </div>
-</article>
+</div>
   </div>
 
   <div class="page-footer">
