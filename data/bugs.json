@@ -78,12 +78,13 @@
         "url": "https://github.com/pingcap/tidb/issues/35652",
         "title": "Unexpected Error by CAST and CHAR functions",
         "created_at": "22/06/2022",
-        "state": "open",
+        "state": "closed",
         "domain": "dbms",
         "reported_by": "bajinsheng",
         "system": "TiDB",
         "resolution": "confirmed",
-        "comment": "Seems to be a bug in MySQL rather than in TiDB"
+        "comment": "Seems to be a bug in MySQL rather than in TiDB",
+        "closed_at": "13/01/2023"
     },
     {
         "url": "https://github.com/pingcap/tidb/issues/35677",
@@ -120,10 +121,11 @@
         "url": "https://github.com/pingcap/tidb/issues/36888",
         "title": "Unexpected Result by CONCAT_WS",
         "created_at": "04/08/2022",
-        "state": "open",
+        "state": "closed",
         "domain": "dbms",
         "reported_by": "bajinsheng",
-        "system": "TiDB"
+        "system": "TiDB",
+        "closed_at": "10/01/2023"
     },
     {
         "url": "https://github.com/pingcap/tidb/issues/38295",
@@ -268,10 +270,11 @@
         "url": "https://github.com/cockroachdb/cockroach/issues/83976",
         "title": "Unexpected Error of Unique Index",
         "created_at": "07/07/2022",
-        "state": "open",
+        "state": "closed",
         "domain": "dbms",
         "reported_by": "bajinsheng",
-        "system": "CockroachDB"
+        "system": "CockroachDB",
+        "closed_at": "14/12/2022"
     },
     {
         "url": "https://github.com/cockroachdb/cockroach/issues/84056",
@@ -297,10 +300,11 @@
         "url": "https://github.com/cockroachdb/cockroach/issues/85356",
         "title": "Inconsistent Case Return Types Decimal Int",
         "created_at": "30/07/2022",
-        "state": "open",
+        "state": "closed",
         "domain": "dbms",
         "reported_by": "bajinsheng",
-        "system": "CockroachDB"
+        "system": "CockroachDB",
+        "closed_at": "12/01/2023"
     },
     {
         "url": "https://github.com/cockroachdb/cockroach/issues/85388",
@@ -373,6 +377,16 @@
         "title": "An Unexpected Error in `CROSS MERGE JOIN`",
         "created_at": "18/09/2022",
         "closed_at": "18/09/2022",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/94264",
+        "title": "ERROR: internal error: expected *DInt, found tree.dNull",
+        "created_at": "24/12/2022",
+        "closed_at": "12/01/2023",
         "state": "closed",
         "domain": "dbms",
         "reported_by": "bajinsheng",
