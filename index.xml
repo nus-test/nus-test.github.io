@@ -17,8 +17,8 @@
       <link>https://nus-test.github.io/bugs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://nus-test.github.io/bugs/</guid>
-      <description>&lt;h2&gt;Database Management Systems (66 bugs)&lt;/h2&gt;
-&lt;h3&gt;CockroachDB (17 bugs)&lt;/h3&gt;
+      <description>&lt;h2&gt;Database Management Systems (67 bugs)&lt;/h2&gt;
+&lt;h3&gt;CockroachDB (18 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;sql: support SCRUB on temp tables&lt;/summary&gt;
 Status: confirmed&lt;br /&gt;
@@ -119,6 +119,12 @@ Found by: bajinsheng
 &lt;summary&gt;An Unexpected Error in `CROSS MERGE JOIN`&lt;/summary&gt;
 Status: unconfirmed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/88104&#34;&gt;https://github.com/cockroachdb/cockroach/issues/88104&lt;/a&gt; &lt;br /&gt;
+Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;ERROR: internal error: expected *DInt, found tree.dNull&lt;/summary&gt;
+Status: unconfirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/94264&#34;&gt;https://github.com/cockroachdb/cockroach/issues/94264&lt;/a&gt; &lt;br /&gt;
 Found by: bajinsheng
 &lt;/details&gt;
 &lt;h3&gt;DuckDB (3 bugs)&lt;/h3&gt;
