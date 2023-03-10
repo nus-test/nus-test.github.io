@@ -18,11 +18,11 @@ content:
   user_groups:
   - Faculty
   - PhD Students
-  - Undergraduate Interns
-  - Visitors
-  - Alumni
+  - Master Students
+  - Undergraduate Students
+  - Past Members
 design:
   show_interests: true
-  show_role: false
+  show_role: true
   show_social: true
 ---
