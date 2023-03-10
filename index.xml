@@ -474,6 +474,15 @@ Found by: bajinsheng
     </item>
     
     <item>
+      <title>SQLancer</title>
+      <link>https://nus-test.github.io/project/sqlancer/</link>
+      <pubDate>Sat, 11 Mar 2023 00:41:03 +0800</pubDate>
+      <guid>https://nus-test.github.io/project/sqlancer/</guid>
+      <description>&lt;p&gt;SQLancer automatically finds bugs in database systems.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Our paper &#34;Testing Database Engines via Query Plan Guidance&#34; received &#34;ACM SIGSOFT Distinguished Paper Award&#34; at ICSE&#39;23!</title>
       <link>https://nus-test.github.io/post/23-02-23-distinguishedaward-icse23/</link>
       <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
