@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nishita Dutta | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+    <link>https://nus-test.github.io/author/nishita-dutta/</link>
+      <atom:link href="https://nus-test.github.io/author/nishita-dutta/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nishita Dutta</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://nus-test.github.io/author/nishita-dutta/avatar_hu8fd08dbb3e04f4ccd6355de5824e25ae_520592_270x270_fill_lanczos_center_3.png</url>
+      <title>Nishita Dutta</title>
+      <link>https://nus-test.github.io/author/nishita-dutta/</link>
+    </image>
+    
+  </channel>
+</rss>
