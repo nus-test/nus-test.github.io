@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nathee Jaywaree | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+    <link>https://nus-test.github.io/author/nathee-jaywaree/</link>
+      <atom:link href="https://nus-test.github.io/author/nathee-jaywaree/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nathee Jaywaree</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://nus-test.github.io/author/nathee-jaywaree/avatar_hud3258159aec8432f4d6dec20785010b0_205168_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Nathee Jaywaree</title>
+      <link>https://nus-test.github.io/author/nathee-jaywaree/</link>
+    </image>
+    
+  </channel>
+</rss>
