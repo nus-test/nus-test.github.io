@@ -61,7 +61,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Master Students
+- Past Members
 ---
 
 Nishita graduated from [Sardar Patel Institute of Technology](https://www.spit.ac.in/), previously employed at [PhonePe](https://www.phonepe.com/) as an Android Developer. She joined [NUS](https://nus.edu.sg/) as a Masters of Computing student in January 2022.
