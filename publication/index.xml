@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/publication/</link>
       <atom:link href="https://nus-test.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 09 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Publications</title>
       <link>https://nus-test.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Finding Performance Issues in Database Engines via Cardinality Estimation Testing</title>
+      <link>https://nus-test.github.io/publication/2023-arxiv-cert/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2023-arxiv-cert/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Testing Database Engines via Query Plan Guidance</title>
