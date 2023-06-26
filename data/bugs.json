@@ -319,19 +319,21 @@
         "url": "https://github.com/cockroachdb/cockroach/issues/85389",
         "title": "internal error: no volatility for cast decimal::timestamp",
         "created_at": "01/08/2022",
-        "state": "open",
+        "state": "closed",
         "domain": "dbms",
         "reported_by": "bajinsheng",
-        "system": "CockroachDB"
+        "system": "CockroachDB",
+        "closed_at": "12/03/2023"
     },
     {
         "url": "https://github.com/cockroachdb/cockroach/issues/85390",
         "title": "opt: internal error: lookup for ComparisonExpr",
         "created_at": "01/08/2022",
-        "state": "open",
+        "state": "closed",
         "domain": "dbms",
         "reported_by": "bajinsheng",
-        "system": "CockroachDB"
+        "system": "CockroachDB",
+        "closed_at": "14/02/2023"
     },
     {
         "url": "https://github.com/cockroachdb/cockroach/issues/85393",
@@ -648,5 +650,257 @@
         "reported_by": "bajinsheng",
         "domain": "dbms",
         "system": "SQLite"
+    },
+    {
+        "url": "https://bugs.mysql.com/bug.php?id=108833",
+        "title": "Suspicious Estimated Rows",
+        "created_at": "22/10/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "MySQL"
+    },
+    {
+        "url": "https://bugs.mysql.com/bug.php?id=108851",
+        "title": "Suspicious Estimated Rows by JOIN",
+        "created_at": "22/10/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "MySQL"
+    },
+    {
+        "url": "https://bugs.mysql.com/bug.php?id=108852",
+        "title": "Suspicious Estimated Rows by DISTINCTROW",
+        "created_at": "22/10/2022",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "MySQL"
+    },
+    {
+        "url": "https://bugs.mysql.com/bug.php?id=111471",
+        "title": "Unexpected Error: Memory capacity exceeded",
+        "created_at": "17/06/2023",
+        "reported_by": "bajinsheng",
+        "domain": "dbms",
+        "system": "MySQL"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/38295",
+        "title": "ERROR 8141 (HY000): assertion failed",
+        "created_at": "04/10/2022",
+        "closed_at": "09/10/2022",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/38303",
+        "title": "Incorrect Results by `REGEXP`",
+        "created_at": "06/10/2022",
+        "closed_at": "19/10/2022",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/38304",
+        "title": "Incorrect Result by `LEFT JOIN`",
+        "created_at": "06/10/2022",
+        "closed_at": "13/10/2022",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/38305",
+        "title": "runtime error: invalid memory address or nil pointer dereference",
+        "created_at": "06/10/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/38310",
+        "title": "Unexpected Results",
+        "created_at": "07/10/2022",
+        "closed_at": "11/10/2022",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/38319",
+        "title": "Unexpected Estimated Rows of `OR`",
+        "created_at": "08/10/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/38352",
+        "title": "Error [types:1690]%s value is out of range in '%s'",
+        "created_at": "10/10/2022",
+        "closed_at": "10/10/2022",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/38474",
+        "title": "Question About the Estimated Rows in `GROUP BY`",
+        "created_at": "14/10/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/38479",
+        "title": "Suspicious Estimated Rows by `JOIN`",
+        "created_at": "14/10/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/38482",
+        "title": "Suspicious Estimated Rows by HAVING",
+        "created_at": "15/10/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/38483",
+        "title": "Unexpected Error: Failed to read auto-increment value from storage engine",
+        "created_at": "15/10/2022",
+        "closed_at": "07/11/2022",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/38654",
+        "title": "Unexpected Results by RIGHT JOIN",
+        "created_at": "26/10/2022",
+        "closed_at": "28/10/2022",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/38665",
+        "title": "Unexpected Estimated Rows by INNER JOIN",
+        "created_at": "26/10/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/38721",
+        "title": "Unexpected Estimated Rows by WHERE clause",
+        "created_at": "28/10/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/38736",
+        "title": "rule PredicatePushDown pushes wrong filter across projection",
+        "created_at": "29/10/2022",
+        "closed_at": "02/11/2022",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/44747",
+        "title": "runtime error: index out of range [7] with length 4",
+        "created_at": "17/06/2023",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "TiDB"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/88104",
+        "title": "An Unexpected Error in `CROSS MERGE JOIN`",
+        "created_at": "18/09/2022",
+        "closed_at": "18/09/2022",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/88455",
+        "title": "Potential Issue for Estimated Rows",
+        "created_at": "22/09/2022",
+        "closed_at": "30/09/2022",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/89161",
+        "title": "An Issue of Estimated Rows",
+        "created_at": "02/10/2022",
+        "closed_at": "05/10/2022",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/89462",
+        "title": "Unexpected Estimated Rows in `HAVING` clause",
+        "created_at": "06/10/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/90112",
+        "title": "Suspicious Estimated Rows by `OR` ",
+        "created_at": "18/10/2022",
+        "closed_at": "17/11/2022",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/90113",
+        "title": "Suspicious Estimated Rows by `DISTINCT`",
+        "created_at": "18/10/2022",
+        "state": "open",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/94264",
+        "title": "ERROR: internal error: expected *DInt, found tree.dNull",
+        "created_at": "24/12/2022",
+        "closed_at": "12/01/2023",
+        "state": "closed",
+        "domain": "dbms",
+        "reported_by": "bajinsheng",
+        "system": "CockroachDB"
     }
 ]
