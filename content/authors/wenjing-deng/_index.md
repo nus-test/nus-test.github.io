@@ -18,12 +18,12 @@ organizations:
   url: "https://lab301.cn/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Wenjing Deng is an master student doing an internship at the lab for half a year.
+bio: Wenjing Deng is a master student doing an internship at the lab for half a year.
 
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'wendy.wenjing.deng@gmail.com'
+  link: 'mailto:wendy.wenjing.deng@gmail.com'
 # - icon: twitter
 #   icon_pack: fab
 #   link: 
