@@ -44,7 +44,7 @@ bio: Qiuyang Mang is an undergraduate student doing internship at the lab for ha
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'qiuyangmang@link.cuhk.edu.cn'
+  link: 'mailto:qiuyangmang@link.cuhk.edu.cn'
 # - icon: twitter
 #   icon_pack: fab
 #   link: https://twitter.com/GeorgeCushen
