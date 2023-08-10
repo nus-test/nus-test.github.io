@@ -64,6 +64,7 @@ user_groups:
 - Past Members
 ---
 
-Nishita graduated from [Sardar Patel Institute of Technology](https://www.spit.ac.in/), previously employed at [PhonePe](https://www.phonepe.com/) as an Android Developer. She joined [NUS](https://nus.edu.sg/) as a Masters of Computing student in January 2022.
+Nishita, graduated with a Masters in Computing from NUS in July 2023.
+She currently holds the role of a fullstack developer at PSA, Singapore, where she is actively engaged in crafting innovative solutions that bridge the realms of frontend and backend development.
 Find more information about [Nishita](https://nish-d.github.io/).
 
