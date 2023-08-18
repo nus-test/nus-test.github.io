@@ -69,7 +69,7 @@ user_groups:
 - Undergraduate Students
 ---
 
-Qiuyang Mang is doing an internship at the lab for half a year.
+Qiuyang Mang is doing an internship at the lab for half a year. Prior to this, He was a research assistant supervised by [Prof. Pinjia He](https://pinjiahe.github.io/) at Intelligent Software Engineering Lab of CUHK-SZ.
 
-He is an undergraduate student supervised by [Prof. Pinjia He](https://pinjiahe.github.io/) at Intelligent Software Engineering Lab of CUHK-SZ.
+Find more information about [Qiuyang](https://joyemang33.github.io/).
 
