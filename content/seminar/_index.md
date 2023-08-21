@@ -26,7 +26,7 @@ header:
 | 13/3/2023 | Automated Testing for XPath Query Processors                                                                                                                 | Shuxin Li                         |
 | 20/3/2023 | Testing Graph Databases                                                                                                                                      | Yuancheng Jiang                   |
 | 27/3/2023 |                                                                                                                                                              |                                   |
-| 3/4/2023  | [Testing JDBC drivers](https://docs.google.com/presentation/d/1U7IE50-O4FpTOR_IBFaZtitFAdbZFstQgug1A4jiEVs/edit?usp=sharing)                                 | Anxing Zhang                      |
+| 3/4/2023  | Testing JDBC drivers                                 | Anxing Zhang                      |
 | 10/4/2023 | Measuring and Improving Fairness in NLP                                                                                                                      | Xudong Han (Melbourne University) |
 | 17/4/2023 | Part1: Reusing testsuites of Databases                                                                                                                       | Nishita                           |
 | 17/4/2023 | Deriving Test Case Generators using Domain-Specific Language to Test Database Engine (Interim Report)                                                        | Albert Zhang                      |
