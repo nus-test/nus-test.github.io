@@ -1,6 +1,6 @@
 ---
 title: Recent & Upcoming Seminars
-
+markup: mmark
 # View.
 #   1 = List
 #   2 = Compact
@@ -13,8 +13,10 @@ header:
   image: ""
 ---
 
-| 2023/08/14 | COM3-B1-15 - Meeting Rm 92 |                                                               | All                            |  |
-| ---------- | -------------------------- | ------------------------------------------------------------- | ------------------------------ |  |
-| 2023/08/21 | COM3-B1-15 - Meeting Rm 92 | Detecting Logic Bugs of Join Optimizations in DBMS            | Xiu Tang (Zhejiang University) |  |
-| 2023/08/28 | COM3-B1-15 - Meeting Rm 92 | Finding XPath Bugs in XML Processors via Differential Testing | Shuxin Li                         |  |
-| 2023/09/04 | COM3-B1-15 - Meeting Rm 92 | Race Detection in CUDA Kernels                                | Ivan                           |
+{.table}
+| Disk 0 | Disk 1 | Disk 2 | Disk 3 |
+|:------:|:------:|:------:|:-------:|
+|   A1   |   A2   |   A3   | Ap(1-3) |
+|   A4   |   A5   |   A6   | Ap(4-6) |
+|   B1   |   B2   |   B3   | Bp(1-3) |
+|   B4   |   B5   |   B6   | Bp(4-6) |
