@@ -13,10 +13,23 @@ header:
   image: ""
 ---
 
-{.table}
-| Disk 0 | Disk 1 | Disk 2 | Disk 3 |
-|:------:|:------:|:------:|:-------:|
-|   A1   |   A2   |   A3   | Ap(1-3) |
-|   A4   |   A5   |   A6   | Ap(4-6) |
-|   B1   |   B2   |   B3   | Bp(1-3) |
-|   B4   |   B5   |   B6   | Bp(4-6) |
+
+| Date      | Topic                                                                                                                                                        | Presenter                         |
+| :---------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------: |
+| 15/9/2022 | Efficient Fuzzing to Detect Memory Errors                                                                                                                    | Jinsheng Ba                       |
+| 29/9/2022 | Infrared: A Meta Bug Detector                                                                                                                                | Chi Zhang                         |
+| 6/2/2023  | Cardinality Estimation Testing                                                                                                                               | Jinsheng Ba                       |
+| 13/2/2023 | General SQL Grammar for Testing Case Generation                                                                                                              | Albert Zhang                      |
+| 20/2/2023 | Finding Optimization Bugs in Datalog Engines                                                                                                                 | Chi Zhang                         |
+| 27/2/2023 | [SamplingCA: Effective and Efficient Sampling-Based Pairwise Testing for Highly Configurable Software Systems](https://2022.esec-fse.org/profile/qiyuanzhao) | Qiyuan Zhao                       |
+| 6/3/2023  | Open-Domain Aspect-Opinion Co-Mining with Double-Layer Span Extraction                                                                                       | Suyang Zhong                      |
+| 13/3/2023 | Automated Testing for XPath Query Processors                                                                                                                 | Shuxin Li                         |
+| 20/3/2023 | Testing Graph Databases                                                                                                                                      | Yuancheng Jiang                   |
+| 27/3/2023 |                                                                                                                                                              |                                   |
+| 3/4/2023  | [Testing JDBC drivers](https://docs.google.com/presentation/d/1U7IE50-O4FpTOR_IBFaZtitFAdbZFstQgug1A4jiEVs/edit?usp=sharing)                                 | Anxing Zhang                      |
+| 10/4/2023 | Measuring and Improving Fairness in NLP                                                                                                                      | Xudong Han (Melbourne University) |
+| 17/4/2023 | Part1: Reusing testsuites of Databases                                                                                                                       | Nishita                           |
+| 17/4/2023 | Deriving Test Case Generators using Domain-Specific Language to Test Database Engine (Interim Report)                                                        | Albert Zhang                      |
+| 21/8/2023 | Detecting Logic Bugs of Join Optimizations in DBMS                                                                                                           | Xiu Tang (Zhejiang University)    |
+| 28/8/2023 | Finding XPath Bugs in XML Processors via Differential Testing                                                                                                | Shuxin Li                         |
+| 4/9/2023  | Race Detection in CUDA Kernels                                                                                                                               | Ivan                              |
