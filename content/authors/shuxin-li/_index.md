@@ -10,7 +10,7 @@ title: Shuxin Li
 superuser: false
 
 # Role/position
-role: UG Intern
+role: Undergraduate Intern
 
 # Organizations/Affiliations
 organizations:
@@ -66,7 +66,9 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Undergraduate Students
+#- Undergraduate Students
+- Past Members
+
 ---
 
 Shuxin Li is an undergraduate student from Southern University of Science and Technology. She is doing internship at the lab for half a year.
