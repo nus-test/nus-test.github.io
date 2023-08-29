@@ -10,7 +10,7 @@ title: Qiuyang Mang
 superuser: false
 
 # Role/position
-role: UG Intern
+role: Undergraduate Intern
 
 # Organizations/Affiliations
 organizations:
