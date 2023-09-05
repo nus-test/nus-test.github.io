@@ -31,4 +31,6 @@ header:
 | 17/4/2023 | Deriving Test Case Generators using Domain-Specific Language to Test Database Engine (Interim Report)        | Albert Zhang                      |
 | 21/8/2023 | Detecting Logic Bugs of Join Optimizations in DBMS                                                           | Xiu Tang (Zhejiang University)    |
 | 28/8/2023 | Finding XPath Bugs in XML Processors via Differential Testing                                                | Shuxin Li                         |
-| 4/9/2023  | Race Detection in CUDA Kernels                                                                               | Ivan                              |
+| 4/9/2023  | Race Detection in CUDA Kernels                                                                               | Ivan Ho                           |
+| 11/9/2023 | Testing Database Systems Through the Lens of Constant Folding and Constant Propagation                       | Chi Zhang                         |
+| 18/9/2023 | Autonomous driving system defect localization                                                                | Xinyuan Ma                        |
