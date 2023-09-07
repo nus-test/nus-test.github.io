@@ -3,7 +3,7 @@
 title: Ivan Ho
 
 # Username (this should match the folder name)
-# authors:
+authors:
 - hhkit
 
 # Is this the primary user of the site?
