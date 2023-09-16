@@ -54,4 +54,4 @@ She is a master student supervised by [Prof. Geguang Pu](https://scholar.google.
 
 She received B.S. degree from the [School of Psychology and Cognitive Science](https://psy.ecnu.edu.cn/) at [East China Normal University](https://english.ecnu.edu.cn/) in 2021.
 
-Find more information about [Wenjing](https://dengwenjing.net/).
+Find more information about [Wenjing](https://cuteDen-ECNU.github.io).
