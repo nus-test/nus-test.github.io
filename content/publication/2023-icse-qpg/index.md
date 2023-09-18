@@ -30,7 +30,7 @@ abstract: Database systems are widely used to store and query data. Test oracles
 #links:
 #- name: Custom Link
 #  url: http://example.org
-url_pdf: https://jinshengba.me/assets/pdf/qpg_icse23.pdf
+url_pdf: https://bajinsheng.github.io/assets/pdf/qpg_icse23.pdf
 #url_code: '#'
 #url_dataset: '#'
 #url_poster: '#'
