@@ -35,3 +35,4 @@ header:
 | 11/9/2023 | Testing Database Systems Through the Lens of Constant Folding and Constant Propagation                       | Chi Zhang                         |
 | 18/9/2023 | Autonomous driving system defect localization                                                                | Xinyuan Ma                        |
 | 2/10/2023 | Automated Testing and Improvement of Named Entity Recognition Systems                                        | Qiuyang Mang                      |
+| 14/11/2023 | Runtime Compiler Optimizations for CPython Bytecode                                                         | Ken Jin & Jules Poon              |
