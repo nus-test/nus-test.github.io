@@ -35,4 +35,7 @@ header:
 | 11/9/2023 | Testing Database Systems Through the Lens of Constant Folding and Constant Propagation                       | Chi Zhang                         |
 | 18/9/2023 | Autonomous driving system defect localization                                                                | Xinyuan Ma                        |
 | 2/10/2023 | Automated Testing and Improvement of Named Entity Recognition Systems                                        | Qiuyang Mang                      |
+| 9/10/2023 | Finding Typing Compiler Bugs                                                                                 | Wenjing Deng                      |
+| 16/10/2023 | Sanitizers' Blind Spots: Invisible Undefined Behaviors                                                      | Shaohua Li                        |
+| 23/10/2023 | Detecting Logic Bugs in Time-Series Database Engines                                                        | Yuancheng Jiang                   |
 | 14/11/2023 | Runtime Compiler Optimizations for CPython Bytecode                                                         | Ken Jin & Jules Poon              |
