@@ -33,7 +33,7 @@
   <meta name="description" content="Database Management Systems (DBMSs) process a given query by creating an execution plan, which is subsequently executed, to compute the query&#39;s result. Deriving an efficient query plan is challenging, and both academia and industry have invested decades into researching query optimization. Despite this, DBMSs are prone to performance issues, where a DBMS produces an inefficient query plan that might lead to the slow execution of a query. Finding such issues is a longstanding problem and inherently difficult, because no ground truth information on an expected execution time exists. In this work, we propose Cardinality Estimation Restriction Testing (CERT), a novel technique that detects performance issues through the lens of cardinality estimation. Given a query on a database, CERT derives a more restrictive query (e.g., by replacing a LEFT JOIN with an INNER JOIN), whose estimated number of rows should not exceed the number of estimated rows for the original query. CERT tests cardinality estimators specifically, because they were shown to be the most important component for query optimization; thus, we expect that finding and fixing such issues might result in the highest performance gains. In addition, we found that some other kinds of query optimization issues are exposed by the unexpected cardinality estimation, which can also be detected by CERT. CERT is a black-box technique that does not require access to the source code; DBMSs expose query plans via the EXPLAIN statement. CERT eschews executing queries, which is costly and prone to performance fluctuations. We evaluated CERT on three widely used and mature DBMSs, MySQL, TiDB, and CockroachDB. CERT found 13 unique issues, of which 2 issues were fixed and 9 confirmed by the developers. We expect that this new angle on finding performance bugs will help DBMS developers in improving DMBSs&#39; performance." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://nus-test.github.io/publication/2023-arxiv-cert/" />
+  <link rel="alternate" hreflang="en-us" href="https://nus-test.github.io/publication/2024-icse-cert/" />
 
   
 
@@ -259,7 +259,7 @@
   <link rel="icon" type="image/png" href="/media/icon_huf39aebee443421be528cbdbb4c78ede7_7416_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_huf39aebee443421be528cbdbb4c78ede7_7416_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://nus-test.github.io/publication/2023-arxiv-cert/" />
+  <link rel="canonical" href="https://nus-test.github.io/publication/2024-icse-cert/" />
 
   
   
@@ -279,7 +279,7 @@
     <meta property="twitter:creator" content="@test_nus" />
   
   <meta property="og:site_name" content="Trustworthy Engineering of Software Technologies (TEST) Lab" />
-  <meta property="og:url" content="https://nus-test.github.io/publication/2023-arxiv-cert/" />
+  <meta property="og:url" content="https://nus-test.github.io/publication/2024-icse-cert/" />
   <meta property="og:title" content="Finding Performance Issues in Database Engines via Cardinality Estimation Testing | Trustworthy Engineering of Software Technologies (TEST) Lab" />
   <meta property="og:description" content="Database Management Systems (DBMSs) process a given query by creating an execution plan, which is subsequently executed, to compute the query&#39;s result. Deriving an efficient query plan is challenging, and both academia and industry have invested decades into researching query optimization. Despite this, DBMSs are prone to performance issues, where a DBMS produces an inefficient query plan that might lead to the slow execution of a query. Finding such issues is a longstanding problem and inherently difficult, because no ground truth information on an expected execution time exists. In this work, we propose Cardinality Estimation Restriction Testing (CERT), a novel technique that detects performance issues through the lens of cardinality estimation. Given a query on a database, CERT derives a more restrictive query (e.g., by replacing a LEFT JOIN with an INNER JOIN), whose estimated number of rows should not exceed the number of estimated rows for the original query. CERT tests cardinality estimators specifically, because they were shown to be the most important component for query optimization; thus, we expect that finding and fixing such issues might result in the highest performance gains. In addition, we found that some other kinds of query optimization issues are exposed by the unexpected cardinality estimation, which can also be detected by CERT. CERT is a black-box technique that does not require access to the source code; DBMSs expose query plans via the EXPLAIN statement. CERT eschews executing queries, which is costly and prone to performance fluctuations. We evaluated CERT on three widely used and mature DBMSs, MySQL, TiDB, and CockroachDB. CERT found 13 unique issues, of which 2 issues were fixed and 9 confirmed by the developers. We expect that this new angle on finding performance bugs will help DBMS developers in improving DMBSs&#39; performance." /><meta property="og:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" />
     <meta property="twitter:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-us" />
@@ -290,7 +290,7 @@
         content="2017-01-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2023-06-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-10-10T00:00:00&#43;00:00">
   
 
   
@@ -312,12 +312,12 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://nus-test.github.io/publication/2023-arxiv-cert/"
+    "@id": "https://nus-test.github.io/publication/2024-icse-cert/"
   },
   "headline": "Finding Performance Issues in Database Engines via Cardinality Estimation Testing",
   
   "datePublished": "2017-01-01T00:00:00Z",
-  "dateModified": "2023-06-01T00:00:00Z",
+  "dateModified": "2023-10-10T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -352,7 +352,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="cd325b11935032918c9379b0daa52b19" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="8098528199761e6a7158444ad84745b5" >
 
   
   
@@ -726,7 +726,7 @@
     
       
     
-    June 2023
+    October 2023
   </span>
   
 
@@ -775,7 +775,7 @@
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
-        data-filename="/publication/2023-arxiv-cert/cite.bib">
+        data-filename="/publication/2024-icse-cert/cite.bib">
   Cite
 </a>
 
@@ -839,7 +839,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <em>Arxiv</em></div>
+          <div class="col-12 col-md-9">In <em>Proceedings of the 46th International Conference on Software Engineering</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -869,7 +869,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://nus-test.github.io/publication/2023-arxiv-cert/&amp;text=Finding%20Performance%20Issues%20in%20Database%20Engines%20via%20Cardinality%20Estimation%20Testing" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://nus-test.github.io/publication/2024-icse-cert/&amp;text=Finding%20Performance%20Issues%20in%20Database%20Engines%20via%20Cardinality%20Estimation%20Testing" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -882,7 +882,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://nus-test.github.io/publication/2023-arxiv-cert/&amp;t=Finding%20Performance%20Issues%20in%20Database%20Engines%20via%20Cardinality%20Estimation%20Testing" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://nus-test.github.io/publication/2024-icse-cert/&amp;t=Finding%20Performance%20Issues%20in%20Database%20Engines%20via%20Cardinality%20Estimation%20Testing" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -895,7 +895,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Finding%20Performance%20Issues%20in%20Database%20Engines%20via%20Cardinality%20Estimation%20Testing&amp;body=https://nus-test.github.io/publication/2023-arxiv-cert/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Finding%20Performance%20Issues%20in%20Database%20Engines%20via%20Cardinality%20Estimation%20Testing&amp;body=https://nus-test.github.io/publication/2024-icse-cert/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -908,7 +908,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://nus-test.github.io/publication/2023-arxiv-cert/&amp;title=Finding%20Performance%20Issues%20in%20Database%20Engines%20via%20Cardinality%20Estimation%20Testing" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://nus-test.github.io/publication/2024-icse-cert/&amp;title=Finding%20Performance%20Issues%20in%20Database%20Engines%20via%20Cardinality%20Estimation%20Testing" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -921,7 +921,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Finding%20Performance%20Issues%20in%20Database%20Engines%20via%20Cardinality%20Estimation%20Testing%20https://nus-test.github.io/publication/2023-arxiv-cert/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Finding%20Performance%20Issues%20in%20Database%20Engines%20via%20Cardinality%20Estimation%20Testing%20https://nus-test.github.io/publication/2024-icse-cert/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -934,7 +934,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://nus-test.github.io/publication/2023-arxiv-cert/&amp;title=Finding%20Performance%20Issues%20in%20Database%20Engines%20via%20Cardinality%20Estimation%20Testing" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://nus-test.github.io/publication/2024-icse-cert/&amp;title=Finding%20Performance%20Issues%20in%20Database%20Engines%20via%20Cardinality%20Estimation%20Testing" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
