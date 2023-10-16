@@ -39,3 +39,7 @@ header:
 | 16/10/2023 | Sanitizers' Blind Spots: Invisible Undefined Behaviors                                                      | Shaohua Li                        |
 | 23/10/2023 | Detecting Logic Bugs in Time-Series Database Engines                                                        | Yuancheng Jiang                   |
 | 14/11/2023 | Runtime Compiler Optimizations for CPython Bytecode                                                         | Ken Jin & Jules Poon              |
+
+
+
+If you want to give a talk or attend the seminar, please reach out to [bajinsheng\@u.nus.edu](mailto:bajinsheng@u.nus.edu?subject=NUS TEST Seminar)
