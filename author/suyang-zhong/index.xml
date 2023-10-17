@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/author/suyang-zhong/</link>
       <atom:link href="https://nus-test.github.io/author/suyang-zhong/index.xml" rel="self" type="application/rss+xml" />
     <description>Suyang Zhong</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 06 Mar 2023 14:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/author/suyang-zhong/avatar_hu7da1807e20bab162b094819db0e0e81a_785988_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Suyang Zhong</title>
       <link>https://nus-test.github.io/author/suyang-zhong/</link>
     </image>
+    
+    <item>
+      <title>Open-Domain Aspect-Opinion Co-Mining with Double-Layer Span Extraction</title>
+      <link>https://nus-test.github.io/event/230306/</link>
+      <pubDate>Mon, 06 Mar 2023 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/230306/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

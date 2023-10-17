@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/author/anxing-zhang/</link>
       <atom:link href="https://nus-test.github.io/author/anxing-zhang/index.xml" rel="self" type="application/rss+xml" />
     <description>Anxing Zhang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 03 Apr 2023 14:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/author/anxing-zhang/avatar_hu1b5c315a36e8dd14aacb6d4420a0a038_267351_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Anxing Zhang</title>
       <link>https://nus-test.github.io/author/anxing-zhang/</link>
     </image>
+    
+    <item>
+      <title>Testing JDBC drivers</title>
+      <link>https://nus-test.github.io/event/230403/</link>
+      <pubDate>Mon, 03 Apr 2023 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/230403/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

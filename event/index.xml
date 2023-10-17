@@ -5,7 +5,7 @@
     <link>https://nus-test.github.io/event/</link>
       <atom:link href="https://nus-test.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Events</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 14 Nov 2023 14:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Recent &amp; Upcoming Events</title>
@@ -13,18 +13,187 @@
     </image>
     
     <item>
-      <title>Example Event</title>
-      <link>https://nus-test.github.io/event/example/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://nus-test.github.io/event/example/</guid>
-      <description>&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Further event details, including page elements such as image galleries, can be added to the body of this page.&lt;/p&gt;
-</description>
+      <title>Runtime Compiler Optimizations for CPython Bytecode</title>
+      <link>https://nus-test.github.io/event/231114/</link>
+      <pubDate>Tue, 14 Nov 2023 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/231114/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Detecting Logic Bugs in Time-Series Database Engines</title>
+      <link>https://nus-test.github.io/event/231023/</link>
+      <pubDate>Mon, 23 Oct 2023 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/231023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sanitizers&#39; Blind Spots: Invisible Undefined Behaviors</title>
+      <link>https://nus-test.github.io/event/231016/</link>
+      <pubDate>Mon, 16 Oct 2023 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/231016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finding Typing Compiler Bugs</title>
+      <link>https://nus-test.github.io/event/231009/</link>
+      <pubDate>Mon, 09 Oct 2023 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/231009/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated Testing and Improvement of Named Entity Recognition Systems</title>
+      <link>https://nus-test.github.io/event/231002/</link>
+      <pubDate>Mon, 02 Oct 2023 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/231002/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Autonomous driving system defect localization</title>
+      <link>https://nus-test.github.io/event/230918/</link>
+      <pubDate>Mon, 18 Sep 2023 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/230918/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testing Database Systems Through the Lens of Constant Folding and Constant Propagation</title>
+      <link>https://nus-test.github.io/event/230911/</link>
+      <pubDate>Mon, 11 Sep 2023 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/230911/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Race Detection in CUDA Kernels</title>
+      <link>https://nus-test.github.io/event/230904/</link>
+      <pubDate>Mon, 04 Sep 2023 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/230904/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finding XPath Bugs in XML Processors via Differential Testing</title>
+      <link>https://nus-test.github.io/event/230828/</link>
+      <pubDate>Mon, 28 Aug 2023 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/230828/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Detecting Logic Bugs of Join Optimizations in DBMS</title>
+      <link>https://nus-test.github.io/event/230821/</link>
+      <pubDate>Mon, 21 Aug 2023 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/230821/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deriving Test Case Generators using Domain-Specific Language to Test Database Engine (Interim Report)</title>
+      <link>https://nus-test.github.io/event/230417_2/</link>
+      <pubDate>Mon, 17 Apr 2023 15:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/230417_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Part1: Reusing testsuites of Databases</title>
+      <link>https://nus-test.github.io/event/230417/</link>
+      <pubDate>Mon, 17 Apr 2023 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/230417/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring and Improving Fairness in NLP</title>
+      <link>https://nus-test.github.io/event/230410/</link>
+      <pubDate>Mon, 10 Apr 2023 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/230410/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testing JDBC drivers</title>
+      <link>https://nus-test.github.io/event/230403/</link>
+      <pubDate>Mon, 03 Apr 2023 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/230403/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testing Graph Databases</title>
+      <link>https://nus-test.github.io/event/230320/</link>
+      <pubDate>Mon, 20 Mar 2023 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/230320/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated Testing for XPath Query Processors</title>
+      <link>https://nus-test.github.io/event/230313/</link>
+      <pubDate>Mon, 13 Mar 2023 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/230313/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open-Domain Aspect-Opinion Co-Mining with Double-Layer Span Extraction</title>
+      <link>https://nus-test.github.io/event/230306/</link>
+      <pubDate>Mon, 06 Mar 2023 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/230306/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SamplingCA: Effective and Efficient Sampling-Based Pairwise Testing for Highly Configurable Software Systems</title>
+      <link>https://nus-test.github.io/event/230227/</link>
+      <pubDate>Mon, 27 Feb 2023 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/230227/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finding Optimization Bugs in Datalog Engines</title>
+      <link>https://nus-test.github.io/event/230220/</link>
+      <pubDate>Mon, 20 Feb 2023 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/230220/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>General SQL Grammar for Testing Case Generation</title>
+      <link>https://nus-test.github.io/event/230213/</link>
+      <pubDate>Mon, 13 Feb 2023 13:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/230213/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cardinality Estimation Testing</title>
+      <link>https://nus-test.github.io/event/230206/</link>
+      <pubDate>Mon, 06 Feb 2023 13:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/230206/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Infrared: A Meta Bug Detector</title>
+      <link>https://nus-test.github.io/event/220929/</link>
+      <pubDate>Thu, 29 Sep 2022 13:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/220929/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Fuzzing to Detect Memory Errors</title>
+      <link>https://nus-test.github.io/event/220915/</link>
+      <pubDate>Thu, 15 Sep 2022 13:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/220915/</guid>
+      <description></description>
     </item>
     
   </channel>

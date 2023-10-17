@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Albert Zhang | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+    <link>https://nus-test.github.io/author/albert-zhang/</link>
+      <atom:link href="https://nus-test.github.io/author/albert-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Albert Zhang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 17 Apr 2023 15:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
+      <title>Albert Zhang</title>
+      <link>https://nus-test.github.io/author/albert-zhang/</link>
+    </image>
+    
+    <item>
+      <title>Deriving Test Case Generators using Domain-Specific Language to Test Database Engine (Interim Report)</title>
+      <link>https://nus-test.github.io/event/230417_2/</link>
+      <pubDate>Mon, 17 Apr 2023 15:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/230417_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>General SQL Grammar for Testing Case Generation</title>
+      <link>https://nus-test.github.io/event/230213/</link>
+      <pubDate>Mon, 13 Feb 2023 13:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/230213/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,12 +5,36 @@
     <link>https://nus-test.github.io/author/chi-zhang/</link>
       <atom:link href="https://nus-test.github.io/author/chi-zhang/index.xml" rel="self" type="application/rss+xml" />
     <description>Chi Zhang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 11 Sep 2023 14:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/author/chi-zhang/avatar_hu4c86a87aa2bc5b70150f4374c513f6f6_1032500_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Chi Zhang</title>
       <link>https://nus-test.github.io/author/chi-zhang/</link>
     </image>
+    
+    <item>
+      <title>Testing Database Systems Through the Lens of Constant Folding and Constant Propagation</title>
+      <link>https://nus-test.github.io/event/230911/</link>
+      <pubDate>Mon, 11 Sep 2023 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/230911/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finding Optimization Bugs in Datalog Engines</title>
+      <link>https://nus-test.github.io/event/230220/</link>
+      <pubDate>Mon, 20 Feb 2023 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/230220/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Infrared: A Meta Bug Detector</title>
+      <link>https://nus-test.github.io/event/220929/</link>
+      <pubDate>Thu, 29 Sep 2022 13:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/220929/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

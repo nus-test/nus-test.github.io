@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/author/nishita-dutta/</link>
       <atom:link href="https://nus-test.github.io/author/nishita-dutta/index.xml" rel="self" type="application/rss+xml" />
     <description>Nishita Dutta</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 17 Apr 2023 14:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/author/nishita-dutta/avatar_hu8fd08dbb3e04f4ccd6355de5824e25ae_520592_270x270_fill_lanczos_center_3.png</url>
       <title>Nishita Dutta</title>
       <link>https://nus-test.github.io/author/nishita-dutta/</link>
     </image>
+    
+    <item>
+      <title>Part1: Reusing testsuites of Databases</title>
+      <link>https://nus-test.github.io/event/230417/</link>
+      <pubDate>Mon, 17 Apr 2023 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/230417/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
