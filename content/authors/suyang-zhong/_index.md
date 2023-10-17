@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Suyang Zhong is an incoming Ph.D. student.
+bio: Suyang Zhong is a Ph.D. student.
 
 # interests:
 # - Artificial Intelligence
@@ -69,6 +69,7 @@ user_groups:
 - PhD Students
 ---
 
-Suyang was an undergraduate in the [School of Computer Science and Technology](http://en.cs.ustc.edu.cn/) at [University of Science and Technology of China (USTC)](http://en.ustc.edu.cn/). He joined [NUS](https://nus.edu.sg/) as a Ph.D. student in Fall 2022.
+Suyang joined [NUS](https://nus.edu.sg/) as a Ph.D. student in Fall 2022.
+He was an undergraduate in the [School of Computer Science and Technology](http://en.cs.ustc.edu.cn/) at [University of Science and Technology of China (USTC)](http://en.ustc.edu.cn/). 
 
 Find more information about Suyang at [https://suyang.zone/](https://suyang.zone/).
