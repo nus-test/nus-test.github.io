@@ -36,10 +36,10 @@ header:
 | 18/9/2023 | Autonomous driving system defect localization                                                                | Xinyuan Ma                        |
 | 2/10/2023 | Automated Testing and Improvement of Named Entity Recognition Systems                                        | Qiuyang Mang                      |
 | 9/10/2023 | Finding Typing Compiler Bugs                                                                                 | Wenjing Deng                      |
-| 16/10/2023 | Sanitizers' Blind Spots: Invisible Undefined Behaviors                                                      | Shaohua Li                        |
+| 16/10/2023 | Sanitizers' Blind Spots: Invisible Undefined Behaviors                                                      | Shaohua Li (ETH Zurich)           |
 | 23/10/2023 | Detecting Logic Bugs in Time-Series Database Engines                                                        | Yuancheng Jiang                   |
 | 14/11/2023 | Runtime Compiler Optimizations for CPython Bytecode                                                         | Ken Jin & Jules Poon              |
 
 
 
-If you want to give a talk or attend the seminar, please reach out to [bajinsheng\@u.nus.edu](mailto:bajinsheng@u.nus.edu?subject=NUS TEST Seminar)
+If you want to give a talk or attend the seminar, please reach out to [Jinsheng Ba](mailto:bajinsheng@u.nus.edu?subject=NUS%20TEST%20Seminar)
