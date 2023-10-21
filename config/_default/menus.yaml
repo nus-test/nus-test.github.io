@@ -13,7 +13,7 @@ main:
   - name: Publications
     url: publication
     weight: 35
-  - name: Events
+  - name: Seminars
     url: event
     wegith: 36
   - name: Found Bugs
