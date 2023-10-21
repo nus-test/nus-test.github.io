@@ -1,5 +1,5 @@
 ---
-title: Recent & Upcoming Events
+title: Recent & Upcoming Seminars
 
 # View.
 #   1 = List
@@ -12,3 +12,5 @@ header:
   caption: ""
   image: ""
 ---
+
+`If you want to give a talk or attend the seminar, please reach out to` [Jinsheng Ba](mailto:bajinsheng@u.nus.edu?subject=NUS%20TEST%20Seminar)
