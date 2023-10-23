@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/tag/group-meeting/</link>
       <atom:link href="https://nus-test.github.io/tag/group-meeting/index.xml" rel="self" type="application/rss+xml" />
     <description>group meeting</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 29 Sep 2022 13:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 06 Nov 2023 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>group meeting</title>
       <link>https://nus-test.github.io/tag/group-meeting/</link>
     </image>
+    
+    <item>
+      <title>Improving Reliability of JDBC Drivers</title>
+      <link>https://nus-test.github.io/event/231106/</link>
+      <pubDate>Mon, 06 Nov 2023 13:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/231106/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Infrared: A Meta Bug Detector</title>
