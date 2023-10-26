@@ -44,7 +44,7 @@ bio: Jun Lyu is an Ph.D. student working on software builds.
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'lvjun_dnt@outlook.com'
+  link: 'mailto:lvjun_dnt@outlook.com'
 - icon: github
   icon_pack: fab
   link: https://github.com/Meiye-lj
