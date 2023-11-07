@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/author/jun-lyu/</link>
       <atom:link href="https://nus-test.github.io/author/jun-lyu/index.xml" rel="self" type="application/rss+xml" />
     <description>Jun Lyu</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 20 Nov 2023 14:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/author/jun-lyu/avatar_hu210d73371147bacbe10cac564978e530_217945_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Jun Lyu</title>
       <link>https://nus-test.github.io/author/jun-lyu/</link>
     </image>
+    
+    <item>
+      <title>Software Build Maintenance​---Errors and Efficiency</title>
+      <link>https://nus-test.github.io/event/231120/</link>
+      <pubDate>Mon, 20 Nov 2023 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/231120/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
