@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zhang Tongjun | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+    <link>https://nus-test.github.io/author/zhang-tongjun/</link>
+      <atom:link href="https://nus-test.github.io/author/zhang-tongjun/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zhang Tongjun</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 14 Nov 2023 14:45:00 +0000</lastBuildDate>
+    <image>
+      <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
+      <title>Zhang Tongjun</title>
+      <link>https://nus-test.github.io/author/zhang-tongjun/</link>
+    </image>
+    
+    <item>
+      <title>Deriving Test Case Generators using Domain-Specific Language to Test Database Engines</title>
+      <link>https://nus-test.github.io/event/231114_2/</link>
+      <pubDate>Tue, 14 Nov 2023 14:45:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/231114_2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
