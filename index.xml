@@ -5,7 +5,7 @@
     <link>https://nus-test.github.io/</link>
       <atom:link href="https://nus-test.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Trustworthy Engineering of Software Technologies (TEST) Lab</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 20 Nov 2023 14:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 27 Nov 2023 14:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Trustworthy Engineering of Software Technologies (TEST) Lab</title>
@@ -619,6 +619,14 @@ Found by: bajinsheng
 &lt;p&gt;If you are interested in a position, feel free to reach out to me and send me your CV. If you are considering a PhD position, you can also directly &lt;a href=&#34;https://www.comp.nus.edu.sg/programmes/pg/phdcs/application/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;apply here&lt;/a&gt; and mention my name in the application. The application deadlines are June 15 and December 15.&lt;/p&gt;
 &lt;p&gt;&amp;ndash; Manuel RIGGER (&lt;a href=&#34;mailto:rigger@comp.nus.edu.sg&#34;&gt;rigger@comp.nus.edu.sg&lt;/a&gt;)&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>GrayC: Greybox Fuzzing of Compilers and Analysers for C</title>
+      <link>https://nus-test.github.io/event/231127/</link>
+      <pubDate>Mon, 27 Nov 2023 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/231127/</guid>
+      <description></description>
     </item>
     
     <item>
