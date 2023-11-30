@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jie Liang | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+    <link>https://nus-test.github.io/author/jie-liang/</link>
+      <atom:link href="https://nus-test.github.io/author/jie-liang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jie Liang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 18 Dec 2023 14:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
+      <title>Jie Liang</title>
+      <link>https://nus-test.github.io/author/jie-liang/</link>
+    </image>
+    
+    <item>
+      <title>Mozi: Discovering DBMS Bugs via Configuration-Based Equivalent Transformation</title>
+      <link>https://nus-test.github.io/event/231218/</link>
+      <pubDate>Mon, 18 Dec 2023 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/231218/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
