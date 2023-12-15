@@ -66,7 +66,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Master Students
+- Past Members
 ---
 
 Anxing graduated from the [David R. Cheriton School of Computer Science](https://cs.uwaterloo.ca/) at [University of Waterloo](https://uwaterloo.ca/), previously employed at [CashApp](https://cash.app/). She joined [NUS](https://nus.edu.sg/) as a Master student in January 2022.
