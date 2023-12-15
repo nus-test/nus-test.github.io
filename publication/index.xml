@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/publication/</link>
       <atom:link href="https://nus-test.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 15 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Publications</title>
       <link>https://nus-test.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Finding XPath Bugs in XML Document Processors via Differential Testing</title>
+      <link>https://nus-test.github.io/publication/2024-icse-xml-testing/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2024-icse-xml-testing/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Finding Performance Issues in Database Engines via Cardinality Estimation Testing</title>
