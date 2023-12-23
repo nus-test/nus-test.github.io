@@ -6,8 +6,32 @@
   </url><url>
     <loc>https://nus-test.github.io/positions/</loc>
   </url><url>
+    <loc>https://nus-test.github.io/publication-type/1/</loc>
+    <lastmod>2023-12-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://nus-test.github.io/authors/</loc>
-    <lastmod>2023-12-18T14:00:00+00:00</lastmod>
+    <lastmod>2023-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/author/chi-zhang/</loc>
+    <lastmod>2023-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/publication/2024-oopsla-datalog-testing/</loc>
+    <lastmod>2023-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/author/linzhang-wang/</loc>
+    <lastmod>2023-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/author/manuel-rigger/</loc>
+    <lastmod>2023-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/publication_types/</loc>
+    <lastmod>2023-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/publication/</loc>
+    <lastmod>2023-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/</loc>
+    <lastmod>2023-12-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/author/jie-liang/</loc>
     <lastmod>2023-12-18T14:00:00+00:00</lastmod>
@@ -21,14 +45,8 @@
     <loc>https://nus-test.github.io/tags/</loc>
     <lastmod>2023-12-18T14:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nus-test.github.io/</loc>
-    <lastmod>2023-12-18T14:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://nus-test.github.io/tag/weekly-talk/</loc>
     <lastmod>2023-12-18T14:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/publication-type/1/</loc>
-    <lastmod>2023-12-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/publication/2024-icse-xml-testing/</loc>
     <lastmod>2023-12-15T00:00:00+00:00</lastmod>
@@ -36,16 +54,7 @@
     <loc>https://nus-test.github.io/post/</loc>
     <lastmod>2023-12-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nus-test.github.io/author/manuel-rigger/</loc>
-    <lastmod>2023-12-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://nus-test.github.io/post/15-12-23-icse24-xml-testing/</loc>
-    <lastmod>2023-12-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/publication_types/</loc>
-    <lastmod>2023-12-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/publication/</loc>
     <lastmod>2023-12-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/author/shuxin-li/</loc>
@@ -128,9 +137,6 @@
   </url><url>
     <loc>https://nus-test.github.io/author/xinyuan-ma/</loc>
     <lastmod>2023-09-18T14:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/author/chi-zhang/</loc>
-    <lastmod>2023-09-11T14:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/event/230911/</loc>
     <lastmod>2023-09-11T14:00:00+00:00</lastmod>

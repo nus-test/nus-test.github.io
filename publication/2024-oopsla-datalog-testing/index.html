@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="The TEST Lab at NUS works on Software Engineering, Systems, and Programming Languages." />
+  <meta name="description" content="" />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://nus-test.github.io/publication/" />
+  <link rel="alternate" hreflang="en-us" href="https://nus-test.github.io/publication/2024-oopsla-datalog-testing/" />
 
   
 
@@ -251,8 +251,6 @@
   
 
   
-    <link rel="alternate" href="/publication/index.xml" type="application/rss+xml" title="Trustworthy Engineering of Software Technologies (TEST) Lab" />
-  
 
   
     <link rel="manifest" href="/index.webmanifest" />
@@ -261,7 +259,7 @@
   <link rel="icon" type="image/png" href="/media/icon_huf39aebee443421be528cbdbb4c78ede7_7416_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_huf39aebee443421be528cbdbb4c78ede7_7416_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://nus-test.github.io/publication/" />
+  <link rel="canonical" href="https://nus-test.github.io/publication/2024-oopsla-datalog-testing/" />
 
   
   
@@ -281,33 +279,80 @@
     <meta property="twitter:creator" content="@test_nus" />
   
   <meta property="og:site_name" content="Trustworthy Engineering of Software Technologies (TEST) Lab" />
-  <meta property="og:url" content="https://nus-test.github.io/publication/" />
-  <meta property="og:title" content="Publications | Trustworthy Engineering of Software Technologies (TEST) Lab" />
-  <meta property="og:description" content="The TEST Lab at NUS works on Software Engineering, Systems, and Programming Languages." /><meta property="og:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" />
+  <meta property="og:url" content="https://nus-test.github.io/publication/2024-oopsla-datalog-testing/" />
+  <meta property="og:title" content="Finding Cross-rule Optimization Bugs in Datalog Engines | Trustworthy Engineering of Software Technologies (TEST) Lab" />
+  <meta property="og:description" content="" /><meta property="og:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" />
     <meta property="twitter:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2023-12-23T00:00:00&#43;00:00" />
+      <meta
+        property="article:published_time"
+        content="2023-12-15T00:00:00&#43;00:00"
+      />
     
+    <meta property="article:modified_time" content="2023-12-23T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://nus-test.github.io/publication/2024-oopsla-datalog-testing/"
+  },
+  "headline": "Finding Cross-rule Optimization Bugs in Datalog Engines",
+  
+  "datePublished": "2023-12-15T00:00:00Z",
+  "dateModified": "2023-12-23T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Chi Zhang"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Trustworthy Engineering of Software Technologies (TEST) Lab",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_192x192_fit_lanczos_3.png"
+    }
+  },
+  "description": ""
+}
+</script>
+
+  
+
+  
+
   
 
   
 
 
 
-  
-
-  
 
 
-
-
-
-  <title>Publications | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+  <title>Finding Cross-rule Optimization Bugs in Datalog Engines | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="3a079e7dad19be978a318345a7749d34" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="a587fb3ac9b9967e930f8574bd494b72" >
 
   
   
@@ -630,6 +675,17 @@
 
 
 
+<div class="pub">
+
+  
+
+
+
+
+
+
+
+
 
 
 
@@ -638,665 +694,427 @@
 
   
   
+  
+<div class="article-container pt-3">
+  <h1>Finding Cross-rule Optimization Bugs in Datalog Engines</h1>
+
+  
+
   
     
-  
-<div class="universal-wrapper pt-3">
-  <h1>Publications</h1>
-
-  
-
-  
-</div>
 
 
-
-<div class="universal-wrapper">
-  <div class="row">
-    <div class="col-lg-12">
-
-      
-
-      
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-        
-        
-      
-
-      <div class="form-row mb-4">
-        <div class="col-auto">
-          <input type="search" class="filter-search" placeholder="Search..." autocapitalize="off"
-          autocomplete="off" autocorrect="off" role="textbox" spellcheck="false">
-        </div>
-        <div class="col-auto">
-          <select class="pub-filters pubtype-select form-control form-control-sm" data-filter-group="pubtype">
-            <option value="*">Type</option>
-            
-            
-            <option value=".pubtype-1">
-              Conference paper
-            </option>
-            
-            <option value=".pubtype-3">
-              Preprint
-            </option>
-            
-          </select>
-        </div>
-        <div class="col-auto">
-          <select class="pub-filters form-control form-control-sm" data-filter-group="year">
-            <option value="*">Date</option>
-            
-            
-            
-            <option value=".year-2023">
-              2023
-            </option>
-            
-            <option value=".year-2022">
-              2022
-            </option>
-            
-            
-          </select>
-        </div>
-      </div>
-
-      <div id="container-publications">
-        
-
-        
-          
-        
-
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2023">
-          
-            
-
-<div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+<div class="article-metadata">
 
   
   
-
-  <span class="article-metadata li-cite-author">
+  
+  
+  <div>
     
 
   <span >
       <a href="/author/chi-zhang/">Chi Zhang</a></span>, <span >
       <a href="/author/linzhang-wang/">Linzhang Wang</a></span>, <span class="author-highlighted">
       <a href="/author/manuel-rigger/">Manuel Rigger</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    December 2023
   </span>
-  (2023).
-  <a href="/publication/2024-oopsla-datalog-testing/">Finding Cross-rule Optimization Bugs in Datalog Engines</a>.
-  In <em>OOPSLA 2024</em>.
   
-  <p>
-
-
-
-
-
-
-
 
   
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</p>
+  
 
   
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
   
 </div>
 
-          
+
+
+  <div class="article-container">
+
+    
+
+    
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+          </div>
         </div>
-
-        
-
-        
-          
-        
-
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2023">
-          
-            
-
-<div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  <span >
-      <a href="/author/shuxin-li/">Shuxin Li</a></span>, <span class="author-highlighted">
-      <a href="/author/manuel-rigger/">Manuel Rigger</a></span>
-  </span>
-  (2023).
-  <a href="/publication/2024-icse-xml-testing/">Finding XPath Bugs in XML Document Processors via Differential Testing</a>.
-  In <em>ICSE 2024</em>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</p>
-
-  
-  
-</div>
-
-          
-        </div>
-
-        
-
-        
-          
-        
-
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-3 year-2023">
-          
-            
-
-<div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  <span >
-      <a href="/author/jinsheng-ba/">Jinsheng Ba</a></span>, <span class="author-highlighted">
-      <a href="/author/manuel-rigger/">Manuel Rigger</a></span>
-  </span>
-  (2023).
-  <a href="/publication/2024-icse-cert/">Finding Performance Issues in Database Engines via Cardinality Estimation Testing</a>.
-  In <em>ICSE 2024</em>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2306.00355.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/2024-icse-cert/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/sqlancer/">
-    Project
-  </a>
-  
-
-
-
-
-
-
-
-
-
-
-</p>
-
-  
-  
-</div>
-
-          
-        </div>
-
-        
-
-        
-          
-        
-
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2023">
-          
-            
-
-<div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  <span >
-      <a href="/author/yuancheng-jiang/">Yuancheng Jiang</a></span>, <span >
-      <a href="/author/jiahao-liu/">Jiahao Liu</a></span>, <span >
-      <a href="/author/jinsheng-ba/">Jinsheng Ba</a></span>, <span >
-      <a href="/author/roland-h.c.-yap/">Roland H.C. Yap</a></span>, <span >
-      <a href="/author/zhenkai-liang/">Zhenkai Liang</a></span>, <span class="author-highlighted">
-      <a href="/author/manuel-rigger/">Manuel Rigger</a></span>
-  </span>
-  (2023).
-  <a href="/publication/2024-icse-gdbms-testing/">Detecting Logic Bugs in Graph Database Management Systems via Injective and Surjective Graph Pattern Transformation</a>.
-  In <em>ICSE 2024</em>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</p>
-
-  
-  
-</div>
-
-          
-        </div>
-
-        
-
-        
-          
-        
-
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2022">
-          
-            
-
-<div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  <span >
-      <a href="/author/matteo-kamm/">Matteo Kamm</a></span>, <span class="author-highlighted">
-      <a href="/author/manuel-rigger/">Manuel Rigger</a></span>, <span >
-      <a href="/author/chengyu-zhang/">Chengyu Zhang</a></span>, <span >
-      <a href="/author/zhendong-su/">Zhendong Su</a></span>
-  </span>
-  (2022).
-  <a href="/publication/2023-issta-gdbmeter/">Testing Graph Database Engines via Query Partitioning</a>.
-  In <em>ISSTA 2023</em>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/2023-issta-gdbmeter/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</p>
-
-  
-  
-</div>
-
-          
-        </div>
-
-        
-
-        
-          
-        
-
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2022">
-          
-            
-
-<div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  <span >
-      <a href="/author/jinsheng-ba/">Jinsheng Ba</a></span>, <span class="author-highlighted">
-      <a href="/author/manuel-rigger/">Manuel Rigger</a></span>
-  </span>
-  (2022).
-  <a href="/publication/2023-icse-qpg/">Testing Database Engines via Query Plan Guidance</a>.
-  In <em>ICSE 2023</em>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://bajinsheng.github.io/assets/pdf/qpg_icse23.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/2023-icse-qpg/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/sqlancer/">
-    Project
-  </a>
-  
-
-
-
-
-
-
-
-
-
-
-</p>
-
-  
-  
-</div>
-
-          
-        </div>
-
-        
-
-        
-          
-        
-
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2022">
-          
-            
-
-<div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  <span class="author-highlighted">
-      <a href="/author/manuel-rigger/">Manuel Rigger</a></span>, <span >
-      <a href="/author/zhendong-su/">Zhendong Su</a></span>
-  </span>
-  (2022).
-  <a href="/publication/2022-onward-intramorphic/">Intramorphic Testing: A New Approach to the Test Oracle Problem</a>.
-  In <em>Onward! 2022</em>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/2022-onward-intramorphic/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</p>
-
-  
-  
-</div>
-
-          
-        </div>
-
-        
-
-        
-          
-        
-
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2022">
-          
-            
-
-<div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  <span >
-      <a href="/author/philippe-voinov/">Philippe Voinov</a></span>, <span class="author-highlighted">
-      <a href="/author/manuel-rigger/">Manuel Rigger</a></span>, <span >
-      <a href="/author/zhendong-su/">Zhendong Su</a></span>
-  </span>
-  (2022).
-  <a href="/publication/2022-onward-forest/">Forest: Structural Code Editing with Multiple Cursors</a>.
-  In <em>Onward! 2022</em>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/2022-onward-forest/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</p>
-
-  
-  
-</div>
-
-          
-        </div>
-
-        
       </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In <em>Proc. ACM Program. Lang.</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://nus-test.github.io/publication/2024-oopsla-datalog-testing/&amp;text=Finding%20Cross-rule%20Optimization%20Bugs%20in%20Datalog%20Engines" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://nus-test.github.io/publication/2024-oopsla-datalog-testing/&amp;t=Finding%20Cross-rule%20Optimization%20Bugs%20in%20Datalog%20Engines" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Finding%20Cross-rule%20Optimization%20Bugs%20in%20Datalog%20Engines&amp;body=https://nus-test.github.io/publication/2024-oopsla-datalog-testing/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://nus-test.github.io/publication/2024-oopsla-datalog-testing/&amp;title=Finding%20Cross-rule%20Optimization%20Bugs%20in%20Datalog%20Engines" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Finding%20Cross-rule%20Optimization%20Bugs%20in%20Datalog%20Engines%20https://nus-test.github.io/publication/2024-oopsla-datalog-testing/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://nus-test.github.io/publication/2024-oopsla-datalog-testing/&amp;title=Finding%20Cross-rule%20Optimization%20Bugs%20in%20Datalog%20Engines" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/chi-zhang/"><img class="avatar mr-3 avatar-circle" src="/author/chi-zhang/avatar_hu4c86a87aa2bc5b70150f4374c513f6f6_1032500_270x270_fill_q75_lanczos_center.jpg" alt="Chi Zhang"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/chi-zhang/">Chi Zhang</a></h5>
+      <h6 class="card-subtitle">Visiting Ph.D. Student</h6>
+      <p class="card-text">Chi is visiting the lab for one year.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/zhangchi_seg@smail.nju.edu.cn" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=dGv4EHAAAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/DerZc" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
 
     </div>
+  </div>
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/manuel-rigger/"><img class="avatar mr-3 avatar-circle" src="/author/manuel-rigger/avatar_hu80c0f478b5e05bba3f8a245bca9d50f5_225951_270x270_fill_q75_lanczos_center.jpg" alt="Manuel Rigger"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/manuel-rigger/">Manuel Rigger</a></h5>
+      <h6 class="card-subtitle">Faculty</h6>
+      <p class="card-text">Manuel is an Assistant Professor and leads the group.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:manuel.rigger@inf.ethz.ch" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/RiggerManuel" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=yRsLClYAAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/mrigger" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.youtube.com/channel/UCbgdRdZ0_-Blzdaudrj3Jrw" target="_blank" rel="noopener">
+        <i class="fab fa-youtube"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
   </div>
 </div>
   </div>
