@@ -18,7 +18,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://nus-test.github.io/bugs/</guid>
       <description>&lt;h2&gt;Datalog Engines (30 bugs)&lt;/h2&gt;
-&lt;h3&gt;cozo (5 bugs)&lt;/h3&gt;
+&lt;h3&gt;CozoDB (5 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;Unexpected error in query parser&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
@@ -49,7 +49,7 @@ Status: confirmed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/cozodb/cozo/issues/122&#34;&gt;https://github.com/cozodb/cozo/issues/122&lt;/a&gt; &lt;br /&gt;
 Found by: ChiZhang
 &lt;/details&gt;
-&lt;h3&gt;souffle (23 bugs)&lt;/h3&gt;
+&lt;h3&gt;Soufflé (23 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;Negative zero causes different results for interpreter mode and compiler mode&lt;/summary&gt;
 Status: confirmed&lt;br /&gt;
@@ -188,7 +188,7 @@ Status: confirmed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/souffle-lang/souffle/issues/2426&#34;&gt;https://github.com/souffle-lang/souffle/issues/2426&lt;/a&gt; &lt;br /&gt;
 Found by: ChiZhang
 &lt;/details&gt;
-&lt;h3&gt;z3 (2 bugs)&lt;/h3&gt;
+&lt;h3&gt;μZ (2 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;Wrong result of z3 datalog&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
