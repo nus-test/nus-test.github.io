@@ -1,3 +1,187 @@
+<h2>Datalog Engines (30 bugs)</h2>
+<h3>cozo (5 bugs)</h3>
+<details>
+<summary>Unexpected error in query parser</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cozodb/cozo/issues/97">https://github.com/cozodb/cozo/issues/97</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>System panic on modulo by zero</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cozodb/cozo/issues/99">https://github.com/cozodb/cozo/issues/99</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>Inconsistent results of two equivalent programs</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cozodb/cozo/issues/101">https://github.com/cozodb/cozo/issues/101</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>unexpected error of function `trim_start`</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/cozodb/cozo/issues/113">https://github.com/cozodb/cozo/issues/113</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>Unexpected result of `ge` on `-0.0` and `0.0` under magic rewrite</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/cozodb/cozo/issues/122">https://github.com/cozodb/cozo/issues/122</a> <br />
+Found by: ChiZhang
+</details>
+<h3>souffle (23 bugs)</h3>
+<details>
+<summary>Negative zero causes different results for interpreter mode and compiler mode</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2311">https://github.com/souffle-lang/souffle/issues/2311</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>A problem about ungrounded variable</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2318">https://github.com/souffle-lang/souffle/issues/2318</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>Souffle crashed on aggregates</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2320">https://github.com/souffle-lang/souffle/issues/2320</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>Assertion failure "relation not found" on provenance</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2321">https://github.com/souffle-lang/souffle/issues/2321</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>A problem about subsumption</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2322">https://github.com/souffle-lang/souffle/issues/2322</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>A problem that the result of subsumption is correct, but the final result is wrong</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2323">https://github.com/souffle-lang/souffle/issues/2323</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>The subsumption causes the execution of program been killed</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2324">https://github.com/souffle-lang/souffle/issues/2324</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>"inline" causes assertion failure "functor type not set"</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2326">https://github.com/souffle-lang/souffle/issues/2326</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>Wrong result caused by "eqrel"</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2327">https://github.com/souffle-lang/souffle/issues/2327</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>Wrong result with `inline` and `no_magic`</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2337">https://github.com/souffle-lang/souffle/issues/2337</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>`inline` cause `Ungrounded variable` not assertion failure</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2338">https://github.com/souffle-lang/souffle/issues/2338</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>`inline` cause `Floating-point arithmetic exception` without divide-by-zero</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2339">https://github.com/souffle-lang/souffle/issues/2339</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>`inline` and `magic` used together cause `Segmentation violation`</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2340">https://github.com/souffle-lang/souffle/issues/2340</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>different result under interpreter and compiler mode</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2343">https://github.com/souffle-lang/souffle/issues/2343</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>Assertion failure on auto-tuning</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2346">https://github.com/souffle-lang/souffle/issues/2346</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>Insufficient grammar check for query plan</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2351">https://github.com/souffle-lang/souffle/issues/2351</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>`inline` causes assertion failure `numeric constant type not set`</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2355">https://github.com/souffle-lang/souffle/issues/2355</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>`inline` in recursive query trigger an error with query plan</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2369">https://github.com/souffle-lang/souffle/issues/2369</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>`magic` causes different result</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2375">https://github.com/souffle-lang/souffle/issues/2375</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>Insufficient checking on unground variable</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2379">https://github.com/souffle-lang/souffle/issues/2379</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>A problem about subsumption.</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2382">https://github.com/souffle-lang/souffle/issues/2382</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>`eqrel` doesn't work well with provenance</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2385">https://github.com/souffle-lang/souffle/issues/2385</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>Assertion failure on `Auto-Scheduling`</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2426">https://github.com/souffle-lang/souffle/issues/2426</a> <br />
+Found by: ChiZhang
+</details>
+<h3>z3 (2 bugs)</h3>
+<details>
+<summary>Wrong result of z3 datalog</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/Z3Prover/z3/issues/6446">https://github.com/Z3Prover/z3/issues/6446</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>Wrong result of z3 datalog with predict</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/Z3Prover/z3/issues/6447">https://github.com/Z3Prover/z3/issues/6447</a> <br />
+Found by: ChiZhang
+</details>
 <h2>Database Management Systems (94 bugs)</h2>
 <h3>CockroachDB (25 bugs)</h3>
 <details>

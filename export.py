@@ -12,7 +12,8 @@ df = pd.DataFrame(data)
 df.to_sql('bugs', conn)
 
 domain_map = {
-'dbms' : 'Database Management Systems'
+'dbms' : 'Database Management Systems',
+'datalog' : 'Datalog Engines'
 }
 
 
