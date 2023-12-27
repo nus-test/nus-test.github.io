@@ -1,3 +1,23 @@
+# NUS Test Lab
+
+## Bugs
+
+Add any bugs that you have found as part of your research to be displayed at https://nus-test.github.io/bugs/.
+
+They are stored in the `data/bugs.json` subdirectory. After adding the data (and installing the dependencies, see below), execute `make`:
+
+```
+pip3 install PyGithub beautifulsoup4
+make
+```
+
+If you receive a "rate limit" error, you might need to use an [authenticated request](https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api)  using a [GitHub token](https://github.com/settings/tokens):
+
+```
+export GITHUB_LAB_TOKEN='enter your token here'
+```
+
+
 # Wowchemy's Research Group Template for [Hugo](https://github.com/gohugoio/hugo)
 
 The **Research Group Template** empowers your research group to easily create a beautiful website with a stunning homepage, news, academic publications, events, team profiles, and a contact form.

@@ -13,14 +13,15 @@ df.to_sql('bugs', conn)
 
 domain_map = {
 'dbms' : 'Database Management Systems',
-'datalog' : 'Datalog Engines'
+'datalog' : 'Datalog Engines',
+'xml' : 'XML Processors'
 }
 
 
 common_where_clause = "(resolution IN ('confirmed', 'fixed', 'open') OR resolution IS NULL)"
-for domain, count in c.execute('SELECT domain, COUNT(*) FROM bugs WHERE ' + common_where_clause + ' GROUP BY domain;').fetchall():
+for domain, count in c.execute('SELECT domain, COUNT(*) FROM bugs WHERE ' + common_where_clause + ' GROUP BY domain ORDER BY COUNT(*) DESC;').fetchall():
     print('<h2>%s (%d bugs)</h2>' % (domain_map[domain], count))
-    for system, count in c.execute(("SELECT system, COUNT(*) FROM bugs WHERE domain = '%s' AND " + common_where_clause + " GROUP BY system") % (domain,)).fetchall():
+    for system, count in c.execute(("SELECT system, COUNT(*) FROM bugs WHERE domain = '%s' AND " + common_where_clause + " GROUP BY system ORDER BY COUNT(*) DESC") % (domain,)).fetchall():
         print('<h3>%s (%d bugs)</h3>' % (system, count))
         for title, url, found_by, resolution in c.execute(("SELECT title, url, reported_by, resolution FROM bugs WHERE domain='%s' AND system='%s' AND " + common_where_clause + ";") % (domain, system)).fetchall():
             print('<details>')

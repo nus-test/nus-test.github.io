@@ -1202,7 +1202,7 @@
     },
     {
         "url": "https://github.com/BaseXdb/basex/issues/2188",
-        "domain": "XPath",
+        "domain": "xml",
         "reported_by": "ShuxinLi",
         "system": "BaseX",
         "title": "Error in arithemetic calculation result comparison",
@@ -1213,7 +1213,7 @@
     },
     {
         "url": "https://github.com/BaseXdb/basex/issues/2189",
-        "domain": "XPath",
+        "domain": "xml",
         "reported_by": "ShuxinLi",
         "system": "BaseX",
         "title": "Unexpected exception of division by zero",
@@ -1224,7 +1224,7 @@
     },
     {
         "url": "https://github.com/BaseXdb/basex/issues/2190",
-        "domain": "XPath",
+        "domain": "xml",
         "reported_by": "ShuxinLi",
         "system": "BaseX",
         "title": "Bug of operation on non-existing attribute",
@@ -1235,7 +1235,7 @@
     },
     {
         "url": "https://github.com/BaseXdb/basex/issues/2191",
-        "domain": "XPath",
+        "domain": "xml",
         "reported_by": "ShuxinLi",
         "system": "BaseX",
         "title": "Bug on node selection with last()",
@@ -1246,7 +1246,7 @@
     },
     {
         "url": "https://github.com/BaseXdb/basex/issues/2193",
-        "domain": "XPath",
+        "domain": "xml",
         "reported_by": "ShuxinLi",
         "system": "BaseX",
         "title": "Bug on child node selection with count()",
@@ -1257,7 +1257,7 @@
     },
     {
         "url": "https://github.com/BaseXdb/basex/issues/2194",
-        "domain": "XPath",
+        "domain": "xml",
         "reported_by": "ShuxinLi",
         "system": "BaseX",
         "title": "Bug on node selection with self axis",
@@ -1268,7 +1268,7 @@
     },
     {
         "url": "https://github.com/BaseXdb/basex/issues/2213",
-        "domain": "XPath",
+        "domain": "xml",
         "reported_by": "ShuxinLi",
         "system": "BaseX",
         "title": "Internal crash on has-children() result comparison",
@@ -1279,7 +1279,7 @@
     },
     {
         "url": "https://github.com/BaseXdb/basex/issues/2214",
-        "domain": "XPath",
+        "domain": "xml",
         "reported_by": "ShuxinLi",
         "system": "BaseX",
         "title": "Incorrect result for count after subsequence",
@@ -1290,7 +1290,7 @@
     },
     {
         "url": "https://github.com/BaseXdb/basex/issues/2215",
-        "domain": "XPath",
+        "domain": "xml",
         "reported_by": "ShuxinLi",
         "system": "BaseX",
         "title": "Unexpected exception of mapping double attributes",
@@ -1301,7 +1301,7 @@
     },
     {
         "url": "https://github.com/BaseXdb/basex/issues/2216",
-        "domain": "XPath",
+        "domain": "xml",
         "reported_by": "ShuxinLi",
         "system": "BaseX",
         "title": "Bug on map operation of empty sequence",
@@ -1312,7 +1312,7 @@
     },
     {
         "url": "https://github.com/BaseXdb/basex/issues/2217",
-        "domain": "XPath",
+        "domain": "xml",
         "reported_by": "ShuxinLi",
         "system": "BaseX",
         "title": "Bug on consecutive map with distinct-values",
@@ -1323,7 +1323,7 @@
     },
     {
         "url": "https://github.com/BaseXdb/basex/issues/2219",
-        "domain": "XPath",
+        "domain": "xml",
         "reported_by": "ShuxinLi",
         "system": "BaseX",
         "title": "Bug on node selection with position()",
@@ -1334,7 +1334,7 @@
     },
     {
         "url": "https://github.com/BaseXdb/basex/issues/2220",
-        "domain": "XPath",
+        "domain": "xml",
         "reported_by": "ShuxinLi",
         "system": "BaseX",
         "title": "Bug on arithemetic operations with last() and position()",
@@ -1345,7 +1345,7 @@
     },
     {
         "url": "https://github.com/BaseXdb/basex/issues/2222",
-        "domain": "XPath",
+        "domain": "xml",
         "reported_by": "ShuxinLi",
         "system": "BaseX",
         "title": "Bug on contains-token() with token index",
@@ -1356,7 +1356,7 @@
     },
     {
         "url": "https://github.com/BaseXdb/basex/issues/2224",
-        "domain": "XPath",
+        "domain": "xml",
         "reported_by": "ShuxinLi",
         "system": "BaseX",
         "title": "Unexpected exception of arithemetic operations with positional expression",
@@ -1367,7 +1367,7 @@
     },
     {
         "url": "https://github.com/BaseXdb/basex/issues/2225",
-        "domain": "XPath",
+        "domain": "xml",
         "reported_by": "ShuxinLi",
         "system": "BaseX",
         "title": "Incorrect result count with multiple sequence operators",
@@ -1378,7 +1378,7 @@
     },
     {
         "url": "https://github.com/eXist-db/exist/issues/4968",
-        "domain": "XPath",
+        "domain": "xml",
         "reported_by": "ShuxinLi",
         "system": "eXist-db",
         "title": "XQuery query with index after predicate selection",
@@ -1388,7 +1388,7 @@
     },
     {
         "url": "https://github.com/eXist-db/exist/issues/4958",
-        "domain": "XPath",
+        "domain": "xml",
         "reported_by": "ShuxinLi",
         "system": "eXist-db",
         "title": "XQuery fails to select node with true predicate",
@@ -1398,7 +1398,7 @@
     },
     {
         "url": "https://github.com/eXist-db/exist/issues/4830",
-        "domain": "XPath",
+        "domain": "xml",
         "reported_by": "ShuxinLi",
         "system": "eXist-db",
         "title": "XQuery bug of node selection of tail() after subsequence()",
@@ -1409,7 +1409,7 @@
     },
     {
         "url": "https://github.com/eXist-db/exist/issues/4824",
-        "domain": "XPath",
+        "domain": "xml",
         "reported_by": "ShuxinLi",
         "system": "eXist-db",
         "title": "XQuery bug on selecting nodes with last()",
@@ -1419,7 +1419,7 @@
     },
     {
         "url": "https://github.com/eXist-db/exist/issues/4811",
-        "domain": "XPath",
+        "domain": "xml",
         "reported_by": "ShuxinLi",
         "system": "eXist-db",
         "title": "XQuery simple node selection return duplicate nodes",
@@ -1429,7 +1429,7 @@
     },
     {
         "url": "https://github.com/eXist-db/exist/issues/4810",
-        "domain": "XPath",
+        "domain": "xml",
         "reported_by": "ShuxinLi",
         "system": "eXist-db",
         "title": "XQuery return wrong results on start-with comparison",
@@ -1439,7 +1439,7 @@
     },
     {
         "url": "https://saxonica.plan.io/issues/6051",
-        "domain": "XPath",
+        "domain": "xml",
         "reported_by": "ShuxinLi",
         "system": "Saxonica",
         "title": "Bug on exist() with non-existing attribute",
@@ -1450,7 +1450,7 @@
     },
     {
         "url": "https://saxonica.plan.io/issues/6067",
-        "domain": "XPath",
+        "domain": "xml",
         "reported_by": "ShuxinLi",
         "system": "Saxonica",
         "title": "NullPointerException with upper-case function",
@@ -1461,7 +1461,7 @@
     },
     {
         "url": "https://saxonica.plan.io/issues/6093",
-        "domain": "XPath",
+        "domain": "xml",
         "reported_by": "ShuxinLi",
         "system": "Saxonica",
         "title": "Bug on predicate with last()",
@@ -1472,7 +1472,7 @@
     },
     {
         "url": "https://saxonica.plan.io/issues/6059",
-        "domain": "XPath",
+        "domain": "xml",
         "reported_by": "ShuxinLi",
         "system": "Saxonica",
         "title": "Bug on '-' castable to xs:duration",
