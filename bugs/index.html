@@ -30,9 +30,8 @@
   
     
   
-  <meta name="description" content="Datalog Engines (30 bugs) CozoDB (5 bugs) Unexpected error in query parser Status: fixed
-Link: https://github.com/cozodb/cozo/issues/97 Found by: ChiZhang System panic on modulo by zero Status: fixed
-Link: https://github.com/cozodb/cozo/issues/99 Found by: ChiZhang Inconsistent results of two equivalent programs Status: fixed" />
+  <meta name="description" content="Database Management Systems (94 bugs) TiDB (34 bugs) incorrect unresolved column when using natural join Status: confirmed
+Link: https://github.com/pingcap/tidb/issues/35522 Found by: bajinsheng unexpected unresolved column error when the view refers to dual table Status: fixed" />
 
   
   <link rel="alternate" hreflang="en-us" href="https://nus-test.github.io/bugs/" />
@@ -283,9 +282,8 @@ Link: https://github.com/cozodb/cozo/issues/99 Found by: ChiZhang Inconsistent r
   <meta property="og:site_name" content="Trustworthy Engineering of Software Technologies (TEST) Lab" />
   <meta property="og:url" content="https://nus-test.github.io/bugs/" />
   <meta property="og:title" content=" | Trustworthy Engineering of Software Technologies (TEST) Lab" />
-  <meta property="og:description" content="Datalog Engines (30 bugs) CozoDB (5 bugs) Unexpected error in query parser Status: fixed
-Link: https://github.com/cozodb/cozo/issues/97 Found by: ChiZhang System panic on modulo by zero Status: fixed
-Link: https://github.com/cozodb/cozo/issues/99 Found by: ChiZhang Inconsistent results of two equivalent programs Status: fixed" /><meta property="og:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" />
+  <meta property="og:description" content="Database Management Systems (94 bugs) TiDB (34 bugs) incorrect unresolved column when using natural join Status: confirmed
+Link: https://github.com/pingcap/tidb/issues/35522 Found by: bajinsheng unexpected unresolved column error when the view refers to dual table Status: fixed" /><meta property="og:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" />
     <meta property="twitter:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -690,555 +688,7 @@ Link: https://github.com/cozodb/cozo/issues/99 Found by: ChiZhang Inconsistent r
   <div class="article-container">
 
     <div class="article-style">
-      <h2>Datalog Engines (30 bugs)</h2>
-<h3>CozoDB (5 bugs)</h3>
-<details>
-<summary>Unexpected error in query parser</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/cozodb/cozo/issues/97">https://github.com/cozodb/cozo/issues/97</a> <br />
-Found by: ChiZhang
-</details>
-<details>
-<summary>System panic on modulo by zero</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/cozodb/cozo/issues/99">https://github.com/cozodb/cozo/issues/99</a> <br />
-Found by: ChiZhang
-</details>
-<details>
-<summary>Inconsistent results of two equivalent programs</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/cozodb/cozo/issues/101">https://github.com/cozodb/cozo/issues/101</a> <br />
-Found by: ChiZhang
-</details>
-<details>
-<summary>unexpected error of function `trim_start`</summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/cozodb/cozo/issues/113">https://github.com/cozodb/cozo/issues/113</a> <br />
-Found by: ChiZhang
-</details>
-<details>
-<summary>Unexpected result of `ge` on `-0.0` and `0.0` under magic rewrite</summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/cozodb/cozo/issues/122">https://github.com/cozodb/cozo/issues/122</a> <br />
-Found by: ChiZhang
-</details>
-<h3>Soufflé (23 bugs)</h3>
-<details>
-<summary>Negative zero causes different results for interpreter mode and compiler mode</summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/souffle-lang/souffle/issues/2311">https://github.com/souffle-lang/souffle/issues/2311</a> <br />
-Found by: ChiZhang
-</details>
-<details>
-<summary>A problem about ungrounded variable</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/souffle-lang/souffle/issues/2318">https://github.com/souffle-lang/souffle/issues/2318</a> <br />
-Found by: ChiZhang
-</details>
-<details>
-<summary>Souffle crashed on aggregates</summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/souffle-lang/souffle/issues/2320">https://github.com/souffle-lang/souffle/issues/2320</a> <br />
-Found by: ChiZhang
-</details>
-<details>
-<summary>Assertion failure "relation not found" on provenance</summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/souffle-lang/souffle/issues/2321">https://github.com/souffle-lang/souffle/issues/2321</a> <br />
-Found by: ChiZhang
-</details>
-<details>
-<summary>A problem about subsumption</summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/souffle-lang/souffle/issues/2322">https://github.com/souffle-lang/souffle/issues/2322</a> <br />
-Found by: ChiZhang
-</details>
-<details>
-<summary>A problem that the result of subsumption is correct, but the final result is wrong</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/souffle-lang/souffle/issues/2323">https://github.com/souffle-lang/souffle/issues/2323</a> <br />
-Found by: ChiZhang
-</details>
-<details>
-<summary>The subsumption causes the execution of program been killed</summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/souffle-lang/souffle/issues/2324">https://github.com/souffle-lang/souffle/issues/2324</a> <br />
-Found by: ChiZhang
-</details>
-<details>
-<summary>"inline" causes assertion failure "functor type not set"</summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/souffle-lang/souffle/issues/2326">https://github.com/souffle-lang/souffle/issues/2326</a> <br />
-Found by: ChiZhang
-</details>
-<details>
-<summary>Wrong result caused by "eqrel"</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/souffle-lang/souffle/issues/2327">https://github.com/souffle-lang/souffle/issues/2327</a> <br />
-Found by: ChiZhang
-</details>
-<details>
-<summary>Wrong result with `inline` and `no_magic`</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/souffle-lang/souffle/issues/2337">https://github.com/souffle-lang/souffle/issues/2337</a> <br />
-Found by: ChiZhang
-</details>
-<details>
-<summary>`inline` cause `Ungrounded variable` not assertion failure</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/souffle-lang/souffle/issues/2338">https://github.com/souffle-lang/souffle/issues/2338</a> <br />
-Found by: ChiZhang
-</details>
-<details>
-<summary>`inline` cause `Floating-point arithmetic exception` without divide-by-zero</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/souffle-lang/souffle/issues/2339">https://github.com/souffle-lang/souffle/issues/2339</a> <br />
-Found by: ChiZhang
-</details>
-<details>
-<summary>`inline` and `magic` used together cause `Segmentation violation`</summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/souffle-lang/souffle/issues/2340">https://github.com/souffle-lang/souffle/issues/2340</a> <br />
-Found by: ChiZhang
-</details>
-<details>
-<summary>different result under interpreter and compiler mode</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/souffle-lang/souffle/issues/2343">https://github.com/souffle-lang/souffle/issues/2343</a> <br />
-Found by: ChiZhang
-</details>
-<details>
-<summary>Assertion failure on auto-tuning</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/souffle-lang/souffle/issues/2346">https://github.com/souffle-lang/souffle/issues/2346</a> <br />
-Found by: ChiZhang
-</details>
-<details>
-<summary>Insufficient grammar check for query plan</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/souffle-lang/souffle/issues/2351">https://github.com/souffle-lang/souffle/issues/2351</a> <br />
-Found by: ChiZhang
-</details>
-<details>
-<summary>`inline` causes assertion failure `numeric constant type not set`</summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/souffle-lang/souffle/issues/2355">https://github.com/souffle-lang/souffle/issues/2355</a> <br />
-Found by: ChiZhang
-</details>
-<details>
-<summary>`inline` in recursive query trigger an error with query plan</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/souffle-lang/souffle/issues/2369">https://github.com/souffle-lang/souffle/issues/2369</a> <br />
-Found by: ChiZhang
-</details>
-<details>
-<summary>`magic` causes different result</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/souffle-lang/souffle/issues/2375">https://github.com/souffle-lang/souffle/issues/2375</a> <br />
-Found by: ChiZhang
-</details>
-<details>
-<summary>Insufficient checking on unground variable</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/souffle-lang/souffle/issues/2379">https://github.com/souffle-lang/souffle/issues/2379</a> <br />
-Found by: ChiZhang
-</details>
-<details>
-<summary>A problem about subsumption.</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/souffle-lang/souffle/issues/2382">https://github.com/souffle-lang/souffle/issues/2382</a> <br />
-Found by: ChiZhang
-</details>
-<details>
-<summary>`eqrel` doesn't work well with provenance</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/souffle-lang/souffle/issues/2385">https://github.com/souffle-lang/souffle/issues/2385</a> <br />
-Found by: ChiZhang
-</details>
-<details>
-<summary>Assertion failure on `Auto-Scheduling`</summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/souffle-lang/souffle/issues/2426">https://github.com/souffle-lang/souffle/issues/2426</a> <br />
-Found by: ChiZhang
-</details>
-<h3>μZ (2 bugs)</h3>
-<details>
-<summary>Wrong result of z3 datalog</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/Z3Prover/z3/issues/6446">https://github.com/Z3Prover/z3/issues/6446</a> <br />
-Found by: ChiZhang
-</details>
-<details>
-<summary>Wrong result of z3 datalog with predict</summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/Z3Prover/z3/issues/6447">https://github.com/Z3Prover/z3/issues/6447</a> <br />
-Found by: ChiZhang
-</details>
-<h2>Database Management Systems (94 bugs)</h2>
-<h3>CockroachDB (25 bugs)</h3>
-<details>
-<summary>sql: support SCRUB on temp tables</summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/83770">https://github.com/cockroachdb/cockroach/issues/83770</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Internal Error: Comparison Overload not Found</summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/83792">https://github.com/cockroachdb/cockroach/issues/83792</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>ERROR: no builtin aggregate for SUM_INT on [unknown]</summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/83874">https://github.com/cockroachdb/cockroach/issues/83874</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Crashing by EXPLAIN Statement</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/83965">https://github.com/cockroachdb/cockroach/issues/83965</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Invalid Memory Address Error of Specific SQL Query</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/83973">https://github.com/cockroachdb/cockroach/issues/83973</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Error of Unique Index</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/83976">https://github.com/cockroachdb/cockroach/issues/83976</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Crash: panic: RecordingStructured has 30 recordings; expected 1</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/84056">https://github.com/cockroachdb/cockroach/issues/84056</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Overflow Error by Huge Interval Value</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/84154">https://github.com/cockroachdb/cockroach/issues/84154</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Inconsistent Case Return Types Decimal Int</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/85356">https://github.com/cockroachdb/cockroach/issues/85356</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>No Result Returned by SHOW COLUMN</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/85388">https://github.com/cockroachdb/cockroach/issues/85388</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>internal error: no volatility for cast decimal::timestamp</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/85389">https://github.com/cockroachdb/cockroach/issues/85389</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>opt: internal error: lookup for ComparisonExpr</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/85390">https://github.com/cockroachdb/cockroach/issues/85390</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>opt: internal error: no output column equivalent to 2</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/85393">https://github.com/cockroachdb/cockroach/issues/85393</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Error in SHOW COLUMNS</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/85394">https://github.com/cockroachdb/cockroach/issues/85394</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>opt: internal error: estimated row count must be non-zero </summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/85499">https://github.com/cockroachdb/cockroach/issues/85499</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by UNION</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/85502">https://github.com/cockroachdb/cockroach/issues/85502</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>An Unexpected Error in `CROSS MERGE JOIN`</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/88104">https://github.com/cockroachdb/cockroach/issues/88104</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>ERROR: internal error: expected *DInt, found tree.dNull</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/94264">https://github.com/cockroachdb/cockroach/issues/94264</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>An Unexpected Error in `CROSS MERGE JOIN`</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/88104">https://github.com/cockroachdb/cockroach/issues/88104</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Potential Issue for Estimated Rows</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/88455">https://github.com/cockroachdb/cockroach/issues/88455</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>An Issue of Estimated Rows</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/89161">https://github.com/cockroachdb/cockroach/issues/89161</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Estimated Rows in `HAVING` clause</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/89462">https://github.com/cockroachdb/cockroach/issues/89462</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Suspicious Estimated Rows by `OR` </summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/90112">https://github.com/cockroachdb/cockroach/issues/90112</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Suspicious Estimated Rows by `DISTINCT`</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/90113">https://github.com/cockroachdb/cockroach/issues/90113</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>ERROR: internal error: expected *DInt, found tree.dNull</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/94264">https://github.com/cockroachdb/cockroach/issues/94264</a> <br />
-Found by: bajinsheng
-</details>
-<h3>DuckDB (3 bugs)</h3>
-<details>
-<summary>BETWEEN with subquery and column results in unexpected error</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/3588">https://github.com/duckdb/duckdb/issues/3588</a> <br />
-Found by: kokrui
-</details>
-<details>
-<summary>Unexpected Error for RTRIM Function in Where Clause</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/3616">https://github.com/duckdb/duckdb/issues/3616</a> <br />
-Found by: kokrui
-</details>
-<details>
-<summary>Crash When Creating Index</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/4976">https://github.com/duckdb/duckdb/issues/4976</a> <br />
-Found by: bajinsheng
-</details>
-<h3>MySQL (4 bugs)</h3>
-<details>
-<summary>Suspicious Estimated Rows</summary>
-Status: unconfirmed<br />
-Link: <a href="https://bugs.mysql.com/bug.php?id=108833">https://bugs.mysql.com/bug.php?id=108833</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Suspicious Estimated Rows by JOIN</summary>
-Status: unconfirmed<br />
-Link: <a href="https://bugs.mysql.com/bug.php?id=108851">https://bugs.mysql.com/bug.php?id=108851</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Suspicious Estimated Rows by DISTINCTROW</summary>
-Status: unconfirmed<br />
-Link: <a href="https://bugs.mysql.com/bug.php?id=108852">https://bugs.mysql.com/bug.php?id=108852</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Error: Memory capacity exceeded</summary>
-Status: unconfirmed<br />
-Link: <a href="https://bugs.mysql.com/bug.php?id=111471">https://bugs.mysql.com/bug.php?id=111471</a> <br />
-Found by: bajinsheng
-</details>
-<h3>SQLite (28 bugs)</h3>
-<details>
-<summary>An Inconsistent Result Depending on Parenthesization</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/af3d07f908">https://sqlite.org/forum/forumpost/af3d07f908</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>An Unexpected NULL Column Caused by Where Clause in RIGHT JOIN</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/41cc3851d8">https://sqlite.org/forum/forumpost/41cc3851d8</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Rows are Unexpectedly Filtered Out by DISTINCT in RIGHT JOIN</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/c06b10ad7e">https://sqlite.org/forum/forumpost/c06b10ad7e</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Expression or Constant in GroupBy Clause</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/2458c5dea2">https://sqlite.org/forum/forumpost/2458c5dea2</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Ambiguous Reference Error for Right Join</summary>
-Status: confirmed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/e90a8e6e6f">https://sqlite.org/forum/forumpost/e90a8e6e6f</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by WHERE when Joining Tables</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/687b0bf563">https://sqlite.org/forum/forumpost/687b0bf563</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by WHERE/RIGHT JOIN</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/5cfe08eed6">https://sqlite.org/forum/forumpost/5cfe08eed6</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result in Joining Virtual Tables</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/3902c7b833">https://sqlite.org/forum/forumpost/3902c7b833</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by Joining</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/c2554d560b">https://sqlite.org/forum/forumpost/c2554d560b</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by RIGHT JOIN on RTree Tables</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/087de2d9ec">https://sqlite.org/forum/forumpost/087de2d9ec</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by WHERE Again</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/de16c4abe2">https://sqlite.org/forum/forumpost/de16c4abe2</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by RIGHT JOIN</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/206d99a16d">https://sqlite.org/forum/forumpost/206d99a16d</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Assertion Error in SQLite3MemCompare</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/800eecf5e6">https://sqlite.org/forum/forumpost/800eecf5e6</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by ORDER BY</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/323f86cc30">https://sqlite.org/forum/forumpost/323f86cc30</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by RIGHT JOIN with INDEX</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/c4676c4956">https://sqlite.org/forum/forumpost/c4676c4956</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by JSON</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/3d9caa45cb">https://sqlite.org/forum/forumpost/3d9caa45cb</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by Complicated JOINING</summary>
-Status: unconfirmed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/eeb8173cf8">https://sqlite.org/forum/forumpost/eeb8173cf8</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Assertion `pCur->eCurType==CURTYPE_VTAB' failed</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/dafe0500b0">https://sqlite.org/forum/forumpost/dafe0500b0</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by RIGHT JOIN Again</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/51e6959f61">https://sqlite.org/forum/forumpost/51e6959f61</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by Complicated JOINING Again</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/b40696f501">https://sqlite.org/forum/forumpost/b40696f501</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Assertion Error in valueFromFunction</summary>
-Status: unconfirmed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/e3243e07e8">https://sqlite.org/forum/forumpost/e3243e07e8</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by FULL OUTER JOIN</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/5610c17c3d">https://sqlite.org/forum/forumpost/5610c17c3d</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Expression on ON clause</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/57bdf2217d">https://sqlite.org/forum/forumpost/57bdf2217d</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Expression Result by FULL OUTER JOIN</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/6650cd40b5">https://sqlite.org/forum/forumpost/6650cd40b5</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Parse Error</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/1a7fea4651">https://sqlite.org/forum/forumpost/1a7fea4651</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Assertion Error in whereRangeScanEst</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/c3496cf6b1">https://sqlite.org/forum/forumpost/c3496cf6b1</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by Union</summary>
-Status: unconfirmed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/174afeae57">https://sqlite.org/forum/forumpost/174afeae57</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Assertion `pRec->nField>0 && pRec->nField&lt;=pIdx->nSampleCol' failed.</summary>
-Status: unconfirmed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/3607259d3c">https://sqlite.org/forum/forumpost/3607259d3c</a> <br />
-Found by: bajinsheng
-</details>
+      <h2>Database Management Systems (94 bugs)</h2>
 <h3>TiDB (34 bugs)</h3>
 <details>
 <summary>incorrect unresolved column when using natural join</summary>
@@ -1443,6 +893,714 @@ Found by: bajinsheng
 Status: unconfirmed<br />
 Link: <a href="https://github.com/pingcap/tidb/issues/44747">https://github.com/pingcap/tidb/issues/44747</a> <br />
 Found by: bajinsheng
+</details>
+<h3>SQLite (28 bugs)</h3>
+<details>
+<summary>An Inconsistent Result Depending on Parenthesization</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/af3d07f908">https://sqlite.org/forum/forumpost/af3d07f908</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>An Unexpected NULL Column Caused by Where Clause in RIGHT JOIN</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/41cc3851d8">https://sqlite.org/forum/forumpost/41cc3851d8</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Rows are Unexpectedly Filtered Out by DISTINCT in RIGHT JOIN</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/c06b10ad7e">https://sqlite.org/forum/forumpost/c06b10ad7e</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Expression or Constant in GroupBy Clause</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/2458c5dea2">https://sqlite.org/forum/forumpost/2458c5dea2</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Ambiguous Reference Error for Right Join</summary>
+Status: confirmed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/e90a8e6e6f">https://sqlite.org/forum/forumpost/e90a8e6e6f</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by WHERE when Joining Tables</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/687b0bf563">https://sqlite.org/forum/forumpost/687b0bf563</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by WHERE/RIGHT JOIN</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/5cfe08eed6">https://sqlite.org/forum/forumpost/5cfe08eed6</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result in Joining Virtual Tables</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/3902c7b833">https://sqlite.org/forum/forumpost/3902c7b833</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by Joining</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/c2554d560b">https://sqlite.org/forum/forumpost/c2554d560b</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by RIGHT JOIN on RTree Tables</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/087de2d9ec">https://sqlite.org/forum/forumpost/087de2d9ec</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by WHERE Again</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/de16c4abe2">https://sqlite.org/forum/forumpost/de16c4abe2</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by RIGHT JOIN</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/206d99a16d">https://sqlite.org/forum/forumpost/206d99a16d</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Assertion Error in SQLite3MemCompare</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/800eecf5e6">https://sqlite.org/forum/forumpost/800eecf5e6</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by ORDER BY</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/323f86cc30">https://sqlite.org/forum/forumpost/323f86cc30</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by RIGHT JOIN with INDEX</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/c4676c4956">https://sqlite.org/forum/forumpost/c4676c4956</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by JSON</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/3d9caa45cb">https://sqlite.org/forum/forumpost/3d9caa45cb</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by Complicated JOINING</summary>
+Status: unconfirmed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/eeb8173cf8">https://sqlite.org/forum/forumpost/eeb8173cf8</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Assertion `pCur->eCurType==CURTYPE_VTAB' failed</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/dafe0500b0">https://sqlite.org/forum/forumpost/dafe0500b0</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by RIGHT JOIN Again</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/51e6959f61">https://sqlite.org/forum/forumpost/51e6959f61</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by Complicated JOINING Again</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/b40696f501">https://sqlite.org/forum/forumpost/b40696f501</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Assertion Error in valueFromFunction</summary>
+Status: unconfirmed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/e3243e07e8">https://sqlite.org/forum/forumpost/e3243e07e8</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by FULL OUTER JOIN</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/5610c17c3d">https://sqlite.org/forum/forumpost/5610c17c3d</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Expression on ON clause</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/57bdf2217d">https://sqlite.org/forum/forumpost/57bdf2217d</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Expression Result by FULL OUTER JOIN</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/6650cd40b5">https://sqlite.org/forum/forumpost/6650cd40b5</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Parse Error</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/1a7fea4651">https://sqlite.org/forum/forumpost/1a7fea4651</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Assertion Error in whereRangeScanEst</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/c3496cf6b1">https://sqlite.org/forum/forumpost/c3496cf6b1</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by Union</summary>
+Status: unconfirmed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/174afeae57">https://sqlite.org/forum/forumpost/174afeae57</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Assertion `pRec->nField>0 && pRec->nField&lt;=pIdx->nSampleCol' failed.</summary>
+Status: unconfirmed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/3607259d3c">https://sqlite.org/forum/forumpost/3607259d3c</a> <br />
+Found by: bajinsheng
+</details>
+<h3>CockroachDB (25 bugs)</h3>
+<details>
+<summary>sql: support SCRUB on temp tables</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/83770">https://github.com/cockroachdb/cockroach/issues/83770</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Internal Error: Comparison Overload not Found</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/83792">https://github.com/cockroachdb/cockroach/issues/83792</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>ERROR: no builtin aggregate for SUM_INT on [unknown]</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/83874">https://github.com/cockroachdb/cockroach/issues/83874</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Crashing by EXPLAIN Statement</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/83965">https://github.com/cockroachdb/cockroach/issues/83965</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Invalid Memory Address Error of Specific SQL Query</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/83973">https://github.com/cockroachdb/cockroach/issues/83973</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Error of Unique Index</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/83976">https://github.com/cockroachdb/cockroach/issues/83976</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Crash: panic: RecordingStructured has 30 recordings; expected 1</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/84056">https://github.com/cockroachdb/cockroach/issues/84056</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Overflow Error by Huge Interval Value</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/84154">https://github.com/cockroachdb/cockroach/issues/84154</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Inconsistent Case Return Types Decimal Int</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/85356">https://github.com/cockroachdb/cockroach/issues/85356</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>No Result Returned by SHOW COLUMN</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/85388">https://github.com/cockroachdb/cockroach/issues/85388</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>internal error: no volatility for cast decimal::timestamp</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/85389">https://github.com/cockroachdb/cockroach/issues/85389</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>opt: internal error: lookup for ComparisonExpr</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/85390">https://github.com/cockroachdb/cockroach/issues/85390</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>opt: internal error: no output column equivalent to 2</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/85393">https://github.com/cockroachdb/cockroach/issues/85393</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Error in SHOW COLUMNS</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/85394">https://github.com/cockroachdb/cockroach/issues/85394</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>opt: internal error: estimated row count must be non-zero </summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/85499">https://github.com/cockroachdb/cockroach/issues/85499</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by UNION</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/85502">https://github.com/cockroachdb/cockroach/issues/85502</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>An Unexpected Error in `CROSS MERGE JOIN`</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/88104">https://github.com/cockroachdb/cockroach/issues/88104</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>ERROR: internal error: expected *DInt, found tree.dNull</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/94264">https://github.com/cockroachdb/cockroach/issues/94264</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>An Unexpected Error in `CROSS MERGE JOIN`</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/88104">https://github.com/cockroachdb/cockroach/issues/88104</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Potential Issue for Estimated Rows</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/88455">https://github.com/cockroachdb/cockroach/issues/88455</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>An Issue of Estimated Rows</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/89161">https://github.com/cockroachdb/cockroach/issues/89161</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Estimated Rows in `HAVING` clause</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/89462">https://github.com/cockroachdb/cockroach/issues/89462</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Suspicious Estimated Rows by `OR` </summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/90112">https://github.com/cockroachdb/cockroach/issues/90112</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Suspicious Estimated Rows by `DISTINCT`</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/90113">https://github.com/cockroachdb/cockroach/issues/90113</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>ERROR: internal error: expected *DInt, found tree.dNull</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/94264">https://github.com/cockroachdb/cockroach/issues/94264</a> <br />
+Found by: bajinsheng
+</details>
+<h3>MySQL (4 bugs)</h3>
+<details>
+<summary>Suspicious Estimated Rows</summary>
+Status: unconfirmed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=108833">https://bugs.mysql.com/bug.php?id=108833</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Suspicious Estimated Rows by JOIN</summary>
+Status: unconfirmed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=108851">https://bugs.mysql.com/bug.php?id=108851</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Suspicious Estimated Rows by DISTINCTROW</summary>
+Status: unconfirmed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=108852">https://bugs.mysql.com/bug.php?id=108852</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Error: Memory capacity exceeded</summary>
+Status: unconfirmed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=111471">https://bugs.mysql.com/bug.php?id=111471</a> <br />
+Found by: bajinsheng
+</details>
+<h3>DuckDB (3 bugs)</h3>
+<details>
+<summary>BETWEEN with subquery and column results in unexpected error</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/3588">https://github.com/duckdb/duckdb/issues/3588</a> <br />
+Found by: kokrui
+</details>
+<details>
+<summary>Unexpected Error for RTRIM Function in Where Clause</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/3616">https://github.com/duckdb/duckdb/issues/3616</a> <br />
+Found by: kokrui
+</details>
+<details>
+<summary>Crash When Creating Index</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/4976">https://github.com/duckdb/duckdb/issues/4976</a> <br />
+Found by: bajinsheng
+</details>
+<h2>Datalog Engines (30 bugs)</h2>
+<h3>Soufflé (23 bugs)</h3>
+<details>
+<summary>Negative zero causes different results for interpreter mode and compiler mode</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2311">https://github.com/souffle-lang/souffle/issues/2311</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>A problem about ungrounded variable</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2318">https://github.com/souffle-lang/souffle/issues/2318</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>Souffle crashed on aggregates</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2320">https://github.com/souffle-lang/souffle/issues/2320</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>Assertion failure "relation not found" on provenance</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2321">https://github.com/souffle-lang/souffle/issues/2321</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>A problem about subsumption</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2322">https://github.com/souffle-lang/souffle/issues/2322</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>A problem that the result of subsumption is correct, but the final result is wrong</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2323">https://github.com/souffle-lang/souffle/issues/2323</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>The subsumption causes the execution of program been killed</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2324">https://github.com/souffle-lang/souffle/issues/2324</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>"inline" causes assertion failure "functor type not set"</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2326">https://github.com/souffle-lang/souffle/issues/2326</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>Wrong result caused by "eqrel"</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2327">https://github.com/souffle-lang/souffle/issues/2327</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>Wrong result with `inline` and `no_magic`</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2337">https://github.com/souffle-lang/souffle/issues/2337</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>`inline` cause `Ungrounded variable` not assertion failure</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2338">https://github.com/souffle-lang/souffle/issues/2338</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>`inline` cause `Floating-point arithmetic exception` without divide-by-zero</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2339">https://github.com/souffle-lang/souffle/issues/2339</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>`inline` and `magic` used together cause `Segmentation violation`</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2340">https://github.com/souffle-lang/souffle/issues/2340</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>different result under interpreter and compiler mode</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2343">https://github.com/souffle-lang/souffle/issues/2343</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>Assertion failure on auto-tuning</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2346">https://github.com/souffle-lang/souffle/issues/2346</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>Insufficient grammar check for query plan</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2351">https://github.com/souffle-lang/souffle/issues/2351</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>`inline` causes assertion failure `numeric constant type not set`</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2355">https://github.com/souffle-lang/souffle/issues/2355</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>`inline` in recursive query trigger an error with query plan</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2369">https://github.com/souffle-lang/souffle/issues/2369</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>`magic` causes different result</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2375">https://github.com/souffle-lang/souffle/issues/2375</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>Insufficient checking on unground variable</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2379">https://github.com/souffle-lang/souffle/issues/2379</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>A problem about subsumption.</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2382">https://github.com/souffle-lang/souffle/issues/2382</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>`eqrel` doesn't work well with provenance</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2385">https://github.com/souffle-lang/souffle/issues/2385</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>Assertion failure on `Auto-Scheduling`</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/souffle-lang/souffle/issues/2426">https://github.com/souffle-lang/souffle/issues/2426</a> <br />
+Found by: ChiZhang
+</details>
+<h3>CozoDB (5 bugs)</h3>
+<details>
+<summary>Unexpected error in query parser</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cozodb/cozo/issues/97">https://github.com/cozodb/cozo/issues/97</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>System panic on modulo by zero</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cozodb/cozo/issues/99">https://github.com/cozodb/cozo/issues/99</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>Inconsistent results of two equivalent programs</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cozodb/cozo/issues/101">https://github.com/cozodb/cozo/issues/101</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>unexpected error of function `trim_start`</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/cozodb/cozo/issues/113">https://github.com/cozodb/cozo/issues/113</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>Unexpected result of `ge` on `-0.0` and `0.0` under magic rewrite</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/cozodb/cozo/issues/122">https://github.com/cozodb/cozo/issues/122</a> <br />
+Found by: ChiZhang
+</details>
+<h3>μZ (2 bugs)</h3>
+<details>
+<summary>Wrong result of z3 datalog</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/Z3Prover/z3/issues/6446">https://github.com/Z3Prover/z3/issues/6446</a> <br />
+Found by: ChiZhang
+</details>
+<details>
+<summary>Wrong result of z3 datalog with predict</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/Z3Prover/z3/issues/6447">https://github.com/Z3Prover/z3/issues/6447</a> <br />
+Found by: ChiZhang
+</details>
+<h2>XML Processors (26 bugs)</h2>
+<h3>BaseX (16 bugs)</h3>
+<details>
+<summary>Error in arithemetic calculation result comparison</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/BaseXdb/basex/issues/2188">https://github.com/BaseXdb/basex/issues/2188</a> <br />
+Found by: ShuxinLi
+</details>
+<details>
+<summary>Unexpected exception of division by zero</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/BaseXdb/basex/issues/2189">https://github.com/BaseXdb/basex/issues/2189</a> <br />
+Found by: ShuxinLi
+</details>
+<details>
+<summary>Bug of operation on non-existing attribute</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/BaseXdb/basex/issues/2190">https://github.com/BaseXdb/basex/issues/2190</a> <br />
+Found by: ShuxinLi
+</details>
+<details>
+<summary>Bug on node selection with last()</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/BaseXdb/basex/issues/2191">https://github.com/BaseXdb/basex/issues/2191</a> <br />
+Found by: ShuxinLi
+</details>
+<details>
+<summary>Bug on child node selection with count()</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/BaseXdb/basex/issues/2193">https://github.com/BaseXdb/basex/issues/2193</a> <br />
+Found by: ShuxinLi
+</details>
+<details>
+<summary>Bug on node selection with self axis</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/BaseXdb/basex/issues/2194">https://github.com/BaseXdb/basex/issues/2194</a> <br />
+Found by: ShuxinLi
+</details>
+<details>
+<summary>Internal crash on has-children() result comparison</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/BaseXdb/basex/issues/2213">https://github.com/BaseXdb/basex/issues/2213</a> <br />
+Found by: ShuxinLi
+</details>
+<details>
+<summary>Incorrect result for count after subsequence</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/BaseXdb/basex/issues/2214">https://github.com/BaseXdb/basex/issues/2214</a> <br />
+Found by: ShuxinLi
+</details>
+<details>
+<summary>Unexpected exception of mapping double attributes</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/BaseXdb/basex/issues/2215">https://github.com/BaseXdb/basex/issues/2215</a> <br />
+Found by: ShuxinLi
+</details>
+<details>
+<summary>Bug on map operation of empty sequence</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/BaseXdb/basex/issues/2216">https://github.com/BaseXdb/basex/issues/2216</a> <br />
+Found by: ShuxinLi
+</details>
+<details>
+<summary>Bug on consecutive map with distinct-values</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/BaseXdb/basex/issues/2217">https://github.com/BaseXdb/basex/issues/2217</a> <br />
+Found by: ShuxinLi
+</details>
+<details>
+<summary>Bug on node selection with position()</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/BaseXdb/basex/issues/2219">https://github.com/BaseXdb/basex/issues/2219</a> <br />
+Found by: ShuxinLi
+</details>
+<details>
+<summary>Bug on arithemetic operations with last() and position()</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/BaseXdb/basex/issues/2220">https://github.com/BaseXdb/basex/issues/2220</a> <br />
+Found by: ShuxinLi
+</details>
+<details>
+<summary>Bug on contains-token() with token index</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/BaseXdb/basex/issues/2222">https://github.com/BaseXdb/basex/issues/2222</a> <br />
+Found by: ShuxinLi
+</details>
+<details>
+<summary>Unexpected exception of arithemetic operations with positional expression</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/BaseXdb/basex/issues/2224">https://github.com/BaseXdb/basex/issues/2224</a> <br />
+Found by: ShuxinLi
+</details>
+<details>
+<summary>Incorrect result count with multiple sequence operators</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/BaseXdb/basex/issues/2225">https://github.com/BaseXdb/basex/issues/2225</a> <br />
+Found by: ShuxinLi
+</details>
+<h3>eXist-db (6 bugs)</h3>
+<details>
+<summary>XQuery query with index after predicate selection</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/eXist-db/exist/issues/4968">https://github.com/eXist-db/exist/issues/4968</a> <br />
+Found by: ShuxinLi
+</details>
+<details>
+<summary>XQuery fails to select node with true predicate</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/eXist-db/exist/issues/4958">https://github.com/eXist-db/exist/issues/4958</a> <br />
+Found by: ShuxinLi
+</details>
+<details>
+<summary>XQuery bug of node selection of tail() after subsequence()</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/eXist-db/exist/issues/4830">https://github.com/eXist-db/exist/issues/4830</a> <br />
+Found by: ShuxinLi
+</details>
+<details>
+<summary>XQuery bug on selecting nodes with last()</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/eXist-db/exist/issues/4824">https://github.com/eXist-db/exist/issues/4824</a> <br />
+Found by: ShuxinLi
+</details>
+<details>
+<summary>XQuery simple node selection return duplicate nodes</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/eXist-db/exist/issues/4811">https://github.com/eXist-db/exist/issues/4811</a> <br />
+Found by: ShuxinLi
+</details>
+<details>
+<summary>XQuery return wrong results on start-with comparison</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/eXist-db/exist/issues/4810">https://github.com/eXist-db/exist/issues/4810</a> <br />
+Found by: ShuxinLi
+</details>
+<h3>Saxonica (4 bugs)</h3>
+<details>
+<summary>Bug on exist() with non-existing attribute</summary>
+Status: fixed<br />
+Link: <a href="https://saxonica.plan.io/issues/6051">https://saxonica.plan.io/issues/6051</a> <br />
+Found by: ShuxinLi
+</details>
+<details>
+<summary>NullPointerException with upper-case function</summary>
+Status: fixed<br />
+Link: <a href="https://saxonica.plan.io/issues/6067">https://saxonica.plan.io/issues/6067</a> <br />
+Found by: ShuxinLi
+</details>
+<details>
+<summary>Bug on predicate with last()</summary>
+Status: fixed<br />
+Link: <a href="https://saxonica.plan.io/issues/6093">https://saxonica.plan.io/issues/6093</a> <br />
+Found by: ShuxinLi
+</details>
+<details>
+<summary>Bug on '-' castable to xs:duration</summary>
+Status: fixed<br />
+Link: <a href="https://saxonica.plan.io/issues/6059">https://saxonica.plan.io/issues/6059</a> <br />
+Found by: ShuxinLi
 </details>
 
 
