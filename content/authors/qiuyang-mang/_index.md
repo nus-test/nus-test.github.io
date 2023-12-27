@@ -18,7 +18,7 @@ organizations:
   url: "https://cuhk.edu.cn/en"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Qiuyang Mang is an undergraduate student doing internship at the lab for half a year.
+bio: Qiuyang Mang is an undergraduate student who was doing internship at the lab for half a year.
 
 # interests:
 # - Artificial Intelligence
@@ -66,7 +66,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Undergraduate Students
+- Past Members
 ---
 
 Qiuyang Mang is doing an internship at the lab for half a year. Prior to this, He was a research assistant supervised by [Prof. Pinjia He](https://pinjiahe.github.io/) at Intelligent Software Engineering Lab of CUHK-SZ.
