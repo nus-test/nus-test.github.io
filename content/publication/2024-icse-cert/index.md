@@ -1,5 +1,5 @@
 ---
-title: "Finding Performance Issues in Database Engines via Cardinality Estimation Testing"
+title: "CERT: Finding Performance Issues in Database Systems Through the Lens of Cardinality Estimation"
 authors:
 - Jinsheng Ba
 - Manuel Rigger
