@@ -20,6 +20,7 @@ content:
   - PhD Students
   - Master Students
   - Undergraduate Students
+  - Student Collaborators
   - Past Members
 design:
   show_interests: true
