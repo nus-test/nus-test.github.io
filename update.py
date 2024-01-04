@@ -67,11 +67,16 @@ for entry in parsed_content:
                 entry['title'] = report_title
             report_title = soup.find('h3', { 'class' : 'forumPostHdr'}).text
             m = re.search('By (.*)\((.*)\) on ([0-9\-]* [0-9:]*)', report_title)
-            assert m, report_title
-            full_name = m.group(1)
-            user_name = m.group(2)
-            # e.g., 2022-05-11 14:22:28
-            date_reported = datetime.datetime.strptime(m.group(3), '%Y-%m-%d %H:%M:%S')
+            if m is None: # for some user, there is no full_name
+                m = re.search('By (.*)\ on ([0-9\-]* [0-9:]*)', report_title)
+                assert m, report_title
+                user_name = m.group(1)
+                date_reported = datetime.datetime.strptime(m.group(2), '%Y-%m-%d %H:%M:%S')
+            else:
+                full_name = m.group(1)
+                user_name = m.group(2)
+                # e.g., 2022-05-11 14:22:28
+                date_reported = datetime.datetime.strptime(m.group(3), '%Y-%m-%d %H:%M:%S')
             if 'created_at' not in entry:
                 entry['created_at'] = format_date(date_reported)
             if 'reported_by' not in entry:

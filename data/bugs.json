@@ -240,11 +240,12 @@
         "url": "https://github.com/cockroachdb/cockroach/issues/83874",
         "title": "ERROR: no builtin aggregate for SUM_INT on [unknown]",
         "created_at": "06/07/2022",
-        "state": "open",
+        "state": "closed",
         "domain": "dbms",
         "reported_by": "bajinsheng",
         "system": "CockroachDB",
-        "resolution": "confirmed"
+        "resolution": "confirmed",
+        "closed_at": "02/01/2024"
     },
     {
         "url": "https://github.com/cockroachdb/cockroach/issues/83965",
@@ -906,8 +907,8 @@
     {
         "url": "https://github.com/souffle-lang/souffle/issues/2311",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
-        "system": "Soufflé",
+        "reported_by": "Chi Zhang",
+        "system": "Souffl\u00e9",
         "title": "Negative zero causes different results for interpreter mode and compiler mode",
         "created_at": "26/09/2022",
         "state": "open",
@@ -916,8 +917,8 @@
     {
         "url": "https://github.com/souffle-lang/souffle/issues/2318",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
-        "system": "Soufflé",
+        "reported_by": "Chi Zhang",
+        "system": "Souffl\u00e9",
         "title": "A problem about ungrounded variable",
         "created_at": "14/10/2022",
         "state": "open"
@@ -925,8 +926,8 @@
     {
         "url": "https://github.com/souffle-lang/souffle/issues/2320",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
-        "system": "Soufflé",
+        "reported_by": "Chi Zhang",
+        "system": "Souffl\u00e9",
         "title": "Souffle crashed on aggregates",
         "created_at": "18/10/2022",
         "state": "open",
@@ -935,8 +936,8 @@
     {
         "url": "https://github.com/souffle-lang/souffle/issues/2321",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
-        "system": "Soufflé",
+        "reported_by": "Chi Zhang",
+        "system": "Souffl\u00e9",
         "title": "Assertion failure \"relation not found\" on provenance",
         "created_at": "18/10/2022",
         "state": "open",
@@ -945,8 +946,8 @@
     {
         "url": "https://github.com/souffle-lang/souffle/issues/2322",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
-        "system": "Soufflé",
+        "reported_by": "Chi Zhang",
+        "system": "Souffl\u00e9",
         "title": "A problem about subsumption",
         "created_at": "18/10/2022",
         "state": "open",
@@ -955,8 +956,8 @@
     {
         "url": "https://github.com/souffle-lang/souffle/issues/2323",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
-        "system": "Soufflé",
+        "reported_by": "Chi Zhang",
+        "system": "Souffl\u00e9",
         "title": "A problem that the result of subsumption is correct, but the final result is wrong",
         "created_at": "18/10/2022",
         "state": "open"
@@ -964,8 +965,8 @@
     {
         "url": "https://github.com/souffle-lang/souffle/issues/2324",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
-        "system": "Soufflé",
+        "reported_by": "Chi Zhang",
+        "system": "Souffl\u00e9",
         "title": "The subsumption causes the execution of program been killed",
         "created_at": "18/10/2022",
         "state": "open",
@@ -974,8 +975,8 @@
     {
         "url": "https://github.com/souffle-lang/souffle/issues/2326",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
-        "system": "Soufflé",
+        "reported_by": "Chi Zhang",
+        "system": "Souffl\u00e9",
         "title": "\"inline\" causes assertion failure \"functor type not set\"",
         "created_at": "19/10/2022",
         "state": "open",
@@ -984,8 +985,8 @@
     {
         "url": "https://github.com/souffle-lang/souffle/issues/2327",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
-        "system": "Soufflé",
+        "reported_by": "Chi Zhang",
+        "system": "Souffl\u00e9",
         "title": "Wrong result caused by \"eqrel\"",
         "created_at": "19/10/2022",
         "state": "open"
@@ -993,8 +994,8 @@
     {
         "url": "https://github.com/souffle-lang/souffle/issues/2337",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
-        "system": "Soufflé",
+        "reported_by": "Chi Zhang",
+        "system": "Souffl\u00e9",
         "title": "Wrong result with `inline` and `no_magic`",
         "created_at": "23/10/2022",
         "state": "open"
@@ -1002,8 +1003,8 @@
     {
         "url": "https://github.com/souffle-lang/souffle/issues/2338",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
-        "system": "Soufflé",
+        "reported_by": "Chi Zhang",
+        "system": "Souffl\u00e9",
         "title": "`inline` cause `Ungrounded variable` not assertion failure",
         "created_at": "25/10/2022",
         "state": "open"
@@ -1011,8 +1012,8 @@
     {
         "url": "https://github.com/souffle-lang/souffle/issues/2339",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
-        "system": "Soufflé",
+        "reported_by": "Chi Zhang",
+        "system": "Souffl\u00e9",
         "title": "`inline` cause `Floating-point arithmetic exception` without divide-by-zero",
         "created_at": "25/10/2022",
         "state": "open"
@@ -1020,8 +1021,8 @@
     {
         "url": "https://github.com/souffle-lang/souffle/issues/2340",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
-        "system": "Soufflé",
+        "reported_by": "Chi Zhang",
+        "system": "Souffl\u00e9",
         "title": "`inline` and `magic` used together cause `Segmentation violation`",
         "created_at": "26/10/2022",
         "state": "open",
@@ -1030,8 +1031,8 @@
     {
         "url": "https://github.com/souffle-lang/souffle/issues/2343",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
-        "system": "Soufflé",
+        "reported_by": "Chi Zhang",
+        "system": "Souffl\u00e9",
         "title": "different result under interpreter and compiler mode",
         "created_at": "28/10/2022",
         "state": "open"
@@ -1039,8 +1040,8 @@
     {
         "url": "https://github.com/souffle-lang/souffle/issues/2346",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
-        "system": "Soufflé",
+        "reported_by": "Chi Zhang",
+        "system": "Souffl\u00e9",
         "title": "Assertion failure on auto-tuning",
         "created_at": "30/10/2022",
         "closed_at": "03/07/2023",
@@ -1050,8 +1051,8 @@
     {
         "url": "https://github.com/souffle-lang/souffle/issues/2351",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
-        "system": "Soufflé",
+        "reported_by": "Chi Zhang",
+        "system": "Souffl\u00e9",
         "title": "Insufficient grammar check for query plan",
         "created_at": "03/11/2022",
         "closed_at": "30/12/2022",
@@ -1061,8 +1062,8 @@
     {
         "url": "https://github.com/souffle-lang/souffle/issues/2355",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
-        "system": "Soufflé",
+        "reported_by": "Chi Zhang",
+        "system": "Souffl\u00e9",
         "title": "`inline` causes assertion failure `numeric constant type not set`",
         "created_at": "06/11/2022",
         "state": "open",
@@ -1071,8 +1072,8 @@
     {
         "url": "https://github.com/souffle-lang/souffle/issues/2369",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
-        "system": "Soufflé",
+        "reported_by": "Chi Zhang",
+        "system": "Souffl\u00e9",
         "title": "`inline` in recursive query trigger an error with query plan",
         "created_at": "02/12/2022",
         "state": "open"
@@ -1080,8 +1081,8 @@
     {
         "url": "https://github.com/souffle-lang/souffle/issues/2375",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
-        "system": "Soufflé",
+        "reported_by": "Chi Zhang",
+        "system": "Souffl\u00e9",
         "title": "`magic` causes different result",
         "created_at": "20/12/2022",
         "state": "open"
@@ -1089,8 +1090,8 @@
     {
         "url": "https://github.com/souffle-lang/souffle/issues/2379",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
-        "system": "Soufflé",
+        "reported_by": "Chi Zhang",
+        "system": "Souffl\u00e9",
         "title": "Insufficient checking on unground variable",
         "created_at": "23/12/2022",
         "state": "open"
@@ -1098,8 +1099,8 @@
     {
         "url": "https://github.com/souffle-lang/souffle/issues/2382",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
-        "system": "Soufflé",
+        "reported_by": "Chi Zhang",
+        "system": "Souffl\u00e9",
         "title": "A problem about subsumption.",
         "created_at": "03/01/2023",
         "state": "open"
@@ -1107,8 +1108,8 @@
     {
         "url": "https://github.com/souffle-lang/souffle/issues/2385",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
-        "system": "Soufflé",
+        "reported_by": "Chi Zhang",
+        "system": "Souffl\u00e9",
         "title": "`eqrel` doesn't work well with provenance",
         "created_at": "05/01/2023",
         "state": "open"
@@ -1116,8 +1117,8 @@
     {
         "url": "https://github.com/souffle-lang/souffle/issues/2426",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
-        "system": "Soufflé",
+        "reported_by": "Chi Zhang",
+        "system": "Souffl\u00e9",
         "title": "Assertion failure on `Auto-Scheduling`",
         "created_at": "18/07/2023",
         "state": "open",
@@ -1126,8 +1127,8 @@
     {
         "url": "https://github.com/Z3Prover/z3/issues/6446",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
-        "system": "μZ",
+        "reported_by": "Chi Zhang",
+        "system": "\u03bcZ",
         "title": "Wrong result of z3 datalog",
         "created_at": "09/11/2022",
         "closed_at": "09/11/2022",
@@ -1137,8 +1138,8 @@
     {
         "url": "https://github.com/Z3Prover/z3/issues/6447",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
-        "system": "μZ",
+        "reported_by": "Chi Zhang",
+        "system": "\u03bcZ",
         "title": "Wrong result of z3 datalog with predict",
         "created_at": "09/11/2022",
         "closed_at": "09/11/2022",
@@ -1148,7 +1149,7 @@
     {
         "url": "https://github.com/cozodb/cozo/issues/97",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
+        "reported_by": "Chi Zhang",
         "system": "CozoDB",
         "title": "Unexpected error in query parser",
         "created_at": "08/05/2023",
@@ -1159,7 +1160,7 @@
     {
         "url": "https://github.com/cozodb/cozo/issues/99",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
+        "reported_by": "Chi Zhang",
         "system": "CozoDB",
         "title": "System panic on modulo by zero",
         "created_at": "09/05/2023",
@@ -1170,7 +1171,7 @@
     {
         "url": "https://github.com/cozodb/cozo/issues/101",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
+        "reported_by": "Chi Zhang",
         "system": "CozoDB",
         "title": "Inconsistent results of two equivalent programs",
         "created_at": "09/05/2023",
@@ -1181,7 +1182,7 @@
     {
         "url": "https://github.com/cozodb/cozo/issues/113",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
+        "reported_by": "Chi Zhang",
         "system": "CozoDB",
         "title": "unexpected error of function `trim_start`",
         "created_at": "14/05/2023",
@@ -1192,7 +1193,7 @@
     {
         "url": "https://github.com/cozodb/cozo/issues/122",
         "domain": "datalog",
-        "reported_by": "ChiZhang",
+        "reported_by": "Chi Zhang",
         "system": "CozoDB",
         "title": "Unexpected result of `ge` on `-0.0` and `0.0` under magic rewrite",
         "created_at": "19/05/2023",
@@ -1480,5 +1481,467 @@
         "closed_at": "06/06/2023",
         "state": "closed",
         "resolution": "fixed"
-    }              
+    },
+    {
+        "url": "https://sqlite.org/forum/info/0846211821513f50",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "SQLite",
+        "resolution": "fixed",
+        "title": "Incorrect results with the latest trunk version",
+        "created_at": "28/02/2023"
+    },
+    {
+        "url": "https://sqlite.org/forum/info/37dd14a538ea84e0",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "SQLite",
+        "resolution": "fixed",
+        "title": "Incorrect result that might be caused by json function",
+        "created_at": "01/03/2023"
+    },
+    {
+        "url": "https://sqlite.org/forum/info/2cd11c2d37696553",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "SQLite",
+        "resolution": "fixed",
+        "title": "Incorrect result for COUNT on view with window function",
+        "created_at": "03/03/2023"
+    },
+    {
+        "url": "https://sqlite.org/forum/info/a68313d0545273c8",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "SQLite",
+        "resolution": "fixed",
+        "title": "Incorrect result might caused by INDEX",
+        "created_at": "04/03/2023"
+    },
+    {
+        "url": "https://sqlite.org/forum/info/dc4854437bda462c",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "SQLite",
+        "resolution": "fixed",
+        "title": "An assertion failure only triggers in JDBC driver with -DSQLITE_DEBUG=1 compile option",
+        "created_at": "23/03/2023"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/8f48e29d67",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "SQLite",
+        "resolution": "fixed",
+        "title": "Unexpected results of `JOIN`",
+        "created_at": "25/04/2023"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/96cd4a7e9e",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "SQLite",
+        "resolution": "fixed",
+        "title": "Unexpected result of `JOIN`",
+        "created_at": "01/05/2023"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/6861",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "DuckDB",
+        "resolution": "fixed",
+        "title": "Segmentation fault on `BETWEEN`",
+        "created_at": "25/03/2023",
+        "closed_at": "15/04/2023",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/7044",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "DuckDB",
+        "resolution": "confirmed",
+        "title": "Unexpected result when take subquery as operand",
+        "created_at": "12/04/2023",
+        "closed_at": "28/08/2023",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/7064",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "DuckDB",
+        "resolution": "confirmed",
+        "title": "Different returned datatype of a `CASE` statement in different query.",
+        "created_at": "13/04/2023",
+        "closed_at": "28/08/2023",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/7094",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "DuckDB",
+        "title": "Unexpected results when integer overflow",
+        "created_at": "15/04/2023",
+        "closed_at": "28/08/2023",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/7142",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "DuckDB",
+        "resolution": "fixed",
+        "title": "Unexpected results on specific values",
+        "created_at": "19/04/2023",
+        "closed_at": "15/06/2023",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/7143",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "DuckDB",
+        "resolution": "fixed",
+        "title": "Hang on `SELECT` query",
+        "created_at": "19/04/2023",
+        "closed_at": "12/05/2023",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/7250",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "DuckDB",
+        "resolution": "fixed",
+        "title": "`INTERNAL Error: Logical column index 1 out of range`",
+        "created_at": "26/04/2023",
+        "closed_at": "14/08/2023",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/7530",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "DuckDB",
+        "resolution": "fixed",
+        "title": "DuckDB hang on `DELETE`",
+        "created_at": "16/05/2023",
+        "closed_at": "17/05/2023",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/7551",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "DuckDB",
+        "resolution": "fixed",
+        "title": "Segmentation fault on `SELECT`",
+        "created_at": "17/05/2023",
+        "closed_at": "29/06/2023",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/7601",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "DuckDB",
+        "resolution": "fixed",
+        "title": "Inconsistent results of subquery in `INSERT` and `SELECT`, and an unexpected error",
+        "created_at": "20/05/2023",
+        "closed_at": "22/08/2023",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/7610",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "DuckDB",
+        "resolution": "fixed",
+        "title": "DuckDB hang on `DELETE`",
+        "created_at": "21/05/2023",
+        "closed_at": "24/08/2023",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/7960",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "DuckDB",
+        "resolution": "fixed",
+        "title": "Unexpected results on common table expressions",
+        "created_at": "16/06/2023",
+        "closed_at": "04/09/2023",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/100561",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "DuckDB",
+        "resolution": "fixed",
+        "title": "Incorrect result by subquery and join",
+        "created_at": "04/04/2023",
+        "closed_at": "23/05/2023",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/100559",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "DuckDB",
+        "resolution": "fixed",
+        "title": "internal error: null rejection requested on non-null column",
+        "created_at": "04/04/2023",
+        "closed_at": "05/04/2023",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/101011",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "DuckDB",
+        "resolution": "fixed",
+        "title": "kvcoord: setting `kv.range_descriptor_cache.size=0` results in range iterator to retry endlessly",
+        "created_at": "09/04/2023",
+        "closed_at": "10/04/2023",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/101418",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "DuckDB",
+        "resolution": "fixed",
+        "title": "internal error: failed to parse locale \"\": language: tag is not well-formed",
+        "created_at": "13/04/2023",
+        "closed_at": "08/08/2023",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/101591",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "DuckDB",
+        "title": "Unexpected results of `TIME` value under JDBC",
+        "created_at": "15/04/2023",
+        "state": "open"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/101980",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "DuckDB",
+        "resolution": "fixed",
+        "title": "`internal error: expected subquery to be lazily planned as a routine`",
+        "created_at": "21/04/2023",
+        "closed_at": "26/04/2023",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/102110",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "DuckDB",
+        "resolution": "fixed",
+        "title": "Unexpected results of `CASE` and `BETWEEN`",
+        "created_at": "24/04/2023",
+        "closed_at": "25/08/2023",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/102412",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "DuckDB",
+        "resolution": "fixed",
+        "title": "Unexpected results might be related to `BIT` and `INDEX`",
+        "created_at": "27/04/2023",
+        "closed_at": "05/05/2023",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/102716",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "DuckDB",
+        "resolution": "confirmed",
+        "title": "Unexpected error `unknown signature: bit_length(string) (desired <int[]>)`",
+        "created_at": "02/05/2023",
+        "state": "open"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/102864",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "DuckDB",
+        "resolution": "confirmed",
+        "title": "Unexpected results of `IN` with redundant values list ",
+        "created_at": "08/05/2023",
+        "state": "open"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/103755",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "DuckDB",
+        "resolution": "fixed",
+        "title": "Unexpected results related to `INDEX`",
+        "created_at": "23/05/2023",
+        "closed_at": "02/06/2023",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/104319",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "DuckDB",
+        "resolution": "confirmed",
+        "title": "Inconsistent result of `AVG` on big float number",
+        "created_at": "05/06/2023",
+        "state": "open"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/105882",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "DuckDB",
+        "resolution": "fixed",
+        "title": "Unexpected hang on subquery",
+        "created_at": "30/06/2023",
+        "closed_at": "15/07/2023",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/42912",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "TiDB",
+        "resolution": "fixed",
+        "title": "Unexpected result of subquery",
+        "created_at": "11/04/2023",
+        "closed_at": "26/04/2023",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/42941",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "TiDB",
+        "resolution": "confirmed",
+        "title": "Unexpected error in `ORDER BY`",
+        "created_at": "11/04/2023",
+        "state": "open"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/42942",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "TiDB",
+        "resolution": "confirmed",
+        "title": "Unexpected error message on constant",
+        "created_at": "11/04/2023",
+        "state": "open"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/43026",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "TiDB",
+        "resolution": "confirmed",
+        "title": "An expression has two different value in two queries",
+        "created_at": "13/04/2023",
+        "state": "open"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/43256",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "TiDB",
+        "resolution": "confirmed",
+        "title": "`runtime error: index out of range [1] with length 1` on `SELECT`",
+        "created_at": "20/04/2023",
+        "state": "open"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/43373",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "TiDB",
+        "resolution": "confirmed",
+        "title": "Unexpected results of subquery in `INSERT`",
+        "created_at": "24/04/2023",
+        "state": "open"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/43569",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "TiDB",
+        "resolution": "confirmed",
+        "title": "Unexpected error `Unknown column 't1.c0' in 'where clause'`",
+        "created_at": "06/05/2023",
+        "state": "open"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/43624",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "TiDB",
+        "resolution": "confirmed",
+        "title": "Unexpected results when `CASE` and `IN` use together",
+        "created_at": "08/05/2023",
+        "state": "open"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/44673",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "TiDB",
+        "resolution": "confirmed",
+        "title": "Unexpected error `Unknown table ''` on CTE",
+        "created_at": "14/06/2023",
+        "state": "open"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/44689",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "TiDB",
+        "resolution": "fixed",
+        "title": "Unexpected error when `CHECK` a predicate that is always true.",
+        "created_at": "15/06/2023",
+        "closed_at": "20/06/2023",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/44706",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "TiDB",
+        "resolution": "confirmed",
+        "title": "Unexpected results of `ANY` operator",
+        "created_at": "15/06/2023",
+        "state": "open"
+    },
+    {
+        "url": "https://bugs.mysql.com/bug.php?id=111241",
+        "title": "Wrong result of `IN` clause",
+        "created_at": "01/06/2023",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "MySQL",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://bugs.mysql.com/bug.php?id=111421",
+        "title": "Unexpected error when `CHECK` a predicate that is always true",
+        "created_at": "14/06/2022",
+        "domain": "dbms",
+        "reported_by": "Chi Zhang",
+        "system": "MySQL",
+        "resolution": "confirmed"
+    }
 ]
