@@ -13,11 +13,29 @@
     </image>
     
     <item>
+      <title>DEOPT</title>
+      <link>https://nus-test.github.io/project/deopt/</link>
+      <pubDate>Sat, 11 Mar 2023 00:41:03 +0800</pubDate>
+      <guid>https://nus-test.github.io/project/deopt/</guid>
+      <description>&lt;p&gt;DEOPT is an automated testing tool to find optimization bugs in Datalog engines.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>SQLancer</title>
       <link>https://nus-test.github.io/project/sqlancer/</link>
       <pubDate>Sat, 11 Mar 2023 00:41:03 +0800</pubDate>
       <guid>https://nus-test.github.io/project/sqlancer/</guid>
       <description>&lt;p&gt;SQLancer automatically finds bugs in database systems.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>XPress</title>
+      <link>https://nus-test.github.io/project/xpress/</link>
+      <pubDate>Sat, 11 Mar 2023 00:41:03 +0800</pubDate>
+      <guid>https://nus-test.github.io/project/xpress/</guid>
+      <description>&lt;p&gt;XPress is an automated testing tool to find bugs in XML processors.&lt;/p&gt;
 </description>
     </item>
     
