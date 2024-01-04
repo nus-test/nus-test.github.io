@@ -1485,6 +1485,15 @@ Found by: ShuxinLi
     </item>
     
     <item>
+      <title>GraphGenie</title>
+      <link>https://nus-test.github.io/project/graphgenie/</link>
+      <pubDate>Sat, 11 Mar 2023 00:41:03 +0800</pubDate>
+      <guid>https://nus-test.github.io/project/graphgenie/</guid>
+      <description>&lt;p&gt;GraphGenie is an automated testing tool that finds logic and performance issues in graph database management systems.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>SQLancer</title>
       <link>https://nus-test.github.io/project/sqlancer/</link>
       <pubDate>Sat, 11 Mar 2023 00:41:03 +0800</pubDate>
