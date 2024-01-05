@@ -1,5 +1,5 @@
-<h2>Database Management Systems (94 bugs)</h2>
-<h3>TiDB (34 bugs)</h3>
+<h2>Database Management Systems (139 bugs)</h2>
+<h3>TiDB (45 bugs)</h3>
 <details>
 <summary>incorrect unresolved column when using natural join</summary>
 Status: confirmed<br />
@@ -204,7 +204,73 @@ Status: unconfirmed<br />
 Link: <a href="https://github.com/pingcap/tidb/issues/44747">https://github.com/pingcap/tidb/issues/44747</a> <br />
 Found by: bajinsheng
 </details>
-<h3>SQLite (28 bugs)</h3>
+<details>
+<summary>Unexpected result of subquery</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/42912">https://github.com/pingcap/tidb/issues/42912</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected error in `ORDER BY`</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/42941">https://github.com/pingcap/tidb/issues/42941</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected error message on constant</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/42942">https://github.com/pingcap/tidb/issues/42942</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>An expression has two different value in two queries</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/43026">https://github.com/pingcap/tidb/issues/43026</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>`runtime error: index out of range [1] with length 1` on `SELECT`</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/43256">https://github.com/pingcap/tidb/issues/43256</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results of subquery in `INSERT`</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/43373">https://github.com/pingcap/tidb/issues/43373</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected error `Unknown column 't1.c0' in 'where clause'`</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/43569">https://github.com/pingcap/tidb/issues/43569</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results when `CASE` and `IN` use together</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/43624">https://github.com/pingcap/tidb/issues/43624</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected error `Unknown table ''` on CTE</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/44673">https://github.com/pingcap/tidb/issues/44673</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected error when `CHECK` a predicate that is always true.</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/44689">https://github.com/pingcap/tidb/issues/44689</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results of `ANY` operator</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/44706">https://github.com/pingcap/tidb/issues/44706</a> <br />
+Found by: Chi Zhang
+</details>
+<h3>SQLite (35 bugs)</h3>
 <details>
 <summary>An Inconsistent Result Depending on Parenthesization</summary>
 Status: fixed<br />
@@ -373,6 +439,217 @@ Status: unconfirmed<br />
 Link: <a href="https://sqlite.org/forum/forumpost/3607259d3c">https://sqlite.org/forum/forumpost/3607259d3c</a> <br />
 Found by: bajinsheng
 </details>
+<details>
+<summary>Incorrect results with the latest trunk version</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/info/0846211821513f50">https://sqlite.org/forum/info/0846211821513f50</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Incorrect result that might be caused by json function</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/info/37dd14a538ea84e0">https://sqlite.org/forum/info/37dd14a538ea84e0</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Incorrect result for COUNT on view with window function</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/info/2cd11c2d37696553">https://sqlite.org/forum/info/2cd11c2d37696553</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Incorrect result might caused by INDEX</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/info/a68313d0545273c8">https://sqlite.org/forum/info/a68313d0545273c8</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>An assertion failure only triggers in JDBC driver with -DSQLITE_DEBUG=1 compile option</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/info/dc4854437bda462c">https://sqlite.org/forum/info/dc4854437bda462c</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results of `JOIN`</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/8f48e29d67">https://sqlite.org/forum/forumpost/8f48e29d67</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected result of `JOIN`</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/96cd4a7e9e">https://sqlite.org/forum/forumpost/96cd4a7e9e</a> <br />
+Found by: Chi Zhang
+</details>
+<h3>DuckDB (28 bugs)</h3>
+<details>
+<summary>BETWEEN with subquery and column results in unexpected error</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/3588">https://github.com/duckdb/duckdb/issues/3588</a> <br />
+Found by: kokrui
+</details>
+<details>
+<summary>Unexpected Error for RTRIM Function in Where Clause</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/3616">https://github.com/duckdb/duckdb/issues/3616</a> <br />
+Found by: kokrui
+</details>
+<details>
+<summary>Crash When Creating Index</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/4976">https://github.com/duckdb/duckdb/issues/4976</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Segmentation fault on `BETWEEN`</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/6861">https://github.com/duckdb/duckdb/issues/6861</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected result when take subquery as operand</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7044">https://github.com/duckdb/duckdb/issues/7044</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Different returned datatype of a `CASE` statement in different query.</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7064">https://github.com/duckdb/duckdb/issues/7064</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results when integer overflow</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7094">https://github.com/duckdb/duckdb/issues/7094</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results on specific values</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7142">https://github.com/duckdb/duckdb/issues/7142</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Hang on `SELECT` query</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7143">https://github.com/duckdb/duckdb/issues/7143</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>`INTERNAL Error: Logical column index 1 out of range`</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7250">https://github.com/duckdb/duckdb/issues/7250</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>DuckDB hang on `DELETE`</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7530">https://github.com/duckdb/duckdb/issues/7530</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Segmentation fault on `SELECT`</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7551">https://github.com/duckdb/duckdb/issues/7551</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Inconsistent results of subquery in `INSERT` and `SELECT`, and an unexpected error</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7601">https://github.com/duckdb/duckdb/issues/7601</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>DuckDB hang on `DELETE`</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7610">https://github.com/duckdb/duckdb/issues/7610</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results on common table expressions</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7960">https://github.com/duckdb/duckdb/issues/7960</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Incorrect result by subquery and join</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/100561">https://github.com/cockroachdb/cockroach/issues/100561</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>internal error: null rejection requested on non-null column</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/100559">https://github.com/cockroachdb/cockroach/issues/100559</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>kvcoord: setting `kv.range_descriptor_cache.size=0` results in range iterator to retry endlessly</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/101011">https://github.com/cockroachdb/cockroach/issues/101011</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>internal error: failed to parse locale "": language: tag is not well-formed</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/101418">https://github.com/cockroachdb/cockroach/issues/101418</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results of `TIME` value under JDBC</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/101591">https://github.com/cockroachdb/cockroach/issues/101591</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>`internal error: expected subquery to be lazily planned as a routine`</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/101980">https://github.com/cockroachdb/cockroach/issues/101980</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results of `CASE` and `BETWEEN`</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/102110">https://github.com/cockroachdb/cockroach/issues/102110</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results might be related to `BIT` and `INDEX`</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/102412">https://github.com/cockroachdb/cockroach/issues/102412</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected error `unknown signature: bit_length(string) (desired <int[]>)`</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/102716">https://github.com/cockroachdb/cockroach/issues/102716</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results of `IN` with redundant values list </summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/102864">https://github.com/cockroachdb/cockroach/issues/102864</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results related to `INDEX`</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/103755">https://github.com/cockroachdb/cockroach/issues/103755</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Inconsistent result of `AVG` on big float number</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/104319">https://github.com/cockroachdb/cockroach/issues/104319</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected hang on subquery</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/105882">https://github.com/cockroachdb/cockroach/issues/105882</a> <br />
+Found by: Chi Zhang
+</details>
 <h3>CockroachDB (25 bugs)</h3>
 <details>
 <summary>sql: support SCRUB on temp tables</summary>
@@ -524,7 +801,7 @@ Status: unconfirmed<br />
 Link: <a href="https://github.com/cockroachdb/cockroach/issues/94264">https://github.com/cockroachdb/cockroach/issues/94264</a> <br />
 Found by: bajinsheng
 </details>
-<h3>MySQL (4 bugs)</h3>
+<h3>MySQL (6 bugs)</h3>
 <details>
 <summary>Suspicious Estimated Rows</summary>
 Status: unconfirmed<br />
@@ -549,24 +826,17 @@ Status: unconfirmed<br />
 Link: <a href="https://bugs.mysql.com/bug.php?id=111471">https://bugs.mysql.com/bug.php?id=111471</a> <br />
 Found by: bajinsheng
 </details>
-<h3>DuckDB (3 bugs)</h3>
 <details>
-<summary>BETWEEN with subquery and column results in unexpected error</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/3588">https://github.com/duckdb/duckdb/issues/3588</a> <br />
-Found by: kokrui
+<summary>Wrong result of `IN` clause</summary>
+Status: confirmed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=111241">https://bugs.mysql.com/bug.php?id=111241</a> <br />
+Found by: Chi Zhang
 </details>
 <details>
-<summary>Unexpected Error for RTRIM Function in Where Clause</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/3616">https://github.com/duckdb/duckdb/issues/3616</a> <br />
-Found by: kokrui
-</details>
-<details>
-<summary>Crash When Creating Index</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/4976">https://github.com/duckdb/duckdb/issues/4976</a> <br />
-Found by: bajinsheng
+<summary>Unexpected error when `CHECK` a predicate that is always true</summary>
+Status: confirmed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=111421">https://bugs.mysql.com/bug.php?id=111421</a> <br />
+Found by: Chi Zhang
 </details>
 <h2>Datalog Engines (30 bugs)</h2>
 <h3>Soufflé (23 bugs)</h3>
@@ -574,183 +844,183 @@ Found by: bajinsheng
 <summary>Negative zero causes different results for interpreter mode and compiler mode</summary>
 Status: confirmed<br />
 Link: <a href="https://github.com/souffle-lang/souffle/issues/2311">https://github.com/souffle-lang/souffle/issues/2311</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <details>
 <summary>A problem about ungrounded variable</summary>
 Status: unconfirmed<br />
 Link: <a href="https://github.com/souffle-lang/souffle/issues/2318">https://github.com/souffle-lang/souffle/issues/2318</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <details>
 <summary>Souffle crashed on aggregates</summary>
 Status: confirmed<br />
 Link: <a href="https://github.com/souffle-lang/souffle/issues/2320">https://github.com/souffle-lang/souffle/issues/2320</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <details>
 <summary>Assertion failure "relation not found" on provenance</summary>
 Status: confirmed<br />
 Link: <a href="https://github.com/souffle-lang/souffle/issues/2321">https://github.com/souffle-lang/souffle/issues/2321</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <details>
 <summary>A problem about subsumption</summary>
 Status: confirmed<br />
 Link: <a href="https://github.com/souffle-lang/souffle/issues/2322">https://github.com/souffle-lang/souffle/issues/2322</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <details>
 <summary>A problem that the result of subsumption is correct, but the final result is wrong</summary>
 Status: unconfirmed<br />
 Link: <a href="https://github.com/souffle-lang/souffle/issues/2323">https://github.com/souffle-lang/souffle/issues/2323</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <details>
 <summary>The subsumption causes the execution of program been killed</summary>
 Status: confirmed<br />
 Link: <a href="https://github.com/souffle-lang/souffle/issues/2324">https://github.com/souffle-lang/souffle/issues/2324</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <details>
 <summary>"inline" causes assertion failure "functor type not set"</summary>
 Status: confirmed<br />
 Link: <a href="https://github.com/souffle-lang/souffle/issues/2326">https://github.com/souffle-lang/souffle/issues/2326</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <details>
 <summary>Wrong result caused by "eqrel"</summary>
 Status: unconfirmed<br />
 Link: <a href="https://github.com/souffle-lang/souffle/issues/2327">https://github.com/souffle-lang/souffle/issues/2327</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <details>
 <summary>Wrong result with `inline` and `no_magic`</summary>
 Status: unconfirmed<br />
 Link: <a href="https://github.com/souffle-lang/souffle/issues/2337">https://github.com/souffle-lang/souffle/issues/2337</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <details>
 <summary>`inline` cause `Ungrounded variable` not assertion failure</summary>
 Status: unconfirmed<br />
 Link: <a href="https://github.com/souffle-lang/souffle/issues/2338">https://github.com/souffle-lang/souffle/issues/2338</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <details>
 <summary>`inline` cause `Floating-point arithmetic exception` without divide-by-zero</summary>
 Status: unconfirmed<br />
 Link: <a href="https://github.com/souffle-lang/souffle/issues/2339">https://github.com/souffle-lang/souffle/issues/2339</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <details>
 <summary>`inline` and `magic` used together cause `Segmentation violation`</summary>
 Status: confirmed<br />
 Link: <a href="https://github.com/souffle-lang/souffle/issues/2340">https://github.com/souffle-lang/souffle/issues/2340</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <details>
 <summary>different result under interpreter and compiler mode</summary>
 Status: unconfirmed<br />
 Link: <a href="https://github.com/souffle-lang/souffle/issues/2343">https://github.com/souffle-lang/souffle/issues/2343</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <details>
 <summary>Assertion failure on auto-tuning</summary>
 Status: fixed<br />
 Link: <a href="https://github.com/souffle-lang/souffle/issues/2346">https://github.com/souffle-lang/souffle/issues/2346</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <details>
 <summary>Insufficient grammar check for query plan</summary>
 Status: fixed<br />
 Link: <a href="https://github.com/souffle-lang/souffle/issues/2351">https://github.com/souffle-lang/souffle/issues/2351</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <details>
 <summary>`inline` causes assertion failure `numeric constant type not set`</summary>
 Status: confirmed<br />
 Link: <a href="https://github.com/souffle-lang/souffle/issues/2355">https://github.com/souffle-lang/souffle/issues/2355</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <details>
 <summary>`inline` in recursive query trigger an error with query plan</summary>
 Status: unconfirmed<br />
 Link: <a href="https://github.com/souffle-lang/souffle/issues/2369">https://github.com/souffle-lang/souffle/issues/2369</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <details>
 <summary>`magic` causes different result</summary>
 Status: unconfirmed<br />
 Link: <a href="https://github.com/souffle-lang/souffle/issues/2375">https://github.com/souffle-lang/souffle/issues/2375</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <details>
 <summary>Insufficient checking on unground variable</summary>
 Status: unconfirmed<br />
 Link: <a href="https://github.com/souffle-lang/souffle/issues/2379">https://github.com/souffle-lang/souffle/issues/2379</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <details>
 <summary>A problem about subsumption.</summary>
 Status: unconfirmed<br />
 Link: <a href="https://github.com/souffle-lang/souffle/issues/2382">https://github.com/souffle-lang/souffle/issues/2382</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <details>
 <summary>`eqrel` doesn't work well with provenance</summary>
 Status: unconfirmed<br />
 Link: <a href="https://github.com/souffle-lang/souffle/issues/2385">https://github.com/souffle-lang/souffle/issues/2385</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <details>
 <summary>Assertion failure on `Auto-Scheduling`</summary>
 Status: confirmed<br />
 Link: <a href="https://github.com/souffle-lang/souffle/issues/2426">https://github.com/souffle-lang/souffle/issues/2426</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <h3>CozoDB (5 bugs)</h3>
 <details>
 <summary>Unexpected error in query parser</summary>
 Status: fixed<br />
 Link: <a href="https://github.com/cozodb/cozo/issues/97">https://github.com/cozodb/cozo/issues/97</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <details>
 <summary>System panic on modulo by zero</summary>
 Status: fixed<br />
 Link: <a href="https://github.com/cozodb/cozo/issues/99">https://github.com/cozodb/cozo/issues/99</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <details>
 <summary>Inconsistent results of two equivalent programs</summary>
 Status: fixed<br />
 Link: <a href="https://github.com/cozodb/cozo/issues/101">https://github.com/cozodb/cozo/issues/101</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <details>
 <summary>unexpected error of function `trim_start`</summary>
 Status: confirmed<br />
 Link: <a href="https://github.com/cozodb/cozo/issues/113">https://github.com/cozodb/cozo/issues/113</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <details>
 <summary>Unexpected result of `ge` on `-0.0` and `0.0` under magic rewrite</summary>
 Status: confirmed<br />
 Link: <a href="https://github.com/cozodb/cozo/issues/122">https://github.com/cozodb/cozo/issues/122</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <h3>μZ (2 bugs)</h3>
 <details>
 <summary>Wrong result of z3 datalog</summary>
 Status: fixed<br />
 Link: <a href="https://github.com/Z3Prover/z3/issues/6446">https://github.com/Z3Prover/z3/issues/6446</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <details>
 <summary>Wrong result of z3 datalog with predict</summary>
 Status: confirmed<br />
 Link: <a href="https://github.com/Z3Prover/z3/issues/6447">https://github.com/Z3Prover/z3/issues/6447</a> <br />
-Found by: ChiZhang
+Found by: Chi Zhang
 </details>
 <h2>XML Processors (26 bugs)</h2>
 <h3>BaseX (16 bugs)</h3>
