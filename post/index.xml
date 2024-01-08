@@ -5,12 +5,21 @@
     <link>https://nus-test.github.io/post/</link>
       <atom:link href="https://nus-test.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Latest News</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 23 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 05 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Latest News</title>
       <link>https://nus-test.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>NUS School of Computing featured our work in an article!</title>
+      <link>https://nus-test.github.io/post/24-01-05-nus-interview/</link>
+      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/post/24-01-05-nus-interview/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://www.comp.nus.edu.sg/features/2024-detecting-logic-bugs-mrigger/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;article featured at https://www.comp.nus.edu.sg/&lt;/a&gt; describes our &lt;a href=&#34;https://nus-test.github.io/publication/2023-icse-qpg/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Query Plan Guidance&lt;/a&gt; work, which received an ACM SIGSOFT Distinguished Paper Award at ICSE 2023.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Our paper &#34;Finding Cross-rule Optimization Bugs in Datalog Engines&#34; was accepted at OOPSLA &#39;24!</title>

@@ -5,7 +5,7 @@
     <link>https://nus-test.github.io/</link>
       <atom:link href="https://nus-test.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Trustworthy Engineering of Software Technologies (TEST) Lab</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 23 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 05 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Trustworthy Engineering of Software Technologies (TEST) Lab</title>
@@ -1232,6 +1232,15 @@ Found by: ShuxinLi
 &lt;p&gt;It is not expected that you have all of these qualities; I am unsure whether I have all of them myself. However, keep in consideration that these qualities reflect ways in which you will likely be challenged and develop further if you decide to join the lab.&lt;/p&gt;
 &lt;p&gt;If you are interested in a position, feel free to reach out to me and send me your CV. If you are considering a PhD position, you can also directly &lt;a href=&#34;https://www.comp.nus.edu.sg/programmes/pg/phdcs/application/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;apply here&lt;/a&gt; and mention my name in the application. The application deadlines are June 15 and December 15.&lt;/p&gt;
 &lt;p&gt;&amp;ndash; Manuel RIGGER (&lt;a href=&#34;mailto:rigger@comp.nus.edu.sg&#34;&gt;rigger@comp.nus.edu.sg&lt;/a&gt;)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NUS School of Computing featured our work in an article!</title>
+      <link>https://nus-test.github.io/post/24-01-05-nus-interview/</link>
+      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/post/24-01-05-nus-interview/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://www.comp.nus.edu.sg/features/2024-detecting-logic-bugs-mrigger/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;article featured at https://www.comp.nus.edu.sg/&lt;/a&gt; describes our &lt;a href=&#34;https://nus-test.github.io/publication/2023-icse-qpg/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Query Plan Guidance&lt;/a&gt; work, which received an ACM SIGSOFT Distinguished Paper Award at ICSE 2023.&lt;/p&gt;
 </description>
     </item>
     
