@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/tag/weekly-talk/</link>
       <atom:link href="https://nus-test.github.io/tag/weekly-talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Weekly Talk</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 18 Dec 2023 14:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 16 Jan 2024 14:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Weekly Talk</title>
       <link>https://nus-test.github.io/tag/weekly-talk/</link>
     </image>
+    
+    <item>
+      <title>Equivalent Query Rewriting in Graph Database without Hard-code Rules</title>
+      <link>https://nus-test.github.io/event/240116/</link>
+      <pubDate>Tue, 16 Jan 2024 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/240116/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Mozi: Discovering DBMS Bugs via Configuration-Based Equivalent Transformation</title>
