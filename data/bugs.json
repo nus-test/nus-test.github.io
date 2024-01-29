@@ -1943,5 +1943,608 @@
         "reported_by": "Chi Zhang",
         "system": "MySQL",
         "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/neo4j/neo4j/issues/12957",
+        "title": "A potential performance bug (missing optimization)",
+        "created_at": "22/10/2022",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "neo4j",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/neo4j/neo4j/issues/12968",
+        "title": "Unexpected DatabaseException: Exception closing multiple resources",
+        "created_at": "31/10/2022",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "neo4j",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/neo4j/neo4j/issues/12973",
+        "title": "One equivalent query can help improve performance hundred of times",
+        "created_at": "07/11/2022",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "neo4j",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/neo4j/neo4j/issues/12988",
+        "title": "Using OPTIONAL and DISTINCT together with shortestPath() outputs an error",
+        "created_at": "29/11/2022",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "neo4j",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/neo4j/neo4j/issues/12991",
+        "title": "Inconsistent results",
+        "created_at": "03/12/2022",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "neo4j",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/neo4j/neo4j/issues/12996",
+        "title": "Unexpected Result with SKIP 1",
+        "created_at": "07/12/2022",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "neo4j",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/neo4j/neo4j/issues/13003",
+        "title": "Some queries are running unexpectedly slow",
+        "created_at": "08/12/2022",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "neo4j",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/neo4j/neo4j/issues/13010",
+        "title": "Adding index incurs performance regression in some cases",
+        "created_at": "16/12/2022",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "neo4j",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/neo4j/neo4j/issues/13033",
+        "title": "OPTIONAL MATCH is much faster than MATCH in some cases",
+        "created_at": "31/01/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "neo4j",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/neo4j/neo4j/issues/13034",
+        "title": "Inconsistent performance",
+        "created_at": "31/01/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "neo4j",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/neo4j/neo4j/issues/13041",
+        "title": "Unexpected error: out of bounds for object",
+        "created_at": "11/02/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "neo4j",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/RedisGraph/RedisGraph/issues/2744",
+        "title": "Unexpected results",
+        "created_at": "01/12/2022",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "redisgraph",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/RedisGraph/RedisGraph/issues/2858",
+        "title": "Buggy result",
+        "created_at": "31/01/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "redisgraph",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/RedisGraph/RedisGraph/issues/2859",
+        "title": "Inconsistent results",
+        "created_at": "31/01/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "redisgraph",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/RedisGraph/RedisGraph/issues/2865",
+        "title": "Inconsistent results when querying a symmetric path",
+        "created_at": "02/02/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "redisgraph",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/bitnine-oss/agensgraph/issues/595",
+        "title": "Query gives inconsistent result",
+        "created_at": "29/11/2022",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "agensgraph",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/bitnine-oss/agensgraph/issues/609",
+        "title": "Seems to be an unexpected error",
+        "created_at": "21/02/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "agensgraph",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/bitnine-oss/agensgraph/issues/617",
+        "title": "Inconsistent results when executing equivalent queries",
+        "created_at": "11/04/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "agensgraph",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3322",
+        "title": "Unexpected Internal Error: Index -1 out of bounds for length 16",
+        "created_at": "11/05/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3323",
+        "title": "Unexpected Internal Error: UnsupportedOperationException",
+        "created_at": "11/05/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3324",
+        "title": "Unexpected Internal Error: NullPointerException",
+        "created_at": "11/05/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3356",
+        "title": "Unexpected NullPointerException with null query",
+        "created_at": "17/05/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3357",
+        "title": "Unexpected ClassCastException with null query",
+        "created_at": "17/05/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3376",
+        "title": "Consuming input failed: server closed the connection unexpectedly",
+        "created_at": "22/05/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3386",
+        "title": "Unexpected UnsupportedOperationException with join query on non-boolean expression",
+        "created_at": "23/05/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3418",
+        "title": "Unexpected StringIndexOutOfBoundsException with empty string",
+        "created_at": "29/05/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3419",
+        "title": "NullPointerException Cannot invoke '.getAst()' because 'queryColumn' is null with order by clause",
+        "created_at": "29/05/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3420",
+        "title": "NullPointerException: Cannot read field 'type' because 'node' is null with constant expression",
+        "created_at": "29/05/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3433",
+        "title": "ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 16",
+        "created_at": "01/06/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3445",
+        "title": "NullPointerException Cannot invoke '.isUndefined()' because the return value of '.getQuick(int)' is null",
+        "created_at": "05/06/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3454",
+        "title": "ImplicitCastException and stuck when comparing STRING with NULL",
+        "created_at": "08/06/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3455",
+        "title": "ClassCastException: NullConstant cannot be cast to class SymbolFunction",
+        "created_at": "08/06/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3467",
+        "title": "StringIndexOutOfBoundsException: String index out of range: 0",
+        "created_at": "10/06/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3468",
+        "title": "NullPointerException: Cannot read field 'type' because 'column' is null",
+        "created_at": "10/06/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3469",
+        "title": "ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 0 at io.questdb.std.LongList.extendAndSet",
+        "created_at": "10/06/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3470",
+        "title": "CairoException when casting string to timestamp",
+        "created_at": "10/06/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3526",
+        "title": "java.lang.NullPointerException: Cannot read field 'type' because 'op' is null in rewriteAggregate(SqlOptimiser.java:3300)",
+        "created_at": "29/06/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3576",
+        "title": "Unrobust comparison between string and char",
+        "created_at": "18/07/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3580",
+        "title": "Inaccurate results with EXCEPT/INTERSECT",
+        "created_at": "19/07/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3581",
+        "title": "Incorrect result returned by INTERSECT",
+        "created_at": "19/07/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3590",
+        "title": "ClassCastException: GenericRecordMetadata cannot be cast to JoinRecordMetadata in generateJoins()",
+        "created_at": "21/07/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3595",
+        "title": "Unexpected Error Invalid Column with multiple JOIN",
+        "created_at": "25/07/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3619",
+        "title": "Invalid Column error with multiple JOIN",
+        "created_at": "04/08/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3622",
+        "title": "UnsupportedOperationException in IntFunction.getStr(IntFunction.java:145)",
+        "created_at": "07/08/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3623",
+        "title": "StringIndexOutOfBoundsException: String index out of range: 0 with ORDER BY empty string",
+        "created_at": "07/08/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3669",
+        "title": "Incorrect results returned from UNION",
+        "created_at": "19/08/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3670",
+        "title": "Invalid column error with LEFT OUTER JOIN",
+        "created_at": "19/08/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3733",
+        "title": "Invalid column error not completely fixed",
+        "created_at": "12/09/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3828",
+        "title": "Incorrect results with symbol comparison",
+        "created_at": "09/10/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3833",
+        "title": "ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 16",
+        "created_at": "10/10/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3933",
+        "title": "Unexpected invalid column not completely fixed",
+        "created_at": "09/11/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3934",
+        "title": "Unexpected DatabaseError: queries have different number of columns in window function with union",
+        "created_at": "09/11/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3935",
+        "title": "NullPointerException: Cannot invoke 'io.questdb.cairo.sql.SymbolTable.valueOf(int)' because 'this.symbolTable' is null",
+        "created_at": "09/11/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3936",
+        "title": "Incorrect result with window function",
+        "created_at": "09/11/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3938",
+        "title": "Unexpected results when having brackets with window query",
+        "created_at": "09/11/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3949",
+        "title": "NullPointerException: Cannot read field 'token' because 'first' is null",
+        "created_at": "13/11/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/4010",
+        "title": "Incorrect results with nested joins",
+        "created_at": "28/11/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/taosdata/TDengine/issues/21323",
+        "title": "Segmentation fault with certain queries",
+        "created_at": "16/05/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "tdengine",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/taosdata/TDengine/issues/21368",
+        "title": "Unexpected generic error with LIKE query",
+        "created_at": "18/05/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "tdengine",
+        "resolution": "open"
+    },
+    {
+        "url": "https://github.com/taosdata/TDengine/issues/21520",
+        "title": "Unexpected Syntax Error with Null",
+        "created_at": "29/05/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "tdengine",
+        "resolution": "open"
+    },
+    {
+        "url": "https://github.com/taosdata/TDengine/issues/22857",
+        "title": "Segmentation fault when having IS NULL in JOIN condition",
+        "created_at": "12/09/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "tdengine",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/risingwavelabs/risingwave/issues/12818",
+        "title": "Panicked when processing: assertion failed: (left == right)",
+        "created_at": "12/10/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "risingwave",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/risingwavelabs/risingwave/issues/12822",
+        "title": "Incorrect result with ORDER BY in OVER(PARTITION BY ...)",
+        "created_at": "12/10/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "risingwave",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/risingwavelabs/risingwave/issues/12847",
+        "title": "InternalError_: Panicked when processing: internal error: entered unreachable code: Subquery Subquery",
+        "created_at": "14/10/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "risingwave",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/14805",
+        "title": "Couldn't create execution plan from logical plan because of: Index 2 out of bounds for length 2",
+        "created_at": "05/10/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "cratedb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/14807",
+        "title": "Incorrect result returned by UNION",
+        "created_at": "05/10/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "cratedb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/14815",
+        "title": "Unexpected Exception with ORDER BY clause with UNION",
+        "created_at": "08/10/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "cratedb",
+        "resolution": "fixed"
     }
 ]
