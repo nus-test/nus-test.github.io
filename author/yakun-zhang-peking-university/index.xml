@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yakun Zhang (Peking University) | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+    <link>https://nus-test.github.io/author/yakun-zhang-peking-university/</link>
+      <atom:link href="https://nus-test.github.io/author/yakun-zhang-peking-university/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yakun Zhang (Peking University)</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 05 Mar 2024 14:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
+      <title>Yakun Zhang (Peking University)</title>
+      <link>https://nus-test.github.io/author/yakun-zhang-peking-university/</link>
+    </image>
+    
+    <item>
+      <title>Learning-based Widget Matching for Migrating GUI Test Cases</title>
+      <link>https://nus-test.github.io/event/240305/</link>
+      <pubDate>Tue, 05 Mar 2024 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/240305/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="In collaborative software development, different developers work independently for respective tasks, which increases the development productivity. However, this process sometimes exhibits inefficiencies. Each time a programmer submits code changes, they are required to attach a commit message. Besides, merge conflicts may emerge when distinct developers modify identical sections of the code. Therefore, automating the generation of commit messages and resolving merge conflicts could substantially improve developers&#39; efficiency. We first conduct an empirical study of existing code commit techniques and propose a novel evaluation perspective, namely patterns. Subsequently, faced with the found problems, for commit message generation, we propose a fine-grained Abstract Syntax Tree (AST) to represent code changes. This representation captures the edit operations between the old and new versions, which can help models understand the key parts of code changes. Additionally, for merge conflict resolution, we propose to produce resolutions by generation instead of relying on classification, as done in prior techniques. In addition to the previous work, we will present our recent progress in merge conflict resolution. Existing techniques suffer from an unclear problem definition and a lack of clarity regarding which kind of resolutions should be produced. Consequently, we aim to provide a precise definition of this problem and propose reliable techniques based on this clarified understanding." />
+  <meta name="description" content="GUI test case migration is to migrate GUI test cases from a source app to a target app. The key of test case migration is widget match- ing. Recently, researchers have proposed various approaches by formulating widget matching as a matching task. However, since these matching approaches depend on static word embeddings with- out using contextual information to represent widgets and man- ually formulated matching functions, there are main limitations of these matching approaches when handling complex matching relations in apps. To address the limitations, we propose the first learning-based widget matching approach named TEMdroid (TEst Migration) for test case migration. Unlike the existing approaches, TEMdroid uses BERT to capture contextual information and learns a matching model to match widgets. Additionally, to balance the significant imbalance between positive and negative samples in apps, we design a two-stage training strategy where we first train a hard-negative sample miner to mine hard-negative samples, and further train a matching model using positive samples and mined hard-negative samples. Our evaluation on 34 apps shows that TEM- droid is effective in event matching (i.e., widget matching and target event synthesis) and test case migration. For event matching, TEM- droid’s Top1 accuracy is 76%, improving over 17% compared to baselines. For test case migration, TEMdroid’s F1 score is 89%, also 7% improvement compared to the baseline approach. " />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://nus-test.github.io/event/240206/" />
+  <link rel="alternate" hreflang="en-us" href="https://nus-test.github.io/event/240305/" />
 
   
 
@@ -259,7 +259,7 @@
   <link rel="icon" type="image/png" href="/media/icon_huf39aebee443421be528cbdbb4c78ede7_7416_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_huf39aebee443421be528cbdbb4c78ede7_7416_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://nus-test.github.io/event/240206/" />
+  <link rel="canonical" href="https://nus-test.github.io/event/240305/" />
 
   
   
@@ -279,9 +279,9 @@
     <meta property="twitter:creator" content="@test_nus" />
   
   <meta property="og:site_name" content="Trustworthy Engineering of Software Technologies (TEST) Lab" />
-  <meta property="og:url" content="https://nus-test.github.io/event/240206/" />
-  <meta property="og:title" content="Introduction to code commit process | Trustworthy Engineering of Software Technologies (TEST) Lab" />
-  <meta property="og:description" content="In collaborative software development, different developers work independently for respective tasks, which increases the development productivity. However, this process sometimes exhibits inefficiencies. Each time a programmer submits code changes, they are required to attach a commit message. Besides, merge conflicts may emerge when distinct developers modify identical sections of the code. Therefore, automating the generation of commit messages and resolving merge conflicts could substantially improve developers&#39; efficiency. We first conduct an empirical study of existing code commit techniques and propose a novel evaluation perspective, namely patterns. Subsequently, faced with the found problems, for commit message generation, we propose a fine-grained Abstract Syntax Tree (AST) to represent code changes. This representation captures the edit operations between the old and new versions, which can help models understand the key parts of code changes. Additionally, for merge conflict resolution, we propose to produce resolutions by generation instead of relying on classification, as done in prior techniques. In addition to the previous work, we will present our recent progress in merge conflict resolution. Existing techniques suffer from an unclear problem definition and a lack of clarity regarding which kind of resolutions should be produced. Consequently, we aim to provide a precise definition of this problem and propose reliable techniques based on this clarified understanding." /><meta property="og:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" />
+  <meta property="og:url" content="https://nus-test.github.io/event/240305/" />
+  <meta property="og:title" content="Learning-based Widget Matching for Migrating GUI Test Cases | Trustworthy Engineering of Software Technologies (TEST) Lab" />
+  <meta property="og:description" content="GUI test case migration is to migrate GUI test cases from a source app to a target app. The key of test case migration is widget match- ing. Recently, researchers have proposed various approaches by formulating widget matching as a matching task. However, since these matching approaches depend on static word embeddings with- out using contextual information to represent widgets and man- ually formulated matching functions, there are main limitations of these matching approaches when handling complex matching relations in apps. To address the limitations, we propose the first learning-based widget matching approach named TEMdroid (TEst Migration) for test case migration. Unlike the existing approaches, TEMdroid uses BERT to capture contextual information and learns a matching model to match widgets. Additionally, to balance the significant imbalance between positive and negative samples in apps, we design a two-stage training strategy where we first train a hard-negative sample miner to mine hard-negative samples, and further train a matching model using positive samples and mined hard-negative samples. Our evaluation on 34 apps shows that TEM- droid is effective in event matching (i.e., widget matching and target event synthesis) and test case migration. For event matching, TEM- droid’s Top1 accuracy is 76%, improving over 17% compared to baselines. For test case migration, TEMdroid’s F1 score is 89%, also 7% improvement compared to the baseline approach. " /><meta property="og:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" />
     <meta property="twitter:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -290,7 +290,7 @@
         content="2017-01-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2024-02-06T14:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2024-03-05T14:00:00&#43;00:00">
   
 
   
@@ -309,9 +309,9 @@
   "@type": "Event",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://nus-test.github.io/event/240206/"
+    "@id": "https://nus-test.github.io/event/240305/"
   },
-  "name": "Introduction to code commit process",
+  "name": "Learning-based Widget Matching for Migrating GUI Test Cases",
   
   "location": {
     "@type": "Place",
@@ -328,17 +328,17 @@
   },
   
   
-  "startDate": "2024-02-06T14:00:00Z",
+  "startDate": "2024-03-05T14:00:00Z",
   
-  "endDate": "2024-02-06T15:00:00Z",
+  "endDate": "2024-03-05T15:00:00Z",
   
   
   "performer": {
     "@type": "Person",
-    "name": "Jinhao Dong (Peking University)"
+    "name": "Yakun Zhang (Peking University)"
   },
   
-  "description": "In collaborative software development, different developers work independently for respective tasks, which increases the development productivity. However, this process sometimes exhibits inefficiencies. Each time a programmer submits code changes, they are required to attach a commit message. Besides, merge conflicts may emerge when distinct developers modify identical sections of the code. Therefore, automating the generation of commit messages and resolving merge conflicts could substantially improve developers' efficiency. We first conduct an empirical study of existing code commit techniques and propose a novel evaluation perspective, namely patterns. Subsequently, faced with the found problems, for commit message generation, we propose a fine-grained Abstract Syntax Tree (AST) to represent code changes. This representation captures the edit operations between the old and new versions, which can help models understand the key parts of code changes. Additionally, for merge conflict resolution, we propose to produce resolutions by generation instead of relying on classification, as done in prior techniques. In addition to the previous work, we will present our recent progress in merge conflict resolution. Existing techniques suffer from an unclear problem definition and a lack of clarity regarding which kind of resolutions should be produced. Consequently, we aim to provide a precise definition of this problem and propose reliable techniques based on this clarified understanding."
+  "description": "GUI test case migration is to migrate GUI test cases from a source app to a target app. The key of test case migration is widget match- ing. Recently, researchers have proposed various approaches by formulating widget matching as a matching task. However, since these matching approaches depend on static word embeddings with- out using contextual information to represent widgets and man- ually formulated matching functions, there are main limitations of these matching approaches when handling complex matching relations in apps. To address the limitations, we propose the first learning-based widget matching approach named TEMdroid (TEst Migration) for test case migration. Unlike the existing approaches, TEMdroid uses BERT to capture contextual information and learns a matching model to match widgets. Additionally, to balance the significant imbalance between positive and negative samples in apps, we design a two-stage training strategy where we first train a hard-negative sample miner to mine hard-negative samples, and further train a matching model using positive samples and mined hard-negative samples. Our evaluation on 34 apps shows that TEM- droid is effective in event matching (i.e., widget matching and target event synthesis) and test case migration. For event matching, TEM- droid’s Top1 accuracy is 76%, improving over 17% compared to baselines. For test case migration, TEMdroid’s F1 score is 89%, also 7% improvement compared to the baseline approach. "
 }
 </script>
 
@@ -352,11 +352,11 @@
 
 
 
-  <title>Introduction to code commit process | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+  <title>Learning-based Widget Matching for Migrating GUI Test Cases | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="6c00a6b16054b4cdb9c8cbf165f846e1" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="fff6ab9504a7507d0bb860edf293920d" >
 
   
   
@@ -691,7 +691,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Introduction to code commit process</h1>
+  <h1>Learning-based Widget Matching for Migrating GUI Test Cases</h1>
 
   
 
@@ -709,7 +709,7 @@
     
 
   <span >
-      <a href="/author/jinhao-dong-peking-university/">Jinhao Dong (Peking University)</a></span>
+      <a href="/author/yakun-zhang-peking-university/">Yakun Zhang (Peking University)</a></span>
   </div>
   
   
@@ -737,6 +737,45 @@
 
 
 
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="https://www.vldb.org/pvldb/vol17/p836-zhuang.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
@@ -747,7 +786,7 @@
 
     
       <h3>Abstract</h3>
-      <p class="pub-abstract">In collaborative software development, different developers work independently for respective tasks, which increases the development productivity. However, this process sometimes exhibits inefficiencies. Each time a programmer submits code changes, they are required to attach a commit message. Besides, merge conflicts may emerge when distinct developers modify identical sections of the code. Therefore, automating the generation of commit messages and resolving merge conflicts could substantially improve developers&rsquo; efficiency. We first conduct an empirical study of existing code commit techniques and propose a novel evaluation perspective, namely patterns. Subsequently, faced with the found problems, for commit message generation, we propose a fine-grained Abstract Syntax Tree (AST) to represent code changes. This representation captures the edit operations between the old and new versions, which can help models understand the key parts of code changes. Additionally, for merge conflict resolution, we propose to produce resolutions by generation instead of relying on classification, as done in prior techniques. In addition to the previous work, we will present our recent progress in merge conflict resolution. Existing techniques suffer from an unclear problem definition and a lack of clarity regarding which kind of resolutions should be produced. Consequently, we aim to provide a precise definition of this problem and propose reliable techniques based on this clarified understanding.</p>
+      <p class="pub-abstract">GUI test case migration is to migrate GUI test cases from a source app to a target app. The key of test case migration is widget match- ing. Recently, researchers have proposed various approaches by formulating widget matching as a matching task. However, since these matching approaches depend on static word embeddings with- out using contextual information to represent widgets and man- ually formulated matching functions, there are main limitations of these matching approaches when handling complex matching relations in apps. To address the limitations, we propose the first learning-based widget matching approach named TEMdroid (TEst Migration) for test case migration. Unlike the existing approaches, TEMdroid uses BERT to capture contextual information and learns a matching model to match widgets. Additionally, to balance the significant imbalance between positive and negative samples in apps, we design a two-stage training strategy where we first train a hard-negative sample miner to mine hard-negative samples, and further train a matching model using positive samples and mined hard-negative samples. Our evaluation on 34 apps shows that TEM- droid is effective in event matching (i.e., widget matching and target event synthesis) and test case migration. For event matching, TEM- droid’s Top1 accuracy is 76%, improving over 17% compared to baselines. For test case migration, TEMdroid’s F1 score is 89%, also 7% improvement compared to the baseline approach.</p>
     
 
     <div class="row">
@@ -756,7 +795,7 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9">
-            Feb 6, 2024 2:00 PM &mdash; 3:00 PM
+            Mar 5, 2024 2:00 PM &mdash; 3:00 PM
           </div>
         </div>
       </div>
@@ -830,7 +869,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://nus-test.github.io/event/240206/&amp;text=Introduction%20to%20code%20commit%20process" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://nus-test.github.io/event/240305/&amp;text=Learning-based%20Widget%20Matching%20for%20Migrating%20GUI%20Test%20Cases" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -843,7 +882,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://nus-test.github.io/event/240206/&amp;t=Introduction%20to%20code%20commit%20process" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://nus-test.github.io/event/240305/&amp;t=Learning-based%20Widget%20Matching%20for%20Migrating%20GUI%20Test%20Cases" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -856,7 +895,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Introduction%20to%20code%20commit%20process&amp;body=https://nus-test.github.io/event/240206/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Learning-based%20Widget%20Matching%20for%20Migrating%20GUI%20Test%20Cases&amp;body=https://nus-test.github.io/event/240305/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -869,7 +908,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://nus-test.github.io/event/240206/&amp;title=Introduction%20to%20code%20commit%20process" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://nus-test.github.io/event/240305/&amp;title=Learning-based%20Widget%20Matching%20for%20Migrating%20GUI%20Test%20Cases" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -882,7 +921,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Introduction%20to%20code%20commit%20process%20https://nus-test.github.io/event/240206/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Learning-based%20Widget%20Matching%20for%20Migrating%20GUI%20Test%20Cases%20https://nus-test.github.io/event/240305/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -895,7 +934,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://nus-test.github.io/event/240206/&amp;title=Introduction%20to%20code%20commit%20process" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://nus-test.github.io/event/240305/&amp;title=Learning-based%20Widget%20Matching%20for%20Migrating%20GUI%20Test%20Cases" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
