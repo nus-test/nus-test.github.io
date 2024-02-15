@@ -17,8 +17,8 @@
       <link>https://nus-test.github.io/bugs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://nus-test.github.io/bugs/</guid>
-      <description>&lt;h2&gt;Database Management Systems (206 bugs)&lt;/h2&gt;
-&lt;h3&gt;TiDB (45 bugs)&lt;/h3&gt;
+      <description>&lt;h2&gt;Database Management Systems (338 bugs)&lt;/h2&gt;
+&lt;h3&gt;TiDB (47 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;incorrect unresolved column when using natural join&lt;/summary&gt;
 Status: confirmed&lt;br /&gt;
@@ -289,7 +289,296 @@ Status: confirmed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/44706&#34;&gt;https://github.com/pingcap/tidb/issues/44706&lt;/a&gt; &lt;br /&gt;
 Found by: Chi Zhang
 &lt;/details&gt;
-&lt;h3&gt;QuestDB (39 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results of IN expression With NATURAL RIGHT JOIN&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/49476&#34;&gt;https://github.com/pingcap/tidb/issues/49476&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Runtime error when using overflow integers &lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/50489&#34;&gt;https://github.com/pingcap/tidb/issues/50489&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;h3&gt;Umbra (46 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Comparing Boolean Values&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Potential Issue in BETWEEN operator&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Potential Issue in NULLIF function&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Potential Issue about boolean pruning in filter&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Potential Issue about UNIQUE INDEX&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Potential Issue when Dropping table&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Segmentation fault when Using NATURAL LEFT JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Potential issue when Using Boolean values and BETWEEN Operator&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Potential issue handling Boolean values after INDEX&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results after triggering an index scan&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Potential Issue when Using CONCAT with overflow integers&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Segmentation fault when Using Between Operator&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results When Using Between Operator and String Concatenation&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Segmentation fault when Using Between Operator and integer&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when Using BETWEEN Operator and Comparison&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when LEFT JOIN a view&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;None&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;None&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Segmentation fault when Using NATURAL FULL JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when Using IN expression With INDEX&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when Using BETWEEN With VIEW&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Using NOT IN expression&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Using IS NULL with empty VIEW&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Using CAST&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Using IN and BETWEEN AND for VIEW&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;FATAL ERROR when Using NATURAL FULL JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Using IN and BETWEEN AND for VIEW&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Segmentation fault when Using NATURAL FULL JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Using Multiple Comparison&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Using LEFT JOIN with VIEW on IS NOT NULL&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Assertion failure when using UNION ALL&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Abort&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when Using COS and IN expression&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Assertion failure when using NATURAL JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when Casting to VARCHAR&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when using NATURAL RIGHT JOIN with INDEX&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;ERROR: AddressSanitizer: stack-buffer-overflow&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Assertion failure when using COT and BETWEEN AND&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Crash when using BETWEEN operator and large integer&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;ERROR: AddressSanitizer: use-after-poison&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Assertion failure when using COALESCE and CASE WHEN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Crash when using INNER JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using LEFT JOIN and VIEW&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using NULLIF and CAST in VIEW&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using LEFT JOIN and NULL values&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when using logical operator in VIEW&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;h3&gt;questdb (39 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;Unexpected Internal Error: Index -1 out of bounds for length 16&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
@@ -524,7 +813,7 @@ Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/4010&#34;&gt;https://github.com/questdb/questdb/issues/4010&lt;/a&gt; &lt;br /&gt;
 Found by: Yuancheng Jiang
 &lt;/details&gt;
-&lt;h3&gt;SQLite (35 bugs)&lt;/h3&gt;
+&lt;h3&gt;SQLite (36 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;An Inconsistent Result Depending on Parenthesization&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
@@ -735,7 +1024,13 @@ Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/96cd4a7e9e&#34;&gt;https://sqlite.org/forum/forumpost/96cd4a7e9e&lt;/a&gt; &lt;br /&gt;
 Found by: Chi Zhang
 &lt;/details&gt;
-&lt;h3&gt;DuckDB (28 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when using `REPLACE` function&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/3776b48e71&#34;&gt;https://sqlite.org/forum/forumpost/3776b48e71&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;h3&gt;DuckDB (32 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;BETWEEN with subquery and column results in unexpected error&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
@@ -904,6 +1199,193 @@ Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/105882&#34;&gt;https://github.com/cockroachdb/cockroach/issues/105882&lt;/a&gt; &lt;br /&gt;
 Found by: Chi Zhang
 &lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when using IS NOT NULL&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/9806&#34;&gt;https://github.com/duckdb/duckdb/issues/9806&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Missing Results when using Floating-point in BETWEEN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/9825&#34;&gt;https://github.com/duckdb/duckdb/issues/9825&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Internal Error: Calling StringValue::Get on a NULL value&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/9870&#34;&gt;https://github.com/duckdb/duckdb/issues/9870&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;INTERNAL Error: Failed to bind column reference &#34;&#34; [1.2] (bindings: [1.1])&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/10087&#34;&gt;https://github.com/duckdb/duckdb/issues/10087&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;h3&gt;Dolt (27 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Using &#39;%&#39; operator&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/7006&#34;&gt;https://github.com/dolthub/dolt/issues/7006&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results about Floating-point Type Casting&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/7018&#34;&gt;https://github.com/dolthub/dolt/issues/7018&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Querying with NULL values&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/7025&#34;&gt;https://github.com/dolthub/dolt/issues/7025&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Crashing by Division Operators&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/7026&#34;&gt;https://github.com/dolthub/dolt/issues/7026&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results about Decimal-Boolean Casting in Filters&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/7038&#34;&gt;https://github.com/dolthub/dolt/issues/7038&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Crash by Function DAYNAME&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/7039&#34;&gt;https://github.com/dolthub/dolt/issues/7039&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Crash by ACOS&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/7046&#34;&gt;https://github.com/dolthub/dolt/issues/7046&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Crash by Time Functions&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/7056&#34;&gt;https://github.com/dolthub/dolt/issues/7056&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Crash by SQRT&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/7060&#34;&gt;https://github.com/dolthub/dolt/issues/7060&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Querying with COT &lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/7072&#34;&gt;https://github.com/dolthub/dolt/issues/7072&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Potential Issue Using ROUND&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/7073&#34;&gt;https://github.com/dolthub/dolt/issues/7073&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Using IN for Floating-Point&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/7120&#34;&gt;https://github.com/dolthub/dolt/issues/7120&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results of In expressions&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/7147&#34;&gt;https://github.com/dolthub/dolt/issues/7147&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Panic when Using BETWEEN and CASE WHEN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/7154&#34;&gt;https://github.com/dolthub/dolt/issues/7154&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Using IN after Creating Index&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/7155&#34;&gt;https://github.com/dolthub/dolt/issues/7155&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Panic when Using BETWEEN AND&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/7216&#34;&gt;https://github.com/dolthub/dolt/issues/7216&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Using ROUND() &lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/7222&#34;&gt;https://github.com/dolthub/dolt/issues/7222&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Using BETWEEN and LEFT JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/7229&#34;&gt;https://github.com/dolthub/dolt/issues/7229&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Panic when Using INNER JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/7235&#34;&gt;https://github.com/dolthub/dolt/issues/7235&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Result when Using -&#39;&#39; in IN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Using BETWEEN AND after CREATE INDEX&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/7260&#34;&gt;https://github.com/dolthub/dolt/issues/7260&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Result when Querying with CONCAT&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/7261&#34;&gt;https://github.com/dolthub/dolt/issues/7261&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Panic when Using INNER JOIN with String in IN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/7262&#34;&gt;https://github.com/dolthub/dolt/issues/7262&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when comparing with empty string&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/7323&#34;&gt;https://github.com/dolthub/dolt/issues/7323&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using Boolean in IN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/7338&#34;&gt;https://github.com/dolthub/dolt/issues/7338&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Crash by INNER JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/7371&#34;&gt;https://github.com/dolthub/dolt/issues/7371&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when comparing string with type conversion&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/7372&#34;&gt;https://github.com/dolthub/dolt/issues/7372&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
 &lt;h3&gt;CockroachDB (25 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;sql: support SCRUB on temp tables&lt;/summary&gt;
@@ -1055,6 +1537,127 @@ Status: unconfirmed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/94264&#34;&gt;https://github.com/cockroachdb/cockroach/issues/94264&lt;/a&gt; &lt;br /&gt;
 Found by: bajinsheng
 &lt;/details&gt;
+&lt;h3&gt;cratedb (20 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Couldn&#39;t create execution plan from logical plan because of: Index 2 out of bounds for length 2&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/14805&#34;&gt;https://github.com/crate/crate/issues/14805&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Incorrect result returned by UNION&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/14807&#34;&gt;https://github.com/crate/crate/issues/14807&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Exception with ORDER BY clause with UNION&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/14815&#34;&gt;https://github.com/crate/crate/issues/14815&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using CASE statement&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15029&#34;&gt;https://github.com/crate/crate/issues/15029&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Using AND Operator&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15050&#34;&gt;https://github.com/crate/crate/issues/15050&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Using Concat Operator&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15083&#34;&gt;https://github.com/crate/crate/issues/15083&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results Using Boolean &lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15120&#34;&gt;https://github.com/crate/crate/issues/15120&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results Using NULLIF&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15121&#34;&gt;https://github.com/crate/crate/issues/15121&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using BETWEEN AND&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15201&#34;&gt;https://github.com/crate/crate/issues/15201&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when Concatenating NULL&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15202&#34;&gt;https://github.com/crate/crate/issues/15202&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Result when using IS NOT NULL&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15265&#34;&gt;https://github.com/crate/crate/issues/15265&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Result when using LEFT JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15324&#34;&gt;https://github.com/crate/crate/issues/15324&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results Using NULLIF with VARCHAR &lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15325&#34;&gt;https://github.com/crate/crate/issues/15325&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Result when using IN &lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15326&#34;&gt;https://github.com/crate/crate/issues/15326&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using string comparison AND IS NULL&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15395&#34;&gt;https://github.com/crate/crate/issues/15395&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when using AND&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15458&#34;&gt;https://github.com/crate/crate/issues/15458&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using CONCAT_WS containing NULL&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15459&#34;&gt;https://github.com/crate/crate/issues/15459&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using % with NULL&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15500&#34;&gt;https://github.com/crate/crate/issues/15500&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using LTRIM with NULL as second argument &lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15527&#34;&gt;https://github.com/crate/crate/issues/15527&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when casting integer as boolean&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15537&#34;&gt;https://github.com/crate/crate/issues/15537&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
 &lt;h3&gt;neo4j (11 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;A potential performance bug (missing optimization)&lt;/summary&gt;
@@ -1122,7 +1725,117 @@ Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/neo4j/neo4j/issues/13041&#34;&gt;https://github.com/neo4j/neo4j/issues/13041&lt;/a&gt; &lt;br /&gt;
 Found by: Yuancheng Jiang
 &lt;/details&gt;
-&lt;h3&gt;MySQL (6 bugs)&lt;/h3&gt;
+&lt;h3&gt;MonetDB (9 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result for INNER JOIN with IS NOT NULL &lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7426&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7426&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using AND and IS NOT NULL&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7430&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7430&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using CASE WHEN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7429&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7429&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using BETWEEN operator&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7428&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7428&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using AND/OR chain&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7448&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7448&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using BETWEEN in INNER JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7447&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7447&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using BETWEEN and CAST&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7451&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7451&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when CREATE VIEW with WHERE NULL&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7450&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7450&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using BETWEEN with BOOLEAN values&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7455&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7455&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;h3&gt;Firebird (9 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Potential bug in BETWEEN Operator&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/7839&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/7839&lt;/a&gt; &lt;br /&gt;
+Found by: Manuel Rigger
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Crash potentially caused by BETWEEN Operator&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/7860&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/7860&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Using Natural Right Join&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/7879&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/7879&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Using CASE-WHEN with LEFT JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/7903&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/7903&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when the join condition contains the OR predicate&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/7908&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/7908&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when using CASE WHEN with RIGHT JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/7993&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/7993&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results after creating partial index&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/7995&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/7995&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when using string concatenation for INTEGER&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/7997&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/7997&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected error and crash after creating a partial index&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/7998&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/7998&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;h3&gt;MySQL (8 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;Suspicious Estimated Rows&lt;/summary&gt;
 Status: unconfirmed&lt;br /&gt;
@@ -1159,7 +1872,99 @@ Status: confirmed&lt;br /&gt;
 Link: &lt;a href=&#34;https://bugs.mysql.com/bug.php?id=111421&#34;&gt;https://bugs.mysql.com/bug.php?id=111421&lt;/a&gt; &lt;br /&gt;
 Found by: Chi Zhang
 &lt;/details&gt;
-&lt;h3&gt;TDEngine (4 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Using Math Function SIN&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://bugs.mysql.com/bug.php?id=113180&#34;&gt;https://bugs.mysql.com/bug.php?id=113180&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Using IN for Floating-Point&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;http://bugs.mysql.com/113298&#34;&gt;http://bugs.mysql.com/113298&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;h3&gt;risingwave (7 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Panicked when processing: assertion failed: (left == right)&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/risingwavelabs/risingwave/issues/12818&#34;&gt;https://github.com/risingwavelabs/risingwave/issues/12818&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Incorrect result with ORDER BY in OVER(PARTITION BY ...)&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/risingwavelabs/risingwave/issues/12822&#34;&gt;https://github.com/risingwavelabs/risingwave/issues/12822&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;InternalError_: Panicked when processing: internal error: entered unreachable code: Subquery Subquery&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/risingwavelabs/risingwave/issues/12847&#34;&gt;https://github.com/risingwavelabs/risingwave/issues/12847&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Inserting NULL to PK column&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/risingwavelabs/risingwave/issues/13497&#34;&gt;https://github.com/risingwavelabs/risingwave/issues/13497&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Using NATURAL LEFT JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/risingwavelabs/risingwave/issues/13572&#34;&gt;https://github.com/risingwavelabs/risingwave/issues/13572&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Comparing with Bigint &lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/risingwavelabs/risingwave/issues/13601&#34;&gt;https://github.com/risingwavelabs/risingwave/issues/13601&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Panicked: byte index 1024 is not a char boundary&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/risingwavelabs/risingwave/issues/14283&#34;&gt;https://github.com/risingwavelabs/risingwave/issues/14283&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;h3&gt;Virtuoso (6 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when Using Trigonometric functions&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/openlink/virtuoso-opensource/issues/1213&#34;&gt;https://github.com/openlink/virtuoso-opensource/issues/1213&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when Using RIGHT JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/openlink/virtuoso-opensource/issues/1214&#34;&gt;https://github.com/openlink/virtuoso-opensource/issues/1214&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when using trigonometric functions&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/openlink/virtuoso-opensource/issues/1213&#34;&gt;https://github.com/openlink/virtuoso-opensource/issues/1213&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when using LEFT JOIN with NULL&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/openlink/virtuoso-opensource/issues/1236&#34;&gt;https://github.com/openlink/virtuoso-opensource/issues/1236&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when using LEFT JOIN with NULL as predicate&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/openlink/virtuoso-opensource/issues/1238&#34;&gt;https://github.com/openlink/virtuoso-opensource/issues/1238&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Crash by CASE WHEN and unknown identifier&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/openlink/virtuoso-opensource/issues/1239&#34;&gt;https://github.com/openlink/virtuoso-opensource/issues/1239&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;h3&gt;tdengine (4 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;Segmentation fault with certain queries&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
@@ -1209,44 +2014,6 @@ Status: confirmed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/RedisGraph/RedisGraph/issues/2865&#34;&gt;https://github.com/RedisGraph/RedisGraph/issues/2865&lt;/a&gt; &lt;br /&gt;
 Found by: Yuancheng Jiang
 &lt;/details&gt;
-&lt;h3&gt;RisingWave (3 bugs)&lt;/h3&gt;
-&lt;details&gt;
-&lt;summary&gt;Panicked when processing: assertion failed: (left == right)&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/risingwavelabs/risingwave/issues/12818&#34;&gt;https://github.com/risingwavelabs/risingwave/issues/12818&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Incorrect result with ORDER BY in OVER(PARTITION BY ...)&lt;/summary&gt;
-Status: confirmed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/risingwavelabs/risingwave/issues/12822&#34;&gt;https://github.com/risingwavelabs/risingwave/issues/12822&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;InternalError_: Panicked when processing: internal error: entered unreachable code: Subquery Subquery&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/risingwavelabs/risingwave/issues/12847&#34;&gt;https://github.com/risingwavelabs/risingwave/issues/12847&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;h3&gt;CrateDB (3 bugs)&lt;/h3&gt;
-&lt;details&gt;
-&lt;summary&gt;Couldn&#39;t create execution plan from logical plan because of: Index 2 out of bounds for length 2&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/14805&#34;&gt;https://github.com/crate/crate/issues/14805&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Incorrect result returned by UNION&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/14807&#34;&gt;https://github.com/crate/crate/issues/14807&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Exception with ORDER BY clause with UNION&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/14815&#34;&gt;https://github.com/crate/crate/issues/14815&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
 &lt;h3&gt;agensgraph (3 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;Query gives inconsistent result&lt;/summary&gt;
@@ -1265,6 +2032,39 @@ Found by: Yuancheng Jiang
 Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/bitnine-oss/agensgraph/issues/617&#34;&gt;https://github.com/bitnine-oss/agensgraph/issues/617&lt;/a&gt; &lt;br /&gt;
 Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;h3&gt;Percona (2 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result related to CREATE INDEX and RADIANS&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://perconadev.atlassian.net/browse/PS-9049&#34;&gt;https://perconadev.atlassian.net/browse/PS-9049&lt;/a&gt; &lt;br /&gt;
+Found by: Albert Zhang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when using ASIN function with NULLIF&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://perconadev.atlassian.net/jira/software/c/projects/PS/issues/PS-9085&#34;&gt;https://perconadev.atlassian.net/jira/software/c/projects/PS/issues/PS-9085&lt;/a&gt; &lt;br /&gt;
+Found by: Albert Zhang
+&lt;/details&gt;
+&lt;h3&gt;H2 (2 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Potential issue when using ROUND&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/h2database/h2database/issues/3982&#34;&gt;https://github.com/h2database/h2database/issues/3982&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using trigonomeric functions&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/h2database/h2database/issues/3981&#34;&gt;https://github.com/h2database/h2database/issues/3981&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;h3&gt;CUBRID (1 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;ORDER BY causes row to be omitted with index and case expression&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;http://jira.cubrid.org/browse/CBRD-25067&#34;&gt;http://jira.cubrid.org/browse/CBRD-25067&lt;/a&gt; &lt;br /&gt;
+Found by: Manuel Rigger
 &lt;/details&gt;
 &lt;h2&gt;Datalog Engines (30 bugs)&lt;/h2&gt;
 &lt;h3&gt;Soufflé (23 bugs)&lt;/h3&gt;
