@@ -2453,6 +2453,14 @@ Found by: ShuxinLi
     </item>
     
     <item>
+      <title>Detecting Build Dependency Errors in Incremental Builds</title>
+      <link>https://nus-test.github.io/publication/2024-issta-build-errors/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2024-issta-build-errors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Testing Graph Database via Graph-Aware Metamorphic Relations</title>
       <link>https://nus-test.github.io/event/240220/</link>
       <pubDate>Tue, 20 Feb 2024 14:00:00 +0000</pubDate>

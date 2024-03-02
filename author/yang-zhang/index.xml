@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yang Zhang | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+    <link>https://nus-test.github.io/author/yang-zhang/</link>
+      <atom:link href="https://nus-test.github.io/author/yang-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yang Zhang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 02 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
+      <title>Yang Zhang</title>
+      <link>https://nus-test.github.io/author/yang-zhang/</link>
+    </image>
+    
+    <item>
+      <title>Detecting Build Dependency Errors in Incremental Builds</title>
+      <link>https://nus-test.github.io/publication/2024-issta-build-errors/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2024-issta-build-errors/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
