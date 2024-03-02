@@ -1943,5 +1943,1928 @@
         "reported_by": "Chi Zhang",
         "system": "MySQL",
         "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/neo4j/neo4j/issues/12957",
+        "title": "A potential performance bug (missing optimization)",
+        "created_at": "22/10/2022",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "neo4j",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/neo4j/neo4j/issues/12968",
+        "title": "Unexpected DatabaseException: Exception closing multiple resources",
+        "created_at": "31/10/2022",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "neo4j",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/neo4j/neo4j/issues/12973",
+        "title": "One equivalent query can help improve performance hundred of times",
+        "created_at": "07/11/2022",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "neo4j",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/neo4j/neo4j/issues/12988",
+        "title": "Using OPTIONAL and DISTINCT together with shortestPath() outputs an error",
+        "created_at": "29/11/2022",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "neo4j",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/neo4j/neo4j/issues/12991",
+        "title": "Inconsistent results",
+        "created_at": "03/12/2022",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "neo4j",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/neo4j/neo4j/issues/12996",
+        "title": "Unexpected Result with SKIP 1",
+        "created_at": "07/12/2022",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "neo4j",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/neo4j/neo4j/issues/13003",
+        "title": "Some queries are running unexpectedly slow",
+        "created_at": "08/12/2022",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "neo4j",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/neo4j/neo4j/issues/13010",
+        "title": "Adding index incurs performance regression in some cases",
+        "created_at": "16/12/2022",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "neo4j",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/neo4j/neo4j/issues/13033",
+        "title": "OPTIONAL MATCH is much faster than MATCH in some cases",
+        "created_at": "31/01/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "neo4j",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/neo4j/neo4j/issues/13034",
+        "title": "Inconsistent performance",
+        "created_at": "31/01/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "neo4j",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/neo4j/neo4j/issues/13041",
+        "title": "Unexpected error: out of bounds for object",
+        "created_at": "11/02/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "neo4j",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/RedisGraph/RedisGraph/issues/2744",
+        "title": "Unexpected results",
+        "created_at": "01/12/2022",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "redisgraph",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/RedisGraph/RedisGraph/issues/2858",
+        "title": "Buggy result",
+        "created_at": "31/01/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "redisgraph",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/RedisGraph/RedisGraph/issues/2859",
+        "title": "Inconsistent results",
+        "created_at": "31/01/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "redisgraph",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/RedisGraph/RedisGraph/issues/2865",
+        "title": "Inconsistent results when querying a symmetric path",
+        "created_at": "02/02/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "redisgraph",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/bitnine-oss/agensgraph/issues/595",
+        "title": "Query gives inconsistent result",
+        "created_at": "29/11/2022",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "agensgraph",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/bitnine-oss/agensgraph/issues/609",
+        "title": "Seems to be an unexpected error",
+        "created_at": "21/02/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "agensgraph",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/bitnine-oss/agensgraph/issues/617",
+        "title": "Inconsistent results when executing equivalent queries",
+        "created_at": "11/04/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "agensgraph",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3322",
+        "title": "Unexpected Internal Error: Index -1 out of bounds for length 16",
+        "created_at": "11/05/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3323",
+        "title": "Unexpected Internal Error: UnsupportedOperationException",
+        "created_at": "11/05/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3324",
+        "title": "Unexpected Internal Error: NullPointerException",
+        "created_at": "11/05/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3356",
+        "title": "Unexpected NullPointerException with null query",
+        "created_at": "17/05/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3357",
+        "title": "Unexpected ClassCastException with null query",
+        "created_at": "17/05/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3376",
+        "title": "Consuming input failed: server closed the connection unexpectedly",
+        "created_at": "22/05/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3386",
+        "title": "Unexpected UnsupportedOperationException with join query on non-boolean expression",
+        "created_at": "23/05/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3418",
+        "title": "Unexpected StringIndexOutOfBoundsException with empty string",
+        "created_at": "29/05/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3419",
+        "title": "NullPointerException Cannot invoke '.getAst()' because 'queryColumn' is null with order by clause",
+        "created_at": "29/05/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3420",
+        "title": "NullPointerException: Cannot read field 'type' because 'node' is null with constant expression",
+        "created_at": "29/05/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3433",
+        "title": "ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 16",
+        "created_at": "01/06/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3445",
+        "title": "NullPointerException Cannot invoke '.isUndefined()' because the return value of '.getQuick(int)' is null",
+        "created_at": "05/06/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3454",
+        "title": "ImplicitCastException and stuck when comparing STRING with NULL",
+        "created_at": "08/06/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3455",
+        "title": "ClassCastException: NullConstant cannot be cast to class SymbolFunction",
+        "created_at": "08/06/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3467",
+        "title": "StringIndexOutOfBoundsException: String index out of range: 0",
+        "created_at": "10/06/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3468",
+        "title": "NullPointerException: Cannot read field 'type' because 'column' is null",
+        "created_at": "10/06/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3469",
+        "title": "ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 0 at io.questdb.std.LongList.extendAndSet",
+        "created_at": "10/06/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3470",
+        "title": "CairoException when casting string to timestamp",
+        "created_at": "10/06/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3526",
+        "title": "java.lang.NullPointerException: Cannot read field 'type' because 'op' is null in rewriteAggregate(SqlOptimiser.java:3300)",
+        "created_at": "29/06/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3576",
+        "title": "Unrobust comparison between string and char",
+        "created_at": "18/07/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3580",
+        "title": "Inaccurate results with EXCEPT/INTERSECT",
+        "created_at": "19/07/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3581",
+        "title": "Incorrect result returned by INTERSECT",
+        "created_at": "19/07/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3590",
+        "title": "ClassCastException: GenericRecordMetadata cannot be cast to JoinRecordMetadata in generateJoins()",
+        "created_at": "21/07/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3595",
+        "title": "Unexpected Error Invalid Column with multiple JOIN",
+        "created_at": "25/07/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3619",
+        "title": "Invalid Column error with multiple JOIN",
+        "created_at": "04/08/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3622",
+        "title": "UnsupportedOperationException in IntFunction.getStr(IntFunction.java:145)",
+        "created_at": "07/08/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3623",
+        "title": "StringIndexOutOfBoundsException: String index out of range: 0 with ORDER BY empty string",
+        "created_at": "07/08/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3669",
+        "title": "Incorrect results returned from UNION",
+        "created_at": "19/08/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3670",
+        "title": "Invalid column error with LEFT OUTER JOIN",
+        "created_at": "19/08/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3733",
+        "title": "Invalid column error not completely fixed",
+        "created_at": "12/09/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3828",
+        "title": "Incorrect results with symbol comparison",
+        "created_at": "09/10/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3833",
+        "title": "ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 16",
+        "created_at": "10/10/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3933",
+        "title": "Unexpected invalid column not completely fixed",
+        "created_at": "09/11/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3934",
+        "title": "Unexpected DatabaseError: queries have different number of columns in window function with union",
+        "created_at": "09/11/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3935",
+        "title": "NullPointerException: Cannot invoke 'io.questdb.cairo.sql.SymbolTable.valueOf(int)' because 'this.symbolTable' is null",
+        "created_at": "09/11/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3936",
+        "title": "Incorrect result with window function",
+        "created_at": "09/11/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3938",
+        "title": "Unexpected results when having brackets with window query",
+        "created_at": "09/11/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/3949",
+        "title": "NullPointerException: Cannot read field 'token' because 'first' is null",
+        "created_at": "13/11/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/4010",
+        "title": "Incorrect results with nested joins",
+        "created_at": "28/11/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "questdb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/taosdata/TDengine/issues/21323",
+        "title": "Segmentation fault with certain queries",
+        "created_at": "16/05/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "tdengine",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/taosdata/TDengine/issues/21368",
+        "title": "Unexpected generic error with LIKE query",
+        "created_at": "18/05/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "tdengine",
+        "resolution": "open"
+    },
+    {
+        "url": "https://github.com/taosdata/TDengine/issues/21520",
+        "title": "Unexpected Syntax Error with Null",
+        "created_at": "29/05/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "tdengine",
+        "resolution": "open"
+    },
+    {
+        "url": "https://github.com/taosdata/TDengine/issues/22857",
+        "title": "Segmentation fault when having IS NULL in JOIN condition",
+        "created_at": "12/09/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "tdengine",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/risingwavelabs/risingwave/issues/12818",
+        "title": "Panicked when processing: assertion failed: (left == right)",
+        "created_at": "12/10/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "risingwave",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/risingwavelabs/risingwave/issues/12822",
+        "title": "Incorrect result with ORDER BY in OVER(PARTITION BY ...)",
+        "created_at": "12/10/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "risingwave",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/risingwavelabs/risingwave/issues/12847",
+        "title": "InternalError_: Panicked when processing: internal error: entered unreachable code: Subquery Subquery",
+        "created_at": "14/10/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "risingwave",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/14805",
+        "title": "Couldn't create execution plan from logical plan because of: Index 2 out of bounds for length 2",
+        "created_at": "05/10/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "cratedb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/14807",
+        "title": "Incorrect result returned by UNION",
+        "created_at": "05/10/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "cratedb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/14815",
+        "title": "Unexpected Exception with ORDER BY clause with UNION",
+        "created_at": "08/10/2023",
+        "domain": "dbms",
+        "reported_by": "Yuancheng Jiang",
+        "system": "cratedb",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/15029",
+        "title": "Unexpected result when using CASE statement",
+        "created_at": "11/9/2023",
+        "closed_at": "11/13/2023",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/15050",
+        "title": "Unexpected Results when Using AND Operator",
+        "created_at": "11/14/2023",
+        "closed_at": "11/21/2023",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/15083",
+        "title": "Unexpected Results when Using Concat Operator",
+        "created_at": "11/22/2023",
+        "closed_at": "11/29/2023",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/7006",
+        "title": "Unexpected Results when Using '%' operator",
+        "created_at": "11/16/2023",
+        "closed_at": "11/17/2023",
+        "domain": "dbms",
+        "system": "Dolt",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/7018",
+        "title": "Unexpected Results about Floating-point Type Casting",
+        "created_at": "11/17/2023",
+        "closed_at": "11/18/2023",
+        "domain": "dbms",
+        "system": "Dolt",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/7025",
+        "title": "Unexpected Results when Querying with NULL values",
+        "created_at": "11/19/2023",
+        "closed_at": "11/21/2023",
+        "domain": "dbms",
+        "system": "Dolt",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/7026",
+        "title": "Crashing by Division Operators",
+        "created_at": "11/19/2023",
+        "closed_at": "11/21/2023",
+        "domain": "dbms",
+        "system": "Dolt",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/risingwavelabs/risingwave/issues/13497",
+        "title": "Unexpected Results when Inserting NULL to PK column",
+        "created_at": "11/17/2023",
+        "closed_at": "11/20/2023",
+        "domain": "dbms",
+        "system": "risingwave",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/risingwavelabs/risingwave/issues/13572",
+        "title": "Unexpected Results when Using NATURAL LEFT JOIN",
+        "created_at": "11/21/2023",
+        "closed_at": "11/22/2023",
+        "domain": "dbms",
+        "system": "risingwave",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/FirebirdSQL/firebird/issues/7839",
+        "title": "Potential bug in BETWEEN Operator",
+        "created_at": "11/11/2023",
+        "closed_at": "11/16/2023",
+        "domain": "dbms",
+        "system": "Firebird",
+        "reported_by": "Manuel Rigger",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/FirebirdSQL/firebird/issues/7860",
+        "title": "Crash potentially caused by BETWEEN Operator",
+        "created_at": "11/20/2023",
+        "closed_at": "11/25/2023",
+        "domain": "dbms",
+        "system": "Firebird",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "http://jira.cubrid.org/browse/CBRD-25067",
+        "title": "ORDER BY causes row to be omitted with index and case expression",
+        "created_at": "11/12/2023",
+        "closed_at": "12/13/2023",
+        "domain": "dbms",
+        "system": "CUBRID",
+        "reported_by": "Manuel Rigger",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/7038",
+        "title": "Unexpected Results about Decimal-Boolean Casting in Filters",
+        "created_at": "11/22/2023",
+        "closed_at": "11/24/2023",
+        "domain": "dbms",
+        "system": "Dolt",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/7039",
+        "title": "Crash by Function DAYNAME",
+        "created_at": "11/22/2023",
+        "closed_at": "11/27/2023",
+        "domain": "dbms",
+        "system": "Dolt",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://bugs.mysql.com/bug.php?id=113180",
+        "title": "Unexpected Results when Using Math Function SIN",
+        "created_at": "11/22/2023",
+        "closed_at": null,
+        "domain": "dbms",
+        "system": "MySQL",
+        "reported_by": "Suyang Zhong",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/risingwavelabs/risingwave/issues/13601",
+        "title": "Unexpected Results when Comparing with Bigint ",
+        "created_at": "11/22/2023",
+        "closed_at": "11/28/2023",
+        "domain": "dbms",
+        "system": "risingwave",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/7046",
+        "title": "Crash by ACOS",
+        "created_at": "11/23/2023",
+        "closed_at": "11/27/2023",
+        "domain": "dbms",
+        "system": "Dolt",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/9806",
+        "title": "Unexpected Results when using IS NOT NULL",
+        "created_at": "11/26/2023",
+        "closed_at": "11/27/2023",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/FirebirdSQL/firebird/issues/7879",
+        "title": "Unexpected Results when Using Natural Right Join",
+        "created_at": "11/27/2023",
+        "closed_at": "11/27/2023",
+        "domain": "dbms",
+        "system": "Firebird",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Unexpected Results when Comparing Boolean Values",
+        "created_at": "11/27/2023",
+        "closed_at": "11/27/2023",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/9825",
+        "title": "Missing Results when using Floating-point in BETWEEN",
+        "created_at": "11/28/2023",
+        "closed_at": "11/29/2023",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/7056",
+        "title": "Crash by Time Functions",
+        "created_at": "11/28/2023",
+        "closed_at": "11/29/2023",
+        "domain": "dbms",
+        "system": "Dolt",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Potential Issue in BETWEEN operator",
+        "created_at": "11/28/2023",
+        "closed_at": "11/29/2023",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/7060",
+        "title": "Crash by SQRT",
+        "created_at": "11/29/2023",
+        "closed_at": "11/30/2023",
+        "domain": "dbms",
+        "system": "Dolt",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Potential Issue in NULLIF function",
+        "created_at": "11/29/2023",
+        "closed_at": "11/29/2023",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Potential Issue about boolean pruning in filter",
+        "created_at": "11/29/2023",
+        "closed_at": "11/29/2023",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Potential Issue about UNIQUE INDEX",
+        "created_at": "11/29/2023",
+        "closed_at": "12/5/2023",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Potential Issue when Dropping table",
+        "created_at": "11/29/2023",
+        "closed_at": "12/5/2023",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/15120",
+        "title": "Unexpected Results Using Boolean ",
+        "created_at": "11/29/2023",
+        "closed_at": "12/15/2023",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/15121",
+        "title": "Unexpected Results Using NULLIF",
+        "created_at": "11/29/2023",
+        "closed_at": "12/15/2023",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/7072",
+        "title": "Unexpected Results when Querying with COT ",
+        "created_at": "11/30/2023",
+        "closed_at": "12/5/2023",
+        "domain": "dbms",
+        "system": "Dolt",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/7073",
+        "title": "Potential Issue Using ROUND",
+        "created_at": "11/30/2023",
+        "closed_at": "12/7/2023",
+        "domain": "dbms",
+        "system": "Dolt",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "http://bugs.mysql.com/113298",
+        "title": "Unexpected Results when Using IN for Floating-Point",
+        "created_at": "12/1/2023",
+        "closed_at": null,
+        "domain": "dbms",
+        "system": "MySQL",
+        "reported_by": "Suyang Zhong",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/9870",
+        "title": "Internal Error: Calling StringValue::Get on a NULL value",
+        "created_at": "12/2/2023",
+        "closed_at": "12/4/2023",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/FirebirdSQL/firebird/issues/7903",
+        "title": "Unexpected Results when Using CASE-WHEN with LEFT JOIN",
+        "created_at": "12/3/2023",
+        "closed_at": "12/3/2023",
+        "domain": "dbms",
+        "system": "Firebird",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Segmentation fault when Using NATURAL LEFT JOIN",
+        "created_at": "12/5/2023",
+        "closed_at": "12/5/2023",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Potential issue when Using Boolean values and BETWEEN Operator",
+        "created_at": "12/5/2023",
+        "closed_at": "12/6/2023",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Potential issue handling Boolean values after INDEX",
+        "created_at": "12/5/2023",
+        "closed_at": "12/5/2023",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/FirebirdSQL/firebird/issues/7908",
+        "title": "Unexpected results when the join condition contains the OR predicate",
+        "created_at": "12/6/2023",
+        "closed_at": "12/6/2023",
+        "domain": "dbms",
+        "system": "Firebird",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/7120",
+        "title": "Unexpected Results when Using IN for Floating-Point",
+        "created_at": "12/7/2023",
+        "closed_at": "12/12/2023",
+        "domain": "dbms",
+        "system": "Dolt",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Unexpected results after triggering an index scan",
+        "created_at": "12/6/2023",
+        "closed_at": "12/8/2023",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Potential Issue when Using CONCAT with overflow integers",
+        "created_at": "12/9/2023",
+        "closed_at": "12/12/2023",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Segmentation fault when Using Between Operator",
+        "created_at": "12/9/2023",
+        "closed_at": "12/12/2023",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/7147",
+        "title": "Unexpected Results of In expressions",
+        "created_at": "12/12/2023",
+        "closed_at": "12/13/2023",
+        "domain": "dbms",
+        "system": "Dolt",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Unexpected Results When Using Between Operator and String Concatenation",
+        "created_at": "12/12/2023",
+        "closed_at": "12/14/2023",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/7154",
+        "title": "Panic when Using BETWEEN and CASE WHEN",
+        "created_at": "12/13/2023",
+        "closed_at": "12/15/2023",
+        "domain": "dbms",
+        "system": "Dolt",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/7155",
+        "title": "Unexpected Results when Using IN after Creating Index",
+        "created_at": "12/13/2023",
+        "closed_at": "12/28/2023",
+        "domain": "dbms",
+        "system": "Dolt",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Segmentation fault when Using Between Operator and integer",
+        "created_at": "12/14/2023",
+        "closed_at": "12/16/2023",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/49476",
+        "title": "Unexpected Results of IN expression With NATURAL RIGHT JOIN",
+        "created_at": "12/14/2023",
+        "closed_at": null,
+        "domain": "dbms",
+        "system": "TiDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/15201",
+        "title": "Unexpected result when using BETWEEN AND",
+        "created_at": "12/16/2023",
+        "closed_at": "12/20/2023",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/15202",
+        "title": "Unexpected result when Concatenating NULL",
+        "created_at": "12/16/2023",
+        "closed_at": "12/21/2023",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Unexpected results when Using BETWEEN Operator and Comparison",
+        "created_at": "12/16/2023",
+        "closed_at": "12/18/2023",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Unexpected results when LEFT JOIN a view",
+        "created_at": "12/19/2023",
+        "closed_at": "12/22/2023",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": null,
+        "created_at": "12/23/2023",
+        "closed_at": "12/30/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": null,
+        "created_at": "12/23/2023",
+        "closed_at": "12/30/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/15265",
+        "title": "Unexpected Result when using IS NOT NULL",
+        "created_at": "12/24/2023",
+        "closed_at": "1/11/2024",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/7216",
+        "title": "Panic when Using BETWEEN AND",
+        "created_at": "12/28/2023",
+        "closed_at": "12/29/2023",
+        "domain": "dbms",
+        "system": "Dolt",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/7222",
+        "title": "Unexpected Results when Using ROUND() ",
+        "created_at": "12/29/2023",
+        "closed_at": "12/30/2023",
+        "domain": "dbms",
+        "system": "Dolt",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/10087",
+        "title": "INTERNAL Error: Failed to bind column reference \"\" [1.2] (bindings: [1.1])",
+        "created_at": "12/30/2023",
+        "closed_at": null,
+        "domain": "dbms",
+        "system": "DuckDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/risingwavelabs/risingwave/issues/14283",
+        "title": "Panicked: byte index 1024 is not a char boundary",
+        "created_at": "12/30/2023",
+        "closed_at": "1/2/2024",
+        "domain": "dbms",
+        "system": "risingwave",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/7229",
+        "title": "Unexpected Results when Using BETWEEN and LEFT JOIN",
+        "created_at": "1/1/2024",
+        "closed_at": "1/3/2024",
+        "domain": "dbms",
+        "system": "Dolt",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Segmentation fault when Using NATURAL FULL JOIN",
+        "created_at": "1/1/2024",
+        "closed_at": "1/4/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://perconadev.atlassian.net/browse/PS-9049",
+        "title": "Unexpected result related to CREATE INDEX and RADIANS",
+        "created_at": "1/2/2024",
+        "closed_at": null,
+        "domain": "dbms",
+        "system": "Percona",
+        "reported_by": "Albert Zhang",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/openlink/virtuoso-opensource/issues/1213",
+        "title": "Unexpected results when Using Trigonometric functions",
+        "created_at": "1/2/2024",
+        "closed_at": "1/12/2024",
+        "domain": "dbms",
+        "system": "Virtuoso",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/openlink/virtuoso-opensource/issues/1214",
+        "title": "Unexpected results when Using RIGHT JOIN",
+        "created_at": "1/2/2024",
+        "closed_at": "1/12/2024",
+        "domain": "dbms",
+        "system": "Virtuoso",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7426",
+        "title": "Unexpected result for INNER JOIN with IS NOT NULL ",
+        "created_at": "1/2/2024",
+        "closed_at": "1/10/2024",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/7235",
+        "title": "Panic when Using INNER JOIN",
+        "created_at": "1/3/2024",
+        "closed_at": "1/4/2024",
+        "domain": "dbms",
+        "system": "Dolt",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Unexpected results when Using IN expression With INDEX",
+        "created_at": "1/4/2024",
+        "closed_at": "1/6/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Unexpected results when Using BETWEEN With VIEW",
+        "created_at": "1/4/2024",
+        "closed_at": "1/6/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Unexpected Result when Using -'' in IN",
+        "created_at": "1/4/2024",
+        "closed_at": "1/5/2024",
+        "domain": "dbms",
+        "system": "Dolt",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/7260",
+        "title": "Unexpected Results when Using BETWEEN AND after CREATE INDEX",
+        "created_at": "1/5/2024",
+        "closed_at": "1/20/2024",
+        "domain": "dbms",
+        "system": "Dolt",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/7261",
+        "title": "Unexpected Result when Querying with CONCAT",
+        "created_at": "1/5/2024",
+        "closed_at": "1/10/2024",
+        "domain": "dbms",
+        "system": "Dolt",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/7262",
+        "title": "Panic when Using INNER JOIN with String in IN",
+        "created_at": "1/5/2024",
+        "closed_at": "1/9/2024",
+        "domain": "dbms",
+        "system": "Dolt",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Unexpected Results when Using NOT IN expression",
+        "created_at": "1/6/2024",
+        "closed_at": "1/7/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Unexpected Results when Using IS NULL with empty VIEW",
+        "created_at": "1/6/2024",
+        "closed_at": "1/7/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Unexpected Results when Using CAST",
+        "created_at": "1/7/2024",
+        "closed_at": "1/8/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Unexpected Results when Using IN and BETWEEN AND for VIEW",
+        "created_at": "1/7/2024",
+        "closed_at": "1/8/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "FATAL ERROR when Using NATURAL FULL JOIN",
+        "created_at": "1/8/2024",
+        "closed_at": "1/9/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Unexpected Results when Using IN and BETWEEN AND for VIEW",
+        "created_at": "1/8/2024",
+        "closed_at": "1/9/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Segmentation fault when Using NATURAL FULL JOIN",
+        "created_at": "1/10/2024",
+        "closed_at": "1/10/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Unexpected Results when Using Multiple Comparison",
+        "created_at": "1/10/2024",
+        "closed_at": "1/10/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7430",
+        "title": "Unexpected result when using AND and IS NOT NULL",
+        "created_at": "1/10/2024",
+        "closed_at": "1/24/2024",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7429",
+        "title": "Unexpected result when using CASE WHEN",
+        "created_at": "1/10/2024",
+        "closed_at": "1/24/2024",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7428",
+        "title": "Unexpected result when using BETWEEN operator",
+        "created_at": "1/10/2024",
+        "closed_at": "1/24/2024",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Unexpected Results when Using LEFT JOIN with VIEW on IS NOT NULL",
+        "created_at": "1/11/2024",
+        "closed_at": "1/11/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/15324",
+        "title": "Unexpected Result when using LEFT JOIN",
+        "created_at": "1/11/2024",
+        "closed_at": "1/17/2024",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/15325",
+        "title": "Unexpected Results Using NULLIF with VARCHAR ",
+        "created_at": "1/11/2024",
+        "closed_at": "1/11/2024",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/15326",
+        "title": "Unexpected Result when using IN ",
+        "created_at": "1/11/2024",
+        "closed_at": "1/17/2024",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Assertion failure when using UNION ALL",
+        "created_at": "1/12/2024",
+        "closed_at": "1/12/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Unexpected Abort",
+        "created_at": "1/12/2024",
+        "closed_at": "1/13/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Unexpected results when Using COS and IN expression",
+        "created_at": "1/13/2024",
+        "closed_at": "1/14/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Assertion failure when using NATURAL JOIN",
+        "created_at": "1/13/2024",
+        "closed_at": "1/14/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Unexpected results when Casting to VARCHAR",
+        "created_at": "1/14/2024",
+        "closed_at": "1/14/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/openlink/virtuoso-opensource/issues/1213",
+        "title": "Unexpected results when using trigonometric functions",
+        "created_at": "1/14/2024",
+        "closed_at": "1/17/2024",
+        "domain": "dbms",
+        "system": "Virtuoso",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/openlink/virtuoso-opensource/issues/1236",
+        "title": "Unexpected Results when using LEFT JOIN with NULL",
+        "created_at": "1/14/2024",
+        "closed_at": "1/17/2024",
+        "domain": "dbms",
+        "system": "Virtuoso",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Unexpected results when using NATURAL RIGHT JOIN with INDEX",
+        "created_at": "1/15/2024",
+        "closed_at": "1/16/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "ERROR: AddressSanitizer: stack-buffer-overflow",
+        "created_at": "1/15/2024",
+        "closed_at": "1/16/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Assertion failure when using COT and BETWEEN AND",
+        "created_at": "1/15/2024",
+        "closed_at": "1/16/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/7323",
+        "title": "Unexpected results when comparing with empty string",
+        "created_at": "1/16/2024",
+        "closed_at": "1/17/2024",
+        "domain": "dbms",
+        "system": "Dolt",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Crash when using BETWEEN operator and large integer",
+        "created_at": "1/16/2024",
+        "closed_at": "1/17/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/50489",
+        "title": "Runtime error when using overflow integers ",
+        "created_at": "1/17/2024",
+        "closed_at": null,
+        "domain": "dbms",
+        "system": "TiDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/7338",
+        "title": "Unexpected result when using Boolean in IN",
+        "created_at": "1/17/2024",
+        "closed_at": "1/18/2024",
+        "domain": "dbms",
+        "system": "Dolt",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "ERROR: AddressSanitizer: use-after-poison",
+        "created_at": "1/18/2024",
+        "closed_at": "1/18/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Assertion failure when using COALESCE and CASE WHEN",
+        "created_at": "1/18/2024",
+        "closed_at": "1/18/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/15395",
+        "title": "Unexpected result when using string comparison AND IS NULL",
+        "created_at": "1/18/2024",
+        "closed_at": "1/25/2024",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/7371",
+        "title": "Crash by INNER JOIN",
+        "created_at": "1/19/2024",
+        "closed_at": "1/27/2024",
+        "domain": "dbms",
+        "system": "Dolt",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/7372",
+        "title": "Unexpected results when comparing string with type conversion",
+        "created_at": "1/19/2024",
+        "closed_at": null,
+        "domain": "dbms",
+        "system": "Dolt",
+        "reported_by": "Suyang Zhong",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/openlink/virtuoso-opensource/issues/1238",
+        "title": "Unexpected results when using LEFT JOIN with NULL as predicate",
+        "created_at": "1/19/2024",
+        "closed_at": "2/6/2024",
+        "domain": "dbms",
+        "system": "Virtuoso",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/openlink/virtuoso-opensource/issues/1239",
+        "title": "Crash by CASE WHEN and unknown identifier",
+        "created_at": "1/19/2024",
+        "closed_at": "2/6/2024",
+        "domain": "dbms",
+        "system": "Virtuoso",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://sqlite.org/forum/forumpost/3776b48e71, https://www.sqlite.org/src/info/01868ebcd25fadb2",
+        "title": "Unexpected results when using `REPLACE` function",
+        "created_at": "1/20/2024",
+        "closed_at": "1/20/2024",
+        "domain": "dbms",
+        "system": "SQLite",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7448",
+        "title": "Unexpected result when using AND/OR chain",
+        "created_at": "1/24/2024",
+        "closed_at": "1/26/2024",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7447",
+        "title": "Unexpected result when using BETWEEN in INNER JOIN",
+        "created_at": "1/24/2024",
+        "closed_at": "1/26/2024",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/h2database/h2database/issues/3982",
+        "title": "Potential issue when using ROUND",
+        "created_at": "1/25/2024",
+        "closed_at": null,
+        "domain": "dbms",
+        "system": "H2",
+        "reported_by": "Suyang Zhong",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/h2database/h2database/issues/3981",
+        "title": "Unexpected result when using trigonomeric functions",
+        "created_at": "1/25/2024",
+        "closed_at": null,
+        "domain": "dbms",
+        "system": "H2",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://perconadev.atlassian.net/jira/software/c/projects/PS/issues/PS-9085",
+        "title": "Unexpected results when using ASIN function with NULLIF",
+        "created_at": "1/25/2024",
+        "closed_at": null,
+        "domain": "dbms",
+        "system": "Percona",
+        "reported_by": "Albert Zhang",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/15458",
+        "title": "Unexpected results when using AND",
+        "created_at": "1/26/2024",
+        "closed_at": "2/2/2024",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/15459",
+        "title": "Unexpected result when using CONCAT_WS containing NULL",
+        "created_at": "1/26/2024",
+        "closed_at": "1/31/2024",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7451",
+        "title": "Unexpected result when using BETWEEN and CAST",
+        "created_at": "1/31/2024",
+        "closed_at": null,
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7450",
+        "title": "Unexpected result when CREATE VIEW with WHERE NULL",
+        "created_at": "1/31/2024",
+        "closed_at": null,
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/15500",
+        "title": "Unexpected result when using % with NULL",
+        "created_at": "2/2/2024",
+        "closed_at": null,
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Crash when using INNER JOIN",
+        "created_at": "2/4/2024",
+        "closed_at": "2/5/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Unexpected result when using LEFT JOIN and VIEW",
+        "created_at": "2/4/2024",
+        "closed_at": "2/5/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/FirebirdSQL/firebird/issues/7993",
+        "title": "Unexpected results when using CASE WHEN with RIGHT JOIN",
+        "created_at": "2/5/2024",
+        "closed_at": "2/6/2024",
+        "domain": "dbms",
+        "system": "Firebird",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Unexpected result when using NULLIF and CAST in VIEW",
+        "created_at": "2/6/2024",
+        "closed_at": "2/7/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Unexpected result when using LEFT JOIN and NULL values",
+        "created_at": "2/6/2024",
+        "closed_at": "2/7/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/FirebirdSQL/firebird/issues/7995",
+        "title": "Unexpected results after creating partial index",
+        "created_at": "2/7/2024",
+        "closed_at": "2/9/2024",
+        "domain": "dbms",
+        "system": "Firebird",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/15527",
+        "title": "Unexpected result when using LTRIM with NULL as second argument ",
+        "created_at": "2/8/2024",
+        "closed_at": "2/9/2024",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": null,
+        "title": "Unexpected results when using logical operator in VIEW",
+        "created_at": "2/8/2024",
+        "closed_at": "2/8/2024",
+        "domain": "dbms",
+        "system": "Umbra",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/FirebirdSQL/firebird/issues/7997",
+        "title": "Unexpected results when using string concatenation for INTEGER",
+        "created_at": "2/9/2024",
+        "closed_at": null,
+        "domain": "dbms",
+        "system": "Firebird",
+        "reported_by": "Suyang Zhong",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/FirebirdSQL/firebird/issues/7998",
+        "title": "Unexpected error and crash after creating a partial index",
+        "created_at": "2/9/2024",
+        "closed_at": "2/11/2024",
+        "domain": "dbms",
+        "system": "Firebird",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/15537",
+        "title": "Unexpected result when casting integer as boolean",
+        "created_at": "2/9/2024",
+        "closed_at": null,
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7455",
+        "title": "Unexpected result when using BETWEEN with BOOLEAN values",
+        "created_at": "2/10/2024",
+        "closed_at": "2/10/2024",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
     }
 ]
