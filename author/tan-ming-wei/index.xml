@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tan Ming Wei | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+    <link>https://nus-test.github.io/author/tan-ming-wei/</link>
+      <atom:link href="https://nus-test.github.io/author/tan-ming-wei/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tan Ming Wei</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://nus-test.github.io/author/tan-ming-wei/avatar_hudb890ad0ac9a00b6e2cd596ade3841a0_6378440_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Tan Ming Wei</title>
+      <link>https://nus-test.github.io/author/tan-ming-wei/</link>
+    </image>
+    
+  </channel>
+</rss>
