@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/author/ivan-ho/</link>
       <atom:link href="https://nus-test.github.io/author/ivan-ho/index.xml" rel="self" type="application/rss+xml" />
     <description>Ivan Ho</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 30 Jan 2024 14:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 Mar 2024 14:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/author/ivan-ho/avatar_hu5960d2afbd85fdd8bff373f6ce50dd5b_2924764_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Ivan Ho</title>
       <link>https://nus-test.github.io/author/ivan-ho/</link>
     </image>
+    
+    <item>
+      <title>CS3213 Lecture - Software Evolution</title>
+      <link>https://nus-test.github.io/event/240319/</link>
+      <pubDate>Tue, 19 Mar 2024 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/240319/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Golly! Granular Bug Finding via Polyhedral Analysis of GPU Kernels</title>
