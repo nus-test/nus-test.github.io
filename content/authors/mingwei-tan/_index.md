@@ -6,7 +6,7 @@ title: Tan Ming Wei
 superuser: false
 
 # Role/position
-role: Undergraduate Students
+role: Undergraduate Student
 
 # Organizations/Affiliations
 organizations:
