@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mehtab Zafar | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+    <link>https://nus-test.github.io/author/mehtab-zafar/</link>
+      <atom:link href="https://nus-test.github.io/author/mehtab-zafar/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mehtab Zafar</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://nus-test.github.io/author/mehtab-zafar/avatar_hu849f48c91a6f5c132c00228fbabc734e_173993_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Mehtab Zafar</title>
+      <link>https://nus-test.github.io/author/mehtab-zafar/</link>
+    </image>
+    
+  </channel>
+</rss>
