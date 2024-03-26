@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yun Peng | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+    <link>https://nus-test.github.io/author/yun-peng/</link>
+      <atom:link href="https://nus-test.github.io/author/yun-peng/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yun Peng</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Apr 2024 14:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
+      <title>Yun Peng</title>
+      <link>https://nus-test.github.io/author/yun-peng/</link>
+    </image>
+    
+    <item>
+      <title>Intelligent Code Analysis and Program Repair in the Era of LLMs</title>
+      <link>https://nus-test.github.io/event/240402/</link>
+      <pubDate>Tue, 02 Apr 2024 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/240402/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

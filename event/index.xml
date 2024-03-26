@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/event/</link>
       <atom:link href="https://nus-test.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Seminars</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 26 Mar 2024 14:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Apr 2024 14:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Recent &amp; Upcoming Seminars</title>
       <link>https://nus-test.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>Intelligent Code Analysis and Program Repair in the Era of LLMs</title>
+      <link>https://nus-test.github.io/event/240402/</link>
+      <pubDate>Tue, 02 Apr 2024 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/240402/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Detecting and Verifying Unexpected Behaviors in Web Applications using Program Analysis</title>
