@@ -2469,6 +2469,14 @@ Found by: ShuxinLi
     </item>
     
     <item>
+      <title>Keep It Simple: Testing Databases via Differential Query Plans</title>
+      <link>https://nus-test.github.io/publication/2024-sigmod-dqp/</link>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2024-sigmod-dqp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Our paper &#34;Keep It Simple: Testing Databases via Differential Query Plans&#34; was accepted at SIGMOD 2024.</title>
       <link>https://nus-test.github.io/post/15-03-24-dqp-sigmod/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>

@@ -39,10 +39,28 @@
     <loc>https://nus-test.github.io/author/ivan-ho/</loc>
     <lastmod>2024-03-19T14:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://nus-test.github.io/publication-type/2/</loc>
+    <lastmod>2024-03-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/author/jinsheng-ba/</loc>
+    <lastmod>2024-03-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/publication/2024-sigmod-dqp/</loc>
+    <lastmod>2024-03-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://nus-test.github.io/post/</loc>
     <lastmod>2024-03-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://nus-test.github.io/author/manuel-rigger/</loc>
+    <lastmod>2024-03-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://nus-test.github.io/post/15-03-24-dqp-sigmod/</loc>
+    <lastmod>2024-03-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/publication_types/</loc>
+    <lastmod>2024-03-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/publication/</loc>
     <lastmod>2024-03-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/event/240312/</loc>
@@ -72,16 +90,7 @@
     <loc>https://nus-test.github.io/author/jun-lyu/</loc>
     <lastmod>2024-03-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nus-test.github.io/author/manuel-rigger/</loc>
-    <lastmod>2024-03-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://nus-test.github.io/post/15-03-24-builds-issta/</loc>
-    <lastmod>2024-03-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/publication_types/</loc>
-    <lastmod>2024-03-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/publication/</loc>
     <lastmod>2024-03-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/author/shanshan-li/</loc>
@@ -205,9 +214,6 @@
     <lastmod>2023-10-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/publication/2024-icse-cert/</loc>
-    <lastmod>2023-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/author/jinsheng-ba/</loc>
     <lastmod>2023-10-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/post/23-10-10-cert-icse24/</loc>
