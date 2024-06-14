@@ -71,4 +71,4 @@ user_groups:
 
 ---
 
-Shuxin Li is an undergraduate student from Southern University of Science and Technology. She is doing internship at the lab for half a year.
+Shuxin Li is an undergraduate student from Southern University of Science and Technology. She did internship at the lab for half a year. She is expected to be a master student at the University of Tokyo supervised by [Prof Hanawa](https://scholar.google.co.jp/citations?user=arYWgFsAAAAJ&hl=ja).
