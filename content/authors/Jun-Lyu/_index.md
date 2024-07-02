@@ -60,7 +60,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- PhD Students
+- Past Members
 ---
 
 Lyu Jun. He is currently a third-year Ph.D. student in the DevOps+ Research Laboratory (https://softeng.nju.edu.cn/), supervised by Prof. He (Jason) Zhang (https://softeng.nju.edu.cn/faculty/HeZhang/index.html), at Nanjing University, China. 

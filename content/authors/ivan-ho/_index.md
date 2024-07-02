@@ -67,6 +67,6 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Master Students
+- Past Members
 ---
 Ivan is a final year Masters Stduent working on software reliability, program analysis and compilers. Once upon a time, he used to make [games](https://undefinist.itch.io/thebigpicture) as well.
