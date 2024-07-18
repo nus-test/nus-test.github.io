@@ -2453,6 +2453,14 @@ Found by: ShuxinLi
     </item>
     
     <item>
+      <title>Our paper &#34;Inconsistencies in TeX-produced Documents&#34; was accepted at ISSTA 2024.</title>
+      <link>https://nus-test.github.io/post/24-07-03-jovyn-issta/</link>
+      <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/post/24-07-03-jovyn-issta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ViewChecker: A Sound and Complete Checker for View-Serializability in Quadratic Time Complexity</title>
       <link>https://nus-test.github.io/event/240618/</link>
       <pubDate>Tue, 18 Jun 2024 14:00:00 +0000</pubDate>
@@ -2461,10 +2469,34 @@ Found by: ShuxinLi
     </item>
     
     <item>
+      <title>Ken Jin and Jules Poon were awarded an NUS-wide &#34;Outstanding Undergraduate Researcher Prize&#34; 🏆 for their work on improving the performance of CPython.</title>
+      <link>https://nus-test.github.io/post/24-06-13-ken-jin-jules-award/</link>
+      <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/post/24-06-13-ken-jin-jules-award/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Detecting Logic Bugs in Database Engines via Equivalent Expression Transformation</title>
       <link>https://nus-test.github.io/event/240430/</link>
       <pubDate>Tue, 30 Apr 2024 14:00:00 +0000</pubDate>
       <guid>https://nus-test.github.io/event/240430/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Our paper &#34;Validating Database System Isolation Level Implementations with Version Certificate Recovery&#34; received a Best Paper Award 🏆 at EuroSys 2024.</title>
+      <link>https://nus-test.github.io/post/24-04-23-jack-eurosys-award/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/post/24-04-23-jack-eurosys-award/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Our paper &#34;Towards Efficient Build Ordering for Incremental Builds with Multiple Configurations&#34; was accepted at FSE 2024.</title>
+      <link>https://nus-test.github.io/post/24-04-16-jun-fse/</link>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/post/24-04-16-jun-fse/</guid>
       <description></description>
     </item>
     

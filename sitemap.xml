@@ -30,6 +30,12 @@
     <loc>https://nus-test.github.io/</loc>
     <lastmod>2024-07-16T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://nus-test.github.io/post/</loc>
+    <lastmod>2024-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/post/24-07-03-jovyn-issta/</loc>
+    <lastmod>2024-07-03T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://nus-test.github.io/event/</loc>
     <lastmod>2024-06-18T14:00:00+00:00</lastmod>
   </url><url>
@@ -45,11 +51,20 @@
     <loc>https://nus-test.github.io/author/xiang-liu-nus/</loc>
     <lastmod>2024-06-18T14:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://nus-test.github.io/post/24-06-13-ken-jin-jules-award/</loc>
+    <lastmod>2024-06-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://nus-test.github.io/event/240430/</loc>
     <lastmod>2024-04-30T14:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/author/zuming-jiang-eth-zurich/</loc>
     <lastmod>2024-04-30T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/post/24-04-23-jack-eurosys-award/</loc>
+    <lastmod>2024-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/post/24-04-16-jun-fse/</loc>
+    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/event/240409/</loc>
     <lastmod>2024-04-09T14:00:00+00:00</lastmod>
@@ -79,9 +94,6 @@
     <lastmod>2024-03-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/publication/2024-sigmod-dqp/</loc>
-    <lastmod>2024-03-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/post/</loc>
     <lastmod>2024-03-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/post/15-03-24-dqp-sigmod/</loc>
