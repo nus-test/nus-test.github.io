@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/post/</link>
       <atom:link href="https://nus-test.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Latest News</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 03 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 18 Jul 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Latest News</title>
       <link>https://nus-test.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Jinsheng Ba has passed the oral defense of PhD thesis titled &#34;Testing Database Engines via Query Plans&#34; and will join ETH Zurich as a Postdoc researcher.</title>
+      <link>https://nus-test.github.io/post/24-07-18-jinsheng-graduation/</link>
+      <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/post/24-07-18-jinsheng-graduation/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Our paper &#34;Inconsistencies in TeX-produced Documents&#34; was accepted at ISSTA 2024.</title>
