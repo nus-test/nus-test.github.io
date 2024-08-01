@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/author/chengyu-zhang/</link>
       <atom:link href="https://nus-test.github.io/author/chengyu-zhang/index.xml" rel="self" type="application/rss+xml" />
     <description>Chengyu Zhang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 09 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Chengyu Zhang</title>
       <link>https://nus-test.github.io/author/chengyu-zhang/</link>
     </image>
+    
+    <item>
+      <title>Finding Logic Bugs in Spatial Database Engines via Affine Equivalent Inputs</title>
+      <link>https://nus-test.github.io/publication/2025-sigmod-spatial-db-testing/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2025-sigmod-spatial-db-testing/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Testing Graph Database Engines via Query Partitioning</title>
