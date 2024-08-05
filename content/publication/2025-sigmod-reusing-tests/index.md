@@ -1,5 +1,5 @@
 ---
-title: "Reusing Test Suites Across Database Systems"
+title: "Understanding and Reusing Test Suites Across Database Systems"
 authors:
 - Suyong Zhong
 - Manuel Rigger
