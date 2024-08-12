@@ -6,10 +6,28 @@
   </url><url>
     <loc>https://nus-test.github.io/positions/</loc>
   </url><url>
-    <loc>https://nus-test.github.io/publication-type/2/</loc>
-    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://nus-test.github.io/authors/</loc>
+    <lastmod>2024-08-13T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/event/</loc>
+    <lastmod>2024-08-13T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/event/240813/</loc>
+    <lastmod>2024-08-13T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/author/suyang-zhong/</loc>
+    <lastmod>2024-08-13T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/tags/</loc>
+    <lastmod>2024-08-13T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/</loc>
+    <lastmod>2024-08-13T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/tag/weekly-talk/</loc>
+    <lastmod>2024-08-13T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/publication-type/2/</loc>
     <lastmod>2024-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/author/chengyu-zhang/</loc>
@@ -39,9 +57,6 @@
     <loc>https://nus-test.github.io/author/suyong-zhong/</loc>
     <lastmod>2024-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nus-test.github.io/</loc>
-    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://nus-test.github.io/publication/2025-sigmod-reusing-tests/</loc>
     <lastmod>2024-08-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -63,16 +78,7 @@
     <loc>https://nus-test.github.io/post/24-07-03-jovyn-issta/</loc>
     <lastmod>2024-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nus-test.github.io/event/</loc>
-    <lastmod>2024-06-18T14:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/tags/</loc>
-    <lastmod>2024-06-18T14:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://nus-test.github.io/event/240618/</loc>
-    <lastmod>2024-06-18T14:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/tag/weekly-talk/</loc>
     <lastmod>2024-06-18T14:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/author/xiang-liu-nus/</loc>
@@ -250,9 +256,6 @@
     <lastmod>2023-11-06T13:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/event/231023/</loc>
-    <lastmod>2023-10-23T14:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/author/suyang-zhong/</loc>
     <lastmod>2023-10-23T14:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/event/231016/</loc>
