@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/author/rajdeep-singh-hundal/</link>
       <atom:link href="https://nus-test.github.io/author/rajdeep-singh-hundal/index.xml" rel="self" type="application/rss+xml" />
     <description>Rajdeep Singh Hundal</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Sep 2024 15:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/author/rajdeep-singh-hundal/avatar_hu9aa5e0a2e37f146a8da67ec6b3b6e9f0_119148_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Rajdeep Singh Hundal</title>
       <link>https://nus-test.github.io/author/rajdeep-singh-hundal/</link>
     </image>
+    
+    <item>
+      <title>Are Deep Reinforcement Learning Implementations Really Interchangeable?</title>
+      <link>https://nus-test.github.io/event/240910/</link>
+      <pubDate>Tue, 10 Sep 2024 15:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/240910/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
