@@ -40,7 +40,7 @@ interests:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:manuel.rigger@inf.ethz.ch'
+  link: 'mailto:rigger@nus.edu.sg'
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/RiggerManuel
