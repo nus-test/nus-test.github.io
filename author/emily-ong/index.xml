@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emily Ong | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+    <link>https://nus-test.github.io/author/emily-ong/</link>
+      <atom:link href="https://nus-test.github.io/author/emily-ong/index.xml" rel="self" type="application/rss+xml" />
+    <description>Emily Ong</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://nus-test.github.io/author/emily-ong/avatar_hufd416342a488e23b8090aac4c1f6d3b4_75665_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Emily Ong</title>
+      <link>https://nus-test.github.io/author/emily-ong/</link>
+    </image>
+    
+  </channel>
+</rss>
