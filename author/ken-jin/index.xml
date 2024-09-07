@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/author/ken-jin/</link>
       <atom:link href="https://nus-test.github.io/author/ken-jin/index.xml" rel="self" type="application/rss+xml" />
     <description>Ken Jin</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 14 Nov 2023 14:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 08 Oct 2024 15:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/author/ken-jin/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Ken Jin</title>
       <link>https://nus-test.github.io/author/ken-jin/</link>
     </image>
+    
+    <item>
+      <title>Automatically Generating an Abstract Interpretation-Based Optimizer from a DSL (SPLASH SRC Practice)</title>
+      <link>https://nus-test.github.io/event/241008/</link>
+      <pubDate>Tue, 08 Oct 2024 15:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/241008/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Runtime Compiler Optimizations for CPython Bytecode</title>
