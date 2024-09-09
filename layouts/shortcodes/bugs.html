@@ -1,5 +1,5 @@
-<h2>Database Management Systems (338 bugs)</h2>
-<h3>TiDB (47 bugs)</h3>
+<h2>Database Management Systems (403 bugs)</h2>
+<h3>TiDB (48 bugs)</h3>
 <details>
 <summary>incorrect unresolved column when using natural join</summary>
 Status: confirmed<br />
@@ -272,7 +272,7 @@ Found by: Chi Zhang
 </details>
 <details>
 <summary>Unexpected Results of IN expression With NATURAL RIGHT JOIN</summary>
-Status: confirmed<br />
+Status: fixed<br />
 Link: <a href="https://github.com/pingcap/tidb/issues/49476">https://github.com/pingcap/tidb/issues/49476</a> <br />
 Found by: Suyang Zhong
 </details>
@@ -280,6 +280,12 @@ Found by: Suyang Zhong
 <summary>Runtime error when using overflow integers </summary>
 Status: confirmed<br />
 Link: <a href="https://github.com/pingcap/tidb/issues/50489">https://github.com/pingcap/tidb/issues/50489</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected Result with NATURAL RIGHT JOIN and Bitwise NOT</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/53506">https://github.com/pingcap/tidb/issues/53506</a> <br />
 Found by: Suyang Zhong
 </details>
 <h3>Umbra (46 bugs)</h3>
@@ -380,13 +386,13 @@ Link: <a href="None">None</a> <br />
 Found by: Suyang Zhong
 </details>
 <details>
-<summary>None</summary>
+<summary>Unexpected results when Using UNION ALL for JOIN</summary>
 Status: fixed<br />
 Link: <a href="None">None</a> <br />
 Found by: Suyang Zhong
 </details>
 <details>
-<summary>None</summary>
+<summary>Unexpected results when Mod negative number with View</summary>
 Status: fixed<br />
 Link: <a href="None">None</a> <br />
 Found by: Suyang Zhong
@@ -557,6 +563,277 @@ Found by: Suyang Zhong
 <summary>Unexpected results when using logical operator in VIEW</summary>
 Status: fixed<br />
 Link: <a href="None">None</a> <br />
+Found by: Suyang Zhong
+</details>
+<h3>MonetDB (45 bugs)</h3>
+<details>
+<summary>Unexpected result for INNER JOIN with IS NOT NULL </summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7426">https://github.com/MonetDB/MonetDB/issues/7426</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using AND and IS NOT NULL</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7430">https://github.com/MonetDB/MonetDB/issues/7430</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using CASE WHEN</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7429">https://github.com/MonetDB/MonetDB/issues/7429</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using BETWEEN operator</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7428">https://github.com/MonetDB/MonetDB/issues/7428</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using AND/OR chain</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7448">https://github.com/MonetDB/MonetDB/issues/7448</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using BETWEEN in INNER JOIN</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7447">https://github.com/MonetDB/MonetDB/issues/7447</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using BETWEEN and CAST</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7451">https://github.com/MonetDB/MonetDB/issues/7451</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when CREATE VIEW with WHERE NULL</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7450">https://github.com/MonetDB/MonetDB/issues/7450</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using BETWEEN with BOOLEAN values</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7455">https://github.com/MonetDB/MonetDB/issues/7455</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Crash when INNER JOIN with VIEW</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7456">https://github.com/MonetDB/MonetDB/issues/7456</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using AND with INTEGER</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7457">https://github.com/MonetDB/MonetDB/issues/7457</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using SIGN </summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7458">https://github.com/MonetDB/MonetDB/issues/7458</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Crash when using CONTAINS in ORDER BY clause</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7459">https://github.com/MonetDB/MonetDB/issues/7459</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Crash when using CAST and BETWEEN AND</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7460">https://github.com/MonetDB/MonetDB/issues/7460</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Crash by potentially use of bad escape characters</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7461">https://github.com/MonetDB/MonetDB/issues/7461</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using CONTAINS and type casting</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7463">https://github.com/MonetDB/MonetDB/issues/7463</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Crash when using BETWEEN AND</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7462">https://github.com/MonetDB/MonetDB/issues/7462</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Crash when INNER JOIN with CONTAINS</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7466">https://github.com/MonetDB/MonetDB/issues/7466</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using NULL in BETWEEN</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7465">https://github.com/MonetDB/MonetDB/issues/7465</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using IFNULL with large numbers </summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7468">https://github.com/MonetDB/MonetDB/issues/7468</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Crash when using CONTAINS</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7469">https://github.com/MonetDB/MonetDB/issues/7469</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using IS DISTINCT FROM</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7521">https://github.com/MonetDB/MonetDB/issues/7521</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Assertion failure when using CONTAINS</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7523">https://github.com/MonetDB/MonetDB/issues/7523</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Crash when creating view with HAVING</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7522">https://github.com/MonetDB/MonetDB/issues/7522</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected error when using NATURAL RIGHT JOIN</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7524">https://github.com/MonetDB/MonetDB/issues/7524</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using IS DISTINCT FROM with RIGHT JOIN</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7527">https://github.com/MonetDB/MonetDB/issues/7527</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Assertion failure when using JAROWINKLER in ORDER BY clause</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7528">https://github.com/MonetDB/MonetDB/issues/7528</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Assertion failure when using JAROWINKLER with empty string</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7530">https://github.com/MonetDB/MonetDB/issues/7530</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using IS DISTINCT FROM with AND</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7534">https://github.com/MonetDB/MonetDB/issues/7534</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Assertion failure when using GROUP BY when CREATE VIEW</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7535">https://github.com/MonetDB/MonetDB/issues/7535</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Crash when using IS DISTINCT FROM with SIN</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7539">https://github.com/MonetDB/MonetDB/issues/7539</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Assertion failure when using STARTSWITH</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7540">https://github.com/MonetDB/MonetDB/issues/7540</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using LEVENSHTEIN</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7541">https://github.com/MonetDB/MonetDB/issues/7541</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using IS DISTINCT FROM with constants</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7543">https://github.com/MonetDB/MonetDB/issues/7543</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using STARTSWITH</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7544">https://github.com/MonetDB/MonetDB/issues/7544</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Crash when creating view with GROUP BY</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7545">https://github.com/MonetDB/MonetDB/issues/7545</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Assertion failure when using INNER JOIN on STARTSWITH</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7553">https://github.com/MonetDB/MonetDB/issues/7553</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using NULL constant in comparison</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7552">https://github.com/MonetDB/MonetDB/issues/7552</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using range comparison with NULL</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7554">https://github.com/MonetDB/MonetDB/issues/7554</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when casting integer to boolean in comparison</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7555">https://github.com/MonetDB/MonetDB/issues/7555</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Assertion failure when using STARTSWITH with view</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7556">https://github.com/MonetDB/MonetDB/issues/7556</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Assertion failure when comparing INTERVAL value</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7562">https://github.com/MonetDB/MonetDB/issues/7562</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using IS DISTINCT FROM in VIEW</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7563">https://github.com/MonetDB/MonetDB/issues/7563</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Crash when integer overflow in ORDER BY</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7571">https://github.com/MonetDB/MonetDB/issues/7571</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Crash at strcpy_len ()</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/MonetDB/MonetDB/issues/7573">https://github.com/MonetDB/MonetDB/issues/7573</a> <br />
 Found by: Suyang Zhong
 </details>
 <h3>questdb (39 bugs)</h3>
@@ -794,6 +1071,229 @@ Status: fixed<br />
 Link: <a href="https://github.com/questdb/questdb/issues/4010">https://github.com/questdb/questdb/issues/4010</a> <br />
 Found by: Yuancheng Jiang
 </details>
+<h3>DuckDB (37 bugs)</h3>
+<details>
+<summary>BETWEEN with subquery and column results in unexpected error</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/3588">https://github.com/duckdb/duckdb/issues/3588</a> <br />
+Found by: kokrui
+</details>
+<details>
+<summary>Unexpected Error for RTRIM Function in Where Clause</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/3616">https://github.com/duckdb/duckdb/issues/3616</a> <br />
+Found by: kokrui
+</details>
+<details>
+<summary>Crash When Creating Index</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/4976">https://github.com/duckdb/duckdb/issues/4976</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Segmentation fault on `BETWEEN`</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/6861">https://github.com/duckdb/duckdb/issues/6861</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected result when take subquery as operand</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7044">https://github.com/duckdb/duckdb/issues/7044</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Different returned datatype of a `CASE` statement in different query.</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7064">https://github.com/duckdb/duckdb/issues/7064</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results when integer overflow</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7094">https://github.com/duckdb/duckdb/issues/7094</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results on specific values</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7142">https://github.com/duckdb/duckdb/issues/7142</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Hang on `SELECT` query</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7143">https://github.com/duckdb/duckdb/issues/7143</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>`INTERNAL Error: Logical column index 1 out of range`</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7250">https://github.com/duckdb/duckdb/issues/7250</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>DuckDB hang on `DELETE`</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7530">https://github.com/duckdb/duckdb/issues/7530</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Segmentation fault on `SELECT`</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7551">https://github.com/duckdb/duckdb/issues/7551</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Inconsistent results of subquery in `INSERT` and `SELECT`, and an unexpected error</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7601">https://github.com/duckdb/duckdb/issues/7601</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>DuckDB hang on `DELETE`</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7610">https://github.com/duckdb/duckdb/issues/7610</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results on common table expressions</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7960">https://github.com/duckdb/duckdb/issues/7960</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Incorrect result by subquery and join</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/100561">https://github.com/cockroachdb/cockroach/issues/100561</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>internal error: null rejection requested on non-null column</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/100559">https://github.com/cockroachdb/cockroach/issues/100559</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>kvcoord: setting `kv.range_descriptor_cache.size=0` results in range iterator to retry endlessly</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/101011">https://github.com/cockroachdb/cockroach/issues/101011</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>internal error: failed to parse locale "": language: tag is not well-formed</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/101418">https://github.com/cockroachdb/cockroach/issues/101418</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results of `TIME` value under JDBC</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/101591">https://github.com/cockroachdb/cockroach/issues/101591</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>`internal error: expected subquery to be lazily planned as a routine`</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/101980">https://github.com/cockroachdb/cockroach/issues/101980</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results of `CASE` and `BETWEEN`</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/102110">https://github.com/cockroachdb/cockroach/issues/102110</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results might be related to `BIT` and `INDEX`</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/102412">https://github.com/cockroachdb/cockroach/issues/102412</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected error `unknown signature: bit_length(string) (desired <int[]>)`</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/102716">https://github.com/cockroachdb/cockroach/issues/102716</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results of `IN` with redundant values list </summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/102864">https://github.com/cockroachdb/cockroach/issues/102864</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results related to `INDEX`</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/103755">https://github.com/cockroachdb/cockroach/issues/103755</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Inconsistent result of `AVG` on big float number</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/104319">https://github.com/cockroachdb/cockroach/issues/104319</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected hang on subquery</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/105882">https://github.com/cockroachdb/cockroach/issues/105882</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected Results when using IS NOT NULL</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/9806">https://github.com/duckdb/duckdb/issues/9806</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Missing Results when using Floating-point in BETWEEN</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/9825">https://github.com/duckdb/duckdb/issues/9825</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Internal Error: Calling StringValue::Get on a NULL value</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/9870">https://github.com/duckdb/duckdb/issues/9870</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>INTERNAL Error: Failed to bind column reference "" [1.2] (bindings: [1.1])</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/10087">https://github.com/duckdb/duckdb/issues/10087</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected Result When Using `IS DISTINCT FROM` and `CASE WHEN` in a JOIN clause</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/12181">https://github.com/duckdb/duckdb/issues/12181</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using IN with DATE values</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/13380">https://github.com/duckdb/duckdb/issues/13380</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when casting negative integer to BIT</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/13506">https://github.com/duckdb/duckdb/issues/13506</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result after creating index on varchar column</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/13785">https://github.com/duckdb/duckdb/issues/13785</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using IN with TIME values</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/13813">https://github.com/duckdb/duckdb/issues/13813</a> <br />
+Found by: Suyang Zhong
+</details>
 <h3>SQLite (36 bugs)</h3>
 <details>
 <summary>An Inconsistent Result Depending on Parenthesization</summary>
@@ -1008,203 +1508,221 @@ Found by: Chi Zhang
 <details>
 <summary>Unexpected results when using `REPLACE` function</summary>
 Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/3776b48e71">https://sqlite.org/forum/forumpost/3776b48e71</a> <br />
+Link: <a href="https://sqlite.org/forum/forumpost/3776b48e71, https://www.sqlite.org/src/info/01868ebcd25fadb2">https://sqlite.org/forum/forumpost/3776b48e71, https://www.sqlite.org/src/info/01868ebcd25fadb2</a> <br />
 Found by: Suyang Zhong
 </details>
-<h3>DuckDB (32 bugs)</h3>
+<h3>cratedb (35 bugs)</h3>
 <details>
-<summary>BETWEEN with subquery and column results in unexpected error</summary>
+<summary>Couldn't create execution plan from logical plan because of: Index 2 out of bounds for length 2</summary>
 Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/3588">https://github.com/duckdb/duckdb/issues/3588</a> <br />
-Found by: kokrui
+Link: <a href="https://github.com/crate/crate/issues/14805">https://github.com/crate/crate/issues/14805</a> <br />
+Found by: Yuancheng Jiang
 </details>
 <details>
-<summary>Unexpected Error for RTRIM Function in Where Clause</summary>
+<summary>Incorrect result returned by UNION</summary>
 Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/3616">https://github.com/duckdb/duckdb/issues/3616</a> <br />
-Found by: kokrui
+Link: <a href="https://github.com/crate/crate/issues/14807">https://github.com/crate/crate/issues/14807</a> <br />
+Found by: Yuancheng Jiang
 </details>
 <details>
-<summary>Crash When Creating Index</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/4976">https://github.com/duckdb/duckdb/issues/4976</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Segmentation fault on `BETWEEN`</summary>
+<summary>Unexpected Exception with ORDER BY clause with UNION</summary>
 Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/6861">https://github.com/duckdb/duckdb/issues/6861</a> <br />
-Found by: Chi Zhang
+Link: <a href="https://github.com/crate/crate/issues/14815">https://github.com/crate/crate/issues/14815</a> <br />
+Found by: Yuancheng Jiang
 </details>
 <details>
-<summary>Unexpected result when take subquery as operand</summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/7044">https://github.com/duckdb/duckdb/issues/7044</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Different returned datatype of a `CASE` statement in different query.</summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/7064">https://github.com/duckdb/duckdb/issues/7064</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Unexpected results when integer overflow</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/7094">https://github.com/duckdb/duckdb/issues/7094</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Unexpected results on specific values</summary>
+<summary>Unexpected result when using CASE statement</summary>
 Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/7142">https://github.com/duckdb/duckdb/issues/7142</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Hang on `SELECT` query</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/7143">https://github.com/duckdb/duckdb/issues/7143</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>`INTERNAL Error: Logical column index 1 out of range`</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/7250">https://github.com/duckdb/duckdb/issues/7250</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>DuckDB hang on `DELETE`</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/7530">https://github.com/duckdb/duckdb/issues/7530</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Segmentation fault on `SELECT`</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/7551">https://github.com/duckdb/duckdb/issues/7551</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Inconsistent results of subquery in `INSERT` and `SELECT`, and an unexpected error</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/7601">https://github.com/duckdb/duckdb/issues/7601</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>DuckDB hang on `DELETE`</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/7610">https://github.com/duckdb/duckdb/issues/7610</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Unexpected results on common table expressions</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/7960">https://github.com/duckdb/duckdb/issues/7960</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Incorrect result by subquery and join</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/100561">https://github.com/cockroachdb/cockroach/issues/100561</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>internal error: null rejection requested on non-null column</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/100559">https://github.com/cockroachdb/cockroach/issues/100559</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>kvcoord: setting `kv.range_descriptor_cache.size=0` results in range iterator to retry endlessly</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/101011">https://github.com/cockroachdb/cockroach/issues/101011</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>internal error: failed to parse locale "": language: tag is not well-formed</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/101418">https://github.com/cockroachdb/cockroach/issues/101418</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Unexpected results of `TIME` value under JDBC</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/101591">https://github.com/cockroachdb/cockroach/issues/101591</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>`internal error: expected subquery to be lazily planned as a routine`</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/101980">https://github.com/cockroachdb/cockroach/issues/101980</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Unexpected results of `CASE` and `BETWEEN`</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/102110">https://github.com/cockroachdb/cockroach/issues/102110</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Unexpected results might be related to `BIT` and `INDEX`</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/102412">https://github.com/cockroachdb/cockroach/issues/102412</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Unexpected error `unknown signature: bit_length(string) (desired <int[]>)`</summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/102716">https://github.com/cockroachdb/cockroach/issues/102716</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Unexpected results of `IN` with redundant values list </summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/102864">https://github.com/cockroachdb/cockroach/issues/102864</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Unexpected results related to `INDEX`</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/103755">https://github.com/cockroachdb/cockroach/issues/103755</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Inconsistent result of `AVG` on big float number</summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/104319">https://github.com/cockroachdb/cockroach/issues/104319</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Unexpected hang on subquery</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/105882">https://github.com/cockroachdb/cockroach/issues/105882</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Unexpected Results when using IS NOT NULL</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/9806">https://github.com/duckdb/duckdb/issues/9806</a> <br />
+Link: <a href="https://github.com/crate/crate/issues/15029">https://github.com/crate/crate/issues/15029</a> <br />
 Found by: Suyang Zhong
 </details>
 <details>
-<summary>Missing Results when using Floating-point in BETWEEN</summary>
+<summary>Unexpected Results when Using AND Operator</summary>
 Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/9825">https://github.com/duckdb/duckdb/issues/9825</a> <br />
+Link: <a href="https://github.com/crate/crate/issues/15050">https://github.com/crate/crate/issues/15050</a> <br />
 Found by: Suyang Zhong
 </details>
 <details>
-<summary>Internal Error: Calling StringValue::Get on a NULL value</summary>
+<summary>Unexpected Results when Using Concat Operator</summary>
 Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/9870">https://github.com/duckdb/duckdb/issues/9870</a> <br />
+Link: <a href="https://github.com/crate/crate/issues/15083">https://github.com/crate/crate/issues/15083</a> <br />
 Found by: Suyang Zhong
 </details>
 <details>
-<summary>INTERNAL Error: Failed to bind column reference "" [1.2] (bindings: [1.1])</summary>
+<summary>Unexpected Results Using Boolean </summary>
+Status: fixed<br />
+Link: <a href="https://github.com/crate/crate/issues/15120">https://github.com/crate/crate/issues/15120</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected Results Using NULLIF</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/crate/crate/issues/15121">https://github.com/crate/crate/issues/15121</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using BETWEEN AND</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/crate/crate/issues/15201">https://github.com/crate/crate/issues/15201</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when Concatenating NULL</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/crate/crate/issues/15202">https://github.com/crate/crate/issues/15202</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected Result when using IS NOT NULL</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/crate/crate/issues/15265">https://github.com/crate/crate/issues/15265</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected Result when using LEFT JOIN</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/crate/crate/issues/15324">https://github.com/crate/crate/issues/15324</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected Results Using NULLIF with VARCHAR </summary>
+Status: fixed<br />
+Link: <a href="https://github.com/crate/crate/issues/15325">https://github.com/crate/crate/issues/15325</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected Result when using IN </summary>
+Status: fixed<br />
+Link: <a href="https://github.com/crate/crate/issues/15326">https://github.com/crate/crate/issues/15326</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using string comparison AND IS NULL</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/crate/crate/issues/15395">https://github.com/crate/crate/issues/15395</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected results when using AND</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/crate/crate/issues/15458">https://github.com/crate/crate/issues/15458</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using CONCAT_WS containing NULL</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/crate/crate/issues/15459">https://github.com/crate/crate/issues/15459</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using % with NULL</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/crate/crate/issues/15500">https://github.com/crate/crate/issues/15500</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using LTRIM with NULL as second argument </summary>
+Status: fixed<br />
+Link: <a href="https://github.com/crate/crate/issues/15527">https://github.com/crate/crate/issues/15527</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when casting integer as boolean</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/crate/crate/issues/15537">https://github.com/crate/crate/issues/15537</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Weird string substitution when using JDBC</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/crate/crate/issues/15566">https://github.com/crate/crate/issues/15566</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using OR</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/crate/crate/issues/15592">https://github.com/crate/crate/issues/15592</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using INNER JOIN and CASE in filter</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/crate/crate/issues/15613">https://github.com/crate/crate/issues/15613</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using LIKE</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/crate/crate/issues/15743">https://github.com/crate/crate/issues/15743</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected results when using system information functions</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/crate/crate/issues/16026">https://github.com/crate/crate/issues/16026</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using CURRENT_SETTING</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/crate/crate/issues/16062">https://github.com/crate/crate/issues/16062</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using PG_GET_PARTKEYDEF</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/crate/crate/issues/16172">https://github.com/crate/crate/issues/16172</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using DEFAULT during creating table</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/crate/crate/issues/16173">https://github.com/crate/crate/issues/16173</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when querying with boolean comparisons</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/crate/crate/issues/16227">https://github.com/crate/crate/issues/16227</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using FORMAT_TYPE</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/crate/crate/issues/16225">https://github.com/crate/crate/issues/16225</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using escape character in LIKE</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/crate/crate/issues/16350">https://github.com/crate/crate/issues/16350</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using empty OBJECT literal</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/crate/crate/issues/16476">https://github.com/crate/crate/issues/16476</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected results when using OBJECT nulls</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/crate/crate/issues/16556">https://github.com/crate/crate/issues/16556</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected results when matching empty string with indexing disabled</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/crate/crate/issues/16567">https://github.com/crate/crate/issues/16567</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when querying partitioned table with null values</summary>
 Status: confirmed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/10087">https://github.com/duckdb/duckdb/issues/10087</a> <br />
+Link: <a href="https://github.com/crate/crate/issues/16577">https://github.com/crate/crate/issues/16577</a> <br />
 Found by: Suyang Zhong
 </details>
-<h3>Dolt (27 bugs)</h3>
+<h3>Dolt (28 bugs)</h3>
 <details>
 <summary>Unexpected Results when Using '%' operator</summary>
 Status: fixed<br />
@@ -1367,7 +1885,13 @@ Status: confirmed<br />
 Link: <a href="https://github.com/dolthub/dolt/issues/7372">https://github.com/dolthub/dolt/issues/7372</a> <br />
 Found by: Suyang Zhong
 </details>
-<h3>CockroachDB (25 bugs)</h3>
+<details>
+<summary>Crash by IF and CHAR</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/dolthub/dolt/issues/7515">https://github.com/dolthub/dolt/issues/7515</a> <br />
+Found by: Suyang Zhong
+</details>
+<h3>CockroachDB (26 bugs)</h3>
 <details>
 <summary>sql: support SCRUB on temp tables</summary>
 Status: confirmed<br />
@@ -1518,125 +2042,10 @@ Status: unconfirmed<br />
 Link: <a href="https://github.com/cockroachdb/cockroach/issues/94264">https://github.com/cockroachdb/cockroach/issues/94264</a> <br />
 Found by: bajinsheng
 </details>
-<h3>cratedb (20 bugs)</h3>
 <details>
-<summary>Couldn't create execution plan from logical plan because of: Index 2 out of bounds for length 2</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/crate/crate/issues/14805">https://github.com/crate/crate/issues/14805</a> <br />
-Found by: Yuancheng Jiang
-</details>
-<details>
-<summary>Incorrect result returned by UNION</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/crate/crate/issues/14807">https://github.com/crate/crate/issues/14807</a> <br />
-Found by: Yuancheng Jiang
-</details>
-<details>
-<summary>Unexpected Exception with ORDER BY clause with UNION</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/crate/crate/issues/14815">https://github.com/crate/crate/issues/14815</a> <br />
-Found by: Yuancheng Jiang
-</details>
-<details>
-<summary>Unexpected result when using CASE statement</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/crate/crate/issues/15029">https://github.com/crate/crate/issues/15029</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected Results when Using AND Operator</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/crate/crate/issues/15050">https://github.com/crate/crate/issues/15050</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected Results when Using Concat Operator</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/crate/crate/issues/15083">https://github.com/crate/crate/issues/15083</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected Results Using Boolean </summary>
-Status: fixed<br />
-Link: <a href="https://github.com/crate/crate/issues/15120">https://github.com/crate/crate/issues/15120</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected Results Using NULLIF</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/crate/crate/issues/15121">https://github.com/crate/crate/issues/15121</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected result when using BETWEEN AND</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/crate/crate/issues/15201">https://github.com/crate/crate/issues/15201</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected result when Concatenating NULL</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/crate/crate/issues/15202">https://github.com/crate/crate/issues/15202</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected Result when using IS NOT NULL</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/crate/crate/issues/15265">https://github.com/crate/crate/issues/15265</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected Result when using LEFT JOIN</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/crate/crate/issues/15324">https://github.com/crate/crate/issues/15324</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected Results Using NULLIF with VARCHAR </summary>
-Status: fixed<br />
-Link: <a href="https://github.com/crate/crate/issues/15325">https://github.com/crate/crate/issues/15325</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected Result when using IN </summary>
-Status: fixed<br />
-Link: <a href="https://github.com/crate/crate/issues/15326">https://github.com/crate/crate/issues/15326</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected result when using string comparison AND IS NULL</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/crate/crate/issues/15395">https://github.com/crate/crate/issues/15395</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected results when using AND</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/crate/crate/issues/15458">https://github.com/crate/crate/issues/15458</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected result when using CONCAT_WS containing NULL</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/crate/crate/issues/15459">https://github.com/crate/crate/issues/15459</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected result when using % with NULL</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/crate/crate/issues/15500">https://github.com/crate/crate/issues/15500</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected result when using LTRIM with NULL as second argument </summary>
-Status: fixed<br />
-Link: <a href="https://github.com/crate/crate/issues/15527">https://github.com/crate/crate/issues/15527</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected result when casting integer as boolean</summary>
+<summary>internal error: comparison overload not found (ge, unknown, unknown)</summary>
 Status: confirmed<br />
-Link: <a href="https://github.com/crate/crate/issues/15537">https://github.com/crate/crate/issues/15537</a> <br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/128889">https://github.com/cockroachdb/cockroach/issues/128889</a> <br />
 Found by: Suyang Zhong
 </details>
 <h3>neo4j (11 bugs)</h3>
@@ -1706,62 +2115,68 @@ Status: fixed<br />
 Link: <a href="https://github.com/neo4j/neo4j/issues/13041">https://github.com/neo4j/neo4j/issues/13041</a> <br />
 Found by: Yuancheng Jiang
 </details>
-<h3>MonetDB (9 bugs)</h3>
+<h3>Virtuoso (10 bugs)</h3>
 <details>
-<summary>Unexpected result for INNER JOIN with IS NOT NULL </summary>
+<summary>Unexpected results when Using Trigonometric functions</summary>
 Status: fixed<br />
-Link: <a href="https://github.com/MonetDB/MonetDB/issues/7426">https://github.com/MonetDB/MonetDB/issues/7426</a> <br />
+Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1213">https://github.com/openlink/virtuoso-opensource/issues/1213</a> <br />
 Found by: Suyang Zhong
 </details>
 <details>
-<summary>Unexpected result when using AND and IS NOT NULL</summary>
+<summary>Unexpected results when Using RIGHT JOIN</summary>
 Status: fixed<br />
-Link: <a href="https://github.com/MonetDB/MonetDB/issues/7430">https://github.com/MonetDB/MonetDB/issues/7430</a> <br />
+Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1214">https://github.com/openlink/virtuoso-opensource/issues/1214</a> <br />
 Found by: Suyang Zhong
 </details>
 <details>
-<summary>Unexpected result when using CASE WHEN</summary>
+<summary>Unexpected results when using trigonometric functions</summary>
 Status: fixed<br />
-Link: <a href="https://github.com/MonetDB/MonetDB/issues/7429">https://github.com/MonetDB/MonetDB/issues/7429</a> <br />
+Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1213">https://github.com/openlink/virtuoso-opensource/issues/1213</a> <br />
 Found by: Suyang Zhong
 </details>
 <details>
-<summary>Unexpected result when using BETWEEN operator</summary>
+<summary>Unexpected Results when using LEFT JOIN with NULL</summary>
 Status: fixed<br />
-Link: <a href="https://github.com/MonetDB/MonetDB/issues/7428">https://github.com/MonetDB/MonetDB/issues/7428</a> <br />
+Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1236">https://github.com/openlink/virtuoso-opensource/issues/1236</a> <br />
 Found by: Suyang Zhong
 </details>
 <details>
-<summary>Unexpected result when using AND/OR chain</summary>
+<summary>Unexpected results when using LEFT JOIN with NULL as predicate</summary>
 Status: fixed<br />
-Link: <a href="https://github.com/MonetDB/MonetDB/issues/7448">https://github.com/MonetDB/MonetDB/issues/7448</a> <br />
+Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1238">https://github.com/openlink/virtuoso-opensource/issues/1238</a> <br />
 Found by: Suyang Zhong
 </details>
 <details>
-<summary>Unexpected result when using BETWEEN in INNER JOIN</summary>
+<summary>Crash by CASE WHEN and unknown identifier</summary>
 Status: fixed<br />
-Link: <a href="https://github.com/MonetDB/MonetDB/issues/7447">https://github.com/MonetDB/MonetDB/issues/7447</a> <br />
+Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1239">https://github.com/openlink/virtuoso-opensource/issues/1239</a> <br />
 Found by: Suyang Zhong
 </details>
 <details>
-<summary>Unexpected result when using BETWEEN and CAST</summary>
+<summary>Unexpected results when using ORDER BY</summary>
 Status: fixed<br />
-Link: <a href="https://github.com/MonetDB/MonetDB/issues/7451">https://github.com/MonetDB/MonetDB/issues/7451</a> <br />
+Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1241">https://github.com/openlink/virtuoso-opensource/issues/1241</a> <br />
 Found by: Suyang Zhong
 </details>
 <details>
-<summary>Unexpected result when CREATE VIEW with WHERE NULL</summary>
+<summary>Crash by CASE WHEN</summary>
 Status: fixed<br />
-Link: <a href="https://github.com/MonetDB/MonetDB/issues/7450">https://github.com/MonetDB/MonetDB/issues/7450</a> <br />
+Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1249">https://github.com/openlink/virtuoso-opensource/issues/1249</a> <br />
 Found by: Suyang Zhong
 </details>
 <details>
-<summary>Unexpected result when using BETWEEN with BOOLEAN values</summary>
+<summary>Unexpected results when using LEFT JOIN and UNION</summary>
 Status: fixed<br />
-Link: <a href="https://github.com/MonetDB/MonetDB/issues/7455">https://github.com/MonetDB/MonetDB/issues/7455</a> <br />
+Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1250">https://github.com/openlink/virtuoso-opensource/issues/1250</a> <br />
 Found by: Suyang Zhong
 </details>
-<h3>Firebird (9 bugs)</h3>
+<details>
+<summary>Unexpected results when using INNER JOIN and UNION</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1251">https://github.com/openlink/virtuoso-opensource/issues/1251</a> <br />
+Found by: Suyang Zhong
+</details>
+<h3>Firebird (10 bugs)</h3>
 <details>
 <summary>Potential bug in BETWEEN Operator</summary>
 Status: fixed<br />
@@ -1806,7 +2221,7 @@ Found by: Suyang Zhong
 </details>
 <details>
 <summary>Unexpected results when using string concatenation for INTEGER</summary>
-Status: confirmed<br />
+Status: fixed<br />
 Link: <a href="https://github.com/FirebirdSQL/firebird/issues/7997">https://github.com/FirebirdSQL/firebird/issues/7997</a> <br />
 Found by: Suyang Zhong
 </details>
@@ -1814,6 +2229,12 @@ Found by: Suyang Zhong
 <summary>Unexpected error and crash after creating a partial index</summary>
 Status: fixed<br />
 Link: <a href="https://github.com/FirebirdSQL/firebird/issues/7998">https://github.com/FirebirdSQL/firebird/issues/7998</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected results when using LIKE with boolean values</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/FirebirdSQL/firebird/issues/8132">https://github.com/FirebirdSQL/firebird/issues/8132</a> <br />
 Found by: Suyang Zhong
 </details>
 <h3>MySQL (8 bugs)</h3>
@@ -1906,43 +2327,6 @@ Found by: Suyang Zhong
 <summary>Panicked: byte index 1024 is not a char boundary</summary>
 Status: fixed<br />
 Link: <a href="https://github.com/risingwavelabs/risingwave/issues/14283">https://github.com/risingwavelabs/risingwave/issues/14283</a> <br />
-Found by: Suyang Zhong
-</details>
-<h3>Virtuoso (6 bugs)</h3>
-<details>
-<summary>Unexpected results when Using Trigonometric functions</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1213">https://github.com/openlink/virtuoso-opensource/issues/1213</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected results when Using RIGHT JOIN</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1214">https://github.com/openlink/virtuoso-opensource/issues/1214</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected results when using trigonometric functions</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1213">https://github.com/openlink/virtuoso-opensource/issues/1213</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected Results when using LEFT JOIN with NULL</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1236">https://github.com/openlink/virtuoso-opensource/issues/1236</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected results when using LEFT JOIN with NULL as predicate</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1238">https://github.com/openlink/virtuoso-opensource/issues/1238</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Crash by CASE WHEN and unknown identifier</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1239">https://github.com/openlink/virtuoso-opensource/issues/1239</a> <br />
 Found by: Suyang Zhong
 </details>
 <h3>tdengine (4 bugs)</h3>
@@ -2038,6 +2422,13 @@ Found by: Suyang Zhong
 <summary>Unexpected result when using trigonomeric functions</summary>
 Status: fixed<br />
 Link: <a href="https://github.com/h2database/h2database/issues/3981">https://github.com/h2database/h2database/issues/3981</a> <br />
+Found by: Suyang Zhong
+</details>
+<h3>ClickHouse (1 bugs)</h3>
+<details>
+<summary>Unexpected result when comparing IN expression and integer</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/ClickHouse/ClickHouse/issues/65316">https://github.com/ClickHouse/ClickHouse/issues/65316</a> <br />
 Found by: Suyang Zhong
 </details>
 <h3>CUBRID (1 bugs)</h3>

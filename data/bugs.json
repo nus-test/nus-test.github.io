@@ -3031,11 +3031,11 @@
         "url": "https://github.com/pingcap/tidb/issues/49476",
         "title": "Unexpected Results of IN expression With NATURAL RIGHT JOIN",
         "created_at": "12/14/2023",
-        "closed_at": null,
+        "closed_at": "5/22/2024",
         "domain": "dbms",
         "system": "TiDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "confirmed"
+        "resolution": "fixed"
     },
     {
         "url": "https://github.com/crate/crate/issues/15201",
@@ -3079,7 +3079,7 @@
     },
     {
         "url": null,
-        "title": null,
+        "title": "Unexpected results when Using UNION ALL for JOIN",
         "created_at": "12/23/2023",
         "closed_at": "12/30/2024",
         "domain": "dbms",
@@ -3089,7 +3089,7 @@
     },
     {
         "url": null,
-        "title": null,
+        "title": "Unexpected results when Mod negative number with View",
         "created_at": "12/23/2023",
         "closed_at": "12/30/2024",
         "domain": "dbms",
@@ -3131,11 +3131,11 @@
         "url": "https://github.com/duckdb/duckdb/issues/10087",
         "title": "INTERNAL Error: Failed to bind column reference \"\" [1.2] (bindings: [1.1])",
         "created_at": "12/30/2023",
-        "closed_at": null,
+        "closed_at": "4/24/2024",
         "domain": "dbms",
         "system": "DuckDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "confirmed"
+        "resolution": "fixed"
     },
     {
         "url": "https://github.com/risingwavelabs/risingwave/issues/14283",
@@ -3681,7 +3681,7 @@
         "url": "https://github.com/h2database/h2database/issues/3981",
         "title": "Unexpected result when using trigonomeric functions",
         "created_at": "1/25/2024",
-        "closed_at": null,
+        "closed_at": "1/26/2024",
         "domain": "dbms",
         "system": "H2",
         "reported_by": "Suyang Zhong",
@@ -3721,7 +3721,7 @@
         "url": "https://github.com/MonetDB/MonetDB/issues/7451",
         "title": "Unexpected result when using BETWEEN and CAST",
         "created_at": "1/31/2024",
-        "closed_at": null,
+        "closed_at": "2/9/2024",
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
@@ -3731,7 +3731,7 @@
         "url": "https://github.com/MonetDB/MonetDB/issues/7450",
         "title": "Unexpected result when CREATE VIEW with WHERE NULL",
         "created_at": "1/31/2024",
-        "closed_at": null,
+        "closed_at": "2/9/2024",
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
@@ -3741,7 +3741,7 @@
         "url": "https://github.com/crate/crate/issues/15500",
         "title": "Unexpected result when using % with NULL",
         "created_at": "2/2/2024",
-        "closed_at": null,
+        "closed_at": "2/7/2024",
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
@@ -3808,6 +3808,16 @@
         "resolution": "fixed"
     },
     {
+        "url": "https://github.com/openlink/virtuoso-opensource/issues/1241",
+        "title": "Unexpected results when using ORDER BY",
+        "created_at": "2/7/2024",
+        "closed_at": "3/12/2024",
+        "domain": "dbms",
+        "system": "Virtuoso",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
         "url": "https://github.com/crate/crate/issues/15527",
         "title": "Unexpected result when using LTRIM with NULL as second argument ",
         "created_at": "2/8/2024",
@@ -3831,11 +3841,11 @@
         "url": "https://github.com/FirebirdSQL/firebird/issues/7997",
         "title": "Unexpected results when using string concatenation for INTEGER",
         "created_at": "2/9/2024",
-        "closed_at": null,
+        "closed_at": "3/13/2024",
         "domain": "dbms",
         "system": "Firebird",
         "reported_by": "Suyang Zhong",
-        "resolution": "confirmed"
+        "resolution": "fixed"
     },
     {
         "url": "https://github.com/FirebirdSQL/firebird/issues/7998",
@@ -3851,11 +3861,11 @@
         "url": "https://github.com/crate/crate/issues/15537",
         "title": "Unexpected result when casting integer as boolean",
         "created_at": "2/9/2024",
-        "closed_at": null,
+        "closed_at": "2/14/2024",
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "confirmed"
+        "resolution": "fixed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7455",
@@ -3866,5 +3876,645 @@
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
         "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7456",
+        "title": "Crash when INNER JOIN with VIEW",
+        "created_at": "2/12/2024",
+        "closed_at": "2/17/2024",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7457",
+        "title": "Unexpected result when using AND with INTEGER",
+        "created_at": "2/18/2024",
+        "closed_at": "2/18/2024",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/7515",
+        "title": "Crash by IF and CHAR",
+        "created_at": "2/18/2024",
+        "closed_at": "2/21/2024",
+        "domain": "dbms",
+        "system": "Dolt",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/15566",
+        "title": "Weird string substitution when using JDBC",
+        "created_at": "2/16/2024",
+        "closed_at": "2/22/2024",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7458",
+        "title": "Unexpected result when using SIGN ",
+        "created_at": "2/19/2024",
+        "closed_at": "2/19/2024",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7459",
+        "title": "Crash when using CONTAINS in ORDER BY clause",
+        "created_at": "2/19/2024",
+        "closed_at": "2/20/2024",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7460",
+        "title": "Crash when using CAST and BETWEEN AND",
+        "created_at": "2/20/2024",
+        "closed_at": "2/20/2024",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7461",
+        "title": "Crash by potentially use of bad escape characters",
+        "created_at": "2/20/2024",
+        "closed_at": "2/22/2024",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/15592",
+        "title": "Unexpected result when using OR",
+        "created_at": "2/22/2024",
+        "closed_at": "2/26/2024",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7463",
+        "title": "Unexpected result when using CONTAINS and type casting",
+        "created_at": "2/22/2024",
+        "closed_at": "2/25/2024",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7462",
+        "title": "Crash when using BETWEEN AND",
+        "created_at": "2/22/2024",
+        "closed_at": "2/25/2024",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/15613",
+        "title": "Unexpected result when using INNER JOIN and CASE in filter",
+        "created_at": "2/27/2024",
+        "closed_at": "3/20/2024",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7466",
+        "title": "Crash when INNER JOIN with CONTAINS",
+        "created_at": "2/27/2024",
+        "closed_at": "3/6/2024",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7465",
+        "title": "Unexpected result when using NULL in BETWEEN",
+        "created_at": "2/27/2024",
+        "closed_at": "3/5/2024",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7468",
+        "title": "Unexpected result when using IFNULL with large numbers ",
+        "created_at": "3/8/2024",
+        "closed_at": "3/11/2024",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7469",
+        "title": "Crash when using CONTAINS",
+        "created_at": "3/13/2024",
+        "closed_at": "3/20/2024",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/openlink/virtuoso-opensource/issues/1249",
+        "title": "Crash by CASE WHEN",
+        "created_at": "3/14/2024",
+        "closed_at": "3/14/2024",
+        "domain": "dbms",
+        "system": "Virtuoso",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/openlink/virtuoso-opensource/issues/1250",
+        "title": "Unexpected results when using LEFT JOIN and UNION",
+        "created_at": "3/14/2024",
+        "closed_at": "3/15/2024",
+        "domain": "dbms",
+        "system": "Virtuoso",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/openlink/virtuoso-opensource/issues/1251",
+        "title": "Unexpected results when using INNER JOIN and UNION",
+        "created_at": "3/15/2024",
+        "closed_at": "3/22/2024",
+        "domain": "dbms",
+        "system": "Virtuoso",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/15743",
+        "title": "Unexpected result when using LIKE",
+        "created_at": "3/22/2024",
+        "closed_at": "4/4/2024",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/12181",
+        "title": "Unexpected Result When Using `IS DISTINCT FROM` and `CASE WHEN` in a JOIN clause",
+        "created_at": "May 22",
+        "closed_at": "May 23",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/pingcap/tidb/issues/53506",
+        "title": "Unexpected Result with NATURAL RIGHT JOIN and Bitwise NOT",
+        "created_at": "May 23",
+        "closed_at": null,
+        "domain": "dbms",
+        "system": "TiDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7521",
+        "title": "Unexpected result when using IS DISTINCT FROM",
+        "created_at": "May 24",
+        "closed_at": "May 29",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7523",
+        "title": "Assertion failure when using CONTAINS",
+        "created_at": "May 24",
+        "closed_at": "May 24",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7522",
+        "title": "Crash when creating view with HAVING",
+        "created_at": "May 24",
+        "closed_at": "May 29",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/FirebirdSQL/firebird/issues/8132",
+        "title": "Unexpected results when using LIKE with boolean values",
+        "created_at": "May 25",
+        "closed_at": null,
+        "domain": "dbms",
+        "system": "Firebird",
+        "reported_by": "Suyang Zhong",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7524",
+        "title": "Unexpected error when using NATURAL RIGHT JOIN",
+        "created_at": "May 25",
+        "closed_at": "May 29",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/16026",
+        "title": "Unexpected results when using system information functions",
+        "created_at": "May 26",
+        "closed_at": "May 28",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7527",
+        "title": "Unexpected result when using IS DISTINCT FROM with RIGHT JOIN",
+        "created_at": "May 30",
+        "closed_at": "Jun 3",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7528",
+        "title": "Assertion failure when using JAROWINKLER in ORDER BY clause",
+        "created_at": "May 30",
+        "closed_at": "May 30",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/16062",
+        "title": "Unexpected result when using CURRENT_SETTING",
+        "created_at": "May 30",
+        "closed_at": "Jun 3",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7530",
+        "title": "Assertion failure when using JAROWINKLER with empty string",
+        "created_at": "Jun 4",
+        "closed_at": "Jun 5",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7534",
+        "title": "Unexpected result when using IS DISTINCT FROM with AND",
+        "created_at": "Jun 7",
+        "closed_at": "Jun 12",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7535",
+        "title": "Assertion failure when using GROUP BY when CREATE VIEW",
+        "created_at": "Jun 7",
+        "closed_at": "Jun 7",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/ClickHouse/ClickHouse/issues/65316",
+        "title": "Unexpected result when comparing IN expression and integer",
+        "created_at": "Jun 15",
+        "closed_at": null,
+        "domain": "dbms",
+        "system": "ClickHouse",
+        "reported_by": "Suyang Zhong",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7539",
+        "title": "Crash when using IS DISTINCT FROM with SIN",
+        "created_at": "Jun 15",
+        "closed_at": "Jun 15",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/16172",
+        "title": "Unexpected result when using PG_GET_PARTKEYDEF",
+        "created_at": "Jun 16",
+        "closed_at": "Jun 17",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/16173",
+        "title": "Unexpected result when using DEFAULT during creating table",
+        "created_at": "Jun 16",
+        "closed_at": "Jun 24",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7540",
+        "title": "Assertion failure when using STARTSWITH",
+        "created_at": "Jun 17",
+        "closed_at": "Jun 17",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7541",
+        "title": "Unexpected result when using LEVENSHTEIN",
+        "created_at": "Jun 17",
+        "closed_at": "Jun 25",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/16227",
+        "title": "Unexpected result when querying with boolean comparisons",
+        "created_at": "Jun 25",
+        "closed_at": "Jun 27",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/16225",
+        "title": "Unexpected result when using FORMAT_TYPE",
+        "created_at": "Jun 25",
+        "closed_at": "Jun 26",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7543",
+        "title": "Unexpected result when using IS DISTINCT FROM with constants",
+        "created_at": "Jun 26",
+        "closed_at": "Jul 7",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7544",
+        "title": "Unexpected result when using STARTSWITH",
+        "created_at": "Jun 26",
+        "closed_at": "Jul 7",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7545",
+        "title": "Crash when creating view with GROUP BY",
+        "created_at": "Jun 27",
+        "closed_at": "Jul 1",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7553",
+        "title": "Assertion failure when using INNER JOIN on STARTSWITH",
+        "created_at": "Jul 17",
+        "closed_at": "Jul 19",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7552",
+        "title": "Unexpected result when using NULL constant in comparison",
+        "created_at": "Jul 17",
+        "closed_at": "Jul 17",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7554",
+        "title": "Unexpected result when using range comparison with NULL",
+        "created_at": "Jul 21",
+        "closed_at": "Jul 21",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7555",
+        "title": "Unexpected result when casting integer to boolean in comparison",
+        "created_at": "Jul 21",
+        "closed_at": "Jul 21",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7556",
+        "title": "Assertion failure when using STARTSWITH with view",
+        "created_at": "Jul 21",
+        "closed_at": "Jul 21",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/16350",
+        "title": "Unexpected result when using escape character in LIKE",
+        "created_at": "Jul 21",
+        "closed_at": "Jul 25",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/16476",
+        "title": "Unexpected result when using empty OBJECT literal",
+        "created_at": "Aug 8",
+        "closed_at": "Aug 28",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7562",
+        "title": "Assertion failure when comparing INTERVAL value",
+        "created_at": "Aug 9",
+        "closed_at": "Aug 15",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7563",
+        "title": "Unexpected result when using IS DISTINCT FROM in VIEW",
+        "created_at": "Aug 9",
+        "closed_at": "Aug 21",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/13380",
+        "title": "Unexpected result when using IN with DATE values",
+        "created_at": "Aug 10",
+        "closed_at": "Aug 20",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/128889",
+        "title": "internal error: comparison overload not found (ge, unknown, unknown)",
+        "created_at": "Aug 13",
+        "closed_at": null,
+        "domain": "dbms",
+        "system": "CockroachDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/13506",
+        "title": "Unexpected result when casting negative integer to BIT",
+        "created_at": "Aug 22",
+        "closed_at": "Sep 4",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7571",
+        "title": "Crash when integer overflow in ORDER BY",
+        "created_at": "Aug 22",
+        "closed_at": "Aug 22",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7573",
+        "title": "Crash at strcpy_len ()",
+        "created_at": "Sep 2",
+        "closed_at": "Sep 2",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/16556",
+        "title": "Unexpected results when using OBJECT nulls",
+        "created_at": "Sep 2",
+        "closed_at": "Sep 4",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/16567",
+        "title": "Unexpected results when matching empty string with indexing disabled",
+        "created_at": "Sep 4",
+        "closed_at": "Sep 4",
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/16577",
+        "title": "Unexpected result when querying partitioned table with null values",
+        "created_at": "Sep 5",
+        "closed_at": null,
+        "domain": "dbms",
+        "system": "cratedb",
+        "reported_by": "Suyang Zhong",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/13785",
+        "title": "Unexpected result after creating index on varchar column",
+        "created_at": "Sep 6",
+        "closed_at": "Sep 7",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/13813",
+        "title": "Unexpected result when using IN with TIME values",
+        "created_at": "Sep 8",
+        "closed_at": null,
+        "domain": "dbms",
+        "system": "DuckDB",
+        "reported_by": "Suyang Zhong",
+        "resolution": "confirmed"
     }
 ]
