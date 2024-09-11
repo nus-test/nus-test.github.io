@@ -2457,6 +2457,368 @@ Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;http://jira.cubrid.org/browse/CBRD-25067&#34;&gt;http://jira.cubrid.org/browse/CBRD-25067&lt;/a&gt; &lt;br /&gt;
 Found by: Manuel Rigger
 &lt;/details&gt;
+&lt;h2&gt;Compiler or Interpreter (60 bugs)&lt;/h2&gt;
+&lt;h3&gt;php-src (60 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Out of int range in Zend/zend_strtod.c&lt;/summary&gt;
+Status: open&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/15712&#34;&gt;https://github.com/php/php-src/issues/15712&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Segmentation fault in Zend/zend_execute_API.c&lt;/summary&gt;
+Status: open&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/15672&#34;&gt;https://github.com/php/php-src/issues/15672&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Polymorphic cache slot issue in DOM&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/15670&#34;&gt;https://github.com/php/php-src/issues/15670&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Access null pointer in Zend/Optimizer/zend_inference.c&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/15661&#34;&gt;https://github.com/php/php-src/issues/15661&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Segmentation fault in Zend/zend_vm_execute.h&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/15658&#34;&gt;https://github.com/php/php-src/issues/15658&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Segmentation fault in ext/opcache/jit/ir/dynasm/dasm_x86.h&lt;/summary&gt;
+Status: open&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/15657&#34;&gt;https://github.com/php/php-src/issues/15657&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Signed integer overflow in ext/dom/nodelist.c&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/15654&#34;&gt;https://github.com/php/php-src/issues/15654&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Signed integer overflow in ext/standard/file.c&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/15653&#34;&gt;https://github.com/php/php-src/issues/15653&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Segmentation fault in the Zend engine (JIT enabled)&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/15652&#34;&gt;https://github.com/php/php-src/issues/15652&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Signed integer overflow in ext/standard/pack.c&lt;/summary&gt;
+Status: open&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/15613&#34;&gt;https://github.com/php/php-src/issues/15613&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Segmentation fault (access null pointer) in ext/date/lib/parse_tz.c&lt;/summary&gt;
+Status: open&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/15582&#34;&gt;https://github.com/php/php-src/issues/15582&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Segmentation fault (access null pointer) in ext/dom/html5_serializer.c&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/15570&#34;&gt;https://github.com/php/php-src/issues/15570&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Signed integer overflow in ext/standard/scanf.c&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/15552&#34;&gt;https://github.com/php/php-src/issues/15552&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Segmentation fault (access null pointer) in ext/dom/xml_common.h&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/15551&#34;&gt;https://github.com/php/php-src/issues/15551&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Segmentation fault (access null pointer) in Zend/zend_stack.c&lt;/summary&gt;
+Status: open&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/15496&#34;&gt;https://github.com/php/php-src/issues/15496&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Member access within misaligned address in ext/opcache/jit/zend_jit.c&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/15490&#34;&gt;https://github.com/php/php-src/issues/15490&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Member access within misaligned address in ext/opcache/jit/zend_jit_vm_helpers.c&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/15481&#34;&gt;https://github.com/php/php-src/issues/15481&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Segmentation fault (null pointer) in Zend/zend_builtin_functions.c&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/15456&#34;&gt;https://github.com/php/php-src/issues/15456&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;heap buffer overflow in phpdbg (zend_hash_num_elements() Zend/zend_hash.h)&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/15268&#34;&gt;https://github.com/php/php-src/issues/15268&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Heap use-after-free in phpdbg (zend_hash.c:57 in _zend_is_inconsistent)&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/15210&#34;&gt;https://github.com/php/php-src/issues/15210&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Segmentation fault in phpdbg (phpdbg_bp.c:132)&lt;/summary&gt;
+Status: open&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/15208&#34;&gt;https://github.com/php/php-src/issues/15208&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Segmentation fault in dom extension (html5_serializer)&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/15192&#34;&gt;https://github.com/php/php-src/issues/15192&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Segmentation fault (access illegal address) in zend allocator&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/15187&#34;&gt;https://github.com/php/php-src/issues/15187&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Disabled output handler is flushed again&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/15181&#34;&gt;https://github.com/php/php-src/issues/15181&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Segmentation fault (null pointer dereference) in ext/standard/url_scanner_ex.re&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/15179&#34;&gt;https://github.com/php/php-src/issues/15179&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;stack overflow when var serialization in ext/standard/var&lt;/summary&gt;
+Status: open&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/15169&#34;&gt;https://github.com/php/php-src/issues/15169&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;stack overflow in json_encode()&lt;/summary&gt;
+Status: open&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/15168&#34;&gt;https://github.com/php/php-src/issues/15168&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected null pointer in Zend/zend_smart_str.h&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/15137&#34;&gt;https://github.com/php/php-src/issues/15137&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected null pointer in Zend/zend_string.h&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/14808&#34;&gt;https://github.com/php/php-src/issues/14808&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Signed integer overflow in ext/standard/levenshtein.c&lt;/summary&gt;
+Status: open&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/14807&#34;&gt;https://github.com/php/php-src/issues/14807&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Signed integer overflow in ext/standard/array.c&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/14775&#34;&gt;https://github.com/php/php-src/issues/14775&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Segmentation fault in Zend/zend_types.h&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/14741&#34;&gt;https://github.com/php/php-src/issues/14741&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Segmentation fault (jump to 0x0) in Zend/zend_vm_execute.h&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/14712&#34;&gt;https://github.com/php/php-src/issues/14712&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Signed integer overflow in ext/date/php_date.c&lt;/summary&gt;
+Status: open&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/14709&#34;&gt;https://github.com/php/php-src/issues/14709&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Segmentation fault (access null pointer) in ext/libxml/libxml.c&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/14698&#34;&gt;https://github.com/php/php-src/issues/14698&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Segmentation fault (access null pointer) in ext/spl/spl_directory.c&lt;/summary&gt;
+Status: open&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/14687&#34;&gt;https://github.com/php/php-src/issues/14687&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Segmentation fault in ext/dom/php_dom.c&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/14652&#34;&gt;https://github.com/php/php-src/issues/14652&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Member access within null pointer in ext/standard/basic_functions.c&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/14643&#34;&gt;https://github.com/php/php-src/issues/14643&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Member access within null pointer in ext/spl/spl_observer.c&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/14639&#34;&gt;https://github.com/php/php-src/issues/14639&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Memory access within the null pointer with simplexml extension&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/14638&#34;&gt;https://github.com/php/php-src/issues/14638&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Memory leak in xml extension with zend allocator&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/14637&#34;&gt;https://github.com/php/php-src/issues/14637&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected null pointer at Zend/zend_string.h:200:24&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/14603&#34;&gt;https://github.com/php/php-src/issues/14603&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Deep recursion in zend_cfg.c causes segfault instead of error&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/14361&#34;&gt;https://github.com/php/php-src/issues/14361&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Memory leak in xml and dom&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/14343&#34;&gt;https://github.com/php/php-src/issues/14343&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Member access within null pointer in extension spl&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/14290&#34;&gt;https://github.com/php/php-src/issues/14290&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Segmentation fault on unknown address 0x0001ffff8041 with XML extension under certain memory limit&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/14124&#34;&gt;https://github.com/php/php-src/issues/14124&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Segmentation fault on unknown address 0x600000000018 in ext/opcache/jit/zend_jit.c&lt;/summary&gt;
+Status: open&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/14082&#34;&gt;https://github.com/php/php-src/issues/14082&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Signed Integer Overflow in ext/date/lib/parse_posix.c&lt;/summary&gt;
+Status: open&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/14075&#34;&gt;https://github.com/php/php-src/issues/14075&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Memory leak in xml extension&lt;/summary&gt;
+Status: open&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/14044&#34;&gt;https://github.com/php/php-src/issues/14044&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Applying zero offset to null pointer in Zend/zend_opcode.c&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/13931&#34;&gt;https://github.com/php/php-src/issues/13931&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Stack buffer underflow when executing copy()&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/13903&#34;&gt;https://github.com/php/php-src/issues/13903&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Member access within null pointer of type &#39;ps_files&#39; in ext/session/mod_files.c&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/13856&#34;&gt;https://github.com/php/php-src/issues/13856&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Renaming a file in a Phar to an already existing filename causes a NULL pointer dereference&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/13836&#34;&gt;https://github.com/php/php-src/issues/13836&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Applying non-zero offset 36 to null pointer in zend_jit.c&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/13834&#34;&gt;https://github.com/php/php-src/issues/13834&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Applying zero offset to null pointer in zend_hash.c&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/13833&#34;&gt;https://github.com/php/php-src/issues/13833&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Null pointer access of type &#39;zval&#39; in phpdbg_frame&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/13827&#34;&gt;https://github.com/php/php-src/issues/13827&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Segfault caused by a derefernce of a high value address&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/13695&#34;&gt;https://github.com/php/php-src/issues/13695&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected null pointer in zend_string.h&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/13685&#34;&gt;https://github.com/php/php-src/issues/13685&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;phpdbg_watch null pointer access&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/13681&#34;&gt;https://github.com/php/php-src/issues/13681&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Segfault from ASan: SEGV on unknown address 0x7ffd00000042&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/php/php-src/issues/13680&#34;&gt;https://github.com/php/php-src/issues/13680&lt;/a&gt; &lt;br /&gt;
+Found by: YuanchengJiang
+&lt;/details&gt;
 &lt;h2&gt;Datalog Engines (30 bugs)&lt;/h2&gt;
 &lt;h3&gt;Soufflé (23 bugs)&lt;/h3&gt;
 &lt;details&gt;
@@ -2801,7 +3163,6 @@ Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;https://saxonica.plan.io/issues/6059&#34;&gt;https://saxonica.plan.io/issues/6059&lt;/a&gt; &lt;br /&gt;
 Found by: ShuxinLi
 &lt;/details&gt;
-
 </description>
     </item>
     
