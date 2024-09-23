@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Working on UROP project Deriving Test Case Generators using Domain-Specific Language to Test Database Engines
+bio: Working on a Grammar-Based Fuzzer Framework for Generating SQL Test Cases From Grammar Specifications
 
 # interests:
 # - Artificial Intelligence
@@ -48,6 +48,12 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/albertZhangTJ
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/albert-zhang-tongjun
+- icon: twitter
+  icon_pack: fab
+  link: https://x.com/albertzhangtj
 
 
 # Link to a PDF of your resume/CV from the About widget.
@@ -64,4 +70,8 @@ email: ""
 user_groups:
 - Undergraduate Students
 ---
-Find Tongjun Zhang's homepage at [https://github.com/albertZhangTJ](https://github.com/albertZhangTJ).
+Tongjun (Albert) Zhang is an undergraduate student at School of Computing, National University of Singapore.
+His research focuses on grammar-based fuzzing for relational database management systems. 
+He is generally interested in fuzzing, software-defined networks, network protocols, and operating systems.
+
+Find Albert's homepage at [https://albertzhangtj.at](https://albertzhangtj.at).
