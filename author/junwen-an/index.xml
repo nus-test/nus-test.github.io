@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/author/junwen-an/</link>
       <atom:link href="https://nus-test.github.io/author/junwen-an/index.xml" rel="self" type="application/rss+xml" />
     <description>Junwen An</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Oct 2024 15:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/author/junwen-an/avatar_hu66fa1b2152f064be6635137925d03433_131844_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Junwen An</title>
       <link>https://nus-test.github.io/author/junwen-an/</link>
     </image>
+    
+    <item>
+      <title>CodeGRITS: A Research Toolkit for Developer Behavior and Eye Tracking in IDE</title>
+      <link>https://nus-test.github.io/event/241001/</link>
+      <pubDate>Tue, 01 Oct 2024 15:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/241001/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
