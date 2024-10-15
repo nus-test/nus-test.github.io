@@ -18,7 +18,7 @@ subtitle:
 design:
   columns: "1"
   background:
-    image: singapore2.jpg # TODO: acknowledge https://unsplash.com/photos/As_WAg_6BPg
+    image: nus_test2.jpg # TODO: acknowledge (alt="Photo of the NUS TEST lab by Sun Changsheng")
     image_darken: 0
     image_parallax: false
     image_position: center

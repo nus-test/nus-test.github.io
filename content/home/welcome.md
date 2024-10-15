@@ -8,7 +8,7 @@ headless: true  # This file represents a page section.
 weight: 10  # Order that this section will appear.
 title: ""
 subtitle: ""
-hero_media: nus_test.jpg  # TODO: figure out how to add an attribution caption (https://unsplash.com/photos/q2akltiB_XY)
+hero_media: nus_test.jpg  # TODO: figure out how to add an attribution caption (alt="Photo of the NUS TEST lab by Sun Changsheng")
 design:
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns: '1'
