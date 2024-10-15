@@ -24,6 +24,7 @@
 &lt;a href=&#34;#datalog&#34;&gt;&lt;li&gt;Datalog Engines: 30 bugs&lt;/li&gt;&lt;/a&gt;
 &lt;a href=&#34;#xml&#34;&gt;&lt;li&gt;XML Processors: 26 bugs&lt;/li&gt;&lt;/a&gt;
 &lt;/ul&gt;
+&lt;a href=&#34;https://manuelrigger.at/dbms-bugs/&#34;&gt;Additional DBMS bugs&lt;/a&gt;
 &lt;br/&gt;
 &lt;h2 id=&#34;dbms&#34;&gt;Database Management Systems (403 bugs)&lt;/h2&gt;
 &lt;h3&gt;TiDB (48 bugs)&lt;/h3&gt;
