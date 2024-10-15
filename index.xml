@@ -3172,13 +3172,14 @@ Found by: ShuxinLi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://nus-test.github.io/positions/</guid>
       <description>&lt;p&gt;I am looking for PhD students, postdocs, interns, and visitors whose vision aligns with ours to join our lab. In general, we aim to both have a practical impact by creating relevant and usable tools as well as by designing principled and fundamental approaches.&lt;/p&gt;
-&lt;p&gt;The group&amp;rsquo;s core areas are software engineering, computer systems, and programming languages. Topics of interest include, but are not limited to:&lt;/p&gt;
+&lt;p&gt;The group&amp;rsquo;s core areas are software engineering, computer systems, and programming languages. A current key focus is reliability aspects of data-centric systems.&lt;/p&gt;
+&lt;p&gt;More generally, topics of interest include, but are not limited to:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Software reliability using techniques such as automated testing and program analysis&lt;/li&gt;
-&lt;li&gt;Creating and improving essential systems such as compilers, programming language environments, and data processing systems&lt;/li&gt;
-&lt;li&gt;Programming languages, in particular, their efficient implementation&lt;/li&gt;
+&lt;li&gt;software reliability using techniques such as automated testing and program analysis;&lt;/li&gt;
+&lt;li&gt;creating and improving essential systems such as data processing systems, compilers, and programming language environments;&lt;/li&gt;
+&lt;li&gt;and programming languages, in particular, their efficient implementation.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;You can also consult my &lt;a href=&#34;https://scholar.google.com/citations?hl=de&amp;amp;user=yRsLClYAAAAJ&amp;amp;view_op=list_works&amp;amp;sortby=pubdate&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Scholar page&lt;/a&gt; for an up-to-date view of our research activities.&lt;/p&gt;
+&lt;p&gt;You can also consult my &lt;a href=&#34;https://scholar.google.com/citations?user=yRsLClYAAAAJ&amp;amp;view_op=list_works&amp;amp;sortby=pubdate&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Scholar page&lt;/a&gt; for an up-to-date view of our research activities.&lt;/p&gt;
 &lt;p&gt;An ideal candidate has some of the following qualities:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Strong implementation skills and a desire to create open-source tools&lt;/li&gt;
@@ -3186,12 +3187,13 @@ Found by: ShuxinLi
 &lt;li&gt;Not being afraid to tackle challenging, important problems&lt;/li&gt;
 &lt;li&gt;The resilience to deal with fallbacks (which are quite common in research) and maintaining a work-life balance&lt;/li&gt;
 &lt;li&gt;An interest in working on improving technical and non-technical skills&lt;/li&gt;
-&lt;li&gt;A desire to write papers and publish at top venues (ICSE, ASPLOS, OOPSLA, &amp;hellip;)&lt;/li&gt;
+&lt;li&gt;A desire to write papers and publish at top venues (ICSE, ASPLOS, SIGMOD, OOPSLA, &amp;hellip;)&lt;/li&gt;
 &lt;li&gt;A motivation to share your work with the community (through presentations, talking to your peers, on your website, &amp;hellip;)&lt;/li&gt;
 &lt;li&gt;An interest to learn about what other people are working on (e.g., by reading papers)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;It is not expected that you have all of these qualities; I am unsure whether I have all of them myself. However, keep in consideration that these qualities reflect ways in which you will likely be challenged and develop further if you decide to join the lab.&lt;/p&gt;
-&lt;p&gt;If you are interested in a position, feel free to reach out to me and send me your CV. If you are considering a PhD position, you can also directly &lt;a href=&#34;https://www.comp.nus.edu.sg/programmes/pg/phdcs/application/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;apply here&lt;/a&gt; and mention my name in the application. The application deadlines are June 15 and December 15.&lt;/p&gt;
+&lt;p&gt;If you are interested in a position, feel free to reach out to me and send me your CV (and transcripts). In addition, I suggest making clear why you are interested in the lab, and how your experience and interests connect with some of the work we are doing.&lt;/p&gt;
+&lt;p&gt;If you are considering a PhD position, you can also directly &lt;a href=&#34;https://www.comp.nus.edu.sg/programmes/pg/phdcs/application/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;apply here&lt;/a&gt; and mention my name in the application. The application deadlines are June 15 and December 15.&lt;/p&gt;
 &lt;p&gt;&amp;ndash; Manuel RIGGER (&lt;a href=&#34;mailto:rigger@comp.nus.edu.sg&#34;&gt;rigger@comp.nus.edu.sg&lt;/a&gt;)&lt;/p&gt;
 </description>
     </item>
