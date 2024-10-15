@@ -24,13 +24,13 @@ domain_count_query = 'SELECT domain, COUNT(*) FROM bugs WHERE ' + common_where_c
 print('<b>Overview</b><br/>')
 print('<ul>')
 for domain, count in c.execute(domain_count_query).fetchall():
-    print('<li>%s: %d bugs</li>' % (domain_map[domain], count))
+    print('<a href="#%s"><li>%s: %d bugs</li></a>' % (domain, domain_map[domain], count))
 print('</ul>')
 
 
 print('<br/>')
 for domain, count in c.execute(domain_count_query).fetchall():
-    print('<h2>%s (%d bugs)</h2>' % (domain_map[domain], count))
+    print('<h2 id="%s">%s (%d bugs)</h2>' % (domain, domain_map[domain], count))
     for system, count in c.execute(("SELECT system, COUNT(*) FROM bugs WHERE domain = '%s' AND " + common_where_clause + " GROUP BY system ORDER BY COUNT(*) DESC") % (domain,)).fetchall():
         print('<h3>%s (%d bugs)</h3>' % (system, count))
         for title, url, found_by, resolution in c.execute(("SELECT title, url, reported_by, resolution FROM bugs WHERE domain='%s' AND system='%s' AND " + common_where_clause + ";") % (domain, system)).fetchall():
