@@ -19,13 +19,13 @@
       <guid>https://nus-test.github.io/bugs/</guid>
       <description>&lt;b&gt;Overview&lt;/b&gt;&lt;br/&gt;
 &lt;ul&gt;
-&lt;li&gt;Database Management Systems: 403 bugs&lt;/li&gt;
-&lt;li&gt;Compilers and Interpreters: 60 bugs&lt;/li&gt;
-&lt;li&gt;Datalog Engines: 30 bugs&lt;/li&gt;
-&lt;li&gt;XML Processors: 26 bugs&lt;/li&gt;
+&lt;a href=&#34;#dbms&#34;&gt;&lt;li&gt;Database Management Systems: 403 bugs&lt;/li&gt;&lt;/a&gt;
+&lt;a href=&#34;#compiler&amp;interpreter&#34;&gt;&lt;li&gt;Compilers and Interpreters: 60 bugs&lt;/li&gt;&lt;/a&gt;
+&lt;a href=&#34;#datalog&#34;&gt;&lt;li&gt;Datalog Engines: 30 bugs&lt;/li&gt;&lt;/a&gt;
+&lt;a href=&#34;#xml&#34;&gt;&lt;li&gt;XML Processors: 26 bugs&lt;/li&gt;&lt;/a&gt;
 &lt;/ul&gt;
 &lt;br/&gt;
-&lt;h2&gt;Database Management Systems (403 bugs)&lt;/h2&gt;
+&lt;h2 id=&#34;dbms&#34;&gt;Database Management Systems (403 bugs)&lt;/h2&gt;
 &lt;h3&gt;TiDB (48 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;incorrect unresolved column when using natural join&lt;/summary&gt;
@@ -2465,7 +2465,7 @@ Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;http://jira.cubrid.org/browse/CBRD-25067&#34;&gt;http://jira.cubrid.org/browse/CBRD-25067&lt;/a&gt; &lt;br /&gt;
 Found by: Manuel Rigger
 &lt;/details&gt;
-&lt;h2&gt;Compilers and Interpreters (60 bugs)&lt;/h2&gt;
+&lt;h2 id=&#34;compiler&amp;interpreter&#34;&gt;Compilers and Interpreters (60 bugs)&lt;/h2&gt;
 &lt;h3&gt;php-src (60 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;Out of int range in Zend/zend_strtod.c&lt;/summary&gt;
@@ -2827,7 +2827,7 @@ Status: confirmed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/php/php-src/issues/13680&#34;&gt;https://github.com/php/php-src/issues/13680&lt;/a&gt; &lt;br /&gt;
 Found by: YuanchengJiang
 &lt;/details&gt;
-&lt;h2&gt;Datalog Engines (30 bugs)&lt;/h2&gt;
+&lt;h2 id=&#34;datalog&#34;&gt;Datalog Engines (30 bugs)&lt;/h2&gt;
 &lt;h3&gt;Soufflé (23 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;Negative zero causes different results for interpreter mode and compiler mode&lt;/summary&gt;
@@ -3011,7 +3011,7 @@ Status: confirmed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/Z3Prover/z3/issues/6447&#34;&gt;https://github.com/Z3Prover/z3/issues/6447&lt;/a&gt; &lt;br /&gt;
 Found by: Chi Zhang
 &lt;/details&gt;
-&lt;h2&gt;XML Processors (26 bugs)&lt;/h2&gt;
+&lt;h2 id=&#34;xml&#34;&gt;XML Processors (26 bugs)&lt;/h2&gt;
 &lt;h3&gt;BaseX (16 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;Error in arithemetic calculation result comparison&lt;/summary&gt;
