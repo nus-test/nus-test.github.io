@@ -4,7 +4,7 @@
         "title": "Out of int range in Zend/zend_strtod.c",
         "created_at": "02/09/2024",
         "closed_at": "unknown",
-        "state": "open",
+        "state": "closed",
         "domain": "compiler&interpreter",
         "reported_by": "YuanchengJiang",
         "resolution": "open",
@@ -59,7 +59,7 @@
         "title": "Segmentation fault in ext/opcache/jit/ir/dynasm/dasm_x86.h",
         "created_at": "30/08/2024",
         "closed_at": "unknown",
-        "state": "open",
+        "state": "closed",
         "domain": "compiler&interpreter",
         "reported_by": "YuanchengJiang",
         "resolution": "open",
@@ -103,7 +103,7 @@
         "title": "Signed integer overflow in ext/standard/pack.c",
         "created_at": "28/08/2024",
         "closed_at": "unknown",
-        "state": "open",
+        "state": "closed",
         "domain": "compiler&interpreter",
         "reported_by": "YuanchengJiang",
         "resolution": "open",
@@ -114,7 +114,7 @@
         "title": "Segmentation fault (access null pointer) in ext/date/lib/parse_tz.c",
         "created_at": "25/08/2024",
         "closed_at": "unknown",
-        "state": "open",
+        "state": "closed",
         "domain": "compiler&interpreter",
         "reported_by": "YuanchengJiang",
         "resolution": "open",
@@ -279,7 +279,7 @@
         "title": "stack overflow when var serialization in ext/standard/var",
         "created_at": "30/07/2024",
         "closed_at": "unknown",
-        "state": "open",
+        "state": "closed",
         "domain": "compiler&interpreter",
         "reported_by": "YuanchengJiang",
         "resolution": "open",
@@ -290,7 +290,7 @@
         "title": "stack overflow in json_encode()",
         "created_at": "30/07/2024",
         "closed_at": "unknown",
-        "state": "open",
+        "state": "closed",
         "domain": "compiler&interpreter",
         "reported_by": "YuanchengJiang",
         "resolution": "open",
@@ -323,7 +323,7 @@
         "title": "Signed integer overflow in ext/standard/levenshtein.c",
         "created_at": "04/07/2024",
         "closed_at": "unknown",
-        "state": "open",
+        "state": "closed",
         "domain": "compiler&interpreter",
         "reported_by": "YuanchengJiang",
         "resolution": "open",
@@ -389,7 +389,7 @@
         "title": "Segmentation fault (access null pointer) in ext/spl/spl_directory.c",
         "created_at": "27/06/2024",
         "closed_at": "unknown",
-        "state": "open",
+        "state": "closed",
         "domain": "compiler&interpreter",
         "reported_by": "YuanchengJiang",
         "resolution": "open",
@@ -821,10 +821,11 @@
         "url": "https://github.com/pingcap/tidb/issues/38305",
         "title": "runtime error: invalid memory address or nil pointer dereference",
         "created_at": "06/10/2022",
-        "state": "open",
+        "state": "closed",
         "domain": "dbms",
         "reported_by": "bajinsheng",
-        "system": "TiDB"
+        "system": "TiDB",
+        "closed_at": "15/10/2024"
     },
     {
         "url": "https://github.com/pingcap/tidb/issues/38310",
@@ -1378,10 +1379,11 @@
         "url": "https://github.com/pingcap/tidb/issues/38305",
         "title": "runtime error: invalid memory address or nil pointer dereference",
         "created_at": "06/10/2022",
-        "state": "open",
+        "state": "closed",
         "domain": "dbms",
         "reported_by": "bajinsheng",
-        "system": "TiDB"
+        "system": "TiDB",
+        "closed_at": "15/10/2024"
     },
     {
         "url": "https://github.com/pingcap/tidb/issues/38310",
@@ -2387,7 +2389,8 @@
         "system": "DuckDB",
         "title": "Unexpected results of `TIME` value under JDBC",
         "created_at": "15/04/2023",
-        "state": "open"
+        "state": "closed",
+        "closed_at": "25/09/2024"
     },
     {
         "url": "https://github.com/cockroachdb/cockroach/issues/101980",
@@ -2440,7 +2443,8 @@
         "resolution": "confirmed",
         "title": "Unexpected results of `IN` with redundant values list ",
         "created_at": "08/05/2023",
-        "state": "open"
+        "state": "closed",
+        "closed_at": "08/04/2024"
     },
     {
         "url": "https://github.com/cockroachdb/cockroach/issues/103755",
@@ -2533,7 +2537,8 @@
         "resolution": "confirmed",
         "title": "Unexpected results of subquery in `INSERT`",
         "created_at": "24/04/2023",
-        "state": "open"
+        "state": "closed",
+        "closed_at": "30/04/2024"
     },
     {
         "url": "https://github.com/pingcap/tidb/issues/43569",
@@ -2584,7 +2589,8 @@
         "resolution": "confirmed",
         "title": "Unexpected results of `ANY` operator",
         "created_at": "15/06/2023",
-        "state": "open"
+        "state": "closed",
+        "closed_at": "29/09/2024"
     },
     {
         "url": "https://bugs.mysql.com/bug.php?id=111241",
@@ -2611,7 +2617,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "neo4j",
-        "resolution": "confirmed"
+        "resolution": "confirmed",
+        "closed_at": "25/10/2022",
+        "state": "closed"
     },
     {
         "url": "https://github.com/neo4j/neo4j/issues/12968",
@@ -2620,7 +2628,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "neo4j",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "14/08/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/neo4j/neo4j/issues/12973",
@@ -2629,7 +2639,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "neo4j",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "05/12/2022",
+        "state": "closed"
     },
     {
         "url": "https://github.com/neo4j/neo4j/issues/12988",
@@ -2638,7 +2650,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "neo4j",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "09/01/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/neo4j/neo4j/issues/12991",
@@ -2647,7 +2661,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "neo4j",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "07/12/2022",
+        "state": "closed"
     },
     {
         "url": "https://github.com/neo4j/neo4j/issues/12996",
@@ -2656,7 +2672,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "neo4j",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "04/01/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/neo4j/neo4j/issues/13003",
@@ -2665,7 +2683,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "neo4j",
-        "resolution": "confirmed"
+        "resolution": "confirmed",
+        "closed_at": "11/01/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/neo4j/neo4j/issues/13010",
@@ -2674,7 +2694,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "neo4j",
-        "resolution": "confirmed"
+        "resolution": "confirmed",
+        "closed_at": "11/01/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/neo4j/neo4j/issues/13033",
@@ -2683,7 +2705,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "neo4j",
-        "resolution": "confirmed"
+        "resolution": "confirmed",
+        "closed_at": "09/03/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/neo4j/neo4j/issues/13034",
@@ -2692,7 +2716,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "neo4j",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "16/02/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/neo4j/neo4j/issues/13041",
@@ -2701,7 +2727,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "neo4j",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "06/03/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/RedisGraph/RedisGraph/issues/2744",
@@ -2710,7 +2738,8 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "redisgraph",
-        "resolution": "confirmed"
+        "resolution": "confirmed",
+        "state": "open"
     },
     {
         "url": "https://github.com/RedisGraph/RedisGraph/issues/2858",
@@ -2719,7 +2748,8 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "redisgraph",
-        "resolution": "confirmed"
+        "resolution": "confirmed",
+        "state": "open"
     },
     {
         "url": "https://github.com/RedisGraph/RedisGraph/issues/2859",
@@ -2728,7 +2758,8 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "redisgraph",
-        "resolution": "confirmed"
+        "resolution": "confirmed",
+        "state": "open"
     },
     {
         "url": "https://github.com/RedisGraph/RedisGraph/issues/2865",
@@ -2737,7 +2768,8 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "redisgraph",
-        "resolution": "confirmed"
+        "resolution": "confirmed",
+        "state": "open"
     },
     {
         "url": "https://github.com/bitnine-oss/agensgraph/issues/595",
@@ -2746,7 +2778,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "agensgraph",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "16/01/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/bitnine-oss/agensgraph/issues/609",
@@ -2755,7 +2789,8 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "agensgraph",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "open"
     },
     {
         "url": "https://github.com/bitnine-oss/agensgraph/issues/617",
@@ -2764,7 +2799,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "agensgraph",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "09/05/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3322",
@@ -2773,7 +2810,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "17/05/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3323",
@@ -2782,7 +2821,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "15/05/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3324",
@@ -2791,7 +2832,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "15/05/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3356",
@@ -2800,7 +2843,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "30/05/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3357",
@@ -2809,7 +2854,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "30/05/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3376",
@@ -2818,7 +2865,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "09/06/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3386",
@@ -2827,7 +2876,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "05/06/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3418",
@@ -2836,7 +2887,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "02/06/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3419",
@@ -2845,7 +2898,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "07/06/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3420",
@@ -2854,7 +2909,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "02/06/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3433",
@@ -2863,7 +2920,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "07/06/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3445",
@@ -2872,7 +2931,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "09/06/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3454",
@@ -2881,7 +2942,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "09/06/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3455",
@@ -2890,7 +2953,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "08/06/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3467",
@@ -2899,7 +2964,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "19/07/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3468",
@@ -2908,7 +2975,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "11/08/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3469",
@@ -2917,7 +2986,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "11/08/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3470",
@@ -2926,7 +2997,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "15/08/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3526",
@@ -2935,7 +3008,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "03/08/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3576",
@@ -2944,7 +3019,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "01/08/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3580",
@@ -2953,7 +3030,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "15/08/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3581",
@@ -2962,7 +3041,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "29/09/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3590",
@@ -2971,7 +3052,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "01/08/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3595",
@@ -2980,7 +3063,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "31/07/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3619",
@@ -2989,7 +3074,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "14/08/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3622",
@@ -2998,7 +3085,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "14/08/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3623",
@@ -3007,7 +3096,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "14/08/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3669",
@@ -3016,7 +3107,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "29/09/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3670",
@@ -3025,7 +3118,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "04/09/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3733",
@@ -3034,7 +3129,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "07/11/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3828",
@@ -3043,7 +3140,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "06/11/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3833",
@@ -3052,7 +3151,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "16/10/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3933",
@@ -3061,7 +3162,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "06/12/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3934",
@@ -3070,7 +3173,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "20/11/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3935",
@@ -3079,7 +3184,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "13/11/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3936",
@@ -3088,7 +3195,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "29/11/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3938",
@@ -3097,7 +3206,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "20/11/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/3949",
@@ -3106,7 +3217,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "20/11/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/questdb/questdb/issues/4010",
@@ -3115,7 +3228,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "questdb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "29/11/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/taosdata/TDengine/issues/21323",
@@ -3124,7 +3239,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "tdengine",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "24/05/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/taosdata/TDengine/issues/21368",
@@ -3133,7 +3250,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "tdengine",
-        "resolution": "open"
+        "resolution": "open",
+        "closed_at": "24/05/2024",
+        "state": "closed"
     },
     {
         "url": "https://github.com/taosdata/TDengine/issues/21520",
@@ -3142,7 +3261,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "tdengine",
-        "resolution": "open"
+        "resolution": "open",
+        "closed_at": "24/05/2024",
+        "state": "closed"
     },
     {
         "url": "https://github.com/taosdata/TDengine/issues/22857",
@@ -3151,7 +3272,8 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "tdengine",
-        "resolution": "confirmed"
+        "resolution": "confirmed",
+        "state": "open"
     },
     {
         "url": "https://github.com/risingwavelabs/risingwave/issues/12818",
@@ -3160,7 +3282,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "risingwave",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "17/10/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/risingwavelabs/risingwave/issues/12822",
@@ -3169,7 +3293,8 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "risingwave",
-        "resolution": "confirmed"
+        "resolution": "confirmed",
+        "state": "open"
     },
     {
         "url": "https://github.com/risingwavelabs/risingwave/issues/12847",
@@ -3178,7 +3303,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "risingwave",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "23/10/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/14805",
@@ -3187,7 +3314,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "cratedb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "26/10/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/14807",
@@ -3196,7 +3325,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "cratedb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "26/10/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/14815",
@@ -3205,7 +3336,9 @@
         "domain": "dbms",
         "reported_by": "Yuancheng Jiang",
         "system": "cratedb",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "closed_at": "09/10/2023",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/15029",
@@ -3215,7 +3348,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/15050",
@@ -3225,7 +3359,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/15083",
@@ -3235,7 +3370,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/dolthub/dolt/issues/7006",
@@ -3245,7 +3381,8 @@
         "domain": "dbms",
         "system": "Dolt",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/dolthub/dolt/issues/7018",
@@ -3255,7 +3392,8 @@
         "domain": "dbms",
         "system": "Dolt",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/dolthub/dolt/issues/7025",
@@ -3265,7 +3403,8 @@
         "domain": "dbms",
         "system": "Dolt",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/dolthub/dolt/issues/7026",
@@ -3275,7 +3414,8 @@
         "domain": "dbms",
         "system": "Dolt",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/risingwavelabs/risingwave/issues/13497",
@@ -3285,7 +3425,8 @@
         "domain": "dbms",
         "system": "risingwave",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/risingwavelabs/risingwave/issues/13572",
@@ -3295,7 +3436,8 @@
         "domain": "dbms",
         "system": "risingwave",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/FirebirdSQL/firebird/issues/7839",
@@ -3305,7 +3447,8 @@
         "domain": "dbms",
         "system": "Firebird",
         "reported_by": "Manuel Rigger",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/FirebirdSQL/firebird/issues/7860",
@@ -3315,7 +3458,8 @@
         "domain": "dbms",
         "system": "Firebird",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "http://jira.cubrid.org/browse/CBRD-25067",
@@ -3335,7 +3479,8 @@
         "domain": "dbms",
         "system": "Dolt",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/dolthub/dolt/issues/7039",
@@ -3345,7 +3490,8 @@
         "domain": "dbms",
         "system": "Dolt",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://bugs.mysql.com/bug.php?id=113180",
@@ -3365,7 +3511,8 @@
         "domain": "dbms",
         "system": "risingwave",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/dolthub/dolt/issues/7046",
@@ -3375,7 +3522,8 @@
         "domain": "dbms",
         "system": "Dolt",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/duckdb/duckdb/issues/9806",
@@ -3385,7 +3533,8 @@
         "domain": "dbms",
         "system": "DuckDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/FirebirdSQL/firebird/issues/7879",
@@ -3395,7 +3544,8 @@
         "domain": "dbms",
         "system": "Firebird",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": null,
@@ -3415,7 +3565,8 @@
         "domain": "dbms",
         "system": "DuckDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/dolthub/dolt/issues/7056",
@@ -3425,7 +3576,8 @@
         "domain": "dbms",
         "system": "Dolt",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": null,
@@ -3445,7 +3597,8 @@
         "domain": "dbms",
         "system": "Dolt",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": null,
@@ -3495,7 +3648,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/15121",
@@ -3505,7 +3659,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/dolthub/dolt/issues/7072",
@@ -3515,7 +3670,8 @@
         "domain": "dbms",
         "system": "Dolt",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/dolthub/dolt/issues/7073",
@@ -3525,7 +3681,8 @@
         "domain": "dbms",
         "system": "Dolt",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "http://bugs.mysql.com/113298",
@@ -3545,7 +3702,8 @@
         "domain": "dbms",
         "system": "DuckDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/FirebirdSQL/firebird/issues/7903",
@@ -3555,7 +3713,8 @@
         "domain": "dbms",
         "system": "Firebird",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": null,
@@ -3595,7 +3754,8 @@
         "domain": "dbms",
         "system": "Firebird",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/dolthub/dolt/issues/7120",
@@ -3605,7 +3765,8 @@
         "domain": "dbms",
         "system": "Dolt",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": null,
@@ -3645,7 +3806,8 @@
         "domain": "dbms",
         "system": "Dolt",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": null,
@@ -3665,7 +3827,8 @@
         "domain": "dbms",
         "system": "Dolt",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/dolthub/dolt/issues/7155",
@@ -3675,7 +3838,8 @@
         "domain": "dbms",
         "system": "Dolt",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": null,
@@ -3695,7 +3859,8 @@
         "domain": "dbms",
         "system": "TiDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/15201",
@@ -3705,7 +3870,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/15202",
@@ -3715,7 +3881,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": null,
@@ -3765,7 +3932,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/dolthub/dolt/issues/7216",
@@ -3775,7 +3943,8 @@
         "domain": "dbms",
         "system": "Dolt",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/dolthub/dolt/issues/7222",
@@ -3785,7 +3954,8 @@
         "domain": "dbms",
         "system": "Dolt",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/duckdb/duckdb/issues/10087",
@@ -3795,7 +3965,8 @@
         "domain": "dbms",
         "system": "DuckDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/risingwavelabs/risingwave/issues/14283",
@@ -3805,7 +3976,8 @@
         "domain": "dbms",
         "system": "risingwave",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/dolthub/dolt/issues/7229",
@@ -3815,7 +3987,8 @@
         "domain": "dbms",
         "system": "Dolt",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": null,
@@ -3845,7 +4018,8 @@
         "domain": "dbms",
         "system": "Virtuoso",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/openlink/virtuoso-opensource/issues/1214",
@@ -3855,7 +4029,8 @@
         "domain": "dbms",
         "system": "Virtuoso",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7426",
@@ -3865,7 +4040,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/dolthub/dolt/issues/7235",
@@ -3875,7 +4051,8 @@
         "domain": "dbms",
         "system": "Dolt",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": null,
@@ -3915,7 +4092,8 @@
         "domain": "dbms",
         "system": "Dolt",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/dolthub/dolt/issues/7261",
@@ -3925,7 +4103,8 @@
         "domain": "dbms",
         "system": "Dolt",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/dolthub/dolt/issues/7262",
@@ -3935,7 +4114,8 @@
         "domain": "dbms",
         "system": "Dolt",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": null,
@@ -4025,7 +4205,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7429",
@@ -4035,7 +4216,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7428",
@@ -4045,7 +4227,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": null,
@@ -4065,7 +4248,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/15325",
@@ -4075,7 +4259,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/15326",
@@ -4085,7 +4270,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": null,
@@ -4145,7 +4331,8 @@
         "domain": "dbms",
         "system": "Virtuoso",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/openlink/virtuoso-opensource/issues/1236",
@@ -4155,7 +4342,8 @@
         "domain": "dbms",
         "system": "Virtuoso",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": null,
@@ -4195,7 +4383,8 @@
         "domain": "dbms",
         "system": "Dolt",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": null,
@@ -4215,7 +4404,8 @@
         "domain": "dbms",
         "system": "TiDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "confirmed"
+        "resolution": "confirmed",
+        "state": "open"
     },
     {
         "url": "https://github.com/dolthub/dolt/issues/7338",
@@ -4225,7 +4415,8 @@
         "domain": "dbms",
         "system": "Dolt",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": null,
@@ -4255,7 +4446,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/dolthub/dolt/issues/7371",
@@ -4265,7 +4457,8 @@
         "domain": "dbms",
         "system": "Dolt",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/dolthub/dolt/issues/7372",
@@ -4275,7 +4468,8 @@
         "domain": "dbms",
         "system": "Dolt",
         "reported_by": "Suyang Zhong",
-        "resolution": "confirmed"
+        "resolution": "confirmed",
+        "state": "open"
     },
     {
         "url": "https://github.com/openlink/virtuoso-opensource/issues/1238",
@@ -4285,7 +4479,8 @@
         "domain": "dbms",
         "system": "Virtuoso",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/openlink/virtuoso-opensource/issues/1239",
@@ -4295,7 +4490,8 @@
         "domain": "dbms",
         "system": "Virtuoso",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://sqlite.org/forum/forumpost/3776b48e71, https://www.sqlite.org/src/info/01868ebcd25fadb2",
@@ -4315,7 +4511,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7447",
@@ -4325,7 +4522,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/h2database/h2database/issues/3982",
@@ -4335,7 +4533,8 @@
         "domain": "dbms",
         "system": "H2",
         "reported_by": "Suyang Zhong",
-        "resolution": "confirmed"
+        "resolution": "confirmed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/h2database/h2database/issues/3981",
@@ -4345,7 +4544,8 @@
         "domain": "dbms",
         "system": "H2",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://perconadev.atlassian.net/jira/software/c/projects/PS/issues/PS-9085",
@@ -4365,7 +4565,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/15459",
@@ -4375,7 +4576,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7451",
@@ -4385,7 +4587,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7450",
@@ -4395,7 +4598,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/15500",
@@ -4405,7 +4609,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": null,
@@ -4435,7 +4640,8 @@
         "domain": "dbms",
         "system": "Firebird",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": null,
@@ -4465,7 +4671,8 @@
         "domain": "dbms",
         "system": "Firebird",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/openlink/virtuoso-opensource/issues/1241",
@@ -4475,7 +4682,8 @@
         "domain": "dbms",
         "system": "Virtuoso",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/15527",
@@ -4485,7 +4693,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": null,
@@ -4505,7 +4714,8 @@
         "domain": "dbms",
         "system": "Firebird",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/FirebirdSQL/firebird/issues/7998",
@@ -4515,7 +4725,8 @@
         "domain": "dbms",
         "system": "Firebird",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/15537",
@@ -4525,7 +4736,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7455",
@@ -4535,7 +4747,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7456",
@@ -4545,7 +4758,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7457",
@@ -4555,7 +4769,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/dolthub/dolt/issues/7515",
@@ -4565,7 +4780,8 @@
         "domain": "dbms",
         "system": "Dolt",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/15566",
@@ -4575,7 +4791,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7458",
@@ -4585,7 +4802,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7459",
@@ -4595,7 +4813,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7460",
@@ -4605,7 +4824,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7461",
@@ -4615,7 +4835,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/15592",
@@ -4625,7 +4846,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7463",
@@ -4635,7 +4857,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7462",
@@ -4645,7 +4868,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/15613",
@@ -4655,7 +4879,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7466",
@@ -4665,7 +4890,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7465",
@@ -4675,7 +4901,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7468",
@@ -4685,7 +4912,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7469",
@@ -4695,7 +4923,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/openlink/virtuoso-opensource/issues/1249",
@@ -4705,7 +4934,8 @@
         "domain": "dbms",
         "system": "Virtuoso",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/openlink/virtuoso-opensource/issues/1250",
@@ -4715,7 +4945,8 @@
         "domain": "dbms",
         "system": "Virtuoso",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/openlink/virtuoso-opensource/issues/1251",
@@ -4725,7 +4956,8 @@
         "domain": "dbms",
         "system": "Virtuoso",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/15743",
@@ -4735,7 +4967,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/duckdb/duckdb/issues/12181",
@@ -4745,7 +4978,8 @@
         "domain": "dbms",
         "system": "DuckDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/pingcap/tidb/issues/53506",
@@ -4755,7 +4989,8 @@
         "domain": "dbms",
         "system": "TiDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "confirmed"
+        "resolution": "confirmed",
+        "state": "open"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7521",
@@ -4765,7 +5000,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7523",
@@ -4775,7 +5011,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7522",
@@ -4785,7 +5022,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/FirebirdSQL/firebird/issues/8132",
@@ -4795,7 +5033,8 @@
         "domain": "dbms",
         "system": "Firebird",
         "reported_by": "Suyang Zhong",
-        "resolution": "confirmed"
+        "resolution": "confirmed",
+        "state": "open"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7524",
@@ -4805,7 +5044,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/16026",
@@ -4815,7 +5055,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7527",
@@ -4825,7 +5066,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7528",
@@ -4835,7 +5077,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/16062",
@@ -4845,7 +5088,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7530",
@@ -4855,7 +5099,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7534",
@@ -4865,7 +5110,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7535",
@@ -4875,7 +5121,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/ClickHouse/ClickHouse/issues/65316",
@@ -4885,7 +5132,8 @@
         "domain": "dbms",
         "system": "ClickHouse",
         "reported_by": "Suyang Zhong",
-        "resolution": "confirmed"
+        "resolution": "confirmed",
+        "state": "open"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7539",
@@ -4895,7 +5143,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/16172",
@@ -4905,7 +5154,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/16173",
@@ -4915,7 +5165,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7540",
@@ -4925,7 +5176,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7541",
@@ -4935,7 +5187,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/16227",
@@ -4945,7 +5198,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/16225",
@@ -4955,7 +5209,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7543",
@@ -4965,7 +5220,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7544",
@@ -4975,7 +5231,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7545",
@@ -4985,7 +5242,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7553",
@@ -4995,7 +5253,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7552",
@@ -5005,7 +5264,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7554",
@@ -5015,7 +5275,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7555",
@@ -5025,7 +5286,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7556",
@@ -5035,7 +5297,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/16350",
@@ -5045,7 +5308,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/16476",
@@ -5055,7 +5319,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7562",
@@ -5065,7 +5330,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7563",
@@ -5075,7 +5341,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/duckdb/duckdb/issues/13380",
@@ -5085,7 +5352,8 @@
         "domain": "dbms",
         "system": "DuckDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/cockroachdb/cockroach/issues/128889",
@@ -5095,7 +5363,8 @@
         "domain": "dbms",
         "system": "CockroachDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "confirmed"
+        "resolution": "confirmed",
+        "state": "open"
     },
     {
         "url": "https://github.com/duckdb/duckdb/issues/13506",
@@ -5105,7 +5374,8 @@
         "domain": "dbms",
         "system": "DuckDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7571",
@@ -5115,7 +5385,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7573",
@@ -5125,7 +5396,8 @@
         "domain": "dbms",
         "system": "MonetDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/16556",
@@ -5135,7 +5407,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/16567",
@@ -5145,7 +5418,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/crate/crate/issues/16577",
@@ -5155,7 +5429,8 @@
         "domain": "dbms",
         "system": "cratedb",
         "reported_by": "Suyang Zhong",
-        "resolution": "confirmed"
+        "resolution": "confirmed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/duckdb/duckdb/issues/13785",
@@ -5165,7 +5440,8 @@
         "domain": "dbms",
         "system": "DuckDB",
         "reported_by": "Suyang Zhong",
-        "resolution": "fixed"
+        "resolution": "fixed",
+        "state": "closed"
     },
     {
         "url": "https://github.com/duckdb/duckdb/issues/13813",
@@ -5175,6 +5451,180 @@
         "domain": "dbms",
         "system": "DuckDB",
         "reported_by": "Suyang Zhong",
+        "resolution": "confirmed",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/databendlabs/databend/issues/15568",
+        "title": "Decimal overflow conversion error",
+        "created_at": "18/05/2024",
+        "closed_at": "19/05/2024",
+        "domain": "dbms",
+        "system": "Databend",
+        "reported_by": "Ming Wei Tan",
+        "resolution": "fixe",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/databendlabs/databend/issues/15569",
+        "title": "`FALSE AND exp1 OR exp1` in WHERE clause results in Lost connection from server",
+        "created_at": "18/05/2024",
+        "closed_at": "20/05/2024",
+        "domain": "dbms",
+        "system": "Databend",
+        "reported_by": "Ming Wei Tan",
+        "resolution": "fixed",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/databendlabs/databend/issues/15572",
+        "title": "WHERE clause not working as expected with NOT",
+        "created_at": "18/05/2024",
+        "closed_at": "20/05/2024",
+        "domain": "dbms",
+        "system": "Databend",
+        "reported_by": "Ming Wei Tan",
+        "resolution": "fixed",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/databendlabs/databend/issues/15867",
+        "title": "Mismatch between SUM and AVERAGE due to optimisation",
+        "created_at": "23/06/2024",
+        "closed_at": "25/06/2024",
+        "domain": "dbms",
+        "system": "Databend",
+        "reported_by": "Ming Wei Tan",
+        "resolution": "fixed",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/apache/doris/issues/36072",
+        "title": "SELECT DISTINCT returns duplicate column with aggregate key",
+        "created_at": "08/06/2024",
+        "closed_at": "17/06/2024",
+        "domain": "dbms",
+        "system": "Doris",
+        "reported_by": "Ming Wei Tan",
+        "resolution": "fixed",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/apache/doris/issues/36351",
+        "title": "Wrong result with TINYINT column",
+        "created_at": "16/06/2024",
+        "closed_at": null,
+        "domain": "dbms",
+        "system": "Doris",
+        "reported_by": "Ming Wei Tan",
+        "resolution": "open",
+        "state": "open"
+    },
+    {
+        "url": "https://github.com/apache/doris/issues/36343",
+        "title": "SELECT DISTINCT returns wrong value for UNIQUE model",
+        "created_at": "15/06/2024",
+        "closed_at": null,
+        "domain": "dbms",
+        "system": "Doris",
+        "reported_by": "Ming Wei Tan",
+        "resolution": "open",
+        "state": "open"
+    },
+    {
+        "url": "https://github.com/apache/doris/issues/36342",
+        "title": "`WHERE / HAVING TIMESTAMP 'CURRENT TIMESTAMP' IS NULL` retrieves unwante rows",
+        "created_at": "15/06/2024",
+        "closed_at": null,
+        "domain": "dbms",
+        "system": "Doris",
+        "reported_by": "Ming Wei Tan",
+        "resolution": "open",
+        "state": "open"
+    },
+    {
+        "url": "https://github.com/apache/doris/issues/36070",
+        "title": "NULL expression from function ot recorgnised with BETWEEN of floats",
+        "created_at": "08/06/2024",
+        "closed_at": null,
+        "domain": "dbms",
+        "system": "Doris",
+        "reported_by": "Ming Wei Tan",
+        "resolution": "open",
+        "state": "open"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/13933",
+        "title": "INTERNAL ERROR: Unimplemented type for normalify",
+        "created_at": "14/09/2024",
+        "closed_at": "17/09/2024",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "reported_by": "Ming Wei Tan",
+        "resolution": "fixed",
+        "state": "closed"
+    },
+    {
+        "url": "https://jira.mariadb.org/browse/MDEV-33893",
+        "title": "Internal error from OPTIMIZE TABLE t0 NOWAIT",
+        "created_at": "12/04/2024",
+        "closed_at": null,
+        "domain": "dbms",
+        "system": "MariaDB",
+        "reported_by": "Ming Wei Tan",
         "resolution": "confirmed"
+    },
+    {
+        "url": "https://bugs.mysql.com/bug.php?id=114533",
+        "title": "JDBC exception java.lang.NumberFormat exception",
+        "created_at": "03/04/2024",
+        "closed_at": "08/07/2024",
+        "domain": "dbms",
+        "system": "MySQL",
+        "reported_by": "Ming Wei Tan",
+        "resolution": "won't fix"
+    },
+    {
+        "url": "https://bugs.mysql.com/bug.php?id=114534",
+        "title": "Inconsistent result with index and collapsing symbol",
+        "created_at": "03/04/2024",
+        "closed_at": null,
+        "domain": "dbms",
+        "system": "MySQL",
+        "reported_by": "Ming Wei Tan",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/prestodb/presto/issues/23613",
+        "title": "Query failed with error `failed: at index 1`",
+        "created_at": "10/09/2024",
+        "closed_at": "21/09/2024",
+        "domain": "dbms",
+        "system": "Presto",
+        "reported_by": "Ming Wei Tan",
+        "resolution": "fixed",
+        "state": "closed"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/4965",
+        "title": "NULL record not retrieved if NULL is in WHERE clause",
+        "created_at": "18/09/2024",
+        "closed_at": null,
+        "domain": "dbms",
+        "system": "QuestDB",
+        "reported_by": "Ming Wei Tan",
+        "resolution": "confirmed",
+        "state": "open"
+    },
+    {
+        "url": "https://github.com/questdb/questdb/issues/4981",
+        "title": "Internal error thrown in select query",
+        "created_at": "25/09/2024",
+        "closed_at": "07/10/2024",
+        "domain": "dbms",
+        "system": "QuestDB",
+        "reported_by": "Ming Wei Tan",
+        "resolution": "fixed",
+        "state": "closed"
     }
 ]

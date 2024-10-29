@@ -1,13 +1,13 @@
 <b>Overview</b><br/>
 <ul>
-<a href="#dbms"><li>Database Management Systems: 403 bugs</li></a>
+<a href="#dbms"><li>Database Management Systems: 417 bugs</li></a>
 <a href="#compiler&interpreter"><li>Compilers and Interpreters: 60 bugs</li></a>
 <a href="#datalog"><li>Datalog Engines: 30 bugs</li></a>
 <a href="#xml"><li>XML Processors: 26 bugs</li></a>
 </ul>
 <a href="https://manuelrigger.at/dbms-bugs/">Additional DBMS bugs</a>
 <br/>
-<h2 id="dbms">Database Management Systems (403 bugs)</h2>
+<h2 id="dbms">Database Management Systems (417 bugs)</h2>
 <h3>TiDB (48 bugs)</h3>
 <details>
 <summary>incorrect unresolved column when using natural join</summary>
@@ -1080,7 +1080,7 @@ Status: fixed<br />
 Link: <a href="https://github.com/questdb/questdb/issues/4010">https://github.com/questdb/questdb/issues/4010</a> <br />
 Found by: Yuancheng Jiang
 </details>
-<h3>DuckDB (37 bugs)</h3>
+<h3>DuckDB (38 bugs)</h3>
 <details>
 <summary>BETWEEN with subquery and column results in unexpected error</summary>
 Status: fixed<br />
@@ -1302,6 +1302,12 @@ Found by: Suyang Zhong
 Status: confirmed<br />
 Link: <a href="https://github.com/duckdb/duckdb/issues/13813">https://github.com/duckdb/duckdb/issues/13813</a> <br />
 Found by: Suyang Zhong
+</details>
+<details>
+<summary>INTERNAL ERROR: Unimplemented type for normalify</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/13933">https://github.com/duckdb/duckdb/issues/13933</a> <br />
+Found by: Ming Wei Tan
 </details>
 <h3>SQLite (36 bugs)</h3>
 <details>
@@ -2246,7 +2252,7 @@ Status: confirmed<br />
 Link: <a href="https://github.com/FirebirdSQL/firebird/issues/8132">https://github.com/FirebirdSQL/firebird/issues/8132</a> <br />
 Found by: Suyang Zhong
 </details>
-<h3>MySQL (8 bugs)</h3>
+<h3>MySQL (9 bugs)</h3>
 <details>
 <summary>Suspicious Estimated Rows</summary>
 Status: unconfirmed<br />
@@ -2295,6 +2301,12 @@ Status: confirmed<br />
 Link: <a href="http://bugs.mysql.com/113298">http://bugs.mysql.com/113298</a> <br />
 Found by: Suyang Zhong
 </details>
+<details>
+<summary>Inconsistent result with index and collapsing symbol</summary>
+Status: confirmed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=114534">https://bugs.mysql.com/bug.php?id=114534</a> <br />
+Found by: Ming Wei Tan
+</details>
 <h3>risingwave (7 bugs)</h3>
 <details>
 <summary>Panicked when processing: assertion failed: (left == right)</summary>
@@ -2337,6 +2349,37 @@ Found by: Suyang Zhong
 Status: fixed<br />
 Link: <a href="https://github.com/risingwavelabs/risingwave/issues/14283">https://github.com/risingwavelabs/risingwave/issues/14283</a> <br />
 Found by: Suyang Zhong
+</details>
+<h3>Doris (5 bugs)</h3>
+<details>
+<summary>SELECT DISTINCT returns duplicate column with aggregate key</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/apache/doris/issues/36072">https://github.com/apache/doris/issues/36072</a> <br />
+Found by: Ming Wei Tan
+</details>
+<details>
+<summary>Wrong result with TINYINT column</summary>
+Status: open<br />
+Link: <a href="https://github.com/apache/doris/issues/36351">https://github.com/apache/doris/issues/36351</a> <br />
+Found by: Ming Wei Tan
+</details>
+<details>
+<summary>SELECT DISTINCT returns wrong value for UNIQUE model</summary>
+Status: open<br />
+Link: <a href="https://github.com/apache/doris/issues/36343">https://github.com/apache/doris/issues/36343</a> <br />
+Found by: Ming Wei Tan
+</details>
+<details>
+<summary>`WHERE / HAVING TIMESTAMP 'CURRENT TIMESTAMP' IS NULL` retrieves unwante rows</summary>
+Status: open<br />
+Link: <a href="https://github.com/apache/doris/issues/36342">https://github.com/apache/doris/issues/36342</a> <br />
+Found by: Ming Wei Tan
+</details>
+<details>
+<summary>NULL expression from function ot recorgnised with BETWEEN of floats</summary>
+Status: open<br />
+Link: <a href="https://github.com/apache/doris/issues/36070">https://github.com/apache/doris/issues/36070</a> <br />
+Found by: Ming Wei Tan
 </details>
 <h3>tdengine (4 bugs)</h3>
 <details>
@@ -2407,6 +2450,38 @@ Status: fixed<br />
 Link: <a href="https://github.com/bitnine-oss/agensgraph/issues/617">https://github.com/bitnine-oss/agensgraph/issues/617</a> <br />
 Found by: Yuancheng Jiang
 </details>
+<h3>Databend (3 bugs)</h3>
+<details>
+<summary>`FALSE AND exp1 OR exp1` in WHERE clause results in Lost connection from server</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/databendlabs/databend/issues/15569">https://github.com/databendlabs/databend/issues/15569</a> <br />
+Found by: Ming Wei Tan
+</details>
+<details>
+<summary>WHERE clause not working as expected with NOT</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/databendlabs/databend/issues/15572">https://github.com/databendlabs/databend/issues/15572</a> <br />
+Found by: Ming Wei Tan
+</details>
+<details>
+<summary>Mismatch between SUM and AVERAGE due to optimisation</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/databendlabs/databend/issues/15867">https://github.com/databendlabs/databend/issues/15867</a> <br />
+Found by: Ming Wei Tan
+</details>
+<h3>QuestDB (2 bugs)</h3>
+<details>
+<summary>NULL record not retrieved if NULL is in WHERE clause</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/questdb/questdb/issues/4965">https://github.com/questdb/questdb/issues/4965</a> <br />
+Found by: Ming Wei Tan
+</details>
+<details>
+<summary>Internal error thrown in select query</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/questdb/questdb/issues/4981">https://github.com/questdb/questdb/issues/4981</a> <br />
+Found by: Ming Wei Tan
+</details>
 <h3>Percona (2 bugs)</h3>
 <details>
 <summary>Unexpected result related to CREATE INDEX and RADIANS</summary>
@@ -2432,6 +2507,20 @@ Found by: Suyang Zhong
 Status: fixed<br />
 Link: <a href="https://github.com/h2database/h2database/issues/3981">https://github.com/h2database/h2database/issues/3981</a> <br />
 Found by: Suyang Zhong
+</details>
+<h3>Presto (1 bugs)</h3>
+<details>
+<summary>Query failed with error `failed: at index 1`</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/prestodb/presto/issues/23613">https://github.com/prestodb/presto/issues/23613</a> <br />
+Found by: Ming Wei Tan
+</details>
+<h3>MariaDB (1 bugs)</h3>
+<details>
+<summary>Internal error from OPTIMIZE TABLE t0 NOWAIT</summary>
+Status: confirmed<br />
+Link: <a href="https://jira.mariadb.org/browse/MDEV-33893">https://jira.mariadb.org/browse/MDEV-33893</a> <br />
+Found by: Ming Wei Tan
 </details>
 <h3>ClickHouse (1 bugs)</h3>
 <details>
