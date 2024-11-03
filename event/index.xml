@@ -5,7 +5,7 @@
     <link>https://nus-test.github.io/event/</link>
       <atom:link href="https://nus-test.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Seminars</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 08 Oct 2024 15:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 05 Nov 2024 15:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Recent &amp; Upcoming Seminars</title>
@@ -13,18 +13,26 @@
     </image>
     
     <item>
-      <title>Automatically Generating an Abstract Interpretation-Based Optimizer from a DSL (SPLASH SRC Practice)</title>
-      <link>https://nus-test.github.io/event/241008/</link>
-      <pubDate>Tue, 08 Oct 2024 15:00:00 +0000</pubDate>
-      <guid>https://nus-test.github.io/event/241008/</guid>
+      <title>Improving the Extensibility of SQLancer</title>
+      <link>https://nus-test.github.io/event/241105/</link>
+      <pubDate>Tue, 05 Nov 2024 15:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/241105/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CodeGRITS: A Research Toolkit for Developer Behavior and Eye Tracking in IDE</title>
-      <link>https://nus-test.github.io/event/241001/</link>
-      <pubDate>Tue, 01 Oct 2024 15:00:00 +0000</pubDate>
-      <guid>https://nus-test.github.io/event/241001/</guid>
+      <link>https://nus-test.github.io/event/241015/</link>
+      <pubDate>Tue, 15 Oct 2024 15:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/241015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatically Generating an Abstract Interpretation-Based Optimizer from a DSL (SPLASH SRC Practice)</title>
+      <link>https://nus-test.github.io/event/241008/</link>
+      <pubDate>Tue, 08 Oct 2024 15:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/241008/</guid>
       <description></description>
     </item>
     

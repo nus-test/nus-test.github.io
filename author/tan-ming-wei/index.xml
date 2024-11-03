@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/author/tan-ming-wei/</link>
       <atom:link href="https://nus-test.github.io/author/tan-ming-wei/index.xml" rel="self" type="application/rss+xml" />
     <description>Tan Ming Wei</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 05 Nov 2024 15:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://nus-test.github.io/author/tan-ming-wei/avatar_hudb890ad0ac9a00b6e2cd596ade3841a0_6378440_270x270_fill_q75_lanczos_center.jpeg</url>
+      <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Tan Ming Wei</title>
       <link>https://nus-test.github.io/author/tan-ming-wei/</link>
     </image>
+    
+    <item>
+      <title>Improving the Extensibility of SQLancer</title>
+      <link>https://nus-test.github.io/event/241105/</link>
+      <pubDate>Tue, 05 Nov 2024 15:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/241105/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

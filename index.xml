@@ -5,7 +5,7 @@
     <link>https://nus-test.github.io/</link>
       <atom:link href="https://nus-test.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Trustworthy Engineering of Software Technologies (TEST) Lab</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 03 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 05 Nov 2024 15:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Trustworthy Engineering of Software Technologies (TEST) Lab</title>
@@ -3298,6 +3298,14 @@ Found by: ShuxinLi
     </item>
     
     <item>
+      <title>Improving the Extensibility of SQLancer</title>
+      <link>https://nus-test.github.io/event/241105/</link>
+      <pubDate>Tue, 05 Nov 2024 15:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/241105/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Constant Optimization Driven Database System Testing</title>
       <link>https://nus-test.github.io/publication/2025-sigmod-coddtest/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
@@ -3310,6 +3318,14 @@ Found by: ShuxinLi
       <link>https://nus-test.github.io/post/24-11-03-sigmod-r3-coddtest/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://nus-test.github.io/post/24-11-03-sigmod-r3-coddtest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CodeGRITS: A Research Toolkit for Developer Behavior and Eye Tracking in IDE</title>
+      <link>https://nus-test.github.io/event/241015/</link>
+      <pubDate>Tue, 15 Oct 2024 15:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/241015/</guid>
       <description></description>
     </item>
     
@@ -3336,14 +3352,6 @@ Found by: ShuxinLi
       <link>https://nus-test.github.io/event/241008/</link>
       <pubDate>Tue, 08 Oct 2024 15:00:00 +0000</pubDate>
       <guid>https://nus-test.github.io/event/241008/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CodeGRITS: A Research Toolkit for Developer Behavior and Eye Tracking in IDE</title>
-      <link>https://nus-test.github.io/event/241001/</link>
-      <pubDate>Tue, 01 Oct 2024 15:00:00 +0000</pubDate>
-      <guid>https://nus-test.github.io/event/241001/</guid>
       <description></description>
     </item>
     
