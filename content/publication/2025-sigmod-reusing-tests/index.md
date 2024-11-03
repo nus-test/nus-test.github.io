@@ -31,7 +31,7 @@ abstract: "Database Management System (DBMS) developers have implemented extensi
 #links:
 #- name: Custom Link
 #  url: http://example.org
-#url_pdf: https://bajinsheng.github.io/assets/pdf/dqp_sigmod24.pdf
+url_pdf: https://arxiv.org/pdf/2410.21731
 #url_code: '#'
 #url_dataset: '#'
 #url_poster: '#'

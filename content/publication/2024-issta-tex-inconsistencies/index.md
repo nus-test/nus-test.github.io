@@ -31,7 +31,7 @@ abstract: 'TeX is a widely-used typesetting system adopted by most publishers an
 #links:
 #- name: Custom Link
 #  url: http://example.org
-#url_pdf: ''
+url_pdf: https://arxiv.org/pdf/2407.15511
 #url_code: '#'
 #url_dataset: '#'
 #url_poster: '#'

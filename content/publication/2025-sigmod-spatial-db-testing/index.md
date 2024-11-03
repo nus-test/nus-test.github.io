@@ -33,7 +33,7 @@ abstract: "Spatial Database Management Systems (SDBMSs) aim to store, manipulate
 #links:
 #- name: Custom Link
 #  url: http://example.org
-#url_pdf: https://bajinsheng.github.io/assets/pdf/dqp_sigmod24.pdf
+url_pdf: https://www.arxiv.org/pdf/2410.12496
 #url_code: '#'
 #url_dataset: '#'
 #url_poster: '#'
