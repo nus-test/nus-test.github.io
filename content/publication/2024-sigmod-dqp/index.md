@@ -51,8 +51,8 @@ url_pdf: https://bajinsheng.github.io/assets/pdf/dqp_sigmod24.pdf
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-#projects:
-#- sqlancer
+projects:
+- sqlancer
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

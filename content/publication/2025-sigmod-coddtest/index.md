@@ -52,8 +52,8 @@ abstract: "Logic bugs are bugs that can cause database management systems (DBMSs
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-#projects:
-#- sqlancer
+projects:
+- sqlancer
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
