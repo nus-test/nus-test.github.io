@@ -31,7 +31,7 @@ abstract: A test oracle determines whether a system behaves correctly for a give
 #links:
 #- name: Custom Link
 #  url: http://example.org
-#url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
+url_pdf: https://arxiv.org/abs/2210.11228
 #url_code: '#'
 #url_dataset: '#'
 #url_poster: '#'

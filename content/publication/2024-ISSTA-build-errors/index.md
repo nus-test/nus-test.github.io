@@ -34,7 +34,7 @@ publication_short: In *ISSTA 2024*
 #links:
 #- name: Custom Link
 #  url: http://example.org
-#url_pdf: 
+url_pdf: https://arxiv.org/pdf/2404.13295
 #url_code: '#'
 #url_dataset: '#'
 #url_poster: '#'

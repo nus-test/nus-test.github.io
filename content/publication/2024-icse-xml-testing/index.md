@@ -30,7 +30,7 @@ publication_short: In *ICSE 2024*
 #links:
 #- name: Custom Link
 #  url: http://example.org
-#url_pdf: https://jinshengba.me/assets/pdf/qpg_icse23.pdf
+url_pdf: https://arxiv.org/abs/2401.05112
 #url_code: '#'
 #url_dataset: '#'
 #url_poster: '#'
