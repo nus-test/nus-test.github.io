@@ -5,20 +5,12 @@
     <link>https://nus-test.github.io/post/</link>
       <atom:link href="https://nus-test.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Latest News</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 08 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 03 Nov 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Latest News</title>
       <link>https://nus-test.github.io/post/</link>
     </image>
-    
-    <item>
-      <title>We generously received a Google South Asia &amp; Southeast Asia Research Award on &#34;AI-Powered Database Fuzzing&#34;.</title>
-      <link>https://nus-test.github.io/post/24-11-08-google-sea/</link>
-      <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://nus-test.github.io/post/24-11-08-google-sea/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Our paper &#34;Constant Optimization Driven Database System Testing&#34; was accepted at SIGMOD 2025 (round 3).</title>
