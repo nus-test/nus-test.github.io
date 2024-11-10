@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/author/mehtab-zafar/</link>
       <atom:link href="https://nus-test.github.io/author/mehtab-zafar/index.xml" rel="self" type="application/rss+xml" />
     <description>Mehtab Zafar</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 Nov 2024 15:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/author/mehtab-zafar/avatar_hu849f48c91a6f5c132c00228fbabc734e_173993_270x270_fill_q75_lanczos_center.jpeg</url>
       <title>Mehtab Zafar</title>
       <link>https://nus-test.github.io/author/mehtab-zafar/</link>
     </image>
+    
+    <item>
+      <title>Automated test case reduction in query specific language(s)</title>
+      <link>https://nus-test.github.io/event/241112/</link>
+      <pubDate>Tue, 12 Nov 2024 15:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/241112/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
