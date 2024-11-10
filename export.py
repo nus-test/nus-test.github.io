@@ -18,7 +18,6 @@ domain_map = {
 'compiler&interpreter': 'Compilers and Interpreters'
 }
 
-
 common_where_clause = "(resolution IN ('confirmed', 'fixed', 'open') OR resolution IS NULL)"
 domain_count_query = 'SELECT domain, COUNT(*) FROM bugs WHERE ' + common_where_clause + ' GROUP BY domain ORDER BY COUNT(*) DESC;'
 print('<b>Overview</b><br/>')

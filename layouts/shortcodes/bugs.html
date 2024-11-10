@@ -1,14 +1,2482 @@
 <b>Overview</b><br/>
 <ul>
-<a href="#dbms"><li>Database Management Systems: 417 bugs</li></a>
+<a href="#dbms"><li>Database Management Systems: 801 bugs</li></a>
 <a href="#compiler&interpreter"><li>Compilers and Interpreters: 60 bugs</li></a>
 <a href="#datalog"><li>Datalog Engines: 30 bugs</li></a>
 <a href="#xml"><li>XML Processors: 26 bugs</li></a>
 </ul>
-<a href="https://manuelrigger.at/dbms-bugs/">Additional DBMS bugs</a>
 <br/>
-<h2 id="dbms">Database Management Systems (417 bugs)</h2>
-<h3>TiDB (48 bugs)</h3>
+<h2 id="dbms">Database Management Systems (801 bugs)</h2>
+<h3>SQLite (217 bugs)</h3>
+<details>
+<summary>An Inconsistent Result Depending on Parenthesization</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/af3d07f908">https://sqlite.org/forum/forumpost/af3d07f908</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>An Unexpected NULL Column Caused by Where Clause in RIGHT JOIN</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/41cc3851d8">https://sqlite.org/forum/forumpost/41cc3851d8</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Rows are Unexpectedly Filtered Out by DISTINCT in RIGHT JOIN</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/c06b10ad7e">https://sqlite.org/forum/forumpost/c06b10ad7e</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Expression or Constant in GroupBy Clause</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/2458c5dea2">https://sqlite.org/forum/forumpost/2458c5dea2</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Ambiguous Reference Error for Right Join</summary>
+Status: confirmed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/e90a8e6e6f">https://sqlite.org/forum/forumpost/e90a8e6e6f</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by WHERE when Joining Tables</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/687b0bf563">https://sqlite.org/forum/forumpost/687b0bf563</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by WHERE/RIGHT JOIN</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/5cfe08eed6">https://sqlite.org/forum/forumpost/5cfe08eed6</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result in Joining Virtual Tables</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/3902c7b833">https://sqlite.org/forum/forumpost/3902c7b833</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by Joining</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/c2554d560b">https://sqlite.org/forum/forumpost/c2554d560b</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by RIGHT JOIN on RTree Tables</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/087de2d9ec">https://sqlite.org/forum/forumpost/087de2d9ec</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by WHERE Again</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/de16c4abe2">https://sqlite.org/forum/forumpost/de16c4abe2</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by RIGHT JOIN</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/206d99a16d">https://sqlite.org/forum/forumpost/206d99a16d</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Assertion Error in SQLite3MemCompare</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/800eecf5e6">https://sqlite.org/forum/forumpost/800eecf5e6</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by ORDER BY</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/323f86cc30">https://sqlite.org/forum/forumpost/323f86cc30</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by RIGHT JOIN with INDEX</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/c4676c4956">https://sqlite.org/forum/forumpost/c4676c4956</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by JSON</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/3d9caa45cb">https://sqlite.org/forum/forumpost/3d9caa45cb</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by Complicated JOINING</summary>
+Status: unconfirmed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/eeb8173cf8">https://sqlite.org/forum/forumpost/eeb8173cf8</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Assertion `pCur->eCurType==CURTYPE_VTAB' failed</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/dafe0500b0">https://sqlite.org/forum/forumpost/dafe0500b0</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by RIGHT JOIN Again</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/51e6959f61">https://sqlite.org/forum/forumpost/51e6959f61</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by Complicated JOINING Again</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/b40696f501">https://sqlite.org/forum/forumpost/b40696f501</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Assertion Error in valueFromFunction</summary>
+Status: unconfirmed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/e3243e07e8">https://sqlite.org/forum/forumpost/e3243e07e8</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by FULL OUTER JOIN</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/5610c17c3d">https://sqlite.org/forum/forumpost/5610c17c3d</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Expression on ON clause</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/57bdf2217d">https://sqlite.org/forum/forumpost/57bdf2217d</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Expression Result by FULL OUTER JOIN</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/6650cd40b5">https://sqlite.org/forum/forumpost/6650cd40b5</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Parse Error</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/1a7fea4651">https://sqlite.org/forum/forumpost/1a7fea4651</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Assertion Error in whereRangeScanEst</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/c3496cf6b1">https://sqlite.org/forum/forumpost/c3496cf6b1</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by Union</summary>
+Status: unconfirmed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/174afeae57">https://sqlite.org/forum/forumpost/174afeae57</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Assertion `pRec->nField>0 && pRec->nField<=pIdx->nSampleCol' failed.</summary>
+Status: unconfirmed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/3607259d3c">https://sqlite.org/forum/forumpost/3607259d3c</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Incorrect results with the latest trunk version</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/info/0846211821513f50">https://sqlite.org/forum/info/0846211821513f50</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Incorrect result that might be caused by json function</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/info/37dd14a538ea84e0">https://sqlite.org/forum/info/37dd14a538ea84e0</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Incorrect result for COUNT on view with window function</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/info/2cd11c2d37696553">https://sqlite.org/forum/info/2cd11c2d37696553</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Incorrect result might caused by INDEX</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/info/a68313d0545273c8">https://sqlite.org/forum/info/a68313d0545273c8</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>An assertion failure only triggers in JDBC driver with -DSQLITE_DEBUG=1 compile option</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/info/dc4854437bda462c">https://sqlite.org/forum/info/dc4854437bda462c</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results of `JOIN`</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/8f48e29d67">https://sqlite.org/forum/forumpost/8f48e29d67</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected result of `JOIN`</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/96cd4a7e9e">https://sqlite.org/forum/forumpost/96cd4a7e9e</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results when using `REPLACE` function</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/forumpost/3776b48e71, https://www.sqlite.org/src/info/01868ebcd25fadb2">https://sqlite.org/forum/forumpost/3776b48e71, https://www.sqlite.org/src/info/01868ebcd25fadb2</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>COLLATE nocase index on a WITHOUT ROWID table malfunctions</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview/3182d3879020ef3b2e6db56be2470a0266d3c773">https://www.sqlite.org/src/tktview/3182d3879020ef3b2e6db56be2470a0266d3c773</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>PRAGMA case_sensitive_like can corrupt some databases</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/info/a340eef47b0cad5">https://www.sqlite.org/src/info/a340eef47b0cad5</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Unique index that uses GLOB does not detect duplicate due to REAL conversion</summary>
+Status: fixed<br />
+Link: <a href="http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-April/084324.html">http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-April/084324.html</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Multi-row insert circumvents index check</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/info/3be1295b264be2fa">https://www.sqlite.org/src/info/3be1295b264be2fa</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>COLLATE NOCASE index on REAL column malfunctions</summary>
+Status: fixed<br />
+Link: <a href="http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084334.html">http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084334.html</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>UPSERT documentation issue</summary>
+Status: fixed<br />
+Link: <a href="http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084347.html">http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084347.html</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>TYPEOF index on REAL column malfunctions</summary>
+Status: fixed<br />
+Link: <a href="http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084350.html">http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084350.html</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Index on REAL column malfunctions when multiplying with a string</summary>
+Status: fixed<br />
+Link: <a href="http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084355.html">http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084355.html</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Problem with REAL values and string functions used in indexes or on expressions</summary>
+Status: fixed<br />
+Link: <a href="http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084366.html">http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084366.html</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>GLOB and minus in index and real column</summary>
+Status: fixed<br />
+Link: <a href="http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084367.html">http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084367.html</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Incorrect result on a table scan of a partial index</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=5c6955204c">https://www.sqlite.org/src/tktview?name=5c6955204c</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>ALTER TABLE fails when renaming an INTEGER PRIMARY KEY column in a WITHOUT ROWID table</summary>
+Status: fixed<br />
+Link: <a href="http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084426.html">http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084426.html</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>INSERT OR FAIL inserts row although it violates a table constraint</summary>
+Status: fixed<br />
+Link: <a href="http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084439.html">http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084439.html</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Incorrect result for "<" and "<=" comparison of rowid and non-numeric text value</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=9cf6c9bb51">https://www.sqlite.org/src/tktview?name=9cf6c9bb51</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>'./' LIKE './' does not match</summary>
+Status: fixed<br />
+Link: <a href="http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084478.html">http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084478.html</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Row is not fetched with PRAGMA reverse_unordered_selects=true</summary>
+Status: fixed<br />
+Link: <a href="http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084480.html">http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084480.html</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Malformed database image when using a REAL PRIMARY KEY</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview/6c1d3febc00b22d457c7">https://www.sqlite.org/src/tktview/6c1d3febc00b22d457c7</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Incorrect handling of Infinity by the ROUND function</summary>
+Status: fixed<br />
+Link: <a href="http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084497.html">http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084497.html</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Partial NOT NULL index malfunctions with IS NOT/!=</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview/80256748471a01">https://sqlite.org/src/tktview/80256748471a01</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>REINDEX causes rows not to be fetched in a WITHOUT ROWIDs table and PRIMARY KEY DESC</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=bba7b69f98">https://www.sqlite.org/src/tktview?name=bba7b69f98</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>PRAGMA reverse_unordered_selects=true results in row not being fetched</summary>
+Status: fixed<br />
+Link: <a href="http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084539.html">http://mailinglists.sqlite.org/cgi-bin/mailman/private/sqlite-users/2019-May/084539.html</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>REAL rounding seems to depend on FROM clause</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=3c27b97e31">https://www.sqlite.org/src/tktview?name=3c27b97e31</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Malformed image when using no journal mode, zero cache size, and failing when creating an index</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=f4ec250930">https://www.sqlite.org/src/tktview?name=f4ec250930</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Query results in a SEGFAULT</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/info/787fa716be3a7f650c">https://sqlite.org/src/info/787fa716be3a7f650c</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Index on non-existing column results in a fabricated value being fetched</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview/9b78184be266fd7084e9e8038ad631a21b37eb9e">https://www.sqlite.org/src/tktview/9b78184be266fd7084e9e8038ad631a21b37eb9e</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Nested boolean formula with IN operator computes an incorrect result</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=d3e7f2ba5b">https://www.sqlite.org/src/tktview?name=d3e7f2ba5b</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>"Malformed database schema" when creating a failing index within a transaction</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview/b5ca442af9fadf5eff5b2bf64839516ab82cfc3d">https://www.sqlite.org/src/tktview/b5ca442af9fadf5eff5b2bf64839516ab82cfc3d</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>CAST('-' AS NUMERIC) computes 0.0</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=4c2d7639f0">https://www.sqlite.org/src/tktview?name=4c2d7639f0</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Incorrect result when subtracting a large integer number from a TEXT value</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=e8bedb2a18">https://www.sqlite.org/src/tktview?name=e8bedb2a18</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>CAST to NUMERIC no longer converts to INTEGER</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview/dd6bffbfb6e61db9ecc9ea833d586427961ccc9d">https://www.sqlite.org/src/tktview/dd6bffbfb6e61db9ecc9ea833d586427961ccc9d</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>TEXT value interpreted as column name in an index with empty list in an IN expression</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview/fd76310a5e843e074a30ed98b859dd0be11d0276">https://www.sqlite.org/src/tktview/fd76310a5e843e074a30ed98b859dd0be11d0276</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>LIKE malfunctions for INT PRIMARY KEY COLLATE NOCASE column</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=b1d8c79314">https://www.sqlite.org/src/tktview?name=b1d8c79314</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Illegal argument to LIKELIHOOD() does not result in error when combined with "IN ()"</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=533010b8ca">https://www.sqlite.org/src/tktview?name=533010b8ca</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>CAST('.' AS NUMERIC) computes 0.0 rather than 0</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=412bba9b22">https://www.sqlite.org/src/tktview?name=412bba9b22</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>COLLATE expression has an affinity</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview/d60b3cd7cb0bdff8ff39f76c9faf16ba2efa442f">https://www.sqlite.org/src/tktview/d60b3cd7cb0bdff8ff39f76c9faf16ba2efa442f</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Another case of Illegal argument to LIKELIHOOD() does not result in error when combined with "IN ()"</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview/533010b8cacebe82533a8cd4e230fbb819565115">https://www.sqlite.org/src/tktview/533010b8cacebe82533a8cd4e230fbb819565115</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>-'1.0' computes -1.0 rather than -1</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=1819598c09">https://www.sqlite.org/src/tktview?name=1819598c09</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>COLLATE expression in the right side of an IN operator results in an affinity conversion</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=57353f8243">https://www.sqlite.org/src/tktview?name=57353f8243</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Lossless conversion when casting a large TEXT number to NUMERIC is not performed</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=afdc5a29dc">https://www.sqlite.org/src/tktview?name=afdc5a29dc</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>LIKELY(), UNLIKELY() and LIKELIHOOD() have affinities</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=0c620df60b">https://www.sqlite.org/src/tktview?name=0c620df60b</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>IS TRUE operator malfunctions with COLLATE and REAL value</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=4d01eda811">https://www.sqlite.org/src/tktview?name=4d01eda811</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>CAST('-0.0' AS NUMERIC) computes 0.0 rather than 0</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview/674385aeba91c774d47736f1aefd259b074dc5d3">https://www.sqlite.org/src/tktview/674385aeba91c774d47736f1aefd259b074dc5d3</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>CAST takes implicit COLLATE of its operand</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=b148fa6105">https://www.sqlite.org/src/tktview?name=b148fa6105</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>LIKE malfunctions for UNIQUE COLLATE NOCASE column</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=ce8717f088">https://www.sqlite.org/src/tktview?name=ce8717f088</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Built-in RTRIM collating sequence yields incorrect comparisons</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=f1580ba1b5">https://www.sqlite.org/src/tktview?name=f1580ba1b5</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>COLLATE in BETWEEN expression is ignored</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=e1e07ef202">https://www.sqlite.org/src/tktview?name=e1e07ef202</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Query with ORDER BY results in "database disk image is malformed" error</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=ba2f4585cf">https://www.sqlite.org/src/tktview?name=ba2f4585cf</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>ANALYZE causes DISTINCT to malfunction in CROSS JOIN</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=ccbe5759fb">https://www.sqlite.org/src/tktview?name=ccbe5759fb</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Query with DISTINCT does not fetch all distinct rows</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=ced41c7c7d">https://www.sqlite.org/src/tktview?name=ced41c7c7d</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>MIN() malfunctions for UNIQUE column</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=41866dc373">https://www.sqlite.org/src/tktview?name=41866dc373</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>MIN() malfunctions for a query with ISNULL condition</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=71e183cab6">https://www.sqlite.org/src/tktview?name=71e183cab6</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Unexpected affinity conversion in view</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=d52a29a9e6">https://www.sqlite.org/src/tktview?name=d52a29a9e6</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Row is not fetched in SELECT from VIEW</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=61c853857f">https://www.sqlite.org/src/tktview?name=61c853857f</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Unexpected affinity conversion for view column in IN operator</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=0a5e2c1dcb">https://www.sqlite.org/src/tktview?name=0a5e2c1dcb</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Incorrect result for query that uses MIN() and a CAST on rowid</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=f8a7060ece">https://www.sqlite.org/src/tktview?name=f8a7060ece</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Constant expression in partial index results in row not being fetched</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=9080b6227f">https://www.sqlite.org/src/tktview?name=9080b6227f</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Null pointer dereference caused by window functions in result-set of EXISTS(SELECT ...)</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=256741a16b">https://www.sqlite.org/src/tktview?name=256741a16b</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>LEFT JOIN fails to fetch row</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=6710d2f7a1">https://www.sqlite.org/src/tktview?name=6710d2f7a1</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>WHERE clause erroneously influences value of fetched column from view</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=c7a1171907">https://www.sqlite.org/src/tktview?name=c7a1171907</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>INDEXED BY results in row not being fetched</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=f043b1130b">https://www.sqlite.org/src/tktview?name=f043b1130b</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>DISTINCT malfunctions for IS NULL</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=b86894020e">https://www.sqlite.org/src/tktview?name=b86894020e</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Row is not fetched in table with INTEGER PRIMARY KEY</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=d9f584e936">https://www.sqlite.org/src/tktview?name=d9f584e936</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Row with comparison on TEXT UNIQUE column is not fetched</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=ac184eb571">https://www.sqlite.org/src/tktview?name=ac184eb571</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>LIKELY() seems to cause unexpected affinity conversion for rowid</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=7e07a3dbf5">https://www.sqlite.org/src/tktview?name=7e07a3dbf5</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Unexpected affinity conversion is performed for the IN operator</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=dbaf8a6820">https://www.sqlite.org/src/tktview?name=dbaf8a6820</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Partial index causes row to not be fetched</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=a6408d42b9">https://www.sqlite.org/src/tktview?name=a6408d42b9</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Partial index causes row to not be fetched in BETWEEN expression</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=fba33c8b1d">https://www.sqlite.org/src/tktview?name=fba33c8b1d</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Partial index and BETWEEN issue</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=f8f472cbc7">https://www.sqlite.org/src/tktview?name=f8f472cbc7</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>REINDEX causes "UNIQUE constraint failed" error</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=5a3dba8104">https://www.sqlite.org/src/tktview?name=5a3dba8104</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Expression computed on row yields incorrect result</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=57af00b664">https://www.sqlite.org/src/tktview?name=57af00b664</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Different rounding when converting TEXT to REAL</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=2841e99d10">https://www.sqlite.org/src/tktview?name=2841e99d10</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>IS NULL unexpectedly evaluates to TRUE</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=29f635e0af">https://www.sqlite.org/src/tktview?name=29f635e0af</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>COLLATE NOCASE string comparison yields incorrect result</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=767a8cbc6d">https://www.sqlite.org/src/tktview?name=767a8cbc6d</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>BETWEEN issue in view</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=a7debbe0ad">https://www.sqlite.org/src/tktview?name=a7debbe0ad</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>COLLATE issue in view</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=18458b1ad6">https://www.sqlite.org/src/tktview?name=18458b1ad6</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>GLOB unexpectedly does not match</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=0f0428096f">https://www.sqlite.org/src/tktview?name=0f0428096f</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Row is not fetched when using WHERE clause with INSTR()</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=587791f926">https://www.sqlite.org/src/tktview?name=587791f926</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Comparison on view malfunctions</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=b2d4edaffd">https://www.sqlite.org/src/tktview?name=b2d4edaffd</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>FTS integrity-check malfunctions</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=8fe768e9c9">https://www.sqlite.org/src/tktview?name=8fe768e9c9</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>FTS pgsz option results in "database disk image is malformed" error</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=265e935b26">https://www.sqlite.org/src/tktview?name=265e935b26</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>FTS rebuild in transaction causes integrity-check to fail</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=e258f008ce">https://www.sqlite.org/src/tktview?name=e258f008ce</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>FTS integrity-check indicates that the database disk image is malformed</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=81a7f7b9e2">https://www.sqlite.org/src/tktview?name=81a7f7b9e2</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>FTS rebuild in combination with crisismerge results in error "database or disk is full"</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=d392017c8e">https://www.sqlite.org/src/tktview?name=d392017c8e</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>LEFT JOIN in view malfunctions</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=a976c487d1">https://www.sqlite.org/src/tktview?name=a976c487d1</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>LEFT JOIN in view malfunctions with NOTNULL</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=c31034044b">https://www.sqlite.org/src/tktview?name=c31034044b</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>FTS order=DESC results into integrity-check failing</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=8a6fa2bb22">https://www.sqlite.org/src/tktview?name=8a6fa2bb22</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>FTS integrity-check malfunctions for transaction and the prefix option</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=745f1abcdc">https://www.sqlite.org/src/tktview?name=745f1abcdc</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>FTS integrity_check fails when inserting x'00'</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=278ac14262">https://www.sqlite.org/src/tktview?name=278ac14262</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Trigger inserts duplicate value in UNIQUE column</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=a8a4847a2d">https://www.sqlite.org/src/tktview?name=a8a4847a2d</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>FTS merge does not terminate</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=bf1aab8978">https://www.sqlite.org/src/tktview?name=bf1aab8978</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Comparison of row values results in incorrect result</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=b47e3627ec">https://www.sqlite.org/src/tktview?name=b47e3627ec</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Comparison of row values results in incorrect result (incomplete fix)</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=b47e3627ec">https://www.sqlite.org/src/tktview?name=b47e3627ec</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Row value comparison yields incorrect result</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=6ef984af89">https://www.sqlite.org/src/tktview?name=6ef984af89</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Comparison of row values with COLLATE NOCASE yields incorrect result</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=135c9da751">https://www.sqlite.org/src/tktview?name=135c9da751</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Crash on REPLACE INTO of a table with an AFTER DELETE trigger</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=50c09fc2cf">https://www.sqlite.org/src/tktview?name=50c09fc2cf</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>FTS integrity-check malfunctions nondeterministically with tokenize="ascii"</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=dd1f67bf25">https://www.sqlite.org/src/tktview?name=dd1f67bf25</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Trigger causes query to compute incorrect result</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=c1e19e1204">https://www.sqlite.org/src/tktview?name=c1e19e1204</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>REINDEX causes "UNIQUE constraint failed" error for generated column</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=3ea1755124">https://www.sqlite.org/src/tktview?name=3ea1755124</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Segfault in table with generated columns</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=91e8695101">https://www.sqlite.org/src/tktview?name=91e8695101</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Segfault when updating table with generated columns</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=9621dd78a0">https://sqlite.org/src/tktview?name=9621dd78a0</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>VACUUM issue on table with generated column</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=166347c6fc">https://sqlite.org/src/tktview?name=166347c6fc</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>VACUUM on table with generated column results in an error</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=6484e6ce67">https://sqlite.org/src/tktview?name=6484e6ce67</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>VACUUM on table with generated column that uses TYPEOF results in an error</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=1d2a8efc6c">https://sqlite.org/src/tktview?name=1d2a8efc6c</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Segfault in table with generated column and foreign key</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=b9befa4b83">https://sqlite.org/src/tktview?name=b9befa4b83</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>REPLACE causes segfault in table with generated column and foreign key</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=c28a01da72">https://sqlite.org/src/tktview?name=c28a01da72</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Incorrect result for GLOB operator</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=a9efb42811">https://sqlite.org/src/tktview?name=a9efb42811</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>LEFT JOIN in view malfunctions with partial index on table</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=623eff57e7">https://sqlite.org/src/tktview?name=623eff57e7</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>PRAGMA integrity_check fails due to CHECK constraint even without records</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=3c9eadd2a6">https://sqlite.org/src/tktview?name=3c9eadd2a6</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Row value comparison malfunctions on view with left join</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=02aa2bd02f">https://sqlite.org/src/tktview?name=02aa2bd02f</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>REPLACE on table with generated NOT NULL column results in segfault</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=2399f59861">https://sqlite.org/src/tktview?name=2399f59861</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>NULL WHERE condition unexpectedly results in row being fetched</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=ce22a07731">https://sqlite.org/src/tktview?name=ce22a07731</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Segfault when inserting into table with generated columns</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=4fc08501f4">https://sqlite.org/src/tktview?name=4fc08501f4</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>UPDATE on table with two generated columns and CHECK clause results in segfault</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=299b50ba81">https://www.sqlite.org/src/tktview?name=299b50ba81</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>VACUUM results in "database disk image is malformed" for PRIMARY KEY with duplicate column</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=302027baf1">https://www.sqlite.org/src/tktview?name=302027baf1</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>DISTINCT malfunctions for VIEW with virtual table</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=7e59041f9c">https://www.sqlite.org/src/tktview?name=7e59041f9c</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>LEFT JOIN malfunctions with partial ISNULL index</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=7f39060a24">https://www.sqlite.org/src/tktview?name=7f39060a24</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Incorrect result for TEXT comparison on rtree table</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=a55ab6d97d">https://www.sqlite.org/src/tktview?name=a55ab6d97d</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>column = NULL predicate evaluates to TRUE for rtree table</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=30e2c183b6">https://www.sqlite.org/src/tktview?name=30e2c183b6</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Join on two rtree tables malfunctions</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=9fe487ba3c">https://www.sqlite.org/src/tktview?name=9fe487ba3c</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Row value comparison malfunctions with rtree table</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=f096d191b6">https://www.sqlite.org/src/tktview?name=f096d191b6</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Comparison on INT column in rtree table malfunctions</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=aa573a787b">https://www.sqlite.org/src/tktview?name=aa573a787b</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Incorrect result for predicate on rtree table</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=367a86e288">https://www.sqlite.org/src/tktview?name=367a86e288</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>NOT NULL auxiliary column in rtree table malfunctions</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=8bf76328ac">https://www.sqlite.org/src/tktview?name=8bf76328ac</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>CREATE VIRTUAL TABLE causes segfault</summary>
+Status: fixed<br />
+Link: <a href=""></a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Generated column and foreign key causes a segfault</summary>
+Status: fixed<br />
+Link: <a href=""></a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Query on table without rows and generated column results in "out of memory" error</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=b92e5e8ec2">https://www.sqlite.org/src/tktview?name=b92e5e8ec2</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>PRAGMA integrity_check does not terminate on table with generated column</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=bd8c280671">https://www.sqlite.org/src/tktview?name=bd8c280671</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>LEFT JOIN segfault on rtree table</summary>
+Status: fixed<br />
+Link: <a href=""></a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>REINDEX results in "UNIQUE constraint failed" for generated column</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=d7c3f125c9">https://www.sqlite.org/src/tktview?name=d7c3f125c9</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>FTS database disk image is malformed for UTF-16 encoding after update</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=cf36cb4e02">https://www.sqlite.org/src/tktview?name=cf36cb4e02</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>REINDEX segfaults on table with generated columns</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=b439bfcfb7">https://www.sqlite.org/src/tktview?name=b439bfcfb7</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>LEFT JOIN malfunctions with generated column</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=3b84b42943">https://www.sqlite.org/src/tktview?name=3b84b42943</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>UPDATE causes "database table is locked" for rtree table</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=56a74875be">https://www.sqlite.org/src/tktview?name=56a74875be</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>FILTER clause in window function causes a segfault</summary>
+Status: fixed<br />
+Link: <a href=""></a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Incorrect result for BETWEEN and generated column</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=e0a8120553">https://www.sqlite.org/src/tktview?name=e0a8120553</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>FTS database disk image is malformed for UTF-16 encoding</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=e431c35542">https://sqlite.org/src/tktview?name=e431c35542</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>FTS database disk image is malformed for update on languageid</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=cd3311e323">https://sqlite.org/src/tktview?name=cd3311e323</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Debug assertion sqlite3VdbeMemAboutToChange: Assertion `(mFlags&MEM_Str)==0 || (pMem->n==pX->n && pMem->z==pX->z)' failed</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=5ad2aa6921">https://sqlite.org/src/tktview?name=5ad2aa6921</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Debug assertion fts5StructureRead: Assertion `p->iStructVersion!=0' failed</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=9cb7d0ef44">https://sqlite.org/src/tktview?name=9cb7d0ef44</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Debug assertion sqlite3VdbeExec: Assertion `memIsValid(pRec)' failed</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=f00d096cae">https://sqlite.org/src/tktview?name=f00d096cae</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>SELECT on window function causes a segfault</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=d9ed4ebef1">https://sqlite.org/src/tktview?name=d9ed4ebef1</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Debug assertion sqlite3VdbeExec: Assertion `flags3==pIn3->flags' failed</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=1b06916e01">https://sqlite.org/src/tktview?name=1b06916e01</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Debug assertion sqlite3ExprSkipCollateAndLikely: Assertion `pExpr->op==TK_COLLATE' failed</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=b0cb8aff56">https://sqlite.org/src/tktview?name=b0cb8aff56</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Debug assertion constructAutomaticIndex: Assertion `!ExprHasProperty(pExpr, EP_FromJoin) || pExpr->iRightJoinTable!=pSrc->iCursor || pLoop->prereq!=0' failed</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=7929c1efb2">https://sqlite.org/src/tktview?name=7929c1efb2</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Debug assertion sqlite3VdbeExec: Assertion `pIn1!=pIn3' failed</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=188f912b51">https://www.sqlite.org/src/tktview?name=188f912b51</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Debug assertion sqlite3VdbeExec: Assertion `flags3==pIn3->flags' failed (2)</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=9d708e4742">https://www.sqlite.org/src/tktview?name=9d708e4742</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Debug assertion sqlite3MemCompare: Assertion `pMem1->enc==pMem2->enc || pMem1->db->mallocFailed' failed</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=0911b5d161">https://www.sqlite.org/src/tktview?name=0911b5d161</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Debug assertion sqlite3VdbeMemAboutToChange: Assertion `(mFlags&MEM_Str)==0 || (pMem->n==pX->n && pMem->z==pX->z)' failed (2)</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=c62c5e5852">https://www.sqlite.org/src/tktview?name=c62c5e5852</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Debug assertion sqlite3VdbeExec: Assertion `pC!=0' failed</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=3ab4a9f02c">https://www.sqlite.org/src/tktview?name=3ab4a9f02c</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Debug assertion impliesNotNullRow: Assertion `pWalker->eCode==0' failed</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=dfd66334cf">https://sqlite.org/src/tktview?name=dfd66334cf</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Debug assertion rtreeRelease: Assertion `pRtree->nNodeRef==0 || pRtree->bCorrupt' failed</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=5eadca17c4">https://sqlite.org/src/tktview?name=5eadca17c4</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>FTS database disk image is malformed for special characters in table</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=d62981b76d">https://sqlite.org/src/tktview?name=d62981b76d</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Debug assertion sqlite3VdbeExec: Assertion `pIn1!=pIn3' failed (2)</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=b383b90278">https://www.sqlite.org/src/tktview?name=b383b90278</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>UPDATE with complex WHERE condition on rtree results in "database table is locked" error</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=cafeafe605">https://www.sqlite.org/src/tktview?name=cafeafe605</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Debug assertion sqlite3Fts5HashScanNext: Assertion `!sqlite3Fts5HashScanEof(p)' failed</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=df46a6f38e">https://www.sqlite.org/src/tktview?name=df46a6f38e</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>FTS database disk image is malformed for UTF-16 encoding and integrity check</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=752fdbf6e7">https://sqlite.org/src/tktview?name=752fdbf6e7</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Debug assertion fts5CheckTransactionState: Assertion `iSavepoint<=p->ts.iSavepoint' failed</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=167b2aac34">https://www.sqlite.org/src/tktview?name=167b2aac34</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Debug assertion sqlite3TableColumnAffinity: Assertion `iCol<pTab->nCol' failed.</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=d87336c81c">https://www.sqlite.org/src/tktview?name=d87336c81c</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Debug assertion sqlite3BtreeInsert: Assertion `pCur->curFlags & BTCF_ValidNKey' failed</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=ec8abb025e">https://www.sqlite.org/src/tktview?name=ec8abb025e</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Debug assertion sqlite3FinishCoding: Assertion `!pParse->isMultiWrite || sqlite3VdbeAssertMayAbort(v, pParse->mayAbort)' failed</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=7c13db5c3b">https://www.sqlite.org/src/tktview?name=7c13db5c3b</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Debug assertion assert_pager_state: Assertion `pPager->changeCountDone==0 || pPager->eLock>=RESERVED_LOCK' failed</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=fb3b3024ea">https://sqlite.org/src/tktview?name=fb3b3024ea</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>FTS4 integrity-check results in "database disk image is malformed" for UTF-16 encoding</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=1dc432db3b">https://www.sqlite.org/src/tktview?name=1dc432db3b</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Debug assertion sqlite3VdbeExec: Assertion `memIsValid(&aMem[pOp->p1])' failed.</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=37823501c6">https://www.sqlite.org/src/tktview?name=37823501c6</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Debug assertion exprSrcCount: Assertion `0' failed</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=36ffedcb9a">https://sqlite.org/src/tktview?name=36ffedcb9a</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Debug assertion sqlite3VdbeExec: Assertion `memIsValid(pRec)' failed</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=5fbc159eeb">https://sqlite.org/src/tktview?name=5fbc159eeb</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Debug assertion sqlite3VdbeMemAboutToChange: Assertion `(mFlags&MEM_Real)==0 || pMem->u.r==pX->u.r' failed</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/src/tktview?name=de4b04149b">https://sqlite.org/src/tktview?name=de4b04149b</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Trigger on normal table causes the database disk image to become malformed</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=314cc133e5">https://www.sqlite.org/src/tktview?name=314cc133e5</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>NATURAL JOIN on virtual table results in "parse error in rank function"</summary>
+Status: fixed<br />
+Link: <a href="https://www3.sqlite.org/src/tktview?name=7c0e06b162">https://www3.sqlite.org/src/tktview?name=7c0e06b162</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Debug assertion codeVectorCompare: Assertion `0' failed</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=892575cdba">https://www.sqlite.org/src/tktview?name=892575cdba</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Debug assertion sqlite3VdbeMemAboutToChange: Assertion `(mFlags&MEM_Real)==0 || pMem->u.r==pX->u.r' failed (2)</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=46fcd700b8">https://www.sqlite.org/src/tktview?name=46fcd700b8</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>FTS5 integrity-check results in "database disk image is malformed" for UTF-16 encoding and SUBSTR</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=771fe61761">https://www.sqlite.org/src/tktview?name=771fe61761</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>DBSTAT query computes incorrect result for aggregate column</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=727074e2ae">https://www.sqlite.org/src/tktview?name=727074e2ae</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>DBSTAT query computes incorrect result for name column</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=74a4c3860c">https://www.sqlite.org/src/tktview?name=74a4c3860c</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Incorrect result for query with 0 >= t0.c0 AND t0.c0 = v0.c0 condition</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=82ac75ba00">https://www.sqlite.org/src/tktview?name=82ac75ba00</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Incorrect result for COUNT(), UTF16be encoding and SUBSTR</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=9eda2697f5">https://www.sqlite.org/src/tktview?name=9eda2697f5</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>GROUP BY causes unexpected conversion</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=e0c2ad1aa8">https://www.sqlite.org/src/tktview?name=e0c2ad1aa8</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>MAX yields unexpected result for UTF-16</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=1b8d726456">https://www.sqlite.org/src/tktview?name=1b8d726456</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Unexpected result for MIN on string that contains a null character</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=fa146dcfe6">https://www.sqlite.org/src/tktview?name=fa146dcfe6</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>UNION operator malfunctions in LEFT JOIN on view</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=45f4bf4eb4">https://www.sqlite.org/src/tktview?name=45f4bf4eb4</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Incorrect result for IN expression with right-hand IS TRUE sub-expression</summary>
+Status: fixed<br />
+Link: <a href=""></a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Unexpected result for % and '1E1'</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/src/tktview?name=be31cf009c">https://www.sqlite.org/src/tktview?name=be31cf009c</a> <br />
+Found by: mrigger
+</details>
+<h3>DuckDB (111 bugs)</h3>
+<details>
+<summary>BETWEEN with subquery and column results in unexpected error</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/3588">https://github.com/duckdb/duckdb/issues/3588</a> <br />
+Found by: kokrui
+</details>
+<details>
+<summary>Unexpected Error for RTRIM Function in Where Clause</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/3616">https://github.com/duckdb/duckdb/issues/3616</a> <br />
+Found by: kokrui
+</details>
+<details>
+<summary>Crash When Creating Index</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/4976">https://github.com/duckdb/duckdb/issues/4976</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Segmentation fault on `BETWEEN`</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/6861">https://github.com/duckdb/duckdb/issues/6861</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected result when take subquery as operand</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7044">https://github.com/duckdb/duckdb/issues/7044</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Different returned datatype of a `CASE` statement in different query.</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7064">https://github.com/duckdb/duckdb/issues/7064</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results when integer overflow</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7094">https://github.com/duckdb/duckdb/issues/7094</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results on specific values</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7142">https://github.com/duckdb/duckdb/issues/7142</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Hang on `SELECT` query</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7143">https://github.com/duckdb/duckdb/issues/7143</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>`INTERNAL Error: Logical column index 1 out of range`</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7250">https://github.com/duckdb/duckdb/issues/7250</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>DuckDB hang on `DELETE`</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7530">https://github.com/duckdb/duckdb/issues/7530</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Segmentation fault on `SELECT`</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7551">https://github.com/duckdb/duckdb/issues/7551</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Inconsistent results of subquery in `INSERT` and `SELECT`, and an unexpected error</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7601">https://github.com/duckdb/duckdb/issues/7601</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>DuckDB hang on `DELETE`</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7610">https://github.com/duckdb/duckdb/issues/7610</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results on common table expressions</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/7960">https://github.com/duckdb/duckdb/issues/7960</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Incorrect result by subquery and join</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/100561">https://github.com/cockroachdb/cockroach/issues/100561</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>internal error: null rejection requested on non-null column</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/100559">https://github.com/cockroachdb/cockroach/issues/100559</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>kvcoord: setting `kv.range_descriptor_cache.size=0` results in range iterator to retry endlessly</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/101011">https://github.com/cockroachdb/cockroach/issues/101011</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>internal error: failed to parse locale "": language: tag is not well-formed</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/101418">https://github.com/cockroachdb/cockroach/issues/101418</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results of `TIME` value under JDBC</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/101591">https://github.com/cockroachdb/cockroach/issues/101591</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>`internal error: expected subquery to be lazily planned as a routine`</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/101980">https://github.com/cockroachdb/cockroach/issues/101980</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results of `CASE` and `BETWEEN`</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/102110">https://github.com/cockroachdb/cockroach/issues/102110</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results might be related to `BIT` and `INDEX`</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/102412">https://github.com/cockroachdb/cockroach/issues/102412</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected error `unknown signature: bit_length(string) (desired <int[]>)`</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/102716">https://github.com/cockroachdb/cockroach/issues/102716</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results of `IN` with redundant values list </summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/102864">https://github.com/cockroachdb/cockroach/issues/102864</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected results related to `INDEX`</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/103755">https://github.com/cockroachdb/cockroach/issues/103755</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Inconsistent result of `AVG` on big float number</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/104319">https://github.com/cockroachdb/cockroach/issues/104319</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected hang on subquery</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/105882">https://github.com/cockroachdb/cockroach/issues/105882</a> <br />
+Found by: Chi Zhang
+</details>
+<details>
+<summary>Unexpected Results when using IS NOT NULL</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/9806">https://github.com/duckdb/duckdb/issues/9806</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Missing Results when using Floating-point in BETWEEN</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/9825">https://github.com/duckdb/duckdb/issues/9825</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Internal Error: Calling StringValue::Get on a NULL value</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/9870">https://github.com/duckdb/duckdb/issues/9870</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>INTERNAL Error: Failed to bind column reference "" [1.2] (bindings: [1.1])</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/10087">https://github.com/duckdb/duckdb/issues/10087</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected Result When Using `IS DISTINCT FROM` and `CASE WHEN` in a JOIN clause</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/12181">https://github.com/duckdb/duckdb/issues/12181</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using IN with DATE values</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/13380">https://github.com/duckdb/duckdb/issues/13380</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when casting negative integer to BIT</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/13506">https://github.com/duckdb/duckdb/issues/13506</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result after creating index on varchar column</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/13785">https://github.com/duckdb/duckdb/issues/13785</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using IN with TIME values</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/13813">https://github.com/duckdb/duckdb/issues/13813</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>INTERNAL ERROR: Unimplemented type for normalify</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/13933">https://github.com/duckdb/duckdb/issues/13933</a> <br />
+Found by: Ming Wei Tan
+</details>
+<details>
+<summary>A predicate NOT(NULL OR TRUE) unexpectedly evaluates to TRUE</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/489">https://github.com/cwida/duckdb/issues/489</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>A comparison column=column unexpectedly evaluates to TRUE for column=NULL</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/490">https://github.com/cwida/duckdb/issues/490</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>PRAGMA table_info provides no output</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/491">https://github.com/cwida/duckdb/issues/491</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>SIMILAR TO results in an "Unknown error -1"</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/493">https://github.com/cwida/duckdb/issues/493</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Comparison on UNIQUE NUMERIC column causes a query to omit a row in the result set</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/495">https://github.com/cwida/duckdb/issues/495</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>INSERT causes an abort with "terminate called after throwing an instance of 'duckdb::InvalidTypeException'"</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/496">https://github.com/cwida/duckdb/issues/496</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Comparison of two boolean columns in different tables results in an error "Not implemented: Unimplemented type for sort"</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/497">https://github.com/cwida/duckdb/issues/497</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>SELECT causes JDBC driver to crash</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/500">https://github.com/cwida/duckdb/issues/500</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>RIGHT JOIN with a predicate that compares two integer columns results in an "Unhandled type" error</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/503">https://github.com/cwida/duckdb/issues/503</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>INSERT results in an error "Not implemented: Cannot create data from this type"</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/504">https://github.com/cwida/duckdb/issues/504</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>A RIGHT JOIN unexpectedly fetches rows</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/505">https://github.com/cwida/duckdb/issues/505</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Query results in an error "INTERNAL: Failed to bind column reference "c0" [5.0] (bindings: [6.0])"</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/506">https://github.com/cwida/duckdb/issues/506</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Creating an empty table results in a crash</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/507">https://github.com/cwida/duckdb/issues/507</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>LEFT JOIN on column with NULL value results in a segmentation fault</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/508">https://github.com/cwida/duckdb/issues/508</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>SIMILAR TO results in an incorrect result</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/510">https://github.com/cwida/duckdb/issues/510</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>LEFT JOIN with comparison on integer columns results in "Not implemented: Unimplemented type for nested loop join!"</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/513">https://github.com/cwida/duckdb/issues/513</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Incorrect result after an INSERT violates a UNIQUE constraint</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/514">https://github.com/cwida/duckdb/issues/514</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Query with a negative shift predicate yields an incorrect result</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/515">https://github.com/cwida/duckdb/issues/515</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Query with comparison on boolean column results in "Invalid type: Invalid Type [BOOL]: Invalid type for index"</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/516">https://github.com/cwida/duckdb/issues/516</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Query with an AND predicate, NOT and comparison yields an incorrect result</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/517">https://github.com/cwida/duckdb/issues/517</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Query using the LN() function does not terminate</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/518">https://github.com/cwida/duckdb/issues/518</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>ROUND() evaluates to -nan</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/521">https://github.com/cwida/duckdb/issues/521</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Casting a large number to REAL and multiplying it with zero results in -nan</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/522">https://github.com/cwida/duckdb/issues/522</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>The trigonometric functions can result in -nan</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/523">https://github.com/cwida/duckdb/issues/523</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Incorrect result for a JOIN predicate t1.c0 IN (t0.c0) and WHERE predicate t1.c0<=t0.c0</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/525">https://github.com/cwida/duckdb/issues/525</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Query that uses the CONCAT() function and OR expression crashes</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/526">https://github.com/cwida/duckdb/issues/526</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Incorrect result for query that uses REGEXP_MATCHES()</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/528">https://github.com/cwida/duckdb/issues/528</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>SELECT on DATE column with a large negative value results in a "double free or corruption"</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/531">https://github.com/cwida/duckdb/issues/531</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Overflow when casting from REAL to INT results in "Invalid TypeId -1"</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/533">https://github.com/cwida/duckdb/issues/533</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>UPDATE causes subsequent query to segfault</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/534">https://github.com/cwida/duckdb/issues/534</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>GROUP BY clause results in non-deterministic result</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/535">https://github.com/cwida/duckdb/issues/535</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Nondeterministic clause when using an UNION query and HAVING clause</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/536">https://github.com/cwida/duckdb/issues/536</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Fetching from table and view results in a crash</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/537">https://github.com/cwida/duckdb/issues/537</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Incorrect result for predicate with shift on a BIGINT column</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/538">https://github.com/cwida/duckdb/issues/538</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>[JDBC] Special character causes the JVM to terminate with "basic_string::_M_construct null not valid"</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/539">https://github.com/cwida/duckdb/issues/539</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Nested MAX() results in nondeterministic result or double free</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/540">https://github.com/cwida/duckdb/issues/540</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Unexpected result for SUM() upon overflow</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/543">https://github.com/cwida/duckdb/issues/543</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>SELECT on view with text constant in ORDER BY crashes</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/544">https://github.com/cwida/duckdb/issues/544</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Query with SIMILAR TO results in "Assertion `strlen(dataptr) == length' failed"</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/547">https://github.com/cwida/duckdb/issues/547</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Nested CASE expression results in Assertion `other.auxiliary->type == VectorBufferType::STRING_BUFFER' failed</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/549">https://github.com/cwida/duckdb/issues/549</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>RIGHT JOIN results in Assertion `filter->expressions.size() == 1' failed</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/552">https://github.com/cwida/duckdb/issues/552</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Incorrect result for SUM() and negative number</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/560">https://github.com/cwida/duckdb/issues/560</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>SELECT with CASE expression causes an assertion failure "Assertion `!entry.first->Equals(&expr)' failed"</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/562">https://github.com/cwida/duckdb/issues/562</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>REVERSE() on special character results in "Assertion `strcmp(dataptr, normalized) == 0' failed."</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/567">https://github.com/cwida/duckdb/issues/567</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Incorrect result for BETWEEN query that casts column to boolean</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/571">https://github.com/cwida/duckdb/issues/571</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Query using PREFIX() results in an error std::bad_alloc</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/572">https://github.com/cwida/duckdb/issues/572</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Updated value in column is not visible in a SELECT</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/579">https://github.com/cwida/duckdb/issues/579</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>SUBSTRING with an invalid start position causes a segmentation fault</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/580">https://github.com/cwida/duckdb/issues/580</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>DISTINCT malfunctions for BOOLEAN</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/581">https://github.com/cwida/duckdb/issues/581</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Comparing a string with a boolean yields an incorrect result after UPDATE</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/583">https://github.com/cwida/duckdb/issues/583</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>A select with BETWEEN and VARCHAR cast results in an incorrect result</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/584">https://github.com/cwida/duckdb/issues/584</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Predicate checking for an empty string yields an incorrect result</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/585">https://github.com/cwida/duckdb/issues/585</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>NOACCENT.NOCASE comparison with a special character results in a segmentation fault</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/586">https://github.com/cwida/duckdb/issues/586</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>A negative DATE results in a "double free or corruption" crash</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/587">https://github.com/cwida/duckdb/issues/587</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Query with complex ORDER BY causes an incorrect rowid value</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/588">https://github.com/cwida/duckdb/issues/588</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Creating an index on rowid results in an internal error "Failed to bind column reference"</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/589">https://github.com/cwida/duckdb/issues/589</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Comparison with a DATE yields an incorrect result</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/590">https://github.com/cwida/duckdb/issues/590</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Expression with LIKE and comparison causes an assertion failure</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/592">https://github.com/cwida/duckdb/issues/592</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>STDDEV_POP unexpectedly does not fetch any rows</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/596">https://github.com/cwida/duckdb/issues/596</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>UPDATE results in crash or assertion failure</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/599">https://github.com/cwida/duckdb/issues/599</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>GROUP BY does not take COLLATE into account</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/602">https://github.com/cwida/duckdb/issues/602</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>BETWEEN with COLLATE NOACCENT.NOCASE expression results in a segfault/ASan failure</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/603">https://github.com/cwida/duckdb/issues/603</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Incorrect result for MIN() on expression involving rowid</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/609">https://github.com/cwida/duckdb/issues/609</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Large argument to RPAD results in std::bad_alloc</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/610">https://github.com/cwida/duckdb/issues/610</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Failed ALTER COLUMN results in a "Transaction conflict" error that cannot be aborted</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/618">https://github.com/cwida/duckdb/issues/618</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Query on altered table results in a segmentation fault</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/619">https://github.com/cwida/duckdb/issues/619</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>UPDATE on altered table results in an error "Could not find node in column segment tree"</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/622">https://github.com/cwida/duckdb/issues/622</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>ALTER TABLE results in an assertion failure "Assertion `expr.return_type == vector.type' failed"</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/624">https://github.com/cwida/duckdb/issues/624</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>DROP column results in an assertion failure unique.index < base.columns.size().</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/625">https://github.com/cwida/duckdb/issues/625</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>DROP column results in an assertion failure unique.index < base.columns.size() 2</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/628">https://github.com/cwida/duckdb/issues/628</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>ALTER TYPE with USING results in an assertion failure "types.size() > 0"</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/629">https://github.com/cwida/duckdb/issues/629</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Query using LEFT() results in a segmentation fault</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/633">https://github.com/cwida/duckdb/issues/633</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>SELECT with RIGHT JOIN causes an assertion failure "Assertion `!finalized' failed"</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cwida/duckdb/issues/637">https://github.com/cwida/duckdb/issues/637</a> <br />
+Found by: mrigger
+</details>
+<h3>CockroachDB (83 bugs)</h3>
+<details>
+<summary>sql: support SCRUB on temp tables</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/83770">https://github.com/cockroachdb/cockroach/issues/83770</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Internal Error: Comparison Overload not Found</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/83792">https://github.com/cockroachdb/cockroach/issues/83792</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>ERROR: no builtin aggregate for SUM_INT on [unknown]</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/83874">https://github.com/cockroachdb/cockroach/issues/83874</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Crashing by EXPLAIN Statement</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/83965">https://github.com/cockroachdb/cockroach/issues/83965</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Invalid Memory Address Error of Specific SQL Query</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/83973">https://github.com/cockroachdb/cockroach/issues/83973</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Error of Unique Index</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/83976">https://github.com/cockroachdb/cockroach/issues/83976</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Crash: panic: RecordingStructured has 30 recordings; expected 1</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/84056">https://github.com/cockroachdb/cockroach/issues/84056</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Overflow Error by Huge Interval Value</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/84154">https://github.com/cockroachdb/cockroach/issues/84154</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Inconsistent Case Return Types Decimal Int</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/85356">https://github.com/cockroachdb/cockroach/issues/85356</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>No Result Returned by SHOW COLUMN</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/85388">https://github.com/cockroachdb/cockroach/issues/85388</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>internal error: no volatility for cast decimal::timestamp</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/85389">https://github.com/cockroachdb/cockroach/issues/85389</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>opt: internal error: lookup for ComparisonExpr</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/85390">https://github.com/cockroachdb/cockroach/issues/85390</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>opt: internal error: no output column equivalent to 2</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/85393">https://github.com/cockroachdb/cockroach/issues/85393</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Error in SHOW COLUMNS</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/85394">https://github.com/cockroachdb/cockroach/issues/85394</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>opt: internal error: estimated row count must be non-zero </summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/85499">https://github.com/cockroachdb/cockroach/issues/85499</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Result by UNION</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/85502">https://github.com/cockroachdb/cockroach/issues/85502</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>An Unexpected Error in `CROSS MERGE JOIN`</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/88104">https://github.com/cockroachdb/cockroach/issues/88104</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>ERROR: internal error: expected *DInt, found tree.dNull</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/94264">https://github.com/cockroachdb/cockroach/issues/94264</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>An Unexpected Error in `CROSS MERGE JOIN`</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/88104">https://github.com/cockroachdb/cockroach/issues/88104</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Potential Issue for Estimated Rows</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/88455">https://github.com/cockroachdb/cockroach/issues/88455</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>An Issue of Estimated Rows</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/89161">https://github.com/cockroachdb/cockroach/issues/89161</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Estimated Rows in `HAVING` clause</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/89462">https://github.com/cockroachdb/cockroach/issues/89462</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Suspicious Estimated Rows by `OR` </summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/90112">https://github.com/cockroachdb/cockroach/issues/90112</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Suspicious Estimated Rows by `DISTINCT`</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/90113">https://github.com/cockroachdb/cockroach/issues/90113</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>ERROR: internal error: expected *DInt, found tree.dNull</summary>
+Status: unconfirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/94264">https://github.com/cockroachdb/cockroach/issues/94264</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>internal error: comparison overload not found (ge, unknown, unknown)</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/128889">https://github.com/cockroachdb/cockroach/issues/128889</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Generated column causes query to omit a record in the result set</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44132">https://github.com/cockroachdb/cockroach/issues/44132</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Crash when using VECTORIZE=experimental_on</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44133">https://github.com/cockroachdb/cockroach/issues/44133</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Internal error in expression that uses a CAST and COLLATE</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44137">https://github.com/cockroachdb/cockroach/issues/44137</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Unexpected error when using EXPERIMENTAL SCRUB</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44142">https://github.com/cockroachdb/cockroach/issues/44142</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>DEFAULT value causes unexpected syntax error when executing INSERT</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44148">https://github.com/cockroachdb/cockroach/issues/44148</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>TO_ENGLISH(-9223372036854775808) results in an internal error</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44152">https://github.com/cockroachdb/cockroach/issues/44152</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Incorrect result for BETWEEN SYMMETRIC query</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44154">https://github.com/cockroachdb/cockroach/issues/44154</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Internal error for BETWEEN operator and CAST to BYTES</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44181">https://github.com/cockroachdb/cockroach/issues/44181</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Query on VIEW with OFFSET NULL and WHERE condition involving CURRENT_USER() unexpectedly fetches a row</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44203">https://github.com/cockroachdb/cockroach/issues/44203</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Incorrect result for query with IS NULL condition on UNIQUE column and VECTORIZE=experimental_on</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44207">https://github.com/cockroachdb/cockroach/issues/44207</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Internal error setting tracing=true</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44244">https://github.com/cockroachdb/cockroach/issues/44244</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Incorrect result for IS NULL query on VIEW using SELECT DISTINCT</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44296">https://github.com/cockroachdb/cockroach/issues/44296</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Internal error for CASE expression and VECTORIZE=experimental_on</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44304">https://github.com/cockroachdb/cockroach/issues/44304</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Deadlock in SHOW TABLES</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44385">https://github.com/cockroachdb/cockroach/issues/44385</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Internal error "estimated distinct count must be non-zero"</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44418">https://github.com/cockroachdb/cockroach/issues/44418</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Multi-record UPSERT inserts duplicate values in PRIMARY KEY, resulting in inconsistent results</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44466">https://github.com/cockroachdb/cockroach/issues/44466</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Internal error for NATURAL JOIN and VECTORIZE='experimental_on'</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44547">https://github.com/cockroachdb/cockroach/issues/44547</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Server exits on query with LEFT JOIN</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44565">https://github.com/cockroachdb/cockroach/issues/44565</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Internal error for ILIKE_ESCAPE and special characters</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44621">https://github.com/cockroachdb/cockroach/issues/44621</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Complex ORDER BY clause results in internal error with VECTORIZE=experimental_on</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44624">https://github.com/cockroachdb/cockroach/issues/44624</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Internal error for SUBSTRING with negative length and VECTORIZE=experimental_on</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44625">https://github.com/cockroachdb/cockroach/issues/44625</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Internal error for arithmetic operators and NULLIF</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44632">https://github.com/cockroachdb/cockroach/issues/44632</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Internal error for query with negative LIMIT on view with negative LIMIT</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44683">https://github.com/cockroachdb/cockroach/issues/44683</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Internal error for case expression involving NULLIF and VECTORIZE=experimental_on</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44726">https://github.com/cockroachdb/cockroach/issues/44726</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>FULL JOIN with an SUBSTRING ON clause results in an internal error</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44746">https://github.com/cockroachdb/cockroach/issues/44746</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>NOT BETWEEN query on VIEW results in an internal error with VECTORIZE=experimental_on</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44822">https://github.com/cockroachdb/cockroach/issues/44822</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Internal error for SUBSTRING, INT4 cast, and VECTORIZE=experimental_on</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44881">https://github.com/cockroachdb/cockroach/issues/44881</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Internal error when setting VECTORIZE = experimental_on and DEFAULT_INT_SIZE = 4</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44904">https://github.com/cockroachdb/cockroach/issues/44904</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>EXPERIMENTAL SCRUB TABLE crashes server for table with TIMESTAMP column</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/44992">https://github.com/cockroachdb/cockroach/issues/44992</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Internal error for VECTORIZE=experimental_on, DEFAULT_INT_SIZE=4, and aggregate query</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/45038">https://github.com/cockroachdb/cockroach/issues/45038</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>COUNT_ROWS() malfunctions for GROUP BY</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/45453">https://github.com/cockroachdb/cockroach/issues/45453</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>EXPLAIN (VEC) SELECT results in an internal error "zero length schema unsupported"</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/46122">https://github.com/cockroachdb/cockroach/issues/46122</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>EXPLAIN (VEC) SELECT results in an internal error "input to aggregatorBase is not an execinfra.OpNode"</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/46123">https://github.com/cockroachdb/cockroach/issues/46123</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Incorrect result for MAX, INTERLEAVE IN PARENT, and vectorize=experimental_on</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/46140">https://github.com/cockroachdb/cockroach/issues/46140</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Query with negative LIMIT results in an internal error "node lookup-join with MaxCost added to the memo"</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/46187">https://github.com/cockroachdb/cockroach/issues/46187</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>VALUES table expression malfunctions with MAX</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/46196">https://github.com/cockroachdb/cockroach/issues/46196</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>DROP DATABASE issue with TEMP tables</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/46393">https://github.com/cockroachdb/cockroach/issues/46393</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>UPSERT causes a decoding error in collated string column</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/46394">https://github.com/cockroachdb/cockroach/issues/46394</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>INSERT ... DO NOTHING results in an error "UPSERT or INSERT...ON CONFLICT command cannot affect row a second time"</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/46395">https://github.com/cockroachdb/cockroach/issues/46395</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>UPSERT on table with FOREIGN KEY constraint results in an internal error "cannot convert int to type bool"</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/46397">https://github.com/cockroachdb/cockroach/issues/46397</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>NATURAL JOIN fails with "duplicate column name" on view</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/46403">https://github.com/cockroachdb/cockroach/issues/46403</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>EXPLAIN (VEC) results in an internal error "input to aggregatorBase is not an execinfra.OpNode"</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/46404">https://github.com/cockroachdb/cockroach/issues/46404</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>HAVING clause incorrectly evaluates to TRUE for VARIANCE(0) IS NOT NULL predicate</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/46412">https://github.com/cockroachdb/cockroach/issues/46412</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Query with HAVING clause, DISTSQL=off, and vectorize=on results in an internal error</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/46503">https://github.com/cockroachdb/cockroach/issues/46503</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Internal error for vectorize=on and multiplication of INT4 values</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/46714">https://github.com/cockroachdb/cockroach/issues/46714</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Internal error: lookup for ComparisonExpr ((@2)[float] != ('NaN')[string])[bool]'s CmpOp failed</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/46914">https://github.com/cockroachdb/cockroach/issues/46914</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Unexpected syntax error for expression involving ARRAY[NULL]</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/46915">https://github.com/cockroachdb/cockroach/issues/46915</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>CREATE STATISTICS on table with ARRAY column</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/46964">https://github.com/cockroachdb/cockroach/issues/46964</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Comparison with (-9223372036854775808)::TIMESTAMP results in an unexpected error</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/46973">https://github.com/cockroachdb/cockroach/issues/46973</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Query with an invalid regular expression unexpectedly does not fail</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/46981">https://github.com/cockroachdb/cockroach/issues/46981</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Incorrect result for query on interleaved index when vectorize=on</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/47029">https://github.com/cockroachdb/cockroach/issues/47029</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>TRUNCATE on temporary table results in "unexpected value: <nil>"</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/47030">https://github.com/cockroachdb/cockroach/issues/47030</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Internal error for an invalid CREATE INDEX statement</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/47037">https://github.com/cockroachdb/cockroach/issues/47037</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>SELECT statement on table with a hash-sharded index results in an internal error</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/47041">https://github.com/cockroachdb/cockroach/issues/47041</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>ORDER BY unexpectedly causes a value to be represented in E notation when VECTORIZE=on</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/47115">https://github.com/cockroachdb/cockroach/issues/47115</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Column that is used both as an INT2 and INT4 results in an internal error</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/47131">https://github.com/cockroachdb/cockroach/issues/47131</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>BETWEEN expression with an INTERVAL and DECIMAL cast results in an incorrect result</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/cockroachdb/cockroach/issues/47327">https://github.com/cockroachdb/cockroach/issues/47327</a> <br />
+Found by: mrigger
+</details>
+<h3>TiDB (74 bugs)</h3>
 <details>
 <summary>incorrect unresolved column when using natural join</summary>
 Status: confirmed<br />
@@ -296,6 +2764,162 @@ Found by: Suyang Zhong
 Status: confirmed<br />
 Link: <a href="https://github.com/pingcap/tidb/issues/53506">https://github.com/pingcap/tidb/issues/53506</a> <br />
 Found by: Suyang Zhong
+</details>
+<details>
+<summary>Double negation causes incorrect result</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/15725">https://github.com/pingcap/tidb/issues/15725</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Incorrect result for an UNION query and a generated column</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/15733">https://github.com/pingcap/tidb/issues/15733</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>ANALYZE TABLE causes SIGSEGV on latest trunk</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/15746">https://github.com/pingcap/tidb/issues/15746</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>ANALYZE TABLE results in "analyze worker panic" with tidb_enable_fast_analyze=1</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/15751">https://github.com/pingcap/tidb/issues/15751</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>ANALYZE TABLE results in "invalid encoded key" with tidb_enable_fast_analyze=1</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/15752">https://github.com/pingcap/tidb/issues/15752</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>COLLATE causes an incorrect result in the presence of an index</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/15789">https://github.com/pingcap/tidb/issues/15789</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Unexpected "Data truncation: %s value is out of range in '%s'" error in UNION query</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/15790">https://github.com/pingcap/tidb/issues/15790</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>GROUP BY clause nondeterministically results in an incorrect result or error</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/15810">https://github.com/pingcap/tidb/issues/15810</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>A predicate column1 = -column2 incorrectly evaluates to false for 0 values</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/15812">https://github.com/pingcap/tidb/issues/15812</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Join on tables with redundant indexes causes a server panic</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/15813">https://github.com/pingcap/tidb/issues/15813</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Incorrect result for LEFT JOIN and NULL values</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/15846">https://github.com/pingcap/tidb/issues/15846</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Query with a NATURAL LEFT JOIN unexpectedly results in an error</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/15850">https://github.com/pingcap/tidb/issues/15850</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Query with RIGHT JOIN causes a server panic</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/15858">https://github.com/pingcap/tidb/issues/15858</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Incorrect result for a predicate that uses the CHAR() function</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/15986">https://github.com/pingcap/tidb/issues/15986</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>LIKE operator malfunctions for COLLATE 'latin1_bin'</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/15988">https://github.com/pingcap/tidb/issues/15988</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Using a column both in a string comparison and as a boolean yields an incorrect result</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/15990">https://github.com/pingcap/tidb/issues/15990</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>A USE_INDEX_MERGE hint causes a server panic</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/15991">https://github.com/pingcap/tidb/issues/15991</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>USE_INDEX_MERGE on table with generated column causes a server crash</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/15992">https://github.com/pingcap/tidb/issues/15992</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>fast ANALYZE TABLE on INDEX PRIMARY causes an error "analyze worker panic"</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/15993">https://github.com/pingcap/tidb/issues/15993</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>USE_INDEX_MERGE results in an incorrect result for a generated column</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/15994">https://github.com/pingcap/tidb/issues/15994</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>SELECT on table with generated column causes a server panic</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/16020">https://github.com/pingcap/tidb/issues/16020</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>RIGHT JOIN with CONCAT_WS fails to fetch a row</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/16023">https://github.com/pingcap/tidb/issues/16023</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>INSERT IGNORE causes an incorrect result for a query on a DECIMAL column</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/16025">https://github.com/pingcap/tidb/issues/16025</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>REGEXP predicate unexpectedly results in an error "No valid regexp pattern found"</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/16029">https://github.com/pingcap/tidb/issues/16029</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>NATURAL LEFT JOIN with a NOT predicate results in a server panic</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/16419">https://github.com/pingcap/tidb/issues/16419</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>A predicate with COLLATE 'binary' results in a server panic "invalid memory address or nil pointer dereference"</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/pingcap/tidb/issues/16779">https://github.com/pingcap/tidb/issues/16779</a> <br />
+Found by: mrigger
 </details>
 <h3>Umbra (46 bugs)</h3>
 <details>
@@ -1080,452 +3704,6 @@ Status: fixed<br />
 Link: <a href="https://github.com/questdb/questdb/issues/4010">https://github.com/questdb/questdb/issues/4010</a> <br />
 Found by: Yuancheng Jiang
 </details>
-<h3>DuckDB (38 bugs)</h3>
-<details>
-<summary>BETWEEN with subquery and column results in unexpected error</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/3588">https://github.com/duckdb/duckdb/issues/3588</a> <br />
-Found by: kokrui
-</details>
-<details>
-<summary>Unexpected Error for RTRIM Function in Where Clause</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/3616">https://github.com/duckdb/duckdb/issues/3616</a> <br />
-Found by: kokrui
-</details>
-<details>
-<summary>Crash When Creating Index</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/4976">https://github.com/duckdb/duckdb/issues/4976</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Segmentation fault on `BETWEEN`</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/6861">https://github.com/duckdb/duckdb/issues/6861</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Unexpected result when take subquery as operand</summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/7044">https://github.com/duckdb/duckdb/issues/7044</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Different returned datatype of a `CASE` statement in different query.</summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/7064">https://github.com/duckdb/duckdb/issues/7064</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Unexpected results when integer overflow</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/7094">https://github.com/duckdb/duckdb/issues/7094</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Unexpected results on specific values</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/7142">https://github.com/duckdb/duckdb/issues/7142</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Hang on `SELECT` query</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/7143">https://github.com/duckdb/duckdb/issues/7143</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>`INTERNAL Error: Logical column index 1 out of range`</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/7250">https://github.com/duckdb/duckdb/issues/7250</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>DuckDB hang on `DELETE`</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/7530">https://github.com/duckdb/duckdb/issues/7530</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Segmentation fault on `SELECT`</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/7551">https://github.com/duckdb/duckdb/issues/7551</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Inconsistent results of subquery in `INSERT` and `SELECT`, and an unexpected error</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/7601">https://github.com/duckdb/duckdb/issues/7601</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>DuckDB hang on `DELETE`</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/7610">https://github.com/duckdb/duckdb/issues/7610</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Unexpected results on common table expressions</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/7960">https://github.com/duckdb/duckdb/issues/7960</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Incorrect result by subquery and join</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/100561">https://github.com/cockroachdb/cockroach/issues/100561</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>internal error: null rejection requested on non-null column</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/100559">https://github.com/cockroachdb/cockroach/issues/100559</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>kvcoord: setting `kv.range_descriptor_cache.size=0` results in range iterator to retry endlessly</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/101011">https://github.com/cockroachdb/cockroach/issues/101011</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>internal error: failed to parse locale "": language: tag is not well-formed</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/101418">https://github.com/cockroachdb/cockroach/issues/101418</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Unexpected results of `TIME` value under JDBC</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/101591">https://github.com/cockroachdb/cockroach/issues/101591</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>`internal error: expected subquery to be lazily planned as a routine`</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/101980">https://github.com/cockroachdb/cockroach/issues/101980</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Unexpected results of `CASE` and `BETWEEN`</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/102110">https://github.com/cockroachdb/cockroach/issues/102110</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Unexpected results might be related to `BIT` and `INDEX`</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/102412">https://github.com/cockroachdb/cockroach/issues/102412</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Unexpected error `unknown signature: bit_length(string) (desired <int[]>)`</summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/102716">https://github.com/cockroachdb/cockroach/issues/102716</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Unexpected results of `IN` with redundant values list </summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/102864">https://github.com/cockroachdb/cockroach/issues/102864</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Unexpected results related to `INDEX`</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/103755">https://github.com/cockroachdb/cockroach/issues/103755</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Inconsistent result of `AVG` on big float number</summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/104319">https://github.com/cockroachdb/cockroach/issues/104319</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Unexpected hang on subquery</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/105882">https://github.com/cockroachdb/cockroach/issues/105882</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Unexpected Results when using IS NOT NULL</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/9806">https://github.com/duckdb/duckdb/issues/9806</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Missing Results when using Floating-point in BETWEEN</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/9825">https://github.com/duckdb/duckdb/issues/9825</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Internal Error: Calling StringValue::Get on a NULL value</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/9870">https://github.com/duckdb/duckdb/issues/9870</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>INTERNAL Error: Failed to bind column reference "" [1.2] (bindings: [1.1])</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/10087">https://github.com/duckdb/duckdb/issues/10087</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected Result When Using `IS DISTINCT FROM` and `CASE WHEN` in a JOIN clause</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/12181">https://github.com/duckdb/duckdb/issues/12181</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected result when using IN with DATE values</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/13380">https://github.com/duckdb/duckdb/issues/13380</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected result when casting negative integer to BIT</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/13506">https://github.com/duckdb/duckdb/issues/13506</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected result after creating index on varchar column</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/13785">https://github.com/duckdb/duckdb/issues/13785</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected result when using IN with TIME values</summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/13813">https://github.com/duckdb/duckdb/issues/13813</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>INTERNAL ERROR: Unimplemented type for normalify</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/duckdb/duckdb/issues/13933">https://github.com/duckdb/duckdb/issues/13933</a> <br />
-Found by: Ming Wei Tan
-</details>
-<h3>SQLite (36 bugs)</h3>
-<details>
-<summary>An Inconsistent Result Depending on Parenthesization</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/af3d07f908">https://sqlite.org/forum/forumpost/af3d07f908</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>An Unexpected NULL Column Caused by Where Clause in RIGHT JOIN</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/41cc3851d8">https://sqlite.org/forum/forumpost/41cc3851d8</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Rows are Unexpectedly Filtered Out by DISTINCT in RIGHT JOIN</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/c06b10ad7e">https://sqlite.org/forum/forumpost/c06b10ad7e</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Expression or Constant in GroupBy Clause</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/2458c5dea2">https://sqlite.org/forum/forumpost/2458c5dea2</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Ambiguous Reference Error for Right Join</summary>
-Status: confirmed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/e90a8e6e6f">https://sqlite.org/forum/forumpost/e90a8e6e6f</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by WHERE when Joining Tables</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/687b0bf563">https://sqlite.org/forum/forumpost/687b0bf563</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by WHERE/RIGHT JOIN</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/5cfe08eed6">https://sqlite.org/forum/forumpost/5cfe08eed6</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result in Joining Virtual Tables</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/3902c7b833">https://sqlite.org/forum/forumpost/3902c7b833</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by Joining</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/c2554d560b">https://sqlite.org/forum/forumpost/c2554d560b</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by RIGHT JOIN on RTree Tables</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/087de2d9ec">https://sqlite.org/forum/forumpost/087de2d9ec</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by WHERE Again</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/de16c4abe2">https://sqlite.org/forum/forumpost/de16c4abe2</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by RIGHT JOIN</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/206d99a16d">https://sqlite.org/forum/forumpost/206d99a16d</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Assertion Error in SQLite3MemCompare</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/800eecf5e6">https://sqlite.org/forum/forumpost/800eecf5e6</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by ORDER BY</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/323f86cc30">https://sqlite.org/forum/forumpost/323f86cc30</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by RIGHT JOIN with INDEX</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/c4676c4956">https://sqlite.org/forum/forumpost/c4676c4956</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by JSON</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/3d9caa45cb">https://sqlite.org/forum/forumpost/3d9caa45cb</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by Complicated JOINING</summary>
-Status: unconfirmed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/eeb8173cf8">https://sqlite.org/forum/forumpost/eeb8173cf8</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Assertion `pCur->eCurType==CURTYPE_VTAB' failed</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/dafe0500b0">https://sqlite.org/forum/forumpost/dafe0500b0</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by RIGHT JOIN Again</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/51e6959f61">https://sqlite.org/forum/forumpost/51e6959f61</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by Complicated JOINING Again</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/b40696f501">https://sqlite.org/forum/forumpost/b40696f501</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Assertion Error in valueFromFunction</summary>
-Status: unconfirmed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/e3243e07e8">https://sqlite.org/forum/forumpost/e3243e07e8</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by FULL OUTER JOIN</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/5610c17c3d">https://sqlite.org/forum/forumpost/5610c17c3d</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Expression on ON clause</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/57bdf2217d">https://sqlite.org/forum/forumpost/57bdf2217d</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Expression Result by FULL OUTER JOIN</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/6650cd40b5">https://sqlite.org/forum/forumpost/6650cd40b5</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Parse Error</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/1a7fea4651">https://sqlite.org/forum/forumpost/1a7fea4651</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Assertion Error in whereRangeScanEst</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/c3496cf6b1">https://sqlite.org/forum/forumpost/c3496cf6b1</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by Union</summary>
-Status: unconfirmed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/174afeae57">https://sqlite.org/forum/forumpost/174afeae57</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Assertion `pRec->nField>0 && pRec->nField<=pIdx->nSampleCol' failed.</summary>
-Status: unconfirmed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/3607259d3c">https://sqlite.org/forum/forumpost/3607259d3c</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Incorrect results with the latest trunk version</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/info/0846211821513f50">https://sqlite.org/forum/info/0846211821513f50</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Incorrect result that might be caused by json function</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/info/37dd14a538ea84e0">https://sqlite.org/forum/info/37dd14a538ea84e0</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Incorrect result for COUNT on view with window function</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/info/2cd11c2d37696553">https://sqlite.org/forum/info/2cd11c2d37696553</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Incorrect result might caused by INDEX</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/info/a68313d0545273c8">https://sqlite.org/forum/info/a68313d0545273c8</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>An assertion failure only triggers in JDBC driver with -DSQLITE_DEBUG=1 compile option</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/info/dc4854437bda462c">https://sqlite.org/forum/info/dc4854437bda462c</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Unexpected results of `JOIN`</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/8f48e29d67">https://sqlite.org/forum/forumpost/8f48e29d67</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Unexpected result of `JOIN`</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/96cd4a7e9e">https://sqlite.org/forum/forumpost/96cd4a7e9e</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Unexpected results when using `REPLACE` function</summary>
-Status: fixed<br />
-Link: <a href="https://sqlite.org/forum/forumpost/3776b48e71, https://www.sqlite.org/src/info/01868ebcd25fadb2">https://sqlite.org/forum/forumpost/3776b48e71, https://www.sqlite.org/src/info/01868ebcd25fadb2</a> <br />
-Found by: Suyang Zhong
-</details>
 <h3>cratedb (35 bugs)</h3>
 <details>
 <summary>Couldn't create execution plan from logical plan because of: Index 2 out of bounds for length 2</summary>
@@ -1906,162 +4084,344 @@ Status: fixed<br />
 Link: <a href="https://github.com/dolthub/dolt/issues/7515">https://github.com/dolthub/dolt/issues/7515</a> <br />
 Found by: Suyang Zhong
 </details>
-<h3>CockroachDB (26 bugs)</h3>
+<h3>MySQL (27 bugs)</h3>
 <details>
-<summary>sql: support SCRUB on temp tables</summary>
+<summary>Suspicious Estimated Rows</summary>
+Status: unconfirmed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=108833">https://bugs.mysql.com/bug.php?id=108833</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Suspicious Estimated Rows by JOIN</summary>
+Status: unconfirmed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=108851">https://bugs.mysql.com/bug.php?id=108851</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Suspicious Estimated Rows by DISTINCTROW</summary>
+Status: unconfirmed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=108852">https://bugs.mysql.com/bug.php?id=108852</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Unexpected Error: Memory capacity exceeded</summary>
+Status: unconfirmed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=111471">https://bugs.mysql.com/bug.php?id=111471</a> <br />
+Found by: bajinsheng
+</details>
+<details>
+<summary>Wrong result of `IN` clause</summary>
 Status: confirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/83770">https://github.com/cockroachdb/cockroach/issues/83770</a> <br />
-Found by: bajinsheng
+Link: <a href="https://bugs.mysql.com/bug.php?id=111241">https://bugs.mysql.com/bug.php?id=111241</a> <br />
+Found by: Chi Zhang
 </details>
 <details>
-<summary>Internal Error: Comparison Overload not Found</summary>
+<summary>Unexpected error when `CHECK` a predicate that is always true</summary>
 Status: confirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/83792">https://github.com/cockroachdb/cockroach/issues/83792</a> <br />
-Found by: bajinsheng
+Link: <a href="https://bugs.mysql.com/bug.php?id=111421">https://bugs.mysql.com/bug.php?id=111421</a> <br />
+Found by: Chi Zhang
 </details>
 <details>
-<summary>ERROR: no builtin aggregate for SUM_INT on [unknown]</summary>
+<summary>Unexpected Results when Using Math Function SIN</summary>
 Status: confirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/83874">https://github.com/cockroachdb/cockroach/issues/83874</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Crashing by EXPLAIN Statement</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/83965">https://github.com/cockroachdb/cockroach/issues/83965</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Invalid Memory Address Error of Specific SQL Query</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/83973">https://github.com/cockroachdb/cockroach/issues/83973</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Error of Unique Index</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/83976">https://github.com/cockroachdb/cockroach/issues/83976</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Crash: panic: RecordingStructured has 30 recordings; expected 1</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/84056">https://github.com/cockroachdb/cockroach/issues/84056</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Overflow Error by Huge Interval Value</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/84154">https://github.com/cockroachdb/cockroach/issues/84154</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Inconsistent Case Return Types Decimal Int</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/85356">https://github.com/cockroachdb/cockroach/issues/85356</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>No Result Returned by SHOW COLUMN</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/85388">https://github.com/cockroachdb/cockroach/issues/85388</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>internal error: no volatility for cast decimal::timestamp</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/85389">https://github.com/cockroachdb/cockroach/issues/85389</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>opt: internal error: lookup for ComparisonExpr</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/85390">https://github.com/cockroachdb/cockroach/issues/85390</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>opt: internal error: no output column equivalent to 2</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/85393">https://github.com/cockroachdb/cockroach/issues/85393</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Error in SHOW COLUMNS</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/85394">https://github.com/cockroachdb/cockroach/issues/85394</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>opt: internal error: estimated row count must be non-zero </summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/85499">https://github.com/cockroachdb/cockroach/issues/85499</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Result by UNION</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/85502">https://github.com/cockroachdb/cockroach/issues/85502</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>An Unexpected Error in `CROSS MERGE JOIN`</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/88104">https://github.com/cockroachdb/cockroach/issues/88104</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>ERROR: internal error: expected *DInt, found tree.dNull</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/94264">https://github.com/cockroachdb/cockroach/issues/94264</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>An Unexpected Error in `CROSS MERGE JOIN`</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/88104">https://github.com/cockroachdb/cockroach/issues/88104</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Potential Issue for Estimated Rows</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/88455">https://github.com/cockroachdb/cockroach/issues/88455</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>An Issue of Estimated Rows</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/89161">https://github.com/cockroachdb/cockroach/issues/89161</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Estimated Rows in `HAVING` clause</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/89462">https://github.com/cockroachdb/cockroach/issues/89462</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Suspicious Estimated Rows by `OR` </summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/90112">https://github.com/cockroachdb/cockroach/issues/90112</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Suspicious Estimated Rows by `DISTINCT`</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/90113">https://github.com/cockroachdb/cockroach/issues/90113</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>ERROR: internal error: expected *DInt, found tree.dNull</summary>
-Status: unconfirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/94264">https://github.com/cockroachdb/cockroach/issues/94264</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>internal error: comparison overload not found (ge, unknown, unknown)</summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/cockroachdb/cockroach/issues/128889">https://github.com/cockroachdb/cockroach/issues/128889</a> <br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=113180">https://bugs.mysql.com/bug.php?id=113180</a> <br />
 Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected Results when Using IN for Floating-Point</summary>
+Status: confirmed<br />
+Link: <a href="http://bugs.mysql.com/113298">http://bugs.mysql.com/113298</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Inconsistent result with index and collapsing symbol</summary>
+Status: confirmed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=114534">https://bugs.mysql.com/bug.php?id=114534</a> <br />
+Found by: Ming Wei Tan
+</details>
+<details>
+<summary>Functional index seems to malfunction with UNSIGNED column</summary>
+Status: fixed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=95889">https://bugs.mysql.com/bug.php?id=95889</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>The negation of a "<=>" comparison malfunctions depending on the column's type</summary>
+Status: fixed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=95908">https://bugs.mysql.com/bug.php?id=95908</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Row is not fetched when using a function expression that should yield TRUE</summary>
+Status: fixed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=95926">https://bugs.mysql.com/bug.php?id=95926</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>XOR operator returns incorrect result for strings with a floating-point number</summary>
+Status: fixed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=95927">https://bugs.mysql.com/bug.php?id=95927</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Duplicate entry for key 'PRIMARY' when querying information_schema.TABLES</summary>
+Status: fixed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=95929">https://bugs.mysql.com/bug.php?id=95929</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>CHECK TABLE FOR UPGRADE crashes server (segfault)</summary>
+Status: fixed<br />
+Link: <a href=""></a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>BENCHMARK() returns NULL in some cases but is documented to always return 0</summary>
+Status: fixed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=95937">https://bugs.mysql.com/bug.php?id=95937</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Function return value with newline yields wrong result when used as a boolean</summary>
+Status: fixed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=95938">https://bugs.mysql.com/bug.php?id=95938</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>TEXT column used as boolean incorrectly evaluates to false</summary>
+Status: fixed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=95942">https://bugs.mysql.com/bug.php?id=95942</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>CAST of negative function return value to UNSIGNED malfunctions with BIGINT</summary>
+Status: fixed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=95954">https://bugs.mysql.com/bug.php?id=95954</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>AND/OR/XOR compute wrong result for small floating-point numbers in TEXT columns</summary>
+Status: fixed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=95958">https://bugs.mysql.com/bug.php?id=95958</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>The logical operators &, |, and ^ do not ignore newlines in TEXT</summary>
+Status: fixed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=95960">https://bugs.mysql.com/bug.php?id=95960</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Compare that uses UNSIGNED cast and function malfunctions in the MEMORY engine</summary>
+Status: fixed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=95964">https://bugs.mysql.com/bug.php?id=95964</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Setting sort_buffer_size to a large value causes query to go out of memory</summary>
+Status: fixed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=95969">https://bugs.mysql.com/bug.php?id=95969</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Unexpected result for IN operator and constants</summary>
+Status: fixed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=95975">https://bugs.mysql.com/bug.php?id=95975</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Query involving &, <, and AND operators computes incorrect result</summary>
+Status: fixed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=95983">https://bugs.mysql.com/bug.php?id=95983</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Query with GREATEST function malfunctions</summary>
+Status: fixed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=96012">https://bugs.mysql.com/bug.php?id=96012</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>A predicate that compares 0 with -0 yields an incorrect result</summary>
+Status: fixed<br />
+Link: <a href="https://bugs.mysql.com/bug.php?id=99122">https://bugs.mysql.com/bug.php?id=99122</a> <br />
+Found by: mrigger
+</details>
+<h3>H2 (18 bugs)</h3>
+<details>
+<summary>Potential issue when using ROUND</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/h2database/h2database/issues/3982">https://github.com/h2database/h2database/issues/3982</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected result when using trigonomeric functions</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/h2database/h2database/issues/3981">https://github.com/h2database/h2database/issues/3981</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Query with an expression "NOT NOT - C0" causes a NullPointerException</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/h2database/h2database/issues/2804">https://github.com/h2database/h2database/issues/2804</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Incorrect result for query and NOT (c0 != -1 AND c0) predicate</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/h2database/h2database/issues/2803">https://github.com/h2database/h2database/issues/2803</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Query with CASE operator unexpectedly results in "Column must be in the GROUP BY list" error</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/h2database/h2database/issues/2813">https://github.com/h2database/h2database/issues/2813</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Query on view that uses the BETWEEN operator results in an unexpected syntax error</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/h2database/h2database/issues/2816">https://github.com/h2database/h2database/issues/2816</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Query with % operator results in a ClassCastException</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/h2database/h2database/issues/2825">https://github.com/h2database/h2database/issues/2825</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Table with a generated column cycle results in a NullPointerException</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/h2database/h2database/issues/2826">https://github.com/h2database/h2database/issues/2826</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Query on view with BINARY column results in an unexpected syntax error</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/h2database/h2database/issues/2828">https://github.com/h2database/h2database/issues/2828</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Restore YEAR data type for MySQL compatibility mode</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/h2database/h2database/issues/2831">https://github.com/h2database/h2database/issues/2831</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Calling math functions with a string argument results in a NullPointerException</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/h2database/h2database/issues/2835">https://github.com/h2database/h2database/issues/2835</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>MERGE INTO causes an unexpected syntax error</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/h2database/h2database/issues/2833">https://github.com/h2database/h2database/issues/2833</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>ROUND() function runs very long</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/h2database/h2database/issues/2837">https://github.com/h2database/h2database/issues/2837</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>INSERT() with NULL arguments for the original string and string to be added results in NPE</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/h2database/h2database/issues/2838">https://github.com/h2database/h2database/issues/2838</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Querying a view that uses the POSITION() function results in an unexpected syntax error</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/h2database/h2database/issues/2839">https://github.com/h2database/h2database/issues/2839</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Call to STRINGDECODE results in StringIndexOutOfBoundsException</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/h2database/h2database/issues/2841">https://github.com/h2database/h2database/issues/2841</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Querying view that uses LTRIM/RTRIM results in a syntax error</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/h2database/h2database/issues/2842">https://github.com/h2database/h2database/issues/2842</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>CREATE TABLE with a BINARY column and large size specification results in a NegativeArraySizeException</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/h2database/h2database/issues/2832">https://github.com/h2database/h2database/issues/2832</a> <br />
+Found by: mrigger
+</details>
+<h3>PostgreSQL (11 bugs)</h3>
+<details>
+<summary>GROUP BY and inheritance issue</summary>
+Status: fixed<br />
+Link: <a href="https://www.postgresql.org/message-id/CA%2Bu7OA7VLKf_vEr6kLF3MnWSA9LToJYncgpNX2tQ-oWzYCBQAw%40mail.gmail.com">https://www.postgresql.org/message-id/CA%2Bu7OA7VLKf_vEr6kLF3MnWSA9LToJYncgpNX2tQ-oWzYCBQAw%40mail.gmail.com</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>DISCARD TEMP results in "ERROR: cache lookup failed for type 0"</summary>
+Status: fixed<br />
+Link: <a href="https://www.postgresql.org/message-id/CA%2Bu7OA4JKCPFrdrAbOs7XBiCyD61XJxeNav4LefkSmBLQ-Vobg%40mail.gmail.com">https://www.postgresql.org/message-id/CA%2Bu7OA4JKCPFrdrAbOs7XBiCyD61XJxeNav4LefkSmBLQ-Vobg%40mail.gmail.com</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>ERROR: found unexpected null value in index</summary>
+Status: fixed<br />
+Link: <a href="https://www.postgresql.org/message-id/CA%2Bu7OA7W4NWEhCvftdV6_8bbm2vgypi5nuxfnSEJQqVKFSUoMg%40mail.gmail.com">https://www.postgresql.org/message-id/CA%2Bu7OA7W4NWEhCvftdV6_8bbm2vgypi5nuxfnSEJQqVKFSUoMg%40mail.gmail.com</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>ERROR: negative bitmapset member not allowed in SELECT</summary>
+Status: fixed<br />
+Link: <a href="https://www.postgresql.org/message-id/CA%2Bu7OA7fmtm3kR%2BY6Mgr9djU3WeOsMzQLWtNPMvoEVSm%3Dr9XaQ%40mail.gmail.com">https://www.postgresql.org/message-id/CA%2Bu7OA7fmtm3kR%2BY6Mgr9djU3WeOsMzQLWtNPMvoEVSm%3Dr9XaQ%40mail.gmail.com</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>REINDEX CONCURRENTLY causes ALTER TABLE to fail</summary>
+Status: fixed<br />
+Link: <a href="https://www.postgresql.org/message-id/CA%2Bu7OA5Hp0ra235F3czPom_FyAd-3%2BXwSJmX95r1%2BsRPOJc9VQ%40mail.gmail.com">https://www.postgresql.org/message-id/CA%2Bu7OA5Hp0ra235F3czPom_FyAd-3%2BXwSJmX95r1%2BsRPOJc9VQ%40mail.gmail.com</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>INSERT INTO causes segfault on trunk</summary>
+Status: fixed<br />
+Link: <a href=""></a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Unexpected "cache lookup failed for collation 0" failure</summary>
+Status: fixed<br />
+Link: <a href="https://www.postgresql.org/message-id/flat/CA%2Bu7OA4HOjtymxAbuGNh4-X_2R0Lw5n01tzvP8E5-i-2gQXYWA%40mail.gmail.com">https://www.postgresql.org/message-id/flat/CA%2Bu7OA4HOjtymxAbuGNh4-X_2R0Lw5n01tzvP8E5-i-2gQXYWA%40mail.gmail.com</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Failed assertion clauses != NIL</summary>
+Status: fixed<br />
+Link: <a href="https://www.postgresql.org/message-id/flat/CA%2Bu7OA7H5rcE2%3D8f263w4NZD6ipO_XOrYB816nuLXbmSTH9pQQ%40mail.gmail.com">https://www.postgresql.org/message-id/flat/CA%2Bu7OA7H5rcE2%3D8f263w4NZD6ipO_XOrYB816nuLXbmSTH9pQQ%40mail.gmail.com</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>No = operator for opfamily 426</summary>
+Status: fixed<br />
+Link: <a href="https://www.postgresql.org/message-id/flat/CA%2Bu7OA7nnGYy8rY0vdTe811NuA%2BFrr9nbcBO9u2Z%2BJxqNaud%2Bg%40mail.gmail.com">https://www.postgresql.org/message-id/flat/CA%2Bu7OA7nnGYy8rY0vdTe811NuA%2BFrr9nbcBO9u2Z%2BJxqNaud%2Bg%40mail.gmail.com</a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Fetching from information_schema.tables results in segfault</summary>
+Status: fixed<br />
+Link: <a href=""></a> <br />
+Found by: mrigger
+</details>
+<details>
+<summary>Segfault when creating constant bit_length() index on TEMP table</summary>
+Status: fixed<br />
+Link: <a href=""></a> <br />
+Found by: mrigger
 </details>
 <h3>neo4j (11 bugs)</h3>
 <details>
@@ -2130,67 +4490,6 @@ Status: fixed<br />
 Link: <a href="https://github.com/neo4j/neo4j/issues/13041">https://github.com/neo4j/neo4j/issues/13041</a> <br />
 Found by: Yuancheng Jiang
 </details>
-<h3>Virtuoso (10 bugs)</h3>
-<details>
-<summary>Unexpected results when Using Trigonometric functions</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1213">https://github.com/openlink/virtuoso-opensource/issues/1213</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected results when Using RIGHT JOIN</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1214">https://github.com/openlink/virtuoso-opensource/issues/1214</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected results when using trigonometric functions</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1213">https://github.com/openlink/virtuoso-opensource/issues/1213</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected Results when using LEFT JOIN with NULL</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1236">https://github.com/openlink/virtuoso-opensource/issues/1236</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected results when using LEFT JOIN with NULL as predicate</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1238">https://github.com/openlink/virtuoso-opensource/issues/1238</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Crash by CASE WHEN and unknown identifier</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1239">https://github.com/openlink/virtuoso-opensource/issues/1239</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected results when using ORDER BY</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1241">https://github.com/openlink/virtuoso-opensource/issues/1241</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Crash by CASE WHEN</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1249">https://github.com/openlink/virtuoso-opensource/issues/1249</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected results when using LEFT JOIN and UNION</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1250">https://github.com/openlink/virtuoso-opensource/issues/1250</a> <br />
-Found by: Suyang Zhong
-</details>
-<details>
-<summary>Unexpected results when using INNER JOIN and UNION</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1251">https://github.com/openlink/virtuoso-opensource/issues/1251</a> <br />
-Found by: Suyang Zhong
-</details>
 <h3>Firebird (10 bugs)</h3>
 <details>
 <summary>Potential bug in BETWEEN Operator</summary>
@@ -2252,60 +4551,66 @@ Status: confirmed<br />
 Link: <a href="https://github.com/FirebirdSQL/firebird/issues/8132">https://github.com/FirebirdSQL/firebird/issues/8132</a> <br />
 Found by: Suyang Zhong
 </details>
-<h3>MySQL (9 bugs)</h3>
+<h3>Virtuoso (10 bugs)</h3>
 <details>
-<summary>Suspicious Estimated Rows</summary>
-Status: unconfirmed<br />
-Link: <a href="https://bugs.mysql.com/bug.php?id=108833">https://bugs.mysql.com/bug.php?id=108833</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Suspicious Estimated Rows by JOIN</summary>
-Status: unconfirmed<br />
-Link: <a href="https://bugs.mysql.com/bug.php?id=108851">https://bugs.mysql.com/bug.php?id=108851</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Suspicious Estimated Rows by DISTINCTROW</summary>
-Status: unconfirmed<br />
-Link: <a href="https://bugs.mysql.com/bug.php?id=108852">https://bugs.mysql.com/bug.php?id=108852</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Unexpected Error: Memory capacity exceeded</summary>
-Status: unconfirmed<br />
-Link: <a href="https://bugs.mysql.com/bug.php?id=111471">https://bugs.mysql.com/bug.php?id=111471</a> <br />
-Found by: bajinsheng
-</details>
-<details>
-<summary>Wrong result of `IN` clause</summary>
-Status: confirmed<br />
-Link: <a href="https://bugs.mysql.com/bug.php?id=111241">https://bugs.mysql.com/bug.php?id=111241</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Unexpected error when `CHECK` a predicate that is always true</summary>
-Status: confirmed<br />
-Link: <a href="https://bugs.mysql.com/bug.php?id=111421">https://bugs.mysql.com/bug.php?id=111421</a> <br />
-Found by: Chi Zhang
-</details>
-<details>
-<summary>Unexpected Results when Using Math Function SIN</summary>
-Status: confirmed<br />
-Link: <a href="https://bugs.mysql.com/bug.php?id=113180">https://bugs.mysql.com/bug.php?id=113180</a> <br />
+<summary>Unexpected results when Using Trigonometric functions</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1213">https://github.com/openlink/virtuoso-opensource/issues/1213</a> <br />
 Found by: Suyang Zhong
 </details>
 <details>
-<summary>Unexpected Results when Using IN for Floating-Point</summary>
-Status: confirmed<br />
-Link: <a href="http://bugs.mysql.com/113298">http://bugs.mysql.com/113298</a> <br />
+<summary>Unexpected results when Using RIGHT JOIN</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1214">https://github.com/openlink/virtuoso-opensource/issues/1214</a> <br />
 Found by: Suyang Zhong
 </details>
 <details>
-<summary>Inconsistent result with index and collapsing symbol</summary>
-Status: confirmed<br />
-Link: <a href="https://bugs.mysql.com/bug.php?id=114534">https://bugs.mysql.com/bug.php?id=114534</a> <br />
-Found by: Ming Wei Tan
+<summary>Unexpected results when using trigonometric functions</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1213">https://github.com/openlink/virtuoso-opensource/issues/1213</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected Results when using LEFT JOIN with NULL</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1236">https://github.com/openlink/virtuoso-opensource/issues/1236</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected results when using LEFT JOIN with NULL as predicate</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1238">https://github.com/openlink/virtuoso-opensource/issues/1238</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Crash by CASE WHEN and unknown identifier</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1239">https://github.com/openlink/virtuoso-opensource/issues/1239</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected results when using ORDER BY</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1241">https://github.com/openlink/virtuoso-opensource/issues/1241</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Crash by CASE WHEN</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1249">https://github.com/openlink/virtuoso-opensource/issues/1249</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected results when using LEFT JOIN and UNION</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1250">https://github.com/openlink/virtuoso-opensource/issues/1250</a> <br />
+Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected results when using INNER JOIN and UNION</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/openlink/virtuoso-opensource/issues/1251">https://github.com/openlink/virtuoso-opensource/issues/1251</a> <br />
+Found by: Suyang Zhong
 </details>
 <h3>risingwave (7 bugs)</h3>
 <details>
@@ -2381,31 +4686,6 @@ Status: open<br />
 Link: <a href="https://github.com/apache/doris/issues/36070">https://github.com/apache/doris/issues/36070</a> <br />
 Found by: Ming Wei Tan
 </details>
-<h3>tdengine (4 bugs)</h3>
-<details>
-<summary>Segmentation fault with certain queries</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/taosdata/TDengine/issues/21323">https://github.com/taosdata/TDengine/issues/21323</a> <br />
-Found by: Yuancheng Jiang
-</details>
-<details>
-<summary>Unexpected generic error with LIKE query</summary>
-Status: open<br />
-Link: <a href="https://github.com/taosdata/TDengine/issues/21368">https://github.com/taosdata/TDengine/issues/21368</a> <br />
-Found by: Yuancheng Jiang
-</details>
-<details>
-<summary>Unexpected Syntax Error with Null</summary>
-Status: open<br />
-Link: <a href="https://github.com/taosdata/TDengine/issues/21520">https://github.com/taosdata/TDengine/issues/21520</a> <br />
-Found by: Yuancheng Jiang
-</details>
-<details>
-<summary>Segmentation fault when having IS NULL in JOIN condition</summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/taosdata/TDengine/issues/22857">https://github.com/taosdata/TDengine/issues/22857</a> <br />
-Found by: Yuancheng Jiang
-</details>
 <h3>redisgraph (4 bugs)</h3>
 <details>
 <summary>Unexpected results</summary>
@@ -2431,23 +4711,29 @@ Status: confirmed<br />
 Link: <a href="https://github.com/RedisGraph/RedisGraph/issues/2865">https://github.com/RedisGraph/RedisGraph/issues/2865</a> <br />
 Found by: Yuancheng Jiang
 </details>
-<h3>agensgraph (3 bugs)</h3>
+<h3>tdengine (4 bugs)</h3>
 <details>
-<summary>Query gives inconsistent result</summary>
+<summary>Segmentation fault with certain queries</summary>
 Status: fixed<br />
-Link: <a href="https://github.com/bitnine-oss/agensgraph/issues/595">https://github.com/bitnine-oss/agensgraph/issues/595</a> <br />
+Link: <a href="https://github.com/taosdata/TDengine/issues/21323">https://github.com/taosdata/TDengine/issues/21323</a> <br />
 Found by: Yuancheng Jiang
 </details>
 <details>
-<summary>Seems to be an unexpected error</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/bitnine-oss/agensgraph/issues/609">https://github.com/bitnine-oss/agensgraph/issues/609</a> <br />
+<summary>Unexpected generic error with LIKE query</summary>
+Status: open<br />
+Link: <a href="https://github.com/taosdata/TDengine/issues/21368">https://github.com/taosdata/TDengine/issues/21368</a> <br />
 Found by: Yuancheng Jiang
 </details>
 <details>
-<summary>Inconsistent results when executing equivalent queries</summary>
-Status: fixed<br />
-Link: <a href="https://github.com/bitnine-oss/agensgraph/issues/617">https://github.com/bitnine-oss/agensgraph/issues/617</a> <br />
+<summary>Unexpected Syntax Error with Null</summary>
+Status: open<br />
+Link: <a href="https://github.com/taosdata/TDengine/issues/21520">https://github.com/taosdata/TDengine/issues/21520</a> <br />
+Found by: Yuancheng Jiang
+</details>
+<details>
+<summary>Segmentation fault when having IS NULL in JOIN condition</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/taosdata/TDengine/issues/22857">https://github.com/taosdata/TDengine/issues/22857</a> <br />
 Found by: Yuancheng Jiang
 </details>
 <h3>Databend (3 bugs)</h3>
@@ -2469,18 +4755,37 @@ Status: fixed<br />
 Link: <a href="https://github.com/databendlabs/databend/issues/15867">https://github.com/databendlabs/databend/issues/15867</a> <br />
 Found by: Ming Wei Tan
 </details>
-<h3>QuestDB (2 bugs)</h3>
+<h3>agensgraph (3 bugs)</h3>
 <details>
-<summary>NULL record not retrieved if NULL is in WHERE clause</summary>
+<summary>Query gives inconsistent result</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/bitnine-oss/agensgraph/issues/595">https://github.com/bitnine-oss/agensgraph/issues/595</a> <br />
+Found by: Yuancheng Jiang
+</details>
+<details>
+<summary>Seems to be an unexpected error</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/bitnine-oss/agensgraph/issues/609">https://github.com/bitnine-oss/agensgraph/issues/609</a> <br />
+Found by: Yuancheng Jiang
+</details>
+<details>
+<summary>Inconsistent results when executing equivalent queries</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/bitnine-oss/agensgraph/issues/617">https://github.com/bitnine-oss/agensgraph/issues/617</a> <br />
+Found by: Yuancheng Jiang
+</details>
+<h3>MariaDB (2 bugs)</h3>
+<details>
+<summary>Internal error from OPTIMIZE TABLE t0 NOWAIT</summary>
 Status: confirmed<br />
-Link: <a href="https://github.com/questdb/questdb/issues/4965">https://github.com/questdb/questdb/issues/4965</a> <br />
+Link: <a href="https://jira.mariadb.org/browse/MDEV-33893">https://jira.mariadb.org/browse/MDEV-33893</a> <br />
 Found by: Ming Wei Tan
 </details>
 <details>
-<summary>Internal error thrown in select query</summary>
+<summary>UNIQUE constraint causes a query with string comparison to omit a row in the result set</summary>
 Status: fixed<br />
-Link: <a href="https://github.com/questdb/questdb/issues/4981">https://github.com/questdb/questdb/issues/4981</a> <br />
-Found by: Ming Wei Tan
+Link: <a href="https://jira.mariadb.org/browse/MDEV-21065">https://jira.mariadb.org/browse/MDEV-21065</a> <br />
+Found by: mrigger
 </details>
 <h3>Percona (2 bugs)</h3>
 <details>
@@ -2495,17 +4800,31 @@ Status: confirmed<br />
 Link: <a href="https://perconadev.atlassian.net/jira/software/c/projects/PS/issues/PS-9085">https://perconadev.atlassian.net/jira/software/c/projects/PS/issues/PS-9085</a> <br />
 Found by: Albert Zhang
 </details>
-<h3>H2 (2 bugs)</h3>
+<h3>QuestDB (2 bugs)</h3>
 <details>
-<summary>Potential issue when using ROUND</summary>
+<summary>NULL record not retrieved if NULL is in WHERE clause</summary>
 Status: confirmed<br />
-Link: <a href="https://github.com/h2database/h2database/issues/3982">https://github.com/h2database/h2database/issues/3982</a> <br />
-Found by: Suyang Zhong
+Link: <a href="https://github.com/questdb/questdb/issues/4965">https://github.com/questdb/questdb/issues/4965</a> <br />
+Found by: Ming Wei Tan
 </details>
 <details>
-<summary>Unexpected result when using trigonomeric functions</summary>
+<summary>Internal error thrown in select query</summary>
 Status: fixed<br />
-Link: <a href="https://github.com/h2database/h2database/issues/3981">https://github.com/h2database/h2database/issues/3981</a> <br />
+Link: <a href="https://github.com/questdb/questdb/issues/4981">https://github.com/questdb/questdb/issues/4981</a> <br />
+Found by: Ming Wei Tan
+</details>
+<h3>CUBRID (1 bugs)</h3>
+<details>
+<summary>ORDER BY causes row to be omitted with index and case expression</summary>
+Status: fixed<br />
+Link: <a href="http://jira.cubrid.org/browse/CBRD-25067">http://jira.cubrid.org/browse/CBRD-25067</a> <br />
+Found by: Manuel Rigger
+</details>
+<h3>ClickHouse (1 bugs)</h3>
+<details>
+<summary>Unexpected result when comparing IN expression and integer</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/ClickHouse/ClickHouse/issues/65316">https://github.com/ClickHouse/ClickHouse/issues/65316</a> <br />
 Found by: Suyang Zhong
 </details>
 <h3>Presto (1 bugs)</h3>
@@ -2515,26 +4834,12 @@ Status: fixed<br />
 Link: <a href="https://github.com/prestodb/presto/issues/23613">https://github.com/prestodb/presto/issues/23613</a> <br />
 Found by: Ming Wei Tan
 </details>
-<h3>MariaDB (1 bugs)</h3>
+<h3>TDEngine (1 bugs)</h3>
 <details>
-<summary>Internal error from OPTIMIZE TABLE t0 NOWAIT</summary>
-Status: confirmed<br />
-Link: <a href="https://jira.mariadb.org/browse/MDEV-33893">https://jira.mariadb.org/browse/MDEV-33893</a> <br />
-Found by: Ming Wei Tan
-</details>
-<h3>ClickHouse (1 bugs)</h3>
-<details>
-<summary>Unexpected result when comparing IN expression and integer</summary>
-Status: confirmed<br />
-Link: <a href="https://github.com/ClickHouse/ClickHouse/issues/65316">https://github.com/ClickHouse/ClickHouse/issues/65316</a> <br />
-Found by: Suyang Zhong
-</details>
-<h3>CUBRID (1 bugs)</h3>
-<details>
-<summary>ORDER BY causes row to be omitted with index and case expression</summary>
+<summary>DROP DATABASE seems to leave behind a table when using the "tables" configuration option</summary>
 Status: fixed<br />
-Link: <a href="http://jira.cubrid.org/browse/CBRD-25067">http://jira.cubrid.org/browse/CBRD-25067</a> <br />
-Found by: Manuel Rigger
+Link: <a href="https://github.com/taosdata/TDengine/issues/586">https://github.com/taosdata/TDengine/issues/586</a> <br />
+Found by: mrigger
 </details>
 <h2 id="compiler&interpreter">Compilers and Interpreters (60 bugs)</h2>
 <h3>php-src (60 bugs)</h3>
