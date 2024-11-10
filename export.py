@@ -26,7 +26,6 @@ print('<ul>')
 for domain, count in c.execute(domain_count_query).fetchall():
     print('<a href="#%s"><li>%s: %d bugs</li></a>' % (domain, domain_map[domain], count))
 print('</ul>')
-print('<a href="https://manuelrigger.at/dbms-bugs/">Additional DBMS bugs</a>')
 
 print('<br/>')
 for domain, count in c.execute(domain_count_query).fetchall():
