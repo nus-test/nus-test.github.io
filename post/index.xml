@@ -5,12 +5,23 @@
     <link>https://nus-test.github.io/post/</link>
       <atom:link href="https://nus-test.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Latest News</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 03 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 Nov 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Latest News</title>
       <link>https://nus-test.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>We received a &#34;Singapore Open Research Award&#34;</title>
+      <link>https://nus-test.github.io/post/24-11-12-singapore-open-research-award/</link>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/post/24-11-12-singapore-open-research-award/</guid>
+      <description>&lt;p&gt;See the award citation on &lt;a href=&#34;https://libguides.ntu.edu.sg/SGopenresearchawards/Rigger&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Open Research for Robustifying Data-centric Systems&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We thank &lt;a href=&#34;https://libguides.ntu.edu.sg/Profile/MerylChin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Meryl Chin Guiying&lt;/a&gt; for designing the poster below.
+&lt;img src=&#34;poster.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Our paper &#34;Constant Optimization Driven Database System Testing&#34; was accepted at SIGMOD 2025 (round 3).</title>
