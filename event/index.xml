@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/event/</link>
       <atom:link href="https://nus-test.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Seminars</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 Nov 2024 15:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 26 Nov 2024 15:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Recent &amp; Upcoming Seminars</title>
       <link>https://nus-test.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>SGL: Deriving Test Case Generators using Domain-Specific Language to Test Database Engines</title>
+      <link>https://nus-test.github.io/event/241126/</link>
+      <pubDate>Tue, 26 Nov 2024 15:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/241126/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Automated test case reduction in query specific language(s)</title>

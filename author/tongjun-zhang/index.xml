@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/author/tongjun-zhang/</link>
       <atom:link href="https://nus-test.github.io/author/tongjun-zhang/index.xml" rel="self" type="application/rss+xml" />
     <description>Tongjun Zhang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 26 Nov 2024 15:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/author/tongjun-zhang/avatar_hu23cd31d6d7bb55b6a25a35c74781dbf3_523145_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Tongjun Zhang</title>
       <link>https://nus-test.github.io/author/tongjun-zhang/</link>
     </image>
+    
+    <item>
+      <title>SGL: Deriving Test Case Generators using Domain-Specific Language to Test Database Engines</title>
+      <link>https://nus-test.github.io/event/241126/</link>
+      <pubDate>Tue, 26 Nov 2024 15:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/241126/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
