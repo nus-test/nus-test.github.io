@@ -14,7 +14,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Mehtab Zafar is a Masters Student working on automated SQL reduction.
+bio: Mehtab Zafar was a Master's Student working on automated SQL reduction.
 
 # interests:
 # - Artificial Intelligence
@@ -61,8 +61,8 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Master Students
+- Past Members
 ---
-Mehtab is a Masters Student working on automated SQL reduction. 
+Mehtab was a Master's Student working on automated SQL reduction. 
 
 Find out more about Mehtab at [blog.mzfr.me/about](https://blog.mzfr.me/about/)
