@@ -7,24 +7,36 @@
     <loc>https://nus-test.github.io/positions/</loc>
   </url><url>
     <loc>https://nus-test.github.io/authors/</loc>
-    <lastmod>2024-11-26T15:00:00+00:00</lastmod>
+    <lastmod>2025-01-22T14:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/event/</loc>
-    <lastmod>2024-11-26T15:00:00+00:00</lastmod>
+    <lastmod>2025-01-22T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/tags/</loc>
+    <lastmod>2025-01-22T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/</loc>
+    <lastmod>2025-01-22T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/event/250122/</loc>
+    <lastmod>2025-01-22T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/tag/weekly-talk/</loc>
+    <lastmod>2025-01-22T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/author/wenjia-ye/</loc>
+    <lastmod>2025-01-22T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/post/</loc>
+    <lastmod>2025-01-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/post/25-01-08-researchaward-suyang/</loc>
+    <lastmod>2025-01-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/event/241126/</loc>
     <lastmod>2024-11-26T15:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nus-test.github.io/tags/</loc>
-    <lastmod>2024-11-26T15:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://nus-test.github.io/author/tongjun-zhang/</loc>
-    <lastmod>2024-11-26T15:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/</loc>
-    <lastmod>2024-11-26T15:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/tag/weekly-talk/</loc>
     <lastmod>2024-11-26T15:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/event/241112/</loc>
@@ -32,9 +44,6 @@
   </url><url>
     <loc>https://nus-test.github.io/author/mehtab-zafar/</loc>
     <lastmod>2024-11-12T15:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/post/</loc>
-    <lastmod>2024-11-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/post/24-11-12-singapore-open-research-award/</loc>
     <lastmod>2024-11-12T00:00:00+00:00</lastmod>
@@ -517,8 +526,6 @@
     <loc>https://nus-test.github.io/author/tan-ming-wei/</loc>
   </url><url>
     <loc>https://nus-test.github.io/author/tiancheng-xing/</loc>
-  </url><url>
-    <loc>https://nus-test.github.io/author/wenjia-ye/</loc>
   </url><url>
     <loc>https://nus-test.github.io/author/wong-kok-rui/</loc>
   </url>
