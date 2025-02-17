@@ -14,7 +14,7 @@ organizations:
     url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Zhaokun is a visiting research scholar in TEST Lab. He was a master student at [DBHammer Lab](https://dbhammer.github.io) at East China Normal University. 
+bio: Zhaokun is a visiting research scholar in TEST Lab. 
 
 interests:
 #- Programming Languages
@@ -57,3 +57,6 @@ user_groups:
   - Master Students
 ---
 
+Zhaokun was a master student at [DBHammer Lab](https://dbhammer.github.io) at East China Normal University, focusing on database testing and benchmarking, query optimization,
+and intersection between DB and SE(DBMS Fuzzing, Formal Verification for DBMS, Query
+Oracle Generation).
