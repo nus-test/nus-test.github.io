@@ -6,7 +6,7 @@ title: Zhaokun Xiang
 superuser: false
 
 # Role/position
-role: Visiting Research Scholar
+role: Visiting Scholar
 
 # Organizations/Affiliations
 organizations:
@@ -14,7 +14,7 @@ organizations:
     url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Zhaokun is a visiting research scholar in TEST Lab. 
+bio: Zhaokun is a visiting scholar in TEST Lab. 
 
 interests:
 #- Programming Languages
@@ -58,5 +58,5 @@ user_groups:
 ---
 
 Zhaokun was a master student at [DBHammer Lab](https://dbhammer.github.io) at East China Normal University, focusing on database testing and benchmarking, query optimization,
-and intersection between DB and SE(DBMS Fuzzing, Formal Verification for DBMS, Query
+and intersection between DB and SE(DBMS Fuzzing and Verification, Query
 Oracle Generation).
