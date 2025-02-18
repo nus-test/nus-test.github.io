@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/post/</link>
       <atom:link href="https://nus-test.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Latest News</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 08 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Latest News</title>
       <link>https://nus-test.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Our paper &#34;On the Mistaken Assumption of Interchangeable Deep Reinforcement Learning Implementations&#34; was accepted at ICSE &#39;25!</title>
+      <link>https://nus-test.github.io/post/10-02-25-icse25-mistaken-assumption/</link>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/post/10-02-25-icse25-mistaken-assumption/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Suyang Zhong received a &#34;Research Achievement Award&#34; from School of Computing!</title>

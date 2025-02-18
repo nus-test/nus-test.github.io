@@ -5,7 +5,7 @@
     <link>https://nus-test.github.io/</link>
       <atom:link href="https://nus-test.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Trustworthy Engineering of Software Technologies (TEST) Lab</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 12 Feb 2025 14:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Trustworthy Engineering of Software Technologies (TEST) Lab</title>
@@ -5603,10 +5603,26 @@ Found by: ShuxinLi
     </item>
     
     <item>
+      <title>On the Mistaken Assumption of Interchangeable Deep Reinforcement Learning Implementations</title>
+      <link>https://nus-test.github.io/publication/2025-icse-mistaken-assumption/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2025-icse-mistaken-assumption/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Efficient and Scalable Distributed LLM Training: Hiding Communication Overhead</title>
       <link>https://nus-test.github.io/event/250212/</link>
       <pubDate>Wed, 12 Feb 2025 14:00:00 +0000</pubDate>
       <guid>https://nus-test.github.io/event/250212/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Our paper &#34;On the Mistaken Assumption of Interchangeable Deep Reinforcement Learning Implementations&#34; was accepted at ICSE &#39;25!</title>
+      <link>https://nus-test.github.io/post/10-02-25-icse25-mistaken-assumption/</link>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/post/10-02-25-icse25-mistaken-assumption/</guid>
       <description></description>
     </item>
     
