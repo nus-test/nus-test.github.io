@@ -39,19 +39,25 @@
     <loc>https://nus-test.github.io/author/yan-xiao/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://nus-test.github.io/event/250219/</loc>
+    <lastmod>2025-02-19T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/event/</loc>
+    <lastmod>2025-02-19T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/tags/</loc>
+    <lastmod>2025-02-19T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/tag/weekly-talk/</loc>
+    <lastmod>2025-02-19T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/author/zhaokun-xiang/</loc>
+    <lastmod>2025-02-19T14:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://nus-test.github.io/author/chaoyi-ruan/</loc>
     <lastmod>2025-02-12T14:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/event/250212/</loc>
-    <lastmod>2025-02-12T14:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/event/</loc>
-    <lastmod>2025-02-12T14:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/tags/</loc>
-    <lastmod>2025-02-12T14:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/tag/weekly-talk/</loc>
     <lastmod>2025-02-12T14:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/post/</loc>
@@ -549,7 +555,5 @@
     <loc>https://nus-test.github.io/author/tiancheng-xing/</loc>
   </url><url>
     <loc>https://nus-test.github.io/author/wong-kok-rui/</loc>
-  </url><url>
-    <loc>https://nus-test.github.io/author/zhaokun-xiang/</loc>
   </url>
 </urlset>

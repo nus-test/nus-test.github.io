@@ -1,0 +1,1162 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.2.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Manuel Rigger" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Query engines are the cornerstone of any relational databases, including query optimizers and query executors. It is imperative for database developers to be equipped with a tool to detect the query execution bug and evaluate the query optimizer quality during rapid iterative development phases. We propose a testing framework for query (especially join) execution verification, cardinality estimation benchmarking, and join order selection evaluation. Our core components are a data and schema generator, a complex and effective join query generator, as well as an exact cardinality and join oracle generator. In the data and schema generator, we propose a PK-driven deterministic data generation mechanism which not only compresses the entire database in a memory-saving way via mathematical relationships but also enables our tool to be aware of data and orchestrate data meaningfully. We can generate large-scale data with customizable skewness and a complex schema with rich joinable key sets, providing an ample search space for diverse join generation. For the join query generation, we implement a complex join template generator which covers intricate join graphs including chain join, star join, tree join, cycle query, and other complex join graphs. The biggest obstacle preventing existing database fuzzers from generating massive joins is to ensure their meaningfulness. To address it, we propose a synergy-aware and result-guided query parameter inference method to quantify and infer the sample spaces for query parameters, guaranteeing the effectiveness of complex join queries. In terms of the exact cardinality and join oracle generation, we formulate the Join Query Processing as the Constraint Satisfaction Problem (CSP) and build a true cardinality and join oracle generator on top of SMT solvers, providing a formal, provable, and highly reliable solution for generating exact cardinality and join ground-truth results in a self-inferable way. Our tool has been collaborating with many famous database vendors such as OceanBase, demonstrating its effectiveness by evaluating it on many open-sourced databases regarding cardinality estimation benchmarking, join order performance diagnostics, and logic bug detection." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://nus-test.github.io/event/250219/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+
+    
+    
+    
+      
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.299c20016eab2ddaf829d17ab5a7213c.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_huf39aebee443421be528cbdbb4c78ede7_7416_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_huf39aebee443421be528cbdbb4c78ede7_7416_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://nus-test.github.io/event/250219/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+    <meta property="twitter:site" content="@test_nus" />
+    <meta property="twitter:creator" content="@test_nus" />
+  
+  <meta property="og:site_name" content="Trustworthy Engineering of Software Technologies (TEST) Lab" />
+  <meta property="og:url" content="https://nus-test.github.io/event/250219/" />
+  <meta property="og:title" content="A Benchmark Harness for Query Execution Correctness Verification and Query Optimizer Evaluation of Database Systems | Trustworthy Engineering of Software Technologies (TEST) Lab" />
+  <meta property="og:description" content="Query engines are the cornerstone of any relational databases, including query optimizers and query executors. It is imperative for database developers to be equipped with a tool to detect the query execution bug and evaluate the query optimizer quality during rapid iterative development phases. We propose a testing framework for query (especially join) execution verification, cardinality estimation benchmarking, and join order selection evaluation. Our core components are a data and schema generator, a complex and effective join query generator, as well as an exact cardinality and join oracle generator. In the data and schema generator, we propose a PK-driven deterministic data generation mechanism which not only compresses the entire database in a memory-saving way via mathematical relationships but also enables our tool to be aware of data and orchestrate data meaningfully. We can generate large-scale data with customizable skewness and a complex schema with rich joinable key sets, providing an ample search space for diverse join generation. For the join query generation, we implement a complex join template generator which covers intricate join graphs including chain join, star join, tree join, cycle query, and other complex join graphs. The biggest obstacle preventing existing database fuzzers from generating massive joins is to ensure their meaningfulness. To address it, we propose a synergy-aware and result-guided query parameter inference method to quantify and infer the sample spaces for query parameters, guaranteeing the effectiveness of complex join queries. In terms of the exact cardinality and join oracle generation, we formulate the Join Query Processing as the Constraint Satisfaction Problem (CSP) and build a true cardinality and join oracle generator on top of SMT solvers, providing a formal, provable, and highly reliable solution for generating exact cardinality and join ground-truth results in a self-inferable way. Our tool has been collaborating with many famous database vendors such as OceanBase, demonstrating its effectiveness by evaluating it on many open-sourced databases regarding cardinality estimation benchmarking, join order performance diagnostics, and logic bug detection." /><meta property="og:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" />
+    <meta property="twitter:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2017-01-01T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2025-02-19T14:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+    
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://nus-test.github.io/event/250219/"
+  },
+  "name": "A Benchmark Harness for Query Execution Correctness Verification and Query Optimizer Evaluation of Database Systems",
+  
+  "location": {
+    "@type": "Place",
+    "name": "COM3-B1-15 - Meeting Rm 92",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "",
+      "addressLocality": "",
+      "postalCode": "",
+      "addressRegion": "",
+      "addressCountry": "Singapore"
+    }
+    
+  },
+  
+  
+  "startDate": "2025-02-19T14:00:00Z",
+  
+  "endDate": "2025-02-19T15:00:00Z",
+  
+  
+  "performer": {
+    "@type": "Person",
+    "name": "Zhaokun Xiang"
+  },
+  
+  "description": "Query engines are the cornerstone of any relational databases, including query optimizers and query executors. It is imperative for database developers to be equipped with a tool to detect the query execution bug and evaluate the query optimizer quality during rapid iterative development phases. We propose a testing framework for query (especially join) execution verification, cardinality estimation benchmarking, and join order selection evaluation. Our core components are a data and schema generator, a complex and effective join query generator, as well as an exact cardinality and join oracle generator. In the data and schema generator, we propose a PK-driven deterministic data generation mechanism which not only compresses the entire database in a memory-saving way via mathematical relationships but also enables our tool to be aware of data and orchestrate data meaningfully. We can generate large-scale data with customizable skewness and a complex schema with rich joinable key sets, providing an ample search space for diverse join generation. For the join query generation, we implement a complex join template generator which covers intricate join graphs including chain join, star join, tree join, cycle query, and other complex join graphs. The biggest obstacle preventing existing database fuzzers from generating massive joins is to ensure their meaningfulness. To address it, we propose a synergy-aware and result-guided query parameter inference method to quantify and infer the sample spaces for query parameters, guaranteeing the effectiveness of complex join queries. In terms of the exact cardinality and join oracle generation, we formulate the Join Query Processing as the Constraint Satisfaction Problem (CSP) and build a true cardinality and join oracle generator on top of SMT solvers, providing a formal, provable, and highly reliable solution for generating exact cardinality and join ground-truth results in a self-inferable way. Our tool has been collaborating with many famous database vendors such as OceanBase, demonstrating its effectiveness by evaluating it on many open-sourced databases regarding cardinality estimation benchmarking, join order performance diagnostics, and logic bug detection."
+}
+</script>
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>A Benchmark Harness for Query Execution Correctness Verification and Query Optimizer Evaluation of Database Systems | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="cd5543e6296451a8a87b4573400f308e" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.5c87d484a568cb9870aa36d295c02167.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/"><img src="/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_0x70_resize_lanczos_3.png" alt="Trustworthy Engineering of Software Technologies (TEST) Lab"></a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/"><img src="/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_0x70_resize_lanczos_3.png" alt="Trustworthy Engineering of Software Technologies (TEST) Lab"></a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/people"><span>People</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/project"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/publication"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/bugs"><span>Found Bugs</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/positions"><span>Openings</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/event"><span>Seminars</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>A Benchmark Harness for Query Execution Correctness Verification and Query Optimizer Evaluation of Database Systems</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      <a href="/author/zhaokun-xiang/">Zhaokun Xiang</a></span>
+  </div>
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+      <h3>Abstract</h3>
+      <p class="pub-abstract">Query engines are the cornerstone of any relational databases, including query optimizers and query executors. It is imperative for database developers to be equipped with a tool to detect the query execution bug and evaluate the query optimizer quality during rapid iterative development phases. We propose a testing framework for query (especially join) execution verification, cardinality estimation benchmarking, and join order selection evaluation. Our core components are a data and schema generator, a complex and effective join query generator, as well as an exact cardinality and join oracle generator. In the data and schema generator, we propose a PK-driven deterministic data generation mechanism which not only compresses the entire database in a memory-saving way via mathematical relationships but also enables our tool to be aware of data and orchestrate data meaningfully. We can generate large-scale data with customizable skewness and a complex schema with rich joinable key sets, providing an ample search space for diverse join generation. For the join query generation, we implement a complex join template generator which covers intricate join graphs including chain join, star join, tree join, cycle query, and other complex join graphs. The biggest obstacle preventing existing database fuzzers from generating massive joins is to ensure their meaningfulness. To address it, we propose a synergy-aware and result-guided query parameter inference method to quantify and infer the sample spaces for query parameters, guaranteeing the effectiveness of complex join queries. In terms of the exact cardinality and join oracle generation, we formulate the Join Query Processing as the Constraint Satisfaction Problem (CSP) and build a true cardinality and join oracle generator on top of SMT solvers, providing a formal, provable, and highly reliable solution for generating exact cardinality and join ground-truth results in a self-inferable way. Our tool has been collaborating with many famous database vendors such as OceanBase, demonstrating its effectiveness by evaluating it on many open-sourced databases regarding cardinality estimation benchmarking, join order performance diagnostics, and logic bug detection.</p>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9">
+            Feb 19, 2025 2:00 PM &mdash; 3:00 PM
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-9">
+            
+            Weekly Talk
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Location</div>
+          <div class="col-12 col-md-9">COM3-B1-15 - Meeting Rm 92</div>
+          
+            <div class="col-md-3"></div>
+            <div class="col-12 col-md-9"></div>
+          
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+      
+    </div>
+
+    
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/weekly-talk/">Weekly Talk</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://nus-test.github.io/event/250219/&amp;text=A%20Benchmark%20Harness%20for%20Query%20Execution%20Correctness%20Verification%20and%20Query%20Optimizer%20Evaluation%20of%20Database%20Systems" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://nus-test.github.io/event/250219/&amp;t=A%20Benchmark%20Harness%20for%20Query%20Execution%20Correctness%20Verification%20and%20Query%20Optimizer%20Evaluation%20of%20Database%20Systems" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=A%20Benchmark%20Harness%20for%20Query%20Execution%20Correctness%20Verification%20and%20Query%20Optimizer%20Evaluation%20of%20Database%20Systems&amp;body=https://nus-test.github.io/event/250219/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://nus-test.github.io/event/250219/&amp;title=A%20Benchmark%20Harness%20for%20Query%20Execution%20Correctness%20Verification%20and%20Query%20Optimizer%20Evaluation%20of%20Database%20Systems" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=A%20Benchmark%20Harness%20for%20Query%20Execution%20Correctness%20Verification%20and%20Query%20Optimizer%20Evaluation%20of%20Database%20Systems%20https://nus-test.github.io/event/250219/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://nus-test.github.io/event/250219/&amp;title=A%20Benchmark%20Harness%20for%20Query%20Execution%20Correctness%20Verification%20and%20Query%20Optimizer%20Evaluation%20of%20Database%20Systems" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/zhaokun-xiang/"><img class="avatar mr-3 avatar-circle" src="/author/zhaokun-xiang/avatar_hu1795714fc3799ace4a047a16f9a6f44d_205597_270x270_fill_q75_lanczos_center.jpg" alt="Zhaokun Xiang"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/zhaokun-xiang/">Zhaokun Xiang</a></h5>
+      <h6 class="card-subtitle">Visiting Scholar</h6>
+      <p class="card-text">Zhaokun is a visiting scholar in TEST Lab.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:t0935500@u.nus.edu" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/SilvaXiang" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.d3e42e2fc13a6f2096e119f73470f0b6.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>
