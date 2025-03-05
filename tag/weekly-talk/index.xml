@@ -5,12 +5,28 @@
     <link>https://nus-test.github.io/tag/weekly-talk/</link>
       <atom:link href="https://nus-test.github.io/tag/weekly-talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Weekly Talk</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 19 Feb 2025 14:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 05 Mar 2025 14:30:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Weekly Talk</title>
       <link>https://nus-test.github.io/tag/weekly-talk/</link>
     </image>
+    
+    <item>
+      <title>Automatic Differential Testing of the PHP Interpreter</title>
+      <link>https://nus-test.github.io/event/250305_2/</link>
+      <pubDate>Wed, 05 Mar 2025 14:30:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/250305_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fuzzing the PHP Interpreter via Dataflow Fusion</title>
+      <link>https://nus-test.github.io/event/250305/</link>
+      <pubDate>Wed, 05 Mar 2025 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/250305/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Benchmark Harness for Query Execution Correctness Verification and Query Optimizer Evaluation of Database Systems</title>

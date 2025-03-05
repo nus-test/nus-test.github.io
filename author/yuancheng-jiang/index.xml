@@ -5,12 +5,28 @@
     <link>https://nus-test.github.io/author/yuancheng-jiang/</link>
       <atom:link href="https://nus-test.github.io/author/yuancheng-jiang/index.xml" rel="self" type="application/rss+xml" />
     <description>Yuancheng Jiang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 20 Aug 2024 15:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 05 Mar 2025 14:30:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/author/yuancheng-jiang/avatar_huebddf8bdd7c4fd3d545768d2dee146a2_560375_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Yuancheng Jiang</title>
       <link>https://nus-test.github.io/author/yuancheng-jiang/</link>
     </image>
+    
+    <item>
+      <title>Automatic Differential Testing of the PHP Interpreter</title>
+      <link>https://nus-test.github.io/event/250305_2/</link>
+      <pubDate>Wed, 05 Mar 2025 14:30:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/250305_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fuzzing the PHP Interpreter via Dataflow Fusion</title>
+      <link>https://nus-test.github.io/event/250305/</link>
+      <pubDate>Wed, 05 Mar 2025 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/250305/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Automatic Uncovering Memory Errors in the PHP Engine via Dataflow Fusion and Mutation</title>
