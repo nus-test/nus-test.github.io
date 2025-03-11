@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/tag/weekly-talk/</link>
       <atom:link href="https://nus-test.github.io/tag/weekly-talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Weekly Talk</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 05 Mar 2025 14:30:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 11 Mar 2025 14:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Weekly Talk</title>
       <link>https://nus-test.github.io/tag/weekly-talk/</link>
     </image>
+    
+    <item>
+      <title>Translating C To Rust: Lessons from a User Study</title>
+      <link>https://nus-test.github.io/event/250311/</link>
+      <pubDate>Tue, 11 Mar 2025 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/250311/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Automatic Differential Testing of the PHP Interpreter</title>
