@@ -5611,6 +5611,31 @@ Found by: ShuxinLi
     </item>
     
     <item>
+      <title>Our paper &#34;Towards a Unified Query Plan Representation&#34; was accepted at ICDE 2025. Check the [project page](https://nus-test.github.io/uplan/) for more details.</title>
+      <link>https://nus-test.github.io/post/25-03-27-icde-uplan/</link>
+      <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/post/25-03-27-icde-uplan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards a Unified Query Plan Representation</title>
+      <link>https://nus-test.github.io/publication/2025-icde-uplan/</link>
+      <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2025-icde-uplan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Unified Query Plan Representation</title>
+      <link>https://nus-test.github.io/project/uplan/</link>
+      <pubDate>Thu, 27 Mar 2025 00:41:03 +0800</pubDate>
+      <guid>https://nus-test.github.io/project/uplan/</guid>
+      <description>&lt;p&gt;An exploratory case study of various query plan representations.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>NeurBench: Benchmarking Learned Database Components with Data and Workload Drift Modeling</title>
       <link>https://nus-test.github.io/event/250326/</link>
       <pubDate>Wed, 26 Mar 2025 14:00:00 +0000</pubDate>

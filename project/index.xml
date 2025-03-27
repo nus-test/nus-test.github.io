@@ -5,12 +5,21 @@
     <link>https://nus-test.github.io/project/</link>
       <atom:link href="https://nus-test.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 15 Oct 2024 00:41:03 +0800</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 27 Mar 2025 00:41:03 +0800</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Projects</title>
       <link>https://nus-test.github.io/project/</link>
     </image>
+    
+    <item>
+      <title>A Unified Query Plan Representation</title>
+      <link>https://nus-test.github.io/project/uplan/</link>
+      <pubDate>Thu, 27 Mar 2025 00:41:03 +0800</pubDate>
+      <guid>https://nus-test.github.io/project/uplan/</guid>
+      <description>&lt;p&gt;An exploratory case study of various query plan representations.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Spatter</title>

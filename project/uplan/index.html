@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="The TEST Lab at NUS works on Software Engineering, Systems, and Programming Languages." />
+  <meta name="description" content="An exploratory case study of various query plan representations." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://nus-test.github.io/publication-type/1/" />
+  <link rel="alternate" hreflang="en-us" href="https://nus-test.github.io/project/uplan/" />
 
   
 
@@ -251,8 +251,6 @@
   
 
   
-    <link rel="alternate" href="/publication-type/1/index.xml" type="application/rss+xml" title="Trustworthy Engineering of Software Technologies (TEST) Lab" />
-  
 
   
     <link rel="manifest" href="/index.webmanifest" />
@@ -261,7 +259,7 @@
   <link rel="icon" type="image/png" href="/media/icon_huf39aebee443421be528cbdbb4c78ede7_7416_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_huf39aebee443421be528cbdbb4c78ede7_7416_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://nus-test.github.io/publication-type/1/" />
+  <link rel="canonical" href="https://nus-test.github.io/project/uplan/" />
 
   
   
@@ -281,33 +279,80 @@
     <meta property="twitter:creator" content="@test_nus" />
   
   <meta property="og:site_name" content="Trustworthy Engineering of Software Technologies (TEST) Lab" />
-  <meta property="og:url" content="https://nus-test.github.io/publication-type/1/" />
-  <meta property="og:title" content="1 | Trustworthy Engineering of Software Technologies (TEST) Lab" />
-  <meta property="og:description" content="The TEST Lab at NUS works on Software Engineering, Systems, and Programming Languages." /><meta property="og:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" />
+  <meta property="og:url" content="https://nus-test.github.io/project/uplan/" />
+  <meta property="og:title" content="A Unified Query Plan Representation | Trustworthy Engineering of Software Technologies (TEST) Lab" />
+  <meta property="og:description" content="An exploratory case study of various query plan representations." /><meta property="og:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" />
     <meta property="twitter:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2025-05-01T00:00:00&#43;00:00" />
+      <meta
+        property="article:published_time"
+        content="2025-03-27T00:41:03&#43;08:00"
+      />
     
+    <meta property="article:modified_time" content="2025-03-27T00:41:03&#43;08:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://nus-test.github.io/project/uplan/"
+  },
+  "headline": "A Unified Query Plan Representation",
+  
+  "datePublished": "2025-03-27T00:41:03+08:00",
+  "dateModified": "2025-03-27T00:41:03+08:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Manuel Rigger"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Trustworthy Engineering of Software Technologies (TEST) Lab",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_192x192_fit_lanczos_3.png"
+    }
+  },
+  "description": "An exploratory case study of various query plan representations."
+}
+</script>
+
+  
+
+  
+
   
 
   
 
 
 
-  
-
-  
 
 
-
-
-
-  <title>1 | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+  <title>A Unified Query Plan Representation | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   "  >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="46b727f91e66212206b656911a4414ac" >
 
   
   
@@ -621,162 +666,374 @@
   </div>
 
   <div class="page-body">
+    <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>A Unified Query Plan Representation</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Mar 27, 2025
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
     
 
 
 
 
-
-
-
-
-
-
-
-
+<div class="btn-links mb-3">
   
-
+  <a class="btn btn-outline-primary my-1" href="https://nus-test.github.io/uplan/" target="_blank" rel="noopener">Go to Project Site</a>
   
   
+
+
+
+
+
+
+
+
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1>1</h1>
 
-  
+
+
+<a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/pdf/2408.07857v2" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/2025-icse-mistaken-assumption/" >On the Mistaken Assumption of Interchangeable Deep Reinforcement Learning Implementations</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/2025-icde-uplan/" >Towards a Unified Query Plan Representation</a></h2>
-      <div class="article-style">
-        
-          In database systems, a query plan is a series of concrete internal steps to execute a query. Multiple testing approaches utilize query plans for finding bugs. However, query plans are represented in a database-specific manner, so implementing these …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/2024-issta-tex-inconsistencies/" >Inconsistencies in TeX-produced Documents</a></h2>
-      <div class="article-style">
-        
-          TeX is a widely-used typesetting system adopted by most publishers and professional societies. While TeX is responsible for generating a significant number of documents, irregularities in the TeX ecosystem may produce inconsistent documents. These …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/2024-issta-build-errors/" >Detecting Build Dependency Errors in Incremental Builds</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/2024-eurosys-certificate/" >Validating Database System Isolation Level Implementations with Version Certificate Recovery</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/2024-oopsla-datalog-testing/" >Finding Cross-rule Optimization Bugs in Datalog Engines</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/2024-icse-xml-testing/" >Finding XPath Bugs in XML Document Processors via Differential Testing</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/2024-icse-gdbms-testing/" >Detecting Logic Bugs in Graph Database Management Systems via Injective and Surjective Graph Pattern Transformation</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/2023-icse-qpg/" >Testing Database Engines via Query Plan Guidance</a></h2>
-      <div class="article-style">
-        
-          Database systems are widely used to store and query data. Test oracles have been proposed to find logic bugs in such systems, that is, bugs that cause the database system to compute an incorrect result. To realize a fully automated testing approach, …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/2023-issta-gdbmeter/" >Testing Graph Database Engines via Query Partitioning</a></h2>
-      <div class="article-style">
-        
-          Graph Database Management Systems (GDBMSs) store data as graphs and allow the efficient querying of nodes and their relationships. Logic bugs are bugs that cause a GDBMS to return an incorrect result for a given query (e.g., by returning incorrect …
-        
-      </div>
-    </div>
-  
+    <div class="article-style">
+      <p>An exploratory case study of various query plan representations.</p>
 
-  
-<nav>
-  <ul class="pagination justify-content-center">
+    </div>
+
     
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
     
-    <li class="page-item"><a class="page-link" href="/publication-type/1/page/2/">&raquo;</a></li>
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://nus-test.github.io/project/uplan/&amp;text=A%20Unified%20Query%20Plan%20Representation" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://nus-test.github.io/project/uplan/&amp;t=A%20Unified%20Query%20Plan%20Representation" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=A%20Unified%20Query%20Plan%20Representation&amp;body=https://nus-test.github.io/project/uplan/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://nus-test.github.io/project/uplan/&amp;title=A%20Unified%20Query%20Plan%20Representation" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=A%20Unified%20Query%20Plan%20Representation%20https://nus-test.github.io/project/uplan/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://nus-test.github.io/project/uplan/&amp;title=A%20Unified%20Query%20Plan%20Representation" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
     
   </ul>
-</nav>
-
-
 </div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/manuel-rigger/"><img class="avatar mr-3 avatar-circle" src="/author/manuel-rigger/avatar_hu80c0f478b5e05bba3f8a245bca9d50f5_225951_270x270_fill_q75_lanczos_center.jpg" alt="Manuel Rigger"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/manuel-rigger/">Manuel Rigger</a></h5>
+      <h6 class="card-subtitle">Faculty</h6>
+      <p class="card-text">Manuel is an Assistant Professor and leads the group.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:rigger@nus.edu.sg" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/RiggerManuel" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=yRsLClYAAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/mrigger" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.youtube.com/channel/UCbgdRdZ0_-Blzdaudrj3Jrw" target="_blank" rel="noopener">
+        <i class="fab fa-youtube"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
   </div>
 
   <div class="page-footer">

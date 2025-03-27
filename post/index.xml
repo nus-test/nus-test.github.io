@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/post/</link>
       <atom:link href="https://nus-test.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Latest News</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 27 Mar 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Latest News</title>
       <link>https://nus-test.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Our paper &#34;Towards a Unified Query Plan Representation&#34; was accepted at ICDE 2025. Check the [project page](https://nus-test.github.io/uplan/) for more details.</title>
+      <link>https://nus-test.github.io/post/25-03-27-icde-uplan/</link>
+      <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/post/25-03-27-icde-uplan/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Our paper &#34;On the Mistaken Assumption of Interchangeable Deep Reinforcement Learning Implementations&#34; was accepted at ICSE &#39;25!</title>
