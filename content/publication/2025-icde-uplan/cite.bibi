@@ -1,0 +1,7 @@
+@inproceedings{uplan,
+  title={Towards a Unified Query Plan Representation},
+  author={Ba, Jinsheng and Rigger, Manuel},
+  booktitle={2025 IEEE 41th International Conference on Data Engineering (ICDE)},
+  year={2025},
+  organization={IEEE}
+}
