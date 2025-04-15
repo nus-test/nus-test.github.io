@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/author/emily-ong/</link>
       <atom:link href="https://nus-test.github.io/author/emily-ong/index.xml" rel="self" type="application/rss+xml" />
     <description>Emily Ong</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 16 Apr 2025 14:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/author/emily-ong/avatar_hufd416342a488e23b8090aac4c1f6d3b4_75665_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Emily Ong</title>
       <link>https://nus-test.github.io/author/emily-ong/</link>
     </image>
+    
+    <item>
+      <title>Siloso: Finding Logic Bugs in RDBMS via Dialect-Adaptable Reference Engine Construction</title>
+      <link>https://nus-test.github.io/event/250416/</link>
+      <pubDate>Wed, 16 Apr 2025 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/250416/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

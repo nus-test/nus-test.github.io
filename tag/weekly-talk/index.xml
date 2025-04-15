@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/tag/weekly-talk/</link>
       <atom:link href="https://nus-test.github.io/tag/weekly-talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Weekly Talk</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 09 Apr 2025 14:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 16 Apr 2025 14:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Weekly Talk</title>
       <link>https://nus-test.github.io/tag/weekly-talk/</link>
     </image>
+    
+    <item>
+      <title>Siloso: Finding Logic Bugs in RDBMS via Dialect-Adaptable Reference Engine Construction</title>
+      <link>https://nus-test.github.io/event/250416/</link>
+      <pubDate>Wed, 16 Apr 2025 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/250416/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Paper Share - DOVE: Diagnosis-driven SLO Violation Detection</title>
