@@ -6,7 +6,7 @@ title: Emily Ong
 superuser: false
 
 # Role/position
-role: Undergraduate
+role: Undergraduate Student
 
 # Organizations/Affiliations
 organizations:
@@ -14,7 +14,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Working on automated testing tools for databases.
+bio: Emily is working on automated testing tools for databases.
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -31,11 +31,10 @@ social:
   icon_pack: fab
   link: https://github.com/EmilyOng
 
-# Highlight the author in author lists? (true/false)
-highlight_name: true
-
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Undergraduate Students
 ---
+
+Emily is an undergraduate at the National University of Singapore working on automated testing tools for databases.
