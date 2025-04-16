@@ -71,4 +71,4 @@ user_groups:
 
 <!-- Rajdeep is currently pursuing a Ph.D. in Computer Science at [NUS](https://nus.edu.sg/), where he also completed both his Master's in Computer Science and Bachelor's in Computer Engineering. He currently serves as a Graduate Tutor at [NUS](https://nus.edu.sg/), teaching CS4218 Software Testing. His research focuses on SE4AI, Software Testing, and Reinforcement Learning. -->
 
-Find more information at [https://rajdeepsh.github.io/](https://rajdeepsh.github.io/).
+Find more information about Rajdeep at [https://rajdeepsh.github.io/](https://rajdeepsh.github.io/).
