@@ -1,11 +1,11 @@
 ---
 title: "On the Mistaken Assumption of Interchangeable Deep Reinforcement Learning Implementations"
 authors:
-- Rajdeep Sh
-- Yan Xiao
-- Xiaochun Cao
-- Jin Song Dong
-- Manuel Rigger
+  - Rajdeep Sh
+  - Yan Xiao
+  - Xiaochun Cao
+  - Jin Song Dong
+  - Manuel Rigger
 date: "2025-05-01T00:00:00Z"
 doi: ""
 
@@ -33,8 +33,8 @@ publication_short: In *ICSE 2025*
 #links:
 #- name: Custom Link
 #  url: http://example.org
-# url_pdf: https://dl.acm.org/doi/pdf/10.1145/3597503.3623307
-#url_code: '#'
+url_pdf: https://arxiv.org/pdf/2503.22575
+url_code: https://doi.org/10.5281/zenodo.14249024
 #url_dataset: '#'
 #url_poster: '#'
 #url_project: ''
@@ -43,7 +43,7 @@ publication_short: In *ICSE 2025*
 #url_video: '#'
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 #image:
 #  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
 #  focal_point: ""
@@ -70,6 +70,4 @@ publication_short: In *ICSE 2025*
 #{{% /callout %}}
 
 #Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
-
 ---
-
