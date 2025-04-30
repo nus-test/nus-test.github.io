@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="The TEST Lab at NUS works on Software Engineering, Systems, and Programming Languages." />
+  <meta name="description" content="SQL query rewriting is a core technique used in applications such as optimization, dialect translation, and testing, yet most existing tools remain restricted by dialect-specific parsers. We present SQLFlex, a novel framework that combines grammar-based parsing with LLM-powered segmentation to enable dialect-agnostic query rewriting. Our experiments across ten SQL dialects show that SQLFlex achieves higher correctness and broader applicability than prior tools in tasks including linting, test case reduction, and mutation testing." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://nus-test.github.io/tag/weekly-talk/" />
+  <link rel="alternate" hreflang="en-us" href="https://nus-test.github.io/event/250430/" />
 
   
 
@@ -251,8 +251,6 @@
   
 
   
-    <link rel="alternate" href="/tag/weekly-talk/index.xml" type="application/rss+xml" title="Trustworthy Engineering of Software Technologies (TEST) Lab" />
-  
 
   
     <link rel="manifest" href="/index.webmanifest" />
@@ -261,7 +259,7 @@
   <link rel="icon" type="image/png" href="/media/icon_huf39aebee443421be528cbdbb4c78ede7_7416_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_huf39aebee443421be528cbdbb4c78ede7_7416_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://nus-test.github.io/tag/weekly-talk/" />
+  <link rel="canonical" href="https://nus-test.github.io/event/250430/" />
 
   
   
@@ -281,14 +279,18 @@
     <meta property="twitter:creator" content="@test_nus" />
   
   <meta property="og:site_name" content="Trustworthy Engineering of Software Technologies (TEST) Lab" />
-  <meta property="og:url" content="https://nus-test.github.io/tag/weekly-talk/" />
-  <meta property="og:title" content="Weekly Talk | Trustworthy Engineering of Software Technologies (TEST) Lab" />
-  <meta property="og:description" content="The TEST Lab at NUS works on Software Engineering, Systems, and Programming Languages." /><meta property="og:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" />
+  <meta property="og:url" content="https://nus-test.github.io/event/250430/" />
+  <meta property="og:title" content="Towards Dialect-Agnostic Query Parsing and Rewriting | Trustworthy Engineering of Software Technologies (TEST) Lab" />
+  <meta property="og:description" content="SQL query rewriting is a core technique used in applications such as optimization, dialect translation, and testing, yet most existing tools remain restricted by dialect-specific parsers. We present SQLFlex, a novel framework that combines grammar-based parsing with LLM-powered segmentation to enable dialect-agnostic query rewriting. Our experiments across ten SQL dialects show that SQLFlex achieves higher correctness and broader applicability than prior tools in tasks including linting, test case reduction, and mutation testing." /><meta property="og:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" />
     <meta property="twitter:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2025-04-30T14:00:00&#43;00:00" />
+      <meta
+        property="article:published_time"
+        content="2017-01-01T00:00:00&#43;00:00"
+      />
     
+    <meta property="article:modified_time" content="2025-04-30T14:00:00&#43;00:00">
   
 
   
@@ -296,6 +298,53 @@
 
 
   
+    
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://nus-test.github.io/event/250430/"
+  },
+  "name": "Towards Dialect-Agnostic Query Parsing and Rewriting",
+  
+  "location": {
+    "@type": "Place",
+    "name": "MR25 @ COM3-02-70",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "",
+      "addressLocality": "",
+      "postalCode": "",
+      "addressRegion": "",
+      "addressCountry": "Singapore"
+    }
+    
+  },
+  
+  
+  "startDate": "2025-04-30T14:00:00Z",
+  
+  "endDate": "2025-04-30T14:25:00Z",
+  
+  
+  "performer": {
+    "@type": "Person",
+    "name": "Junwen An"
+  },
+  
+  "description": "SQL query rewriting is a core technique used in applications such as optimization, dialect translation, and testing, yet most existing tools remain restricted by dialect-specific parsers. We present SQLFlex, a novel framework that combines grammar-based parsing with LLM-powered segmentation to enable dialect-agnostic query rewriting. Our experiments across ten SQL dialects show that SQLFlex achieves higher correctness and broader applicability than prior tools in tasks including linting, test case reduction, and mutation testing."
+}
+</script>
+
+  
+
+  
 
   
 
@@ -303,11 +352,11 @@
 
 
 
-  <title>Weekly Talk | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+  <title>Towards Dialect-Agnostic Query Parsing and Rewriting | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   "  >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="6fe825f7f83a70a1964a080c0010d0e8" >
 
   
   
@@ -621,175 +670,347 @@
   </div>
 
   <div class="page-body">
+    <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Towards Dialect-Agnostic Query Parsing and Rewriting</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/junwen-an/">Junwen An</a></span>
+  </div>
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
     
 
 
 
 
-
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-    
-  
-<div class="universal-wrapper pt-3">
-  <h1>Weekly Talk</h1>
-
-  
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  
-  
     
+      <h3>Abstract</h3>
+      <p class="pub-abstract">SQL query rewriting is a core technique used in applications such as optimization, dialect translation, and testing, yet most existing tools remain restricted by dialect-specific parsers. We present SQLFlex, a novel framework that combines grammar-based parsing with LLM-powered segmentation to enable dialect-agnostic query rewriting. Our experiments across ten SQL dialects show that SQLFlex achieves higher correctness and broader applicability than prior tools in tasks including linting, test case reduction, and mutation testing.</p>
     
-    
-    <div>
-      <h2><a href="/event/240820/" >Automatic Uncovering Memory Errors in the PHP Engine via Dataflow Fusion and Mutation</a></h2>
-      <div class="article-style">
-        
-          PHP, a dominant scripting language for web development, powers a vast array of websites, ranging from personal blogs to major platforms. Despite its widespread use and benefits, the PHP runtime, with its extensive codebase written in C, faces …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/event/240813/" >Scaling Automated Database System Testing</a></h2>
-      <div class="article-style">
-        
-          Recently, various automated testing approaches have been proposed that used specialized test oracles to find hundreds of logic bugs in mature, widely-used Database Management Systems (DBMSs). These test oracles require database and query generators, …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/event/240618/" >ViewChecker: A Sound and Complete Checker for View-Serializability in Quadratic Time Complexity</a></h2>
-      <div class="article-style">
-        
-          Atomicity is a crucial correctness criterion for concurrent programs. In multi-threaded programs, executions of procedures are regarded as transactions. These transactions may fail to behave atomically, resulting in transactional atomicity …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/event/240430/" >Detecting Logic Bugs in Database Engines via Equivalent Expression Transformation</a></h2>
-      <div class="article-style">
-        
-          Database management systems (DBMSs) are crucial for storing and fetching data. To improve the reliability of such systems, approaches have been proposed to detect logic bugs that cause DBMSs to process data incorrectly. These approaches manipulate …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/event/240409/" >Inconsistencies in TeX-produced Documents</a></h2>
-      <div class="article-style">
-        
-          TeX is a widely-used typesetting system adopted by most publishers and professional societies due to its versatility and formatting capabilities. While the TeX is responsible for generating a significant amount of documents, irregularities in the TeX …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/event/240402/" >Intelligent Code Analysis and Program Repair in the Era of LLMs</a></h2>
-      <div class="article-style">
-        
-          Code analysis and automatic program repair has been studied for a long time since high-level programming languages such as C language were invented in the 1970s. Traditional rule-based code analysis techniques and template-based automatic program …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/event/240326/" >Detecting and Verifying Unexpected Behaviors in Web Applications using Program Analysis</a></h2>
-      <div class="article-style">
-        
-          In this work, we focus on the automatic detection and verification of unexpected behaviors on the Web. The ultimate goal is to produce an end-to-end automated tool for both detection and verification. We split it into two parts and achieve them stage …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/event/240319/" >CS3213 Lecture - Software Evolution</a></h2>
-      <div class="article-style">
-        
-          A lecture for CS3213 Foundations of Software Engineering
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/event/240312/" >Finding Logic Bugs in Spatial Database Engines via Affine Equivalent Inputs</a></h2>
-      <div class="article-style">
-        
-          Spatial Database Management Systems (SDBMSs) aim to store, manipulate, and retrieve spatial data spatial data. SDBMSs provide spatial data types, spatial indexing, and spatial join methods, which exist as the spatial extensions or spatial build-in …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/event/240305/" >Learning-based Widget Matching for Migrating GUI Test Cases</a></h2>
-      <div class="article-style">
-        
-          GUI test case migration is to migrate GUI test cases from a source app to a target app. The key of test case migration is widget match- ing. Recently, researchers have proposed various approaches by formulating widget matching as a matching task. …
-        
-      </div>
-    </div>
-  
 
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9">
+            Apr 30, 2025 2:00 PM &mdash; 2:25 PM
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-9">
+            
+            Weekly Talk
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Location</div>
+          <div class="col-12 col-md-9">MR25 @ COM3-02-70</div>
+          
+            <div class="col-md-3"></div>
+            <div class="col-12 col-md-9"></div>
+          
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+      
+    </div>
+
+    
+
+
+
+
+<div class="article-tags">
   
-<nav>
-  <ul class="pagination justify-content-center">
+  <a class="badge badge-light" href="/tag/weekly-talk/">Weekly Talk</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
     
-    <li class="page-item"><a class="page-link" href="/tag/weekly-talk/page/2/">&laquo;</a></li>
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://nus-test.github.io/event/250430/&amp;text=Towards%20Dialect-Agnostic%20Query%20Parsing%20and%20Rewriting" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
     
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://nus-test.github.io/event/250430/&amp;t=Towards%20Dialect-Agnostic%20Query%20Parsing%20and%20Rewriting" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
     
-    <li class="page-item"><a class="page-link" href="/tag/weekly-talk/page/4/">&raquo;</a></li>
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Towards%20Dialect-Agnostic%20Query%20Parsing%20and%20Rewriting&amp;body=https://nus-test.github.io/event/250430/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://nus-test.github.io/event/250430/&amp;title=Towards%20Dialect-Agnostic%20Query%20Parsing%20and%20Rewriting" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Towards%20Dialect-Agnostic%20Query%20Parsing%20and%20Rewriting%20https://nus-test.github.io/event/250430/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://nus-test.github.io/event/250430/&amp;title=Towards%20Dialect-Agnostic%20Query%20Parsing%20and%20Rewriting" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
     
   </ul>
-</nav>
+</div>
 
 
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/junwen-an/"><img class="avatar mr-3 avatar-circle" src="/author/junwen-an/avatar_hu66fa1b2152f064be6635137925d03433_131844_270x270_fill_q75_lanczos_center.jpg" alt="Junwen An"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/junwen-an/">Junwen An</a></h5>
+      <h6 class="card-subtitle">Ph.D. Student</h6>
+      <p class="card-text">Junwen An is a Ph.D. student.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:junwenan@u.nus.edu" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://x.com/junwenjesse" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/wanteatfruit" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
 </div>
   </div>
 
