@@ -14,7 +14,7 @@ organizations:
     url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Kabilan is a visiting research scholar in TEST Lab for 8 months.
+bio: Kabilan was a visiting research scholar in the TEST Lab for 8 months.
 
 interests:
 #- Programming Languages
@@ -60,7 +60,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Undergraduate Students
+  - Past Members
 ---
 
 Find more information about Kabilan at [https://kabilan.info](https://kabilan.info).
