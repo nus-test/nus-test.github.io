@@ -5700,6 +5700,15 @@ Found by: ShuxinLi
     </item>
     
     <item>
+      <title>FlowFusion</title>
+      <link>https://nus-test.github.io/project/flowfusion/</link>
+      <pubDate>Tue, 11 Mar 2025 00:41:03 +0800</pubDate>
+      <guid>https://nus-test.github.io/project/flowfusion/</guid>
+      <description>&lt;p&gt;FlowFusion is an automated testing tool that has found more than 300 bugs in the PHP interpreter (see &lt;a href=&#34;https://github.com/php/php-src/issues?q=is%3Aissue%20author%3AYuanchengJiang%20%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/php/php-src/issues?q=is%3Aissue%20author%3AYuanchengJiang%20)&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Automatic Differential Testing of the PHP Interpreter</title>
       <link>https://nus-test.github.io/event/250305_2/</link>
       <pubDate>Wed, 05 Mar 2025 14:30:00 +0000</pubDate>
@@ -5736,6 +5745,14 @@ Found by: ShuxinLi
       <link>https://nus-test.github.io/post/10-02-25-icse25-mistaken-assumption/</link>
       <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://nus-test.github.io/post/10-02-25-icse25-mistaken-assumption/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fuzzing the PHP Interpreter via Dataflow Fusion</title>
+      <link>https://nus-test.github.io/publication/2025-sec-flowfusion/</link>
+      <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2025-sec-flowfusion/</guid>
       <description></description>
     </item>
     

@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/author/jiahao-liu/</link>
       <atom:link href="https://nus-test.github.io/author/jiahao-liu/index.xml" rel="self" type="application/rss+xml" />
     <description>Jiahao Liu</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 24 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 31 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Jiahao Liu</title>
       <link>https://nus-test.github.io/author/jiahao-liu/</link>
     </image>
+    
+    <item>
+      <title>Fuzzing the PHP Interpreter via Dataflow Fusion</title>
+      <link>https://nus-test.github.io/publication/2025-sec-flowfusion/</link>
+      <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2025-sec-flowfusion/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Detecting Logic Bugs in Graph Database Management Systems via Injective and Surjective Graph Pattern Transformation</title>

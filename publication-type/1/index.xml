@@ -29,6 +29,14 @@
     </item>
     
     <item>
+      <title>Fuzzing the PHP Interpreter via Dataflow Fusion</title>
+      <link>https://nus-test.github.io/publication/2025-sec-flowfusion/</link>
+      <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2025-sec-flowfusion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Inconsistencies in TeX-produced Documents</title>
       <link>https://nus-test.github.io/publication/2024-issta-tex-inconsistencies/</link>
       <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
