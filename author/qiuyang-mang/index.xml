@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/author/qiuyang-mang/</link>
       <atom:link href="https://nus-test.github.io/author/qiuyang-mang/index.xml" rel="self" type="application/rss+xml" />
     <description>Qiuyang Mang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 18 Jun 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/author/qiuyang-mang/avatar_hu646805c6aa6239fb44ebd306bc1d884d_212347_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Qiuyang Mang</title>
       <link>https://nus-test.github.io/author/qiuyang-mang/</link>
     </image>
+    
+    <item>
+      <title>Finding Logic Bugs in Graph-processing Systems via Graph-cutting</title>
+      <link>https://nus-test.github.io/publication/2025-sigmod-graphcutting/</link>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2025-sigmod-graphcutting/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Finding Logic Bugs in Spatial Database Engines via Affine Equivalent Inputs</title>
