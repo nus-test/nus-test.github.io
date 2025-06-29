@@ -5,20 +5,12 @@
     <link>https://nus-test.github.io/author/wenjing-deng/</link>
       <atom:link href="https://nus-test.github.io/author/wenjing-deng/index.xml" rel="self" type="application/rss+xml" />
     <description>Wenjing Deng</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 Mar 2024 14:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/author/wenjing-deng/avatar_hub98f5eebdbbcf4883911c8b3e1724aa5_478775_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Wenjing Deng</title>
       <link>https://nus-test.github.io/author/wenjing-deng/</link>
     </image>
-    
-    <item>
-      <title>Finding Logic Bugs in Spatial Database Engines via Affine Equivalent Inputs</title>
-      <link>https://nus-test.github.io/publication/2025-sigmod-spatial-db-testing/</link>
-      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://nus-test.github.io/publication/2025-sigmod-spatial-db-testing/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Finding Logic Bugs in Spatial Database Engines via Affine Equivalent Inputs</title>
