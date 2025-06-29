@@ -5781,6 +5781,14 @@ Found by: ShuxinLi
     </item>
     
     <item>
+      <title>Finding Logic Bugs in Spatial Database Engines via Affine Equivalent Inputs</title>
+      <link>https://nus-test.github.io/publication/2025-sigmod-aei/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2025-sigmod-aei/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>SGL: Deriving Test Case Generators using Domain-Specific Language to Test Database Engines</title>
       <link>https://nus-test.github.io/event/241126/</link>
       <pubDate>Tue, 26 Nov 2024 15:00:00 +0000</pubDate>
@@ -5934,6 +5942,14 @@ Found by: ShuxinLi
       <link>https://nus-test.github.io/publication/2024-issta-tex-inconsistencies/</link>
       <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://nus-test.github.io/publication/2024-issta-tex-inconsistencies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Efficient Build Ordering for Incremental Builds with Multiple Configurations</title>
+      <link>https://nus-test.github.io/publication/2025-fse-buildordering/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2025-fse-buildordering/</guid>
       <description></description>
     </item>
     

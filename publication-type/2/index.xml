@@ -21,6 +21,14 @@
     </item>
     
     <item>
+      <title>Finding Logic Bugs in Spatial Database Engines via Affine Equivalent Inputs</title>
+      <link>https://nus-test.github.io/publication/2025-sigmod-aei/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2025-sigmod-aei/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Constant Optimization Driven Database System Testing</title>
       <link>https://nus-test.github.io/publication/2025-sigmod-coddtest/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>

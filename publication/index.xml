@@ -45,6 +45,14 @@
     </item>
     
     <item>
+      <title>Finding Logic Bugs in Spatial Database Engines via Affine Equivalent Inputs</title>
+      <link>https://nus-test.github.io/publication/2025-sigmod-aei/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2025-sigmod-aei/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Constant Optimization Driven Database System Testing</title>
       <link>https://nus-test.github.io/publication/2025-sigmod-coddtest/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
@@ -65,6 +73,14 @@
       <link>https://nus-test.github.io/publication/2024-issta-tex-inconsistencies/</link>
       <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://nus-test.github.io/publication/2024-issta-tex-inconsistencies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Efficient Build Ordering for Incremental Builds with Multiple Configurations</title>
+      <link>https://nus-test.github.io/publication/2025-fse-buildordering/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2025-fse-buildordering/</guid>
       <description></description>
     </item>
     

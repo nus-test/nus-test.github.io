@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="SQLancer automatically finds bugs in database systems." />
+  <meta name="description" content="Software products have many configurations to meet different environments and diverse needs. Building software with multiple software configurations typically incurs high costs in terms of build time and computing resources. Incremental builds could reuse intermediate artifacts if configuration settings affect only a portion of the build artifacts. The efficiency gains depend on the strategic ordering of the incremental builds as the order influences which build artifacts can be reused. Deriving an efficient order is challenging and an open problem, since it is infeasible to reliably determine the degree of re-use and time savings before an actual build. In this paper, we propose an approach, called BUDDI—BUild Declaration DIstance, for C-based and Make-based projects to derive an efficient order for incremental builds from the static information provided by the build scripts (i.e., Makefile). The core strategy of BUDDI is to measure the distance between the build declarations of configurations and predict the build size of a configuration from the build targets and build commands in each configuration. Since some artifacts could be reused in the subsequent builds if there is a close distance between the build scripts for different configurations. We implemented BUDDI as an automated tool called BuddiPlanner and evaluated it on 20 popular open-source projects, by comparing it to a baseline that randomly selects a build order. The experimental results show that the order created by BuddiPlanner outperforms 96.5% (193/200) of the random build orders in terms of build time and reduces the build time by an average of 305.94s (26%) compared to the random build orders, with a median saving of 64.88s (28%). BuddiPlanner demonstrates its potential to relieve practitioners of excessive build times and computational resource burdens caused by building multiple software configurations." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://nus-test.github.io/project/sqlancer/" />
+  <link rel="alternate" hreflang="en-us" href="https://nus-test.github.io/publication/2025-fse-buildordering/" />
 
   
 
@@ -259,7 +259,7 @@
   <link rel="icon" type="image/png" href="/media/icon_huf39aebee443421be528cbdbb4c78ede7_7416_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_huf39aebee443421be528cbdbb4c78ede7_7416_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://nus-test.github.io/project/sqlancer/" />
+  <link rel="canonical" href="https://nus-test.github.io/publication/2025-fse-buildordering/" />
 
   
   
@@ -270,26 +270,27 @@
   
   
     
+    
   
   
-  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:card" content="summary" />
   
     <meta property="twitter:site" content="@test_nus" />
     <meta property="twitter:creator" content="@test_nus" />
   
   <meta property="og:site_name" content="Trustworthy Engineering of Software Technologies (TEST) Lab" />
-  <meta property="og:url" content="https://nus-test.github.io/project/sqlancer/" />
-  <meta property="og:title" content="SQLancer | Trustworthy Engineering of Software Technologies (TEST) Lab" />
-  <meta property="og:description" content="SQLancer automatically finds bugs in database systems." /><meta property="og:image" content="https://nus-test.github.io/project/sqlancer/featured.png" />
-    <meta property="twitter:image" content="https://nus-test.github.io/project/sqlancer/featured.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:url" content="https://nus-test.github.io/publication/2025-fse-buildordering/" />
+  <meta property="og:title" content="Towards Efficient Build Ordering for Incremental Builds with Multiple Configurations | Trustworthy Engineering of Software Technologies (TEST) Lab" />
+  <meta property="og:description" content="Software products have many configurations to meet different environments and diverse needs. Building software with multiple software configurations typically incurs high costs in terms of build time and computing resources. Incremental builds could reuse intermediate artifacts if configuration settings affect only a portion of the build artifacts. The efficiency gains depend on the strategic ordering of the incremental builds as the order influences which build artifacts can be reused. Deriving an efficient order is challenging and an open problem, since it is infeasible to reliably determine the degree of re-use and time savings before an actual build. In this paper, we propose an approach, called BUDDI—BUild Declaration DIstance, for C-based and Make-based projects to derive an efficient order for incremental builds from the static information provided by the build scripts (i.e., Makefile). The core strategy of BUDDI is to measure the distance between the build declarations of configurations and predict the build size of a configuration from the build targets and build commands in each configuration. Since some artifacts could be reused in the subsequent builds if there is a close distance between the build scripts for different configurations. We implemented BUDDI as an automated tool called BuddiPlanner and evaluated it on 20 popular open-source projects, by comparing it to a baseline that randomly selects a build order. The experimental results show that the order created by BuddiPlanner outperforms 96.5% (193/200) of the random build orders in terms of build time and reduces the build time by an average of 305.94s (26%) compared to the random build orders, with a median saving of 64.88s (28%). BuddiPlanner demonstrates its potential to relieve practitioners of excessive build times and computational resource burdens caused by building multiple software configurations." /><meta property="og:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" />
+    <meta property="twitter:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2023-03-11T00:41:03&#43;08:00"
+        content="2024-07-12T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2023-03-11T00:41:03&#43;08:00">
+    <meta property="article:modified_time" content="2024-07-12T00:00:00&#43;00:00">
   
 
   
@@ -311,20 +312,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://nus-test.github.io/project/sqlancer/"
+    "@id": "https://nus-test.github.io/publication/2025-fse-buildordering/"
   },
-  "headline": "SQLancer",
+  "headline": "Towards Efficient Build Ordering for Incremental Builds with Multiple Configurations",
   
-  "image": [
-    "https://nus-test.github.io/project/sqlancer/featured.png"
-  ],
-  
-  "datePublished": "2023-03-11T00:41:03+08:00",
-  "dateModified": "2023-03-11T00:41:03+08:00",
+  "datePublished": "2024-07-12T00:00:00Z",
+  "dateModified": "2024-07-12T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Manuel Rigger"
+    "name": "Jun Lyu"
   },
   
   "publisher": {
@@ -335,7 +332,7 @@
       "url": "https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_192x192_fit_lanczos_3.png"
     }
   },
-  "description": "SQLancer automatically finds bugs in database systems."
+  "description": "Software products have many configurations to meet different environments and diverse needs. Building software with multiple software configurations typically incurs high costs in terms of build time and computing resources. Incremental builds could reuse intermediate artifacts if configuration settings affect only a portion of the build artifacts. The efficiency gains depend on the strategic ordering of the incremental builds as the order influences which build artifacts can be reused. Deriving an efficient order is challenging and an open problem, since it is infeasible to reliably determine the degree of re-use and time savings before an actual build. In this paper, we propose an approach, called BUDDI—BUild Declaration DIstance, for C-based and Make-based projects to derive an efficient order for incremental builds from the static information provided by the build scripts (i.e., Makefile). The core strategy of BUDDI is to measure the distance between the build declarations of configurations and predict the build size of a configuration from the build targets and build commands in each configuration. Since some artifacts could be reused in the subsequent builds if there is a close distance between the build scripts for different configurations. We implemented BUDDI as an automated tool called BuddiPlanner and evaluated it on 20 popular open-source projects, by comparing it to a baseline that randomly selects a build order. The experimental results show that the order created by BuddiPlanner outperforms 96.5% (193/200) of the random build orders in terms of build time and reduces the build time by an average of 305.94s (26%) compared to the random build orders, with a median saving of 64.88s (28%). BuddiPlanner demonstrates its potential to relieve practitioners of excessive build times and computational resource burdens caused by building multiple software configurations."
 }
 </script>
 
@@ -351,11 +348,11 @@
 
 
 
-  <title>SQLancer | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+  <title>Towards Efficient Build Ordering for Incremental Builds with Multiple Configurations | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="33582b31a80d8bcf969c6da0910f0731" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="a3c6fc22547da56c83f0dafdc42d77fd" >
 
   
   
@@ -669,7 +666,16 @@
   </div>
 
   <div class="page-body">
-    <article class="article article-project">
+    
+
+
+
+
+
+
+
+
+<div class="pub">
 
   
 
@@ -684,30 +690,37 @@
 
 
 
-
-
-
-
-
-
-
+  
 
   
+  
+  
+<div class="article-container pt-3">
+  <h1>Towards Efficient Build Ordering for Incremental Builds with Multiple Configurations</h1>
+
+  
+
   
     
-  
-
-
-<div class="article-container pt-3">
-  <h1>SQLancer</h1>
-
-  
-
-  
 
 
 <div class="article-metadata">
 
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/jun-lyu/">Jun Lyu</a></span>, <span >
+      <a href="/author/shanshan-li/">Shanshan Li</a></span>, <span >
+      <a href="/author/he-zhang/">He Zhang</a></span>, <span >
+      <a href="/author/lanxin-yang/">Lanxin Yang</a></span>, <span >
+      <a href="/author/bohan-liu/">Bohan Liu</a></span>, <span class="author-highlighted">
+      <a href="/author/manuel-rigger/">Manuel Rigger</a></span>
+  </div>
   
   
 
@@ -717,7 +730,7 @@
     
       
     
-    Mar 11, 2023
+    July 2024
   </span>
   
 
@@ -737,65 +750,60 @@
 
 </div>
 
-  
-
-
-
-
-<div class="btn-links mb-3">
-  
-  <a class="btn btn-outline-primary my-1" href="https://github.com/sqlancer/sqlancer" target="_blank" rel="noopener">Go to Project Site</a>
-  
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-
-</div>
-
-
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 217px;">
-  <div style="position: relative">
-    <img src="/project/sqlancer/featured_hu33ad3ab528f8ea3568868b2e4c9e9cb7_68999_720x0_resize_lanczos_3.png" alt="" class="featured-image">
     
-  </div>
+
+
+
+
+
+  
 </div>
 
 
 
   <div class="article-container">
 
-    <div class="article-style">
-      <p>SQLancer automatically finds bugs in database systems.</p>
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Software products have many configurations to meet different environments and diverse needs. Building software with multiple software configurations typically incurs high costs in terms of build time and computing resources. Incremental builds could reuse intermediate artifacts if configuration settings affect only a portion of the build artifacts. The efficiency gains depend on the strategic ordering of the incremental builds as the order influences which build artifacts can be reused. Deriving an efficient order is challenging and an open problem, since it is infeasible to reliably determine the degree of re-use and time savings before an actual build. In this paper, we propose an approach, called BUDDI—BUild Declaration DIstance, for C-based and Make-based projects to derive an efficient order for incremental builds from the static information provided by the build scripts (i.e., Makefile). The core strategy of BUDDI is to measure the distance between the build declarations of configurations and predict the build size of a configuration from the build targets and build commands in each configuration. Since some artifacts could be reused in the subsequent builds if there is a close distance between the build scripts for different configurations. We implemented BUDDI as an automated tool called BuddiPlanner and evaluated it on 20 popular open-source projects, by comparing it to a baseline that randomly selects a build order. The experimental results show that the order created by BuddiPlanner outperforms 96.5% (193/200) of the random build orders in terms of build time and reduces the build time by an average of 305.94s (26%) compared to the random build orders, with a median saving of 64.88s (28%). BuddiPlanner demonstrates its potential to relieve practitioners of excessive build times and computational resource burdens caused by building multiple software configurations.</p>
+    
 
+    
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In <em>Proceedings of the ACM on Software Engineering, Volume 1, Issue FSE</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
 
     
 
@@ -815,7 +823,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://nus-test.github.io/project/sqlancer/&amp;text=SQLancer" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://nus-test.github.io/publication/2025-fse-buildordering/&amp;text=Towards%20Efficient%20Build%20Ordering%20for%20Incremental%20Builds%20with%20Multiple%20Configurations" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -828,7 +836,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://nus-test.github.io/project/sqlancer/&amp;t=SQLancer" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://nus-test.github.io/publication/2025-fse-buildordering/&amp;t=Towards%20Efficient%20Build%20Ordering%20for%20Incremental%20Builds%20with%20Multiple%20Configurations" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -841,7 +849,7 @@
       
       
       <li>
-        <a href="mailto:?subject=SQLancer&amp;body=https://nus-test.github.io/project/sqlancer/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Towards%20Efficient%20Build%20Ordering%20for%20Incremental%20Builds%20with%20Multiple%20Configurations&amp;body=https://nus-test.github.io/publication/2025-fse-buildordering/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -854,7 +862,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://nus-test.github.io/project/sqlancer/&amp;title=SQLancer" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://nus-test.github.io/publication/2025-fse-buildordering/&amp;title=Towards%20Efficient%20Build%20Ordering%20for%20Incremental%20Builds%20with%20Multiple%20Configurations" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -867,7 +875,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=SQLancer%20https://nus-test.github.io/project/sqlancer/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Towards%20Efficient%20Build%20Ordering%20for%20Incremental%20Builds%20with%20Multiple%20Configurations%20https://nus-test.github.io/publication/2025-fse-buildordering/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -880,7 +888,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://nus-test.github.io/project/sqlancer/&amp;title=SQLancer" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://nus-test.github.io/publication/2025-fse-buildordering/&amp;title=Towards%20Efficient%20Build%20Ordering%20for%20Incremental%20Builds%20with%20Multiple%20Configurations" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -900,6 +908,91 @@
 
   
   
+    
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/jun-lyu/"><img class="avatar mr-3 avatar-circle" src="/author/jun-lyu/avatar_hu210d73371147bacbe10cac564978e530_217945_270x270_fill_q75_lanczos_center.jpg" alt="Jun Lyu"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/jun-lyu/">Jun Lyu</a></h5>
+      <h6 class="card-subtitle">Visiting Ph.D. Student</h6>
+      <p class="card-text">Jun Lyu is an Ph.D. student working on software builds.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:lvjun_dnt@outlook.com" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/Meiye-lj" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
 
 
 
@@ -1007,6 +1100,7 @@
   </div>
 
 
+  
 
 
 
@@ -1028,658 +1122,8 @@
 
 
 
-    <div class="project-related-pages content-widget-hr">
-      
-      
-
-      
-      
-      
-
-      
-      
-      
-        <h2>Publications</h2>
-        
-          
-            
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/2025-sigmod-graphcutting/" >Finding Logic Bugs in Graph-processing Systems via Graph-cutting</a>
-    </div>
-
-    
-    <a href="/publication/2025-sigmod-graphcutting/"  class="summary-link">
-      <div class="article-style">
-        Graph-processing systems, including Graph Database Management Systems (GDBMSes) and graph libraries, are designed to analyze and manage …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      <a href="/author/qiuyang-mang/">Qiuyang Mang</a></span>, <span >
-      <a href="/author/jinsheng-ba/">Jinsheng Ba</a></span>, <span >
-      <a href="/author/pinjia-he/">Pinjia He</a></span>, <span class="author-highlighted">
-      <a href="/author/manuel-rigger/">Manuel Rigger</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/sqlancer/">
-    Project
-  </a>
-  
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
   </div>
 </div>
-
-          
-        
-          
-            
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/2025-sigmod-aei/" >Finding Logic Bugs in Spatial Database Engines via Affine Equivalent Inputs</a>
-    </div>
-
-    
-    <a href="/publication/2025-sigmod-aei/"  class="summary-link">
-      <div class="article-style">
-        Spatial Database Management Systems (SDBMSs) aim to store, manipulate, and retrieve spatial data. SDBMSs are employed in various modern …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      <a href="/author/wenjing-deng/">Wenjing Deng</a></span>, <span >
-      <a href="/author/qiuyang-mang/">Qiuyang Mang</a></span>, <span >
-      <a href="/author/chengyu-zhang/">Chengyu Zhang</a></span>, <span class="author-highlighted">
-      <a href="/author/manuel-rigger/">Manuel Rigger</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/sqlancer/">
-    Project
-  </a>
-  
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-          
-        
-          
-            
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/2025-sigmod-coddtest/" >Constant Optimization Driven Database System Testing</a>
-    </div>
-
-    
-    <a href="/publication/2025-sigmod-coddtest/"  class="summary-link">
-      <div class="article-style">
-        Logic bugs are bugs that can cause database management systems (DBMSs) to silently produce incorrect results for given queries. Such …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      <a href="/author/chi-zhang/">Chi Zhang</a></span>, <span class="author-highlighted">
-      <a href="/author/manuel-rigger/">Manuel Rigger</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/sqlancer/">
-    Project
-  </a>
-  
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-          
-        
-          
-            
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/2024-sigmod-dqp/" >Keep It Simple: Testing Databases via Differential Query Plans</a>
-    </div>
-
-    
-    <a href="/publication/2024-sigmod-dqp/"  class="summary-link">
-      <div class="article-style">
-        Query optimizers perform various optimizations, many of which have been proposed to optimize joins. It is pivotal that these …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      <a href="/author/jinsheng-ba/">Jinsheng Ba</a></span>, <span class="author-highlighted">
-      <a href="/author/manuel-rigger/">Manuel Rigger</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://bajinsheng.github.io/assets/pdf/dqp_sigmod24.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/2024-sigmod-dqp/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/sqlancer/">
-    Project
-  </a>
-  
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-          
-        
-          
-            
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/2024-icse-cert/" >CERT: Finding Performance Issues in Database Systems Through the Lens of Cardinality Estimation</a>
-    </div>
-
-    
-    <a href="/publication/2024-icse-cert/"  class="summary-link">
-      <div class="article-style">
-        Database Management Systems (DBMSs) process a given query by creating an execution plan, which is subsequently executed, to compute the …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      <a href="/author/jinsheng-ba/">Jinsheng Ba</a></span>, <span class="author-highlighted">
-      <a href="/author/manuel-rigger/">Manuel Rigger</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2306.00355.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/2024-icse-cert/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/sqlancer/">
-    Project
-  </a>
-  
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-          
-        
-          
-            
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/2023-icse-qpg/" >Testing Database Engines via Query Plan Guidance</a>
-    </div>
-
-    
-    <a href="/publication/2023-icse-qpg/"  class="summary-link">
-      <div class="article-style">
-        Database systems are widely used to store and query data. Test oracles have been proposed to find logic bugs in such systems, that is, …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      <a href="/author/jinsheng-ba/">Jinsheng Ba</a></span>, <span class="author-highlighted">
-      <a href="/author/manuel-rigger/">Manuel Rigger</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://bajinsheng.github.io/assets/pdf/qpg_icse23.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/2023-icse-qpg/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/sqlancer/">
-    Project
-  </a>
-  
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-          
-        
-      
-
-      
-      
-      
-    </div>
-  </div>
-</article>
   </div>
 
   <div class="page-footer">

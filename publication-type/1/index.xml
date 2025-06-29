@@ -45,6 +45,14 @@
     </item>
     
     <item>
+      <title>Towards Efficient Build Ordering for Incremental Builds with Multiple Configurations</title>
+      <link>https://nus-test.github.io/publication/2025-fse-buildordering/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2025-fse-buildordering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Detecting Build Dependency Errors in Incremental Builds</title>
       <link>https://nus-test.github.io/publication/2024-issta-build-errors/</link>
       <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
