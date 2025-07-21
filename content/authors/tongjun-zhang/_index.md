@@ -68,7 +68,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Undergraduate Students
+- Student Collaborators
 ---
 Tongjun (Albert) Zhang is an undergraduate student at School of Computing, National University of Singapore.
 His research focuses on grammar-based fuzzing for relational database management systems. 
