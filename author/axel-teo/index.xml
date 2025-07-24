@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Axel Teo | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+    <link>https://nus-test.github.io/author/axel-teo/</link>
+      <atom:link href="https://nus-test.github.io/author/axel-teo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Axel Teo</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://nus-test.github.io/author/axel-teo/avatar_hu47e9106eb53e3c5915305b2952f183fb_1369527_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Axel Teo</title>
+      <link>https://nus-test.github.io/author/axel-teo/</link>
+    </image>
+    
+  </channel>
+</rss>
