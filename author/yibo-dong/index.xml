@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yibo DONG | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+    <link>https://nus-test.github.io/author/yibo-dong/</link>
+      <atom:link href="https://nus-test.github.io/author/yibo-dong/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yibo DONG</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://nus-test.github.io/author/yibo-dong/avatar_hud250824a5245d383eb92103434e7e51e_99938_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Yibo DONG</title>
+      <link>https://nus-test.github.io/author/yibo-dong/</link>
+    </image>
+    
+  </channel>
+</rss>
