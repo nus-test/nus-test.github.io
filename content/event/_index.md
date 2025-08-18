@@ -30,3 +30,5 @@ Timetable for upcoming talks in AY25/26 (subject to changes):
 | Sep 30 |                                                              |           |            |
 | Oct 7  |                                                              |           |            |
 | ...    |                                                              |           |            |
+
+Details of upcoming and past talks below.
