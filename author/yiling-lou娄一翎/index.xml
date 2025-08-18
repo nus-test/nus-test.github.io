@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yiling Lou(娄一翎) | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+    <link>https://nus-test.github.io/author/yiling-lou%E5%A8%84%E4%B8%80%E7%BF%8E/</link>
+      <atom:link href="https://nus-test.github.io/author/yiling-lou%E5%A8%84%E4%B8%80%E7%BF%8E/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yiling Lou(娄一翎)</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Sep 2025 16:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
+      <title>Yiling Lou(娄一翎)</title>
+      <link>https://nus-test.github.io/author/yiling-lou%E5%A8%84%E4%B8%80%E7%BF%8E/</link>
+    </image>
+    
+    <item>
+      <title>Static bug detection in the era of LLMs</title>
+      <link>https://nus-test.github.io/event/250902/</link>
+      <pubDate>Tue, 02 Sep 2025 16:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/250902/</guid>
+      <description>&lt;p&gt;Speaker info: &amp;ldquo;&lt;a href=&#34;https://yilinglou.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yiling Lou&lt;/a&gt; is a pre-tenure associate professor at Fudan University. Previously, she was a postdoctoral researcher at Purdue University and she received her Ph.D. from Peking University. Her research interests lie in the intersection between software engineering and artificial intelligence, with a focus on building AI-powered systems to support software development and maintenance. Her work has received two ACM SIGSOFT Distinguished Paper Awards (ISSTA 2019 and FSE 2023) and one IEEE TCSE Distinguished Paper Award (ICSME 2021). She served as the PC co-chair for AIware 2025 and LLM4Code 2024/2025.&amp;rdquo;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

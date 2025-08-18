@@ -5,7 +5,7 @@
     <link>https://nus-test.github.io/</link>
       <atom:link href="https://nus-test.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Trustworthy Engineering of Software Technologies (TEST) Lab</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 Aug 2025 16:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Sep 2025 16:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Trustworthy Engineering of Software Technologies (TEST) Lab</title>
@@ -5599,6 +5599,15 @@ Found by: ShuxinLi
 &lt;p&gt;If you are interested in a position, feel free to reach out to me and send me your CV (and transcripts). In addition, I suggest making clear why you are interested in the lab, and how your experience and interests connect with some of the work we are doing.&lt;/p&gt;
 &lt;p&gt;If you are considering a PhD position, you can also directly &lt;a href=&#34;https://www.comp.nus.edu.sg/programmes/pg/phdcs/application/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;apply here&lt;/a&gt; and mention my name in the application. The application deadlines are June 15 and December 15.&lt;/p&gt;
 &lt;p&gt;&amp;ndash; Manuel RIGGER (&lt;a href=&#34;mailto:rigger@comp.nus.edu.sg&#34;&gt;rigger@comp.nus.edu.sg&lt;/a&gt;)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Static bug detection in the era of LLMs</title>
+      <link>https://nus-test.github.io/event/250902/</link>
+      <pubDate>Tue, 02 Sep 2025 16:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/250902/</guid>
+      <description>&lt;p&gt;Speaker info: &amp;ldquo;&lt;a href=&#34;https://yilinglou.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yiling Lou&lt;/a&gt; is a pre-tenure associate professor at Fudan University. Previously, she was a postdoctoral researcher at Purdue University and she received her Ph.D. from Peking University. Her research interests lie in the intersection between software engineering and artificial intelligence, with a focus on building AI-powered systems to support software development and maintenance. Her work has received two ACM SIGSOFT Distinguished Paper Awards (ISSTA 2019 and FSE 2023) and one IEEE TCSE Distinguished Paper Award (ICSME 2021). She served as the PC co-chair for AIware 2025 and LLM4Code 2024/2025.&amp;rdquo;&lt;/p&gt;
 </description>
     </item>
     
