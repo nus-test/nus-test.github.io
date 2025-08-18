@@ -17,18 +17,26 @@ header:
 
 
 
-Timetable for upcoming talks in AY25/26 (subject to changes):
+Timetable for upcoming events in AY25/26 (subject to changes):
 
 | Date   | Title                                                        | Host      | Invitee    |
 | ------ | ------------------------------------------------------------ | --------- | ---------- |
-| Aug 19 | AgentSpec: Customizable Runtime Enforcement for Safe and Reliable LLM Agents | Ningke Li | Haoyu Wang |
-| Aug 26 |                                                              |           |            |
-| Sep 2  | Static bug detection in the era of LLMs                      | Yibo Dong | Yiling Lou |
-| Sep 9  | "My productivity is boosted, but ..." Demystifying Users' Perception on Al Coding Assistants | Junwen An | Yunbo Lyu  |
-| Sep 16 |                                                              |           |            |
-| Sep 23 |                                                              |           |            |
+| Aug 19 | <font color=blue>AgentSpec: Customizable Runtime Enforcement for Safe and Reliable LLM Agents</font> | Ningke Li | Haoyu Wang |
+| Aug 26 | <font color=blue>Why the Proof Fails in Different Versions of Theorem Provers: An Empirical Study of Compatibility Issues in Isabelle </font> | Ningke Li | Xiaokun Luan |
+| Sep 2  | <font color=blue>Static bug detection in the era of LLMs</font> | Yibo Dong | Yiling Lou |
+| Sep 9  | <font color=blue>"My productivity is boosted, but ..." Demystifying Users' Perception on Al Coding Assistants </font> | Junwen An | Yunbo Lyu  |
+| Sep 16 | <font color=brown>Group Discussion: Existing Progress and Remaining Challenges</font> |   |            |
+| Sep 23 | <font color=gray>Recess Week</font> |  |  |
 | Sep 30 |                                                              |           |            |
 | Oct 7  |                                                              |           |            |
-| ...    |                                                              |           |            |
+| Oct 14  | <font color=gray>OOPSLA Week </font> | \ | \ |
+| Oct 21  | <font color=gray>PUBLIC HOLIDAY </font> | \ | \ |
+| Oct 28  | <font color=blue>Finding Bugs in MLIR Compiler Infrastructure via Lowering Space Exploration </font> | Yibo Dong | Jingjing Liang |
+| Nov 4 | <font color=brown>Group Discussion </font> |           |            |
+| Nov 11 | <font color=brown>Zhaokun Presentation</font> | Zhaokun | \ |
+| Nov 18 |  |           |            |
+| Nov 25 |                                                              |           |            |
+| Dec 2 | <font color=brown>Group Discussion</font> |           |            |
+| ... |                                                              |           |            |
 
 Details of upcoming and past talks below.
