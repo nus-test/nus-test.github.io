@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yao Xuan Chua | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+    <link>https://nus-test.github.io/author/yao-xuan-chua/</link>
+      <atom:link href="https://nus-test.github.io/author/yao-xuan-chua/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yao Xuan Chua</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://nus-test.github.io/author/yao-xuan-chua/avatar_hu54463c2499c8ca0346cb78e12549a222_456961_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Yao Xuan Chua</title>
+      <link>https://nus-test.github.io/author/yao-xuan-chua/</link>
+    </image>
+    
+  </channel>
+</rss>
