@@ -34,7 +34,7 @@ Timetable for upcoming events in AY25/26 (subject to changes):
 | Oct 28  | <font color=blue>Finding Bugs in MLIR Compiler Infrastructure via Lowering Space Exploration </font> | Yibo Dong | Jingjing Liang |
 | Nov 4 | <font color=brown>Group Discussion </font> |           |            |
 | Nov 11 | <font color=brown>Zhaokun Presentation</font> | Zhaokun | \ |
-| Nov 18 |  |           |            |
+| Nov 18 | <font color=brown>Ningke Presentation</font>  | Ningke  | \ |
 | Nov 25 |                                                              |           |            |
 | Dec 2 | <font color=brown>Group Discussion</font> |           |            |
 | ... |                                                              |           |            |
