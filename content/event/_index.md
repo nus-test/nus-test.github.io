@@ -24,10 +24,10 @@ Timetable for upcoming events in AY25/26 (subject to changes):
 | Aug 19 | <font color=blue>AgentSpec: Customizable Runtime Enforcement for Safe and Reliable LLM Agents</font> | Ningke Li | Haoyu Wang |
 | Aug 26 | <font color=blue>Why the Proof Fails in Different Versions of Theorem Provers: An Empirical Study of Compatibility Issues in Isabelle </font> | Ningke Li | Xiaokun Luan |
 | Sep 2  | <font color=blue>Static bug detection in the era of LLMs</font> | Yibo Dong | Yiling Lou |
-| Sep 9  | <font color=blue>"My productivity is boosted, but ..." Demystifying Users' Perception on Al Coding Assistants </font> | Junwen An | Yunbo Lyu  |
+| Sep 9  | Canceled | \ | \  |
 | Sep 16 | <font color=brown>Group Discussion: Existing Progress and Remaining Challenges</font> |   |            |
 | Sep 23 | <font color=gray>Recess Week</font> |  |  |
-| Sep 30 |                                                              |           |            |
+| Sep 30  | <font color=blue>"My productivity is boosted, but ..." Demystifying Users' Perception on Al Coding Assistants </font> | Junwen An | Yunbo Lyu  |
 | Oct 7  |                                                              |           |            |
 | Oct 14  | <font color=gray>OOPSLA Week </font> | \ | \ |
 | Oct 21  | <font color=gray>PUBLIC HOLIDAY </font> | \ | \ |
