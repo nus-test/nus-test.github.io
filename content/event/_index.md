@@ -28,7 +28,8 @@ Timetable for upcoming events in AY25/26 (subject to changes):
 | Sep 16 | <font color=brown>Group Discussion: Existing Progress and Remaining Challenges</font> |   |            |
 | Sep 23 | <font color=gray>Recess Week</font> |  |  |
 | Sep 30  | <font color=blue>"My productivity is boosted, but ..." Demystifying Users' Perception on Al Coding Assistants </font> | Junwen An | Yunbo Lyu  |
-| Oct 7  |                                                              |           |            |
+| Oct 7  |  <font color=brown>OOPSLA SRC Dry Run</font>   |           |            |
+| Oct 10  | <font color=blue>Linalg is All Your Need</font>  |  TEST Lab | Ivan Ho | 
 | Oct 14  | <font color=gray>OOPSLA Week </font> | \ | \ |
 | Oct 21  | <font color=gray>PUBLIC HOLIDAY </font> | \ | \ |
 | Oct 28  | <font color=blue>Finding Bugs in MLIR Compiler Infrastructure via Lowering Space Exploration </font> | Yibo Dong | Jingjing Liang |
