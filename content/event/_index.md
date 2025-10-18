@@ -34,8 +34,8 @@ Timetable for upcoming events in AY25/26 (subject to changes):
 | Oct 21  | <font color=gray>PUBLIC HOLIDAY </font> | \ | \ |
 | Oct 28  | <font color=blue>Finding Bugs in MLIR Compiler Infrastructure via Lowering Space Exploration </font> | Yibo Dong | Jingjing Liang |
 | Nov 4 | <font color=brown>Group Discussion </font> |           |            |
-| Nov 11 | <font color=brown>Zhaokun Presentation</font> | Zhaokun | \ |
-| Nov 18 | <font color=brown>Ningke Presentation</font>  | Ningke  | \ |
+| Nov 11 | <font color=brown>Advances in Hardware Model Checking: Algorithms, Challenges, and Performance Diagnosis</font>  | Ningke  | Yibo |
+| Nov 18 | <font color=brown>Zhaokun Presentation</font> | Zhaokun | \ |
 | Nov 25 |                                                              |           |            |
 | Dec 2 | <font color=brown>Group Discussion</font> |           |            |
 | ... |                                                              |           |            |
