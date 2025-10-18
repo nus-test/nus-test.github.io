@@ -5,12 +5,23 @@
     <link>https://nus-test.github.io/tag/weekly-talk/</link>
       <atom:link href="https://nus-test.github.io/tag/weekly-talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Weekly Talk</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 10 Oct 2025 16:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 28 Oct 2025 16:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Weekly Talk</title>
       <link>https://nus-test.github.io/tag/weekly-talk/</link>
     </image>
+    
+    <item>
+      <title>Finding Bugs in MLIR Compiler Infrastructure via Lowering Space Exploration</title>
+      <link>https://nus-test.github.io/event/251028/</link>
+      <pubDate>Tue, 28 Oct 2025 16:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/251028/</guid>
+      <description>&lt;p&gt;Speaker Info:&lt;/p&gt;
+&lt;p&gt;Jingjing Liang is a Postdoctoral Fellow at East China Normal University, working with Prof. Ting Su. She received her Ph.D. degree in Computer Science from Peking University, under the supervision of Prof. Yingfei Xiong, and her B.S. degree in Software Engineering from East China Normal University.&lt;/p&gt;
+&lt;p&gt;Her research interests lie in software engineering, particularly in software testing, fault localization, and program repair. Her recent work centers on compiler testing and the use of AI-driven techniques to improve the effectiveness and intelligence of testing processes.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Linalg is All Your Need</title>
