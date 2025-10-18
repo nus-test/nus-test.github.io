@@ -5,12 +5,22 @@
     <link>https://nus-test.github.io/author/emily-ong/</link>
       <atom:link href="https://nus-test.github.io/author/emily-ong/index.xml" rel="self" type="application/rss+xml" />
     <description>Emily Ong</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 16 Apr 2025 14:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 17 Oct 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/author/emily-ong/avatar_hufd416342a488e23b8090aac4c1f6d3b4_75665_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Emily Ong</title>
       <link>https://nus-test.github.io/author/emily-ong/</link>
     </image>
+    
+    <item>
+      <title>Junwen An and Emily Ong Got First Place at SPLASH ’25 SRC!</title>
+      <link>https://nus-test.github.io/post/25-10-18-splash-sv/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/post/25-10-18-splash-sv/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;splash25_sv.png&#34; alt=&#34;&#34;&gt;
+Congratulations to Junwen and Emily!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Siloso: Finding Logic Bugs in RDBMS via Dialect-Adaptable Reference Engine Construction</title>
