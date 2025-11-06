@@ -25,7 +25,7 @@ Timetable for upcoming events in AY25/26 (subject to changes):
 | Aug 26 | <font color=blue>Why the Proof Fails in Different Versions of Theorem Provers: An Empirical Study of Compatibility Issues in Isabelle </font> | Ningke Li | Xiaokun Luan |
 | Sep 2  | <font color=blue>Static bug detection in the era of LLMs</font> | Yibo Dong | Yiling Lou |
 | Sep 9  | Canceled | \ | \  |
-| Sep 16 | <font color=brown>Group Discussion: Existing Progress and Remaining Challenges</font> |   |            |
+| Sep 16 | <font color=brown>Group Discussion: Self Introduction</font> |   |            |
 | Sep 23 | <font color=gray>Recess Week</font> |  |  |
 | Sep 30  | <font color=blue>"My productivity is boosted, but ..." Demystifying Users' Perception on Al Coding Assistants </font> | Junwen An | Yunbo Lyu  |
 | Oct 7  |  <font color=brown>OOPSLA SRC Dry Run</font>   |           |            |
@@ -33,10 +33,10 @@ Timetable for upcoming events in AY25/26 (subject to changes):
 | Oct 14  | <font color=gray>OOPSLA Week </font> | \ | \ |
 | Oct 21  | <font color=gray>PUBLIC HOLIDAY </font> | \ | \ |
 | Oct 28  | <font color=blue>Finding Bugs in MLIR Compiler Infrastructure via Lowering Space Exploration </font> | Yibo Dong | Jingjing Liang |
-| Nov 4 | <font color=brown>Group Discussion </font> |           |            |
-| Nov 11 | <font color=brown>Advances in Hardware Model Checking: Algorithms, Challenges, and Performance Diagnosis</font>  | Ningke  | Yibo |
+| Nov 4 | <font color=brown>Group Discussion: Insight behind current/previous research </font> |           |            |
+| Nov 11 | <font color=brown>FYP Presentation Dry Run</font>  |   |   |
 | Nov 18 | <font color=brown>Zhaokun Presentation</font> | Zhaokun | \ |
-| Nov 25 |                                                              |           |            |
+| Nov 25 | Canceled for Final Exams |           |            |
 | Dec 2 | <font color=brown>Group Discussion</font> |           |            |
 | ... |                                                              |           |            |
 
