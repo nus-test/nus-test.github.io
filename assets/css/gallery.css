@@ -1,0 +1,102 @@
+/* --- Fancy Vertical Timeline for Group Photos --- */
+
+.people-gallery-timeline {
+  position: relative;
+  padding-left: 2rem;
+  border-left: 3px solid rgba(0,0,0,0.12);
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+
+/* Timeline dot */
+.people-gallery-item:before {
+  content: "";
+  position: absolute;
+  left: -1.1rem;
+  top: 0.45rem;
+  width: 1rem;
+  height: 1rem;
+  background: linear-gradient(135deg, #3182ce, #63b3ed);
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 0 8px rgba(49,130,206,0.4);
+}
+
+/* Each timeline item */
+.people-gallery-item {
+  position: relative;
+  padding-left: 1.5rem;
+  animation: fadeInUp 0.4s ease-out both;
+}
+
+/* Year header */
+.people-gallery-item h3 {
+  margin: 0 0 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #2b6cb0;
+}
+
+/* Card that wraps photo group */
+.people-gallery-card {
+  background: #fff;
+  border-radius: 0.6rem;
+  padding: 1rem;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.people-gallery-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+/* Grid for multiple photos per year */
+.people-gallery-photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.people-gallery-photos figure {
+  margin: 0;
+}
+
+.people-gallery-photos img {
+  border-radius: 0.5rem;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.25s ease;
+}
+
+.people-gallery-photos img:hover {
+  transform: scale(1.03);
+}
+
+.people-gallery-photos .figure-caption {
+  text-align: center;
+  margin-top: 0.4rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Timeline animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .people-gallery-timeline { padding-left: 1.3rem; }
+  .people-gallery-item:before { left: -0.85rem; }
+  .people-gallery-card { padding: 0.8rem; }
+}
