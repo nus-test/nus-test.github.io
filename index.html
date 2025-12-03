@@ -743,28 +743,45 @@
     
 
     
-      <div class="hero-lead">
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure class="float:right" >
-  <div class="d-flex justify-content-center">
-    <div class="w-100" >
-        <img alt=""
-           src="/media/test.svg"
-           loading="lazy" data-zoomable width="0px" /></div>
-  </div></figure>
-<img src="media/test.svg" width="300px" style="float:left;padding-right:20px" />
+      <div class="hero-lead"><style>
+.wg-hero .hero-media {
+  flex-direction: column;
+  position: relative;
+}
+.wg-hero .hero-media::before {
+  content: '';
+  background: url('/media/test.svg') no-repeat center;
+  background-size: contain;
+  width: 400px;
+  height: 160px;
+  display: block;
+  margin-bottom: 20px;
+}
+/* Image swap on hover */
+.wg-hero .hero-media img {
+  transition: opacity 0.3s ease;
+}
+.wg-hero .hero-media::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: calc(100% - 180px); /* Exclude the logo area */
+  background: url('/media/group-photos/group-2025-1.jpg') no-repeat center;
+  background-size: cover;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  border-radius: inherit;
+}
+.wg-hero .hero-media:hover img {
+  opacity: 0;
+}
+.wg-hero .hero-media:hover::after {
+  opacity: 1;
+}
+</style>
 <p>The <em>Trustworthy Engineering of Software Technologies (TEST) Lab</em>, part of the <a href="https://nus-plse.github.io/" target="_blank" rel="noopener">PL/SE group</a> at the <a href="https://www.nus.edu.sg/" target="_blank" rel="noopener">National University of Singapore</a> (<a href="https://www.comp.nus.edu.sg/" target="_blank" rel="noopener">School of Computing</a>), led by <a href="https://www.manuelrigger.at/" target="_blank" rel="noopener">Manuel Rigger</a>, is working on practical and conceptual software solutions. We aim to have a real-world impact both by creating practical tools as well as by designing principled, fundamental techniques.</p>
 <p>Core Areas:</p>
 <ul>
@@ -772,6 +789,32 @@
 <li>Systems</li>
 <li>Programming Languages</li>
 </ul>
+<!-- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" >
+        <img alt="" srcset="
+               /media/group-photos/group-2025-1_huf9001b213880e99870cc59f2ea053e7d_3510692_434a4a2bcbbaa7ea6482c1747829eb4a.jpg 400w,
+               /media/group-photos/group-2025-1_huf9001b213880e99870cc59f2ea053e7d_3510692_73dcd08232db949ab35fd08fbb1ffe2a.jpg 760w,
+               /media/group-photos/group-2025-1_huf9001b213880e99870cc59f2ea053e7d_3510692_1200x1200_fit_q75_lanczos.jpg 1200w"
+               src="/media/group-photos/group-2025-1_huf9001b213880e99870cc59f2ea053e7d_3510692_434a4a2bcbbaa7ea6482c1747829eb4a.jpg"
+               width="760"
+               height="507"
+               loading="lazy" data-zoomable /></div>
+  </div></figure> -->
 <p><a href="https://twitter.com/test_nus" target="_blank" rel="noopener">
   <i class="fab fa-twitter  pr-1 fa-fw"></i></a>
 <a href="https://github.com/nus-test/" target="_blank" rel="noopener">
@@ -816,7 +859,7 @@
         
         
 
-        <img src="/media/nus_test_huab4567bf8c5254d6f228d7782cd6290e_4539595_400x0_resize_q75_lanczos.jpg" srcset="/media/nus_test_huab4567bf8c5254d6f228d7782cd6290e_4539595_1200x0_resize_q75_lanczos.jpg 1200w,/media/nus_test_huab4567bf8c5254d6f228d7782cd6290e_4539595_800x0_resize_q75_lanczos.jpg 800w,/media/nus_test_huab4567bf8c5254d6f228d7782cd6290e_4539595_400x0_resize_q75_lanczos.jpg 400w" width="6240" height="4160" alt="">
+        <img src="/media/group-photos/group-2025-2_hu531221c73802e216e9c2f7994c558e62_9676181_400x0_resize_q75_lanczos.jpg" srcset="/media/group-photos/group-2025-2_hu531221c73802e216e9c2f7994c558e62_9676181_1200x0_resize_q75_lanczos.jpg 1200w,/media/group-photos/group-2025-2_hu531221c73802e216e9c2f7994c558e62_9676181_800x0_resize_q75_lanczos.jpg 800w,/media/group-photos/group-2025-2_hu531221c73802e216e9c2f7994c558e62_9676181_400x0_resize_q75_lanczos.jpg 400w" width="9504" height="6336" alt="">
       
     
   </div>
@@ -1330,94 +1373,6 @@
   
 
 </div>
-
-
-    
-      </div>
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-    
-    
-    
-      
-    
-    
-      
-      
-    
-    
-      
-      
-    
-  
-
-  
-
-  
-    
-    
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="image" class="home-section wg-blank dark fullscreen" style="padding: 20px 0 20px 0;" >
-   <div class="home-section-bg  bg-image" style="background-image: url(&#39;https://nus-test.github.io/media/nus_test2.jpg&#39;);background-size: cover;background-position: center;"></div>
-    <div class="container">
-
-    
-      <div class="row  justify-content-center">
-      
-    
-
-      
-
-
-
-  <div class="col-12">
-    
-  </div>
-
 
 
     
