@@ -1,0 +1,44 @@
+{{/* Responsive figure shortcode with Hugo image processing */}}
+{{- $src := .Get "src" -}}
+{{- $caption := .Get "caption" -}}
+{{- $alt := .Get "alt" | default $caption -}}
+
+{{- $image := resources.Get $src -}}
+
+{{- if $image -}}
+  {{/* Generate multiple sizes for responsive images */}}
+  {{- $small := $image.Resize "400x q80" -}}
+  {{- $medium := $image.Resize "800x q80" -}}
+  {{- $large := $image.Resize "1200x q85" -}}
+  {{- $xlarge := $image.Resize "1600x q85" -}}
+
+  <figure class="responsive-figure">
+    <a href="{{ $image.RelPermalink }}" target="_blank" rel="noopener" class="responsive-figure-link">
+      <img 
+        src="{{ $medium.RelPermalink }}"
+        srcset="{{ $small.RelPermalink }} 400w,
+                {{ $medium.RelPermalink }} 800w,
+                {{ $large.RelPermalink }} 1200w,
+                {{ $xlarge.RelPermalink }} 1600w"
+        sizes="(max-width: 480px) 400px,
+               (max-width: 768px) 800px,
+               (max-width: 1200px) 1200px,
+               1600px"
+        alt="{{ $alt }}"
+        loading="lazy"
+        decoding="async"
+      >
+    </a>
+    {{- if $caption -}}
+    <figcaption>{{ $caption | safeHTML }}</figcaption>
+    {{- end -}}
+  </figure>
+{{- else -}}
+  {{/* Fallback if image not found in assets */}}
+  <figure class="responsive-figure">
+    <img src="{{ $src }}" alt="{{ $alt }}" loading="lazy">
+    {{- if $caption -}}
+    <figcaption>{{ $caption | safeHTML }}</figcaption>
+    {{- end -}}
+  </figure>
+{{- end -}}
