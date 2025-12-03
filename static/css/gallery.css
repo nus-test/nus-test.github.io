@@ -95,6 +95,45 @@
   }
 }
 
+/* Responsive figure shortcode styles */
+.responsive-figure {
+  margin: 0 0 1rem 0;
+}
+
+.responsive-figure-link {
+  display: block;
+  cursor: zoom-in;
+}
+
+.responsive-figure img {
+  border-radius: 0.5rem;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.responsive-figure img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.responsive-figure figcaption {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.responsive-figure figcaption a {
+  color: #3182ce;
+  text-decoration: none;
+}
+
+.responsive-figure figcaption a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   .people-gallery-timeline { padding-left: 1.3rem; }
   .people-gallery-item:before { left: -0.85rem; }
