@@ -1,7 +1,7 @@
 ---
 title: "Understanding and Reusing Test Suites Across Database Systems"
 authors:
-- Suyong Zhong
+- Suyang Zhong
 - Manuel Rigger
 date: "2024-08-01T00:00:00Z"
 doi: ""
@@ -31,7 +31,7 @@ abstract: "Database Management System (DBMS) developers have implemented extensi
 #links:
 #- name: Custom Link
 #  url: http://example.org
-url_pdf: https://arxiv.org/pdf/2410.21731
+url_pdf: https://dl.acm.org/doi/pdf/10.1145/3698829
 #url_code: '#'
 #url_dataset: '#'
 #url_poster: '#'
