@@ -5,7 +5,7 @@
     <link>https://nus-test.github.io/author/suyang-zhong/</link>
       <atom:link href="https://nus-test.github.io/author/suyang-zhong/index.xml" rel="self" type="application/rss+xml" />
     <description>Suyang Zhong</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 13 Aug 2024 14:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 16 Dec 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/author/suyang-zhong/avatar_hu3d6dca8bb72a8661bb3864a82c068555_1831753_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Suyang Zhong</title>
@@ -13,10 +13,34 @@
     </image>
     
     <item>
+      <title>Our paper &#34;Scaling Automated Database System Testing&#34; was accepted at ASPLOS 2026.</title>
+      <link>https://nus-test.github.io/post/25-11-26-asplos-sqlancerpp/</link>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/post/25-11-26-asplos-sqlancerpp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scaling Automated Database System Testing</title>
+      <link>https://nus-test.github.io/publication/2026-asplos-sqlancerpp/</link>
+      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2026-asplos-sqlancerpp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Scaling Automated Database System Testing</title>
       <link>https://nus-test.github.io/event/240813/</link>
       <pubDate>Tue, 13 Aug 2024 14:00:00 +0000</pubDate>
       <guid>https://nus-test.github.io/event/240813/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Understanding and Reusing Test Suites Across Database Systems</title>
+      <link>https://nus-test.github.io/publication/2025-sigmod-reusing-tests/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2025-sigmod-reusing-tests/</guid>
       <description></description>
     </item>
     

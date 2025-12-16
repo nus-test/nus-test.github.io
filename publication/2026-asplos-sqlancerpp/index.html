@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="Database Management System (DBMS) developers have implemented extensive test suites to test their DBMSs. For example, the SQLite test suites contain over 92 million lines of code. Despite these extensive efforts, test suites are not systematically reused across DBMSs, leading to wasted effort. Integration is challenging, as test suites use various test case formats and rely on unstandardized test runner features. We present a unified test suite, SQuaLity, in which we integrated test cases from three widely-used DBMSs, SQLite, PostgreSQL, and DuckDB. In addition, we present an empirical study to determine the potential of reusing these systems’ test suites. Our results indicate that reusing test suites is challenging: First, test formats and test runner commands vary widely; for example, SQLite has 4 test runner commands, while MySQL has 112 commands with additional features, to, for example, execute file operations or interact with a shell. Second, while some test suites contain mostly standard-compliant statements (e.g., 99% in SQLite), other test suites mostly test non-standardized functionality (e.g., 31% of statements in the PostgreSQL test suite are nonstandardized). Third, test reuse is complicated by various explicit and implicit dependencies, such as the need to set variables and configurations, certain test cases requiring extensions not present by default, and query results depending on specific clients. Despite the above findings, we have identified 3 crashes, 3 hangs, and multiple compatibility issues across four different DBMSs by executing test suites across DBMSs, indicating the benefits of reuse. Overall, this work represents the first step towards test-case reuse in the context of DBMSs, and we hope that it will inspire follow-up work on this important topic." />
+  <meta name="description" content="Recently, various automated testing approaches have been proposed that use specialized test oracles to find hundreds of logic bugs in mature, widely-used Database Management Systems (DBMSs). These test oracles require database and query generators, which must account for the often significant differences between the SQL dialects of these systems. Since it can take weeks to implement such generators, many DBMS developers are unlikely to invest the time to adopt such automated testing approaches. In short, existing approaches fail to scale to the plethora of DBMSs. In this work, we present both a vision and a platform, SQLancer&#43;&#43;, to apply test oracles to any SQL-based DBMS that supports a subset of common SQL features. Our technical core contribution is a novel architecture for an adaptive SQL statement generator. This adaptive SQL generator generates SQL statements with various features, some of which might not be supported by the given DBMS, and then learns through interaction with the DBMS, which of these are understood by the DBMS. Thus, over time, the generator will generate mostly valid SQL statements. We evaluated SQLancer&#43;&#43; across 18 DBMSs and discovered a total of 196 unique, previously unknown bugs, of which 180 were fixed after we reported them. While SQLancer&#43;&#43; is the first major step towards scaling automated DBMS testing, various follow-up challenges remain." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://nus-test.github.io/publication/2025-sigmod-reusing-tests/" />
+  <link rel="alternate" hreflang="en-us" href="https://nus-test.github.io/publication/2026-asplos-sqlancerpp/" />
 
   
 
@@ -259,7 +259,7 @@
   <link rel="icon" type="image/png" href="/media/icon_huf39aebee443421be528cbdbb4c78ede7_7416_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_huf39aebee443421be528cbdbb4c78ede7_7416_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://nus-test.github.io/publication/2025-sigmod-reusing-tests/" />
+  <link rel="canonical" href="https://nus-test.github.io/publication/2026-asplos-sqlancerpp/" />
 
   
   
@@ -279,9 +279,9 @@
     <meta property="twitter:creator" content="@test_nus" />
   
   <meta property="og:site_name" content="Trustworthy Engineering of Software Technologies (TEST) Lab" />
-  <meta property="og:url" content="https://nus-test.github.io/publication/2025-sigmod-reusing-tests/" />
-  <meta property="og:title" content="Understanding and Reusing Test Suites Across Database Systems | Trustworthy Engineering of Software Technologies (TEST) Lab" />
-  <meta property="og:description" content="Database Management System (DBMS) developers have implemented extensive test suites to test their DBMSs. For example, the SQLite test suites contain over 92 million lines of code. Despite these extensive efforts, test suites are not systematically reused across DBMSs, leading to wasted effort. Integration is challenging, as test suites use various test case formats and rely on unstandardized test runner features. We present a unified test suite, SQuaLity, in which we integrated test cases from three widely-used DBMSs, SQLite, PostgreSQL, and DuckDB. In addition, we present an empirical study to determine the potential of reusing these systems’ test suites. Our results indicate that reusing test suites is challenging: First, test formats and test runner commands vary widely; for example, SQLite has 4 test runner commands, while MySQL has 112 commands with additional features, to, for example, execute file operations or interact with a shell. Second, while some test suites contain mostly standard-compliant statements (e.g., 99% in SQLite), other test suites mostly test non-standardized functionality (e.g., 31% of statements in the PostgreSQL test suite are nonstandardized). Third, test reuse is complicated by various explicit and implicit dependencies, such as the need to set variables and configurations, certain test cases requiring extensions not present by default, and query results depending on specific clients. Despite the above findings, we have identified 3 crashes, 3 hangs, and multiple compatibility issues across four different DBMSs by executing test suites across DBMSs, indicating the benefits of reuse. Overall, this work represents the first step towards test-case reuse in the context of DBMSs, and we hope that it will inspire follow-up work on this important topic." /><meta property="og:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" />
+  <meta property="og:url" content="https://nus-test.github.io/publication/2026-asplos-sqlancerpp/" />
+  <meta property="og:title" content="Scaling Automated Database System Testing | Trustworthy Engineering of Software Technologies (TEST) Lab" />
+  <meta property="og:description" content="Recently, various automated testing approaches have been proposed that use specialized test oracles to find hundreds of logic bugs in mature, widely-used Database Management Systems (DBMSs). These test oracles require database and query generators, which must account for the often significant differences between the SQL dialects of these systems. Since it can take weeks to implement such generators, many DBMS developers are unlikely to invest the time to adopt such automated testing approaches. In short, existing approaches fail to scale to the plethora of DBMSs. In this work, we present both a vision and a platform, SQLancer&#43;&#43;, to apply test oracles to any SQL-based DBMS that supports a subset of common SQL features. Our technical core contribution is a novel architecture for an adaptive SQL statement generator. This adaptive SQL generator generates SQL statements with various features, some of which might not be supported by the given DBMS, and then learns through interaction with the DBMS, which of these are understood by the DBMS. Thus, over time, the generator will generate mostly valid SQL statements. We evaluated SQLancer&#43;&#43; across 18 DBMSs and discovered a total of 196 unique, previously unknown bugs, of which 180 were fixed after we reported them. While SQLancer&#43;&#43; is the first major step towards scaling automated DBMS testing, various follow-up challenges remain." /><meta property="og:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" />
     <meta property="twitter:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -290,7 +290,7 @@
         content="2000-12-15T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2024-08-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2025-11-26T00:00:00&#43;00:00">
   
 
   
@@ -312,12 +312,12 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://nus-test.github.io/publication/2025-sigmod-reusing-tests/"
+    "@id": "https://nus-test.github.io/publication/2026-asplos-sqlancerpp/"
   },
-  "headline": "Understanding and Reusing Test Suites Across Database Systems",
+  "headline": "Scaling Automated Database System Testing",
   
   "datePublished": "2000-12-15T00:00:00Z",
-  "dateModified": "2024-08-01T00:00:00Z",
+  "dateModified": "2025-11-26T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -332,7 +332,7 @@
       "url": "https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_192x192_fit_lanczos_3.png"
     }
   },
-  "description": "Database Management System (DBMS) developers have implemented extensive test suites to test their DBMSs. For example, the SQLite test suites contain over 92 million lines of code. Despite these extensive efforts, test suites are not systematically reused across DBMSs, leading to wasted effort. Integration is challenging, as test suites use various test case formats and rely on unstandardized test runner features. We present a unified test suite, SQuaLity, in which we integrated test cases from three widely-used DBMSs, SQLite, PostgreSQL, and DuckDB. In addition, we present an empirical study to determine the potential of reusing these systems’ test suites. Our results indicate that reusing test suites is challenging: First, test formats and test runner commands vary widely; for example, SQLite has 4 test runner commands, while MySQL has 112 commands with additional features, to, for example, execute file operations or interact with a shell. Second, while some test suites contain mostly standard-compliant statements (e.g., 99% in SQLite), other test suites mostly test non-standardized functionality (e.g., 31% of statements in the PostgreSQL test suite are nonstandardized). Third, test reuse is complicated by various explicit and implicit dependencies, such as the need to set variables and configurations, certain test cases requiring extensions not present by default, and query results depending on specific clients. Despite the above findings, we have identified 3 crashes, 3 hangs, and multiple compatibility issues across four different DBMSs by executing test suites across DBMSs, indicating the benefits of reuse. Overall, this work represents the first step towards test-case reuse in the context of DBMSs, and we hope that it will inspire follow-up work on this important topic."
+  "description": "Recently, various automated testing approaches have been proposed that use specialized test oracles to find hundreds of logic bugs in mature, widely-used Database Management Systems (DBMSs). These test oracles require database and query generators, which must account for the often significant differences between the SQL dialects of these systems. Since it can take weeks to implement such generators, many DBMS developers are unlikely to invest the time to adopt such automated testing approaches. In short, existing approaches fail to scale to the plethora of DBMSs. In this work, we present both a vision and a platform, SQLancer++, to apply test oracles to any SQL-based DBMS that supports a subset of common SQL features. Our technical core contribution is a novel architecture for an adaptive SQL statement generator. This adaptive SQL generator generates SQL statements with various features, some of which might not be supported by the given DBMS, and then learns through interaction with the DBMS, which of these are understood by the DBMS. Thus, over time, the generator will generate mostly valid SQL statements. We evaluated SQLancer++ across 18 DBMSs and discovered a total of 196 unique, previously unknown bugs, of which 180 were fixed after we reported them. While SQLancer++ is the first major step towards scaling automated DBMS testing, various follow-up challenges remain."
 }
 </script>
 
@@ -348,11 +348,11 @@
 
 
 
-  <title>Understanding and Reusing Test Suites Across Database Systems | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+  <title>Scaling Automated Database System Testing | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="ff76a49f48972f0cf52e2786a2303c22" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="cf08be3c4fbf52e86819e636dd4dbff1" >
 
   
   
@@ -696,7 +696,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Understanding and Reusing Test Suites Across Database Systems</h1>
+  <h1>Scaling Automated Database System Testing</h1>
 
   
 
@@ -726,7 +726,7 @@
     
       
     
-    August 2024
+    November 2025
   </span>
   
 
@@ -768,7 +768,7 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="https://dl.acm.org/doi/pdf/10.1145/3698829" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/abs/2503.21424" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -800,7 +800,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Database Management System (DBMS) developers have implemented extensive test suites to test their DBMSs. For example, the SQLite test suites contain over 92 million lines of code. Despite these extensive efforts, test suites are not systematically reused across DBMSs, leading to wasted effort. Integration is challenging, as test suites use various test case formats and rely on unstandardized test runner features. We present a unified test suite, SQuaLity, in which we integrated test cases from three widely-used DBMSs, SQLite, PostgreSQL, and DuckDB. In addition, we present an empirical study to determine the potential of reusing these systems’ test suites. Our results indicate that reusing test suites is challenging: First, test formats and test runner commands vary widely; for example, SQLite has 4 test runner commands, while MySQL has 112 commands with additional features, to, for example, execute file operations or interact with a shell. Second, while some test suites contain mostly standard-compliant statements (e.g., 99% in SQLite), other test suites mostly test non-standardized functionality (e.g., 31% of statements in the PostgreSQL test suite are nonstandardized). Third, test reuse is complicated by various explicit and implicit dependencies, such as the need to set variables and configurations, certain test cases requiring extensions not present by default, and query results depending on specific clients. Despite the above findings, we have identified 3 crashes, 3 hangs, and multiple compatibility issues across four different DBMSs by executing test suites across DBMSs, indicating the benefits of reuse. Overall, this work represents the first step towards test-case reuse in the context of DBMSs, and we hope that it will inspire follow-up work on this important topic.</p>
+    <p class="pub-abstract">Recently, various automated testing approaches have been proposed that use specialized test oracles to find hundreds of logic bugs in mature, widely-used Database Management Systems (DBMSs). These test oracles require database and query generators, which must account for the often significant differences between the SQL dialects of these systems. Since it can take weeks to implement such generators, many DBMS developers are unlikely to invest the time to adopt such automated testing approaches. In short, existing approaches fail to scale to the plethora of DBMSs. In this work, we present both a vision and a platform, SQLancer++, to apply test oracles to any SQL-based DBMS that supports a subset of common SQL features. Our technical core contribution is a novel architecture for an adaptive SQL statement generator. This adaptive SQL generator generates SQL statements with various features, some of which might not be supported by the given DBMS, and then learns through interaction with the DBMS, which of these are understood by the DBMS. Thus, over time, the generator will generate mostly valid SQL statements. We evaluated SQLancer++ across 18 DBMSs and discovered a total of 196 unique, previously unknown bugs, of which 180 were fixed after we reported them. While SQLancer++ is the first major step towards scaling automated DBMS testing, various follow-up challenges remain.</p>
     
 
     
@@ -811,8 +811,8 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="/publication/#2">
-              Journal article
+            <a href="/publication/#1">
+              Conference paper
             </a>
           </div>
         </div>
@@ -828,7 +828,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">Proceeding of ACM Management of Data</div>
+          <div class="col-12 col-md-9">ACM International Conference on Architectural Support for Programming Languages and Operating Systems</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -858,7 +858,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://nus-test.github.io/publication/2025-sigmod-reusing-tests/&amp;text=Understanding%20and%20Reusing%20Test%20Suites%20Across%20Database%20Systems" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://nus-test.github.io/publication/2026-asplos-sqlancerpp/&amp;text=Scaling%20Automated%20Database%20System%20Testing" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -871,7 +871,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://nus-test.github.io/publication/2025-sigmod-reusing-tests/&amp;t=Understanding%20and%20Reusing%20Test%20Suites%20Across%20Database%20Systems" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://nus-test.github.io/publication/2026-asplos-sqlancerpp/&amp;t=Scaling%20Automated%20Database%20System%20Testing" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -884,7 +884,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Understanding%20and%20Reusing%20Test%20Suites%20Across%20Database%20Systems&amp;body=https://nus-test.github.io/publication/2025-sigmod-reusing-tests/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Scaling%20Automated%20Database%20System%20Testing&amp;body=https://nus-test.github.io/publication/2026-asplos-sqlancerpp/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -897,7 +897,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://nus-test.github.io/publication/2025-sigmod-reusing-tests/&amp;title=Understanding%20and%20Reusing%20Test%20Suites%20Across%20Database%20Systems" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://nus-test.github.io/publication/2026-asplos-sqlancerpp/&amp;title=Scaling%20Automated%20Database%20System%20Testing" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -910,7 +910,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Understanding%20and%20Reusing%20Test%20Suites%20Across%20Database%20Systems%20https://nus-test.github.io/publication/2025-sigmod-reusing-tests/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Scaling%20Automated%20Database%20System%20Testing%20https://nus-test.github.io/publication/2026-asplos-sqlancerpp/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -923,7 +923,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://nus-test.github.io/publication/2025-sigmod-reusing-tests/&amp;title=Understanding%20and%20Reusing%20Test%20Suites%20Across%20Database%20Systems" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://nus-test.github.io/publication/2026-asplos-sqlancerpp/&amp;title=Scaling%20Automated%20Database%20System%20Testing" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

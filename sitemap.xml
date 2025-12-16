@@ -7,7 +7,34 @@
     <loc>https://nus-test.github.io/positions/</loc>
   </url><url>
     <loc>https://nus-test.github.io/authors/</loc>
-    <lastmod>2025-10-28T16:00:00+00:00</lastmod>
+    <lastmod>2025-12-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/post/</loc>
+    <lastmod>2025-12-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/author/manuel-rigger/</loc>
+    <lastmod>2025-12-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/post/25-11-26-asplos-sqlancerpp/</loc>
+    <lastmod>2025-12-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/author/suyang-zhong/</loc>
+    <lastmod>2025-12-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/</loc>
+    <lastmod>2025-12-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/publication-type/1/</loc>
+    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/publication_types/</loc>
+    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/publication/</loc>
+    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/publication/2026-asplos-sqlancerpp/</loc>
+    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/event/251028/</loc>
     <lastmod>2025-10-28T16:00:00+00:00</lastmod>
@@ -21,9 +48,6 @@
     <loc>https://nus-test.github.io/tags/</loc>
     <lastmod>2025-10-28T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nus-test.github.io/</loc>
-    <lastmod>2025-10-28T16:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://nus-test.github.io/tag/weekly-talk/</loc>
     <lastmod>2025-10-28T16:00:00+00:00</lastmod>
   </url><url>
@@ -34,9 +58,6 @@
     <lastmod>2025-10-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/post/25-10-18-splash-sv/</loc>
-    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/post/</loc>
     <lastmod>2025-10-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/author/ivan-ho/</loc>
@@ -87,23 +108,11 @@
     <loc>https://nus-test.github.io/author/jinsheng-ba/</loc>
     <lastmod>2025-06-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nus-test.github.io/author/manuel-rigger/</loc>
-    <lastmod>2025-06-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://nus-test.github.io/author/pinjia-he/</loc>
-    <lastmod>2025-06-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/publication_types/</loc>
-    <lastmod>2025-06-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/publication/</loc>
     <lastmod>2025-06-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/author/qiuyang-mang/</loc>
     <lastmod>2025-06-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/publication-type/1/</loc>
-    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/author/jin-song-dong/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
@@ -291,13 +300,7 @@
     <loc>https://nus-test.github.io/event/240813/</loc>
     <lastmod>2024-08-13T14:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nus-test.github.io/author/suyang-zhong/</loc>
-    <lastmod>2024-08-13T14:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://nus-test.github.io/post/24-08-01-sigmod-r2-papers/</loc>
-    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/author/suyong-zhong/</loc>
     <lastmod>2024-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/publication/2025-sigmod-reusing-tests/</loc>
