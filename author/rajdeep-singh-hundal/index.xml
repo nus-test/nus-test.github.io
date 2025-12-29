@@ -5,12 +5,21 @@
     <link>https://nus-test.github.io/author/rajdeep-singh-hundal/</link>
       <atom:link href="https://nus-test.github.io/author/rajdeep-singh-hundal/index.xml" rel="self" type="application/rss+xml" />
     <description>Rajdeep Singh Hundal</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 24 Dec 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/author/rajdeep-singh-hundal/avatar_hu0702a4250dc64ddef0e25289d8928001_968098_270x270_fill_q75_lanczos_center.jpeg</url>
       <title>Rajdeep Singh Hundal</title>
       <link>https://nus-test.github.io/author/rajdeep-singh-hundal/</link>
     </image>
+    
+    <item>
+      <title>Rajdeep Singh and Junwen An were awarded the &#34;Research Achievement Award&#34; by the School of Computing!</title>
+      <link>https://nus-test.github.io/post/25-01-08-researchaward-rajdeep-junwen/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/post/25-01-08-researchaward-rajdeep-junwen/</guid>
+      <description>&lt;p&gt;Congratulations to Rajdeep and Junwen!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>On the Mistaken Assumption of Interchangeable Deep Reinforcement Learning Implementations</title>
