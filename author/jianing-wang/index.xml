@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>zhenkai-liang | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
-    <link>https://nus-test.github.io/author/zhenkai-liang/</link>
-      <atom:link href="https://nus-test.github.io/author/zhenkai-liang/index.xml" rel="self" type="application/rss+xml" />
-    <description>zhenkai-liang</description>
+    <title>jianing-wang | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+    <link>https://nus-test.github.io/author/jianing-wang/</link>
+      <atom:link href="https://nus-test.github.io/author/jianing-wang/index.xml" rel="self" type="application/rss+xml" />
+    <description>jianing-wang</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 30 Dec 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
-      <title>zhenkai-liang</title>
-      <link>https://nus-test.github.io/author/zhenkai-liang/</link>
+      <title>jianing-wang</title>
+      <link>https://nus-test.github.io/author/jianing-wang/</link>
     </image>
     
     <item>
@@ -25,22 +25,6 @@
       <link>https://nus-test.github.io/post/25-12-30-fse-acme/</link>
       <pubDate>Tue, 30 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://nus-test.github.io/post/25-12-30-fse-acme/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fuzzing the PHP Interpreter via Dataflow Fusion</title>
-      <link>https://nus-test.github.io/publication/2025-sec-flowfusion/</link>
-      <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://nus-test.github.io/publication/2025-sec-flowfusion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Detecting Logic Bugs in Graph Database Management Systems via Injective and Surjective Graph Pattern Transformation</title>
-      <link>https://nus-test.github.io/publication/2024-icse-gdbms-testing/</link>
-      <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://nus-test.github.io/publication/2024-icse-gdbms-testing/</guid>
       <description></description>
     </item>
     

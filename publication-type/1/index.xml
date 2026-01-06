@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/publication-type/1/</link>
       <atom:link href="https://nus-test.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 26 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 30 Dec 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>1</title>
       <link>https://nus-test.github.io/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>ACME: Automated Clause Mapping Engine for Testing Emerging Database Systems</title>
+      <link>https://nus-test.github.io/publication/2026-fse-acme/</link>
+      <pubDate>Tue, 30 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2026-fse-acme/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Scaling Automated Database System Testing</title>

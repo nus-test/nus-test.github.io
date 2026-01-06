@@ -5,12 +5,28 @@
     <link>https://nus-test.github.io/author/yuancheng-jiang/</link>
       <atom:link href="https://nus-test.github.io/author/yuancheng-jiang/index.xml" rel="self" type="application/rss+xml" />
     <description>Yuancheng Jiang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 05 Mar 2025 14:30:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 30 Dec 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/author/yuancheng-jiang/avatar_huebddf8bdd7c4fd3d545768d2dee146a2_560375_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Yuancheng Jiang</title>
       <link>https://nus-test.github.io/author/yuancheng-jiang/</link>
     </image>
+    
+    <item>
+      <title>ACME: Automated Clause Mapping Engine for Testing Emerging Database Systems</title>
+      <link>https://nus-test.github.io/publication/2026-fse-acme/</link>
+      <pubDate>Tue, 30 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2026-fse-acme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Our paper &#34;ACME: Automated Clause Mapping Engine for Testing Emerging Database Systems&#34; was accepted at FSE 2026.</title>
+      <link>https://nus-test.github.io/post/25-12-30-fse-acme/</link>
+      <pubDate>Tue, 30 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/post/25-12-30-fse-acme/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Automatic Differential Testing of the PHP Interpreter</title>

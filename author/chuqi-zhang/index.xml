@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Chuqi Zhang | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+    <title>chuqi-zhang | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
     <link>https://nus-test.github.io/author/chuqi-zhang/</link>
       <atom:link href="https://nus-test.github.io/author/chuqi-zhang/index.xml" rel="self" type="application/rss+xml" />
-    <description>Chuqi Zhang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 31 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <description>chuqi-zhang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 30 Dec 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
-      <title>Chuqi Zhang</title>
+      <title>chuqi-zhang</title>
       <link>https://nus-test.github.io/author/chuqi-zhang/</link>
     </image>
+    
+    <item>
+      <title>ACME: Automated Clause Mapping Engine for Testing Emerging Database Systems</title>
+      <link>https://nus-test.github.io/publication/2026-fse-acme/</link>
+      <pubDate>Tue, 30 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2026-fse-acme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Our paper &#34;ACME: Automated Clause Mapping Engine for Testing Emerging Database Systems&#34; was accepted at FSE 2026.</title>
+      <link>https://nus-test.github.io/post/25-12-30-fse-acme/</link>
+      <pubDate>Tue, 30 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/post/25-12-30-fse-acme/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Fuzzing the PHP Interpreter via Dataflow Fusion</title>

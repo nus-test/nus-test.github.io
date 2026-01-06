@@ -6,13 +6,49 @@
   </url><url>
     <loc>https://nus-test.github.io/positions/</loc>
   </url><url>
-    <loc>https://nus-test.github.io/authors/</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
+    <loc>https://nus-test.github.io/publication-type/1/</loc>
+    <lastmod>2025-12-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nus-test.github.io/author/junwen-an/</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
+    <loc>https://nus-test.github.io/publication/2026-fse-acme/</loc>
+    <lastmod>2025-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/authors/</loc>
+    <lastmod>2025-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/author/chuqi-zhang/</loc>
+    <lastmod>2025-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/author/jianing-wang/</loc>
+    <lastmod>2025-12-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/post/</loc>
+    <lastmod>2025-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/author/manuel-rigger/</loc>
+    <lastmod>2025-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/post/25-12-30-fse-acme/</loc>
+    <lastmod>2025-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/publication_types/</loc>
+    <lastmod>2025-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/publication/</loc>
+    <lastmod>2025-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/author/roland-yap/</loc>
+    <lastmod>2025-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/</loc>
+    <lastmod>2025-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/author/yuancheng-jiang/</loc>
+    <lastmod>2025-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/author/zhenkai-liang/</loc>
+    <lastmod>2025-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/author/junwen-an/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/post/25-01-08-researchaward-rajdeep-junwen/</loc>
@@ -21,26 +57,11 @@
     <loc>https://nus-test.github.io/author/rajdeep-singh-hundal/</loc>
     <lastmod>2025-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nus-test.github.io/</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/author/manuel-rigger/</loc>
-    <lastmod>2025-12-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://nus-test.github.io/post/25-11-26-asplos-sqlancerpp/</loc>
     <lastmod>2025-12-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/author/suyang-zhong/</loc>
     <lastmod>2025-12-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/publication-type/1/</loc>
-    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/publication_types/</loc>
-    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/publication/</loc>
-    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/publication/2026-asplos-sqlancerpp/</loc>
     <lastmod>2025-11-26T00:00:00+00:00</lastmod>
@@ -183,9 +204,6 @@
     <loc>https://nus-test.github.io/event/250305_2/</loc>
     <lastmod>2025-03-05T14:30:00+00:00</lastmod>
   </url><url>
-    <loc>https://nus-test.github.io/author/yuancheng-jiang/</loc>
-    <lastmod>2025-03-05T14:30:00+00:00</lastmod>
-  </url><url>
     <loc>https://nus-test.github.io/event/250305/</loc>
     <lastmod>2025-03-05T14:00:00+00:00</lastmod>
   </url><url>
@@ -207,19 +225,10 @@
     <loc>https://nus-test.github.io/author/bonan-ruan/</loc>
     <lastmod>2025-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nus-test.github.io/author/chuqi-zhang/</loc>
-    <lastmod>2025-01-31T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://nus-test.github.io/publication/2025-sec-flowfusion/</loc>
     <lastmod>2025-01-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/author/jiahao-liu/</loc>
-    <lastmod>2025-01-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/author/roland-yap/</loc>
-    <lastmod>2025-01-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/author/zhenkai-liang/</loc>
     <lastmod>2025-01-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/event/250122/</loc>
