@@ -25,9 +25,9 @@ Timetable for upcoming events in AY25/26 (subject to changes):
 | April 29 |  | --- | ---|
 | April 22 |  | --- | ---|
 | April 15 |  | --- | ---|
-| April 8 |  | --- | ---|
+| April 8 | <font color=brown>Beyond Correctness: Exposing LLM-generated Logical Flaws in Reasoning via Multi-step Automated Theorem Proving</font> | Ningke | Ningke |
 | April 7 | <font color=green>Reading Group</font> | Zhaokun | ---|
-| April 1 |  | --- | ---|
+| April 1 | <font color=blue>VDBFuzz: Understanding and Detecting Crash Bugs in Vector Database Management Systems</font> | Ningke | Shenao Wang |
 | March 25 |  | --- | ---|
 | March 24 | <font color=green>Reading Group</font> | Yuancheng | ---|
 | March 18 |  | --- | ---|
