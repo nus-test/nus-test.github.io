@@ -5,12 +5,22 @@
     <link>https://nus-test.github.io/event/</link>
       <atom:link href="https://nus-test.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Events</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 28 Oct 2025 16:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Apr 2026 14:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Recent &amp; Upcoming Events</title>
       <link>https://nus-test.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>VDBFuzz: Understanding and Detecting Crash Bugs in Vector Database Management Systems</title>
+      <link>https://nus-test.github.io/event/260401/</link>
+      <pubDate>Wed, 01 Apr 2026 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/260401/</guid>
+      <description>&lt;p&gt;Speaker Info:&lt;/p&gt;
+&lt;p&gt;Shenao Wang is a Ph.D. student at Huazhong University of Science and Technology, advised by Professor Haoyu Wang. His research focuses on the intersection of security, program analysis, and software systems. His recent work centers on the security vulnerabilities in the LLM infrastructure and agentic software ecosystem.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Finding Bugs in MLIR Compiler Infrastructure via Lowering Space Exploration</title>
