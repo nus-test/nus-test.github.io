@@ -33,7 +33,7 @@ Timetable for upcoming events in AY25/26 (subject to changes):
 | March 18 |  | --- | ---|
 | March 11 | <font color=brown>Qiyu Presentation</font> | --- | ---|
 | March 10 | <font color=green>Reading Group</font> | Yibo | ---|
-| March 4 |  | --- | ---|
+| March 4 | <font color=blue>TBD</font> | TEST-lab | Flavien Solt|
 | Feb 25 | <font color=gray>Recess Week</font> | --- | ---|
 | Feb 18 | <font color=gray>Skip: Chinese New Year</font> | --- | ---|
 | Feb 11 | <font color=blue>Comfrey: Mitigating Integration Failures in LLM-enabled Software at Run-Time </font> | Yibo Dong | Yuchen Shao |
