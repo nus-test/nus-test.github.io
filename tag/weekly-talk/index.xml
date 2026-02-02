@@ -23,6 +23,16 @@
     </item>
     
     <item>
+      <title>From Empirical Study to Runtime Mitigation: Addressing Integration Failures in LLM-Enabled Software</title>
+      <link>https://nus-test.github.io/event/260211/</link>
+      <pubDate>Wed, 11 Feb 2026 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/260211/</guid>
+      <description>&lt;p&gt;Speaker Info:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ycshao12.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yuchen Shao&lt;/a&gt; is a third-year Ph.D. student at the Software Engineering Institute, East China Normal University (ECNU) and the Shanghai Innovation Institute, co-advised by Prof. Chengcheng Wan and Prof. Ting Su. Her research interests lie in SE/Sys for AI and software testing. Her recent work centers on the correctness and reliability of Large Language Model (LLM) integration in software systems, including analyzing integration patterns and mitigating runtime failures in LLM-enabled software.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Finding Bugs in MLIR Compiler Infrastructure via Lowering Space Exploration</title>
       <link>https://nus-test.github.io/event/251028/</link>
       <pubDate>Tue, 28 Oct 2025 16:00:00 +0000</pubDate>
