@@ -14,7 +14,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Emily is working on automated testing tools for databases.
+bio: Emily was working on automated testing tools for databases.
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -34,7 +34,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Undergraduate Students
+- Past Members
 ---
 
-Emily is an undergraduate at the National University of Singapore working on automated testing tools for databases.
+Emily was an undergraduate at the National University of Singapore working on automated testing tools for databases.
