@@ -1057,6 +1057,132 @@
         "system": "CockroachDB"
     },
     {
+        "url": "https://www.sqlite.org/forum/info/fe8775443d482d60",
+        "title": "Wrong INNER JOIN result involving subquery containing PERCENT_RANK()",
+        "created_at": "10/04/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://www.sqlite.org/forum/forumpost/35bf50ea011cba84",
+        "title": "Multiple JOIN involving subquery containing TOTAL function produces wrong result",
+        "created_at": "09/06/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://www.sqlite.org/forum/forumpost/a8704b30f3",
+        "title": "Unexpected multiple JOIN result involving FULL JOIN and INNER JOIN",
+        "created_at": "28/05/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://www.sqlite.org/forum/forumpost/7dee41d32506c4ae",
+        "title": "Unexpected multiple JOIN result involving FULL JOIN, INNER JOIN and LEFT JOIN",
+        "created_at": "30/05/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://www.sqlite.org/forum/forumpost/4fc70203b61c7e12",
+        "title": "Unexpected multiple JOIN result involving NATURAL JOIN",
+        "created_at": "30/05/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://www.sqlite.org/forum/forumpost/5028c785b6",
+        "title": "Wrong FULL JOIN result",
+        "created_at": "31/05/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://www.sqlite.org/forum/forumpost/829306db47",
+        "title": "Unexpected multiple JOIN involving subquery containing CAST",
+        "created_at": "01/06/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://www.sqlite.org/forum/forumpost/68f29a2005",
+        "title": "Unexpected multiple JOIN result",
+        "created_at": "16/06/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://www.sqlite.org/forum/forumpost/3e45ed31d8",
+        "title": "Unexpected ANTI JOIN result",
+        "created_at": "13/07/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://www.sqlite.org/forum/forumpost/428ef7c468",
+        "title": "Unexpected LEFT JOIN result",
+        "created_at": "11/07/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://www.sqlite.org/forum/info/6e1d387c7e50a06f",
+        "title": "Unexpected execution result in the new EXISTS-to-JOIN optimization",
+        "created_at": "23/07/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://www.sqlite.org/forum/info/ccfb3b5052",
+        "title": "ON clause references tables to its right in INNER JOIN",
+        "created_at": "21/08/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://www.sqlite.org/forum/info/d5f32040c5d50d2d",
+        "title": "Unexpected execution result in LEFT JOIN with subquery",
+        "created_at": "29/10/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://www.sqlite.org/forum/info/e730f81d062f65d1",
+        "title": "Unexpected NATURAL FULL JOIN result",
+        "created_at": "30/10/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed"
+    },
+    {
         "url": "https://sqlite.org/forum/forumpost/af3d07f908",
         "title": "An Inconsistent Result Depending on Parenthesization",
         "created_at": "11/05/2022",

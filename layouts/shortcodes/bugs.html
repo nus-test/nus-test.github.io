@@ -1,13 +1,13 @@
 <b>Overview</b><br/>
 <ul>
-<a href="#dbms"><li>Database Management Systems: 801 bugs</li></a>
+<a href="#dbms"><li>Database Management Systems: 815 bugs</li></a>
 <a href="#compiler&interpreter"><li>Compilers and Interpreters: 60 bugs</li></a>
 <a href="#datalog"><li>Datalog Engines: 30 bugs</li></a>
 <a href="#xml"><li>XML Processors: 26 bugs</li></a>
 </ul>
 <br/>
-<h2 id="dbms">Database Management Systems (801 bugs)</h2>
-<h3>SQLite (217 bugs)</h3>
+<h2 id="dbms">Database Management Systems (815 bugs)</h2>
+<h3>SQLite (231 bugs)</h3>
 <details>
 <summary>An Inconsistent Result Depending on Parenthesization</summary>
 Status: fixed<br />
@@ -217,6 +217,90 @@ Found by: Chi Zhang
 Status: fixed<br />
 Link: <a href="https://sqlite.org/forum/forumpost/96cd4a7e9e">https://sqlite.org/forum/forumpost/96cd4a7e9e</a> <br />
 Found by: Chi Zhang
+</details>
+<details>
+<summary>Wrong INNER JOIN result involving subquery containing PERCENT_RANK()</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/forum/info/fe8775443d482d60">https://www.sqlite.org/forum/info/fe8775443d482d60</a><br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Multiple JOIN involving subquery containing TOTAL function produces wrong result</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/forum/forumpost/35bf50ea011cba84">https://www.sqlite.org/forum/forumpost/35bf50ea011cba84</a><br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Unexpected multiple JOIN result involving FULL JOIN and INNER JOIN</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/forum/forumpost/a8704b30f3">https://www.sqlite.org/forum/forumpost/a8704b30f3</a><br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Unexpected multiple JOIN result involving FULL JOIN, INNER JOIN and LEFT JOIN</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/forum/forumpost/7dee41d32506c4ae">https://www.sqlite.org/forum/forumpost/7dee41d32506c4ae</a><br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Unexpected multiple JOIN result involving NATURAL JOIN</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/forum/forumpost/4fc70203b61c7e12">https://www.sqlite.org/forum/forumpost/4fc70203b61c7e12</a><br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Wrong FULL JOIN result</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/forum/forumpost/5028c785b6">https://www.sqlite.org/forum/forumpost/5028c785b6</a><br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Unexpected multiple JOIN involving subquery containing CAST</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/forum/forumpost/829306db47">https://www.sqlite.org/forum/forumpost/829306db47</a><br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Unexpected multiple JOIN result</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/forum/forumpost/68f29a2005">https://www.sqlite.org/forum/forumpost/68f29a2005</a><br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Unexpected ANTI JOIN result</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/forum/forumpost/3e45ed31d8">https://www.sqlite.org/forum/forumpost/3e45ed31d8</a><br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Unexpected LEFT JOIN result</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/forum/forumpost/428ef7c468">https://www.sqlite.org/forum/forumpost/428ef7c468</a><br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Unexpected execution result</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/forum/info/6e1d387c7e50a06f">https://www.sqlite.org/forum/info/6e1d387c7e50a06f</a><br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>ON clause references tables to its right in INNER JOIN</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/forum/info/ccfb3b5052">https://www.sqlite.org/forum/info/ccfb3b5052</a><br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Unexpected execution result in LEFT JOIN with subquery</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/forum/info/d5f32040c5d50d2d">https://www.sqlite.org/forum/info/d5f32040c5d50d2d</a><br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Unexpected NATURAL FULL JOIN result</summary>
+Status: fixed<br />
+Link: <a href="https://www.sqlite.org/forum/info/e730f81d062f65d1">https://www.sqlite.org/forum/info/e730f81d062f65d1</a><br />
+Found by: Zhaokun Xiang
 </details>
 <details>
 <summary>Unexpected results when using `REPLACE` function</summary>
