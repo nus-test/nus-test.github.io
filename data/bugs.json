@@ -1056,7 +1056,6 @@
         "reported_by": "bajinsheng",
         "system": "CockroachDB"
     },
-    
     {
         "url": "https://github.com/duckdb/duckdb/issues/19984",
         "title": "Unexpected Execution Result",
@@ -5765,6 +5764,15 @@
         "reported_by": "Suyang Zhong",
         "resolution": "confirmed",
         "state": "open"
+    },
+    {
+        "url": "https://github.com/ClickHouse/ClickHouse/issues/80775",
+        "title": "Equivalent semi join but the second form produces Cannot clone ReadFromStorage plan step",
+        "created_at": "05/25/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "ClickHouse",
+        "resolution": "fixed"
     },
     {
         "url": "https://github.com/MonetDB/MonetDB/issues/7539",
