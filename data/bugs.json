@@ -4376,6 +4376,294 @@
         "state": "closed"
     },
     {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7761",
+        "title": "Unexpected SEMI Join Result",
+        "created_at": "11/29/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7756",
+        "title": "Unexpected ANTI JOIN Result",
+        "created_at": "11/26/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7745",
+        "title": "Unexpected Execution Results",
+        "created_at": "11/06/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7744",
+        "title": "Unexpected Error in Join",
+        "created_at": "10/24/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7739",
+        "title": "Unexpected Crash in Left Join",
+        "created_at": "10/23/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7716",
+        "title": "Unexpected Anti Join Result",
+        "created_at": "09/22/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7715",
+        "title": "Unexpected Anti Join Result",
+        "created_at": "09/20/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7712",
+        "title": "Unexpected Out of Memory",
+        "created_at": "09/18/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7711",
+        "title": "Unexpected Crash",
+        "created_at": "09/18/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7708",
+        "title": "Unexpected Join Result",
+        "created_at": "09/17/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7707",
+        "title": "Unexpected Right Join Result",
+        "created_at": "09/13/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7705",
+        "title": "Unexpected Anti Join Result",
+        "created_at": "09/12/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7703",
+        "title": "Unexpected Left Join Result",
+        "created_at": "09/05/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7698",
+        "title": "Unexpected Right Join Result",
+        "created_at": "09/04/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7697",
+        "title": "Unexpected execution result",
+        "created_at": "09/03/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7696",
+        "title": "Unexpected execution result",
+        "created_at": "09/02/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7695",
+        "title": "Unexpected execution result",
+        "created_at": "09/01/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7694",
+        "title": "Unexpected execution result",
+        "created_at": "08/30/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7653",
+        "title": "Incorrect Inner Join Result",
+        "created_at": "06/24/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7652",
+        "title": "Incorrect Anti Join Result related to optimization",
+        "created_at": "06/24/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7651",
+        "title": "Incorrect Anti Join Result",
+        "created_at": "06/24/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7650",
+        "title": "Unexpected Right Join Crash",
+        "created_at": "06/19/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7649",
+        "title": "Unexpected Inner Join Crash",
+        "created_at": "06/19/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7648",
+        "title": "Unexpected Right Join Assertion Error",
+        "created_at": "06/19/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7646",
+        "title": "Unexpected Left Join Crash",
+        "created_at": "06/13/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7645",
+        "title": "Unexpected Internal Error in Inner Join",
+        "created_at": "06/13/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7644",
+        "title": "Unexpected anti join crash",
+        "created_at": "06/13/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7636",
+        "title": "Unexpected Anti Join Crash",
+        "created_at": "05/19/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7635",
+        "title": "Unexpected Inner Join Crash",
+        "created_at": "05/19/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7634",
+        "title": "Join with subquery crash",
+        "created_at": "05/19/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7633",
+        "title": "Unexpected Out of Memory of Inner Join",
+        "created_at": "05/18/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/MonetDB/MonetDB/issues/7632",
+        "title": "Unexpected Left Join Crash",
+        "created_at": "05/18/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "MonetDB",
+        "resolution": "fixed"
+    },
+    {
         "url": "https://github.com/MonetDB/MonetDB/issues/7426",
         "title": "Unexpected result for INNER JOIN with IS NOT NULL ",
         "created_at": "1/2/2024",
