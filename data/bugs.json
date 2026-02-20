@@ -1056,6 +1056,223 @@
         "reported_by": "bajinsheng",
         "system": "CockroachDB"
     },
+    
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/19984",
+        "title": "Unexpected Execution Result",
+        "created_at": "11/29/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/19680",
+        "title": "Unexpected Execution Result",
+        "created_at": "11/06/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/19666",
+        "title": "Assertion Failure in INNER JOIN",
+        "created_at": "11/06/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/18603",
+        "title": "Unexpected Inner Join Result",
+        "created_at": "08/14/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/18487",
+        "title": "Unexpected Join Internal Error",
+        "created_at": "08/03/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/18267",
+        "title": "Unexpected internal error in joins",
+        "created_at": "07/16/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/18049",
+        "title": "Unexpected Internal Error with Delim join - binding index out of range",
+        "created_at": "06/25/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/18000",
+        "title": "Unexpected Join Crash",
+        "created_at": "06/21/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/17792",
+        "title": "Unexpected Left Join Result",
+        "created_at": "06/04/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/17701",
+        "title": "A inner join meets INTERNAL Error: Failed to bind column reference",
+        "created_at": "05/28/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/17700",
+        "title": "Unexpected internal error in multi-join query",
+        "created_at": "05/28/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/17561",
+        "title": "Wrong inner join result",
+        "created_at": "05/20/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/17446",
+        "title": "multiple joins crash with 'Execute called with a result vector of type INTEGER that does not match expression type VARCHAR'",
+        "created_at": "05/12/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/17440",
+        "title": "Should-be rejected conversions unexpectedly execute successfully in the join and cause bugs",
+        "created_at": "05/11/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/17417",
+        "title": "A wrong anti-join result when joining with an empty table",
+        "created_at": "05/08/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/17380",
+        "title": "Wrong inner join result when handling join condition related to primary key",
+        "created_at": "05/07/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/17378",
+        "title": "Binder Error about a non-existent table name",
+        "created_at": "05/07/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "resolution": "confirmed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/17372",
+        "title": "Wrong multiple join result",
+        "created_at": "05/06/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/17338",
+        "title": "Wrong join result",
+        "created_at": "05/02/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/17335",
+        "title": "Multiple Join Crash with Vector::Reference used on vector of different type",
+        "created_at": "05/02/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/17217",
+        "title": "Wrong inner Join result",
+        "created_at": "04/23/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/16901",
+        "title": "multiple right joins produce wrong result",
+        "created_at": "03/31/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/16803",
+        "title": "An Anti-Join produces wrong result",
+        "created_at": "03/24/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/duckdb/duckdb/issues/16783",
+        "title": "Anti-join meets INTERNAL Error: Attempted to dereference unique_ptr that is NULL",
+        "created_at": "03/22/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "DuckDB",
+        "resolution": "fixed"
+    },
     {
         "url": "https://www.sqlite.org/forum/info/fe8775443d482d60",
         "title": "Wrong INNER JOIN result involving subquery containing PERCENT_RANK()",

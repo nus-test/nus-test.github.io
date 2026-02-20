@@ -6,7 +6,7 @@
 <a href="#xml"><li>XML Processors: 26 bugs</li></a>
 </ul>
 <br/>
-<h2 id="dbms">Database Management Systems (815 bugs)</h2>
+<h2 id="dbms">Database Management Systems (839 bugs)</h2>
 <h3>SQLite (231 bugs)</h3>
 <details>
 <summary>An Inconsistent Result Depending on Parenthesization</summary>
@@ -1394,7 +1394,7 @@ Status: fixed<br />
 Link: <a href="https://www.sqlite.org/src/tktview?name=be31cf009c">https://www.sqlite.org/src/tktview?name=be31cf009c</a> <br />
 Found by: mrigger
 </details>
-<h3>DuckDB (111 bugs)</h3>
+<h3>DuckDB (135 bugs)</h3>
 <details>
 <summary>BETWEEN with subquery and column results in unexpected error</summary>
 Status: fixed<br />
@@ -1616,6 +1616,150 @@ Found by: Suyang Zhong
 Status: confirmed<br />
 Link: <a href="https://github.com/duckdb/duckdb/issues/13813">https://github.com/duckdb/duckdb/issues/13813</a> <br />
 Found by: Suyang Zhong
+</details>
+<details>
+<summary>Unexpected Execution Result</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/19984">https://github.com/duckdb/duckdb/issues/19984</a> <br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Unexpected Execution Result</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/19680">https://github.com/duckdb/duckdb/issues/19680</a> <br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Assertion Failure in INNER JOIN</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/19666">https://github.com/duckdb/duckdb/issues/19666</a> <br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Unexpected INNER JOIN Result</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/18603">https://github.com/duckdb/duckdb/issues/18603</a> <br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Unexpected JOIN Internal Error</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/18487">https://github.com/duckdb/duckdb/issues/18487</a> <br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Unexpected Internal Error in JOINS</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/18267">https://github.com/duckdb/duckdb/issues/18267</a> <br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Unexpected Internal Error with Delim Join - binding index out of range</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/18049">https://github.com/duckdb/duckdb/issues/18049</a> <br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Unexpected Join Crash</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/18000">https://github.com/duckdb/duckdb/issues/18000</a> <br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Unexpected Left Join Result</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/17792">https://github.com/duckdb/duckdb/issues/17792</a> <br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>A INNER JOIN meets INTERNAL Error: Failed to bind column reference</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/17701">https://github.com/duckdb/duckdb/issues/17701</a> <br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Unexpected Internal Error in Multi-Join Query</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/17700">https://github.com/duckdb/duckdb/issues/17700</a> <br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Wrong INNER JOIN result</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/17561">https://github.com/duckdb/duckdb/issues/17561</a> <br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Multiple JOINS Crash With 'Execute called with a result vector of type INTEGER that does not match expression type VARCHAR'</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/17446">https://github.com/duckdb/duckdb/issues/17446</a> <br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Should-be Rejected Conversions Unexpectedly Execute Successfully in the Join and Cause Bugs</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/17440">https://github.com/duckdb/duckdb/issues/17440</a> <br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>A Wrong Anti-Join Result When Joining With an Empty Table</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/17417">https://github.com/duckdb/duckdb/issues/17417</a> <br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Wrong INNER JOIN Result When Handling Join Condition Related to Primary Key</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/17380">https://github.com/duckdb/duckdb/issues/17380</a> <br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Binder Error about a non-existent table name</summary>
+Status: confirmed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/17378">https://github.com/duckdb/duckdb/issues/17378</a> <br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Wrong Multiple JOIN Result</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/17372">https://github.com/duckdb/duckdb/issues/17372</a> <br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Wrong JOIN Result</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/17338">https://github.com/duckdb/duckdb/issues/17338</a> <br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Multiple Join Crash with Vector::Reference used on vector of different type</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/17335">https://github.com/duckdb/duckdb/issues/17335</a> <br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Wrong INNER Join result</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/17217">https://github.com/duckdb/duckdb/issues/17217</a> <br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Multiple RIGHT JOINS Produce Wrong Result</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/16901">https://github.com/duckdb/duckdb/issues/16901</a> <br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>An Anti-Join Produces Wrong Result</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/16803">https://github.com/duckdb/duckdb/issues/16803</a> <br />
+Found by: Zhaokun Xiang
+</details>
+<details>
+<summary>Anti-join meets INTERNAL Error: Attempted to dereference unique_ptr that is NULL</summary>
+Status: fixed<br />
+Link: <a href="https://github.com/duckdb/duckdb/issues/16783">https://github.com/duckdb/duckdb/issues/16783</a> <br />
+Found by: Zhaokun Xiang
 </details>
 <details>
 <summary>INTERNAL ERROR: Unimplemented type for normalify</summary>
