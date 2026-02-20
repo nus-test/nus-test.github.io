@@ -19,13 +19,13 @@
       <guid>https://nus-test.github.io/bugs/</guid>
       <description>&lt;b&gt;Overview&lt;/b&gt;&lt;br/&gt;
 &lt;ul&gt;
-&lt;a href=&#34;#dbms&#34;&gt;&lt;li&gt;Database Management Systems: 815 bugs&lt;/li&gt;&lt;/a&gt;
+&lt;a href=&#34;#dbms&#34;&gt;&lt;li&gt;Database Management Systems: 909 bugs&lt;/li&gt;&lt;/a&gt;
 &lt;a href=&#34;#compiler&amp;interpreter&#34;&gt;&lt;li&gt;Compilers and Interpreters: 60 bugs&lt;/li&gt;&lt;/a&gt;
 &lt;a href=&#34;#datalog&#34;&gt;&lt;li&gt;Datalog Engines: 30 bugs&lt;/li&gt;&lt;/a&gt;
 &lt;a href=&#34;#xml&#34;&gt;&lt;li&gt;XML Processors: 26 bugs&lt;/li&gt;&lt;/a&gt;
 &lt;/ul&gt;
 &lt;br/&gt;
-&lt;h2 id=&#34;dbms&#34;&gt;Database Management Systems (872 bugs)&lt;/h2&gt;
+&lt;h2 id=&#34;dbms&#34;&gt;Database Management Systems (909 bugs)&lt;/h2&gt;
 &lt;h3&gt;SQLite (231 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;An Inconsistent Result Depending on Parenthesization&lt;/summary&gt;
@@ -2224,7 +2224,13 @@ Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/cwida/duckdb/issues/637&#34;&gt;https://github.com/cwida/duckdb/issues/637&lt;/a&gt; &lt;br /&gt;
 Found by: mrigger
 &lt;/details&gt;
-&lt;h3&gt;CockroachDB (83 bugs)&lt;/h3&gt;
+&lt;h3&gt;CockroachDB (84 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Join Crash with ERROR: internal error: invalid datum type given&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/147585&#34;&gt;https://github.com/cockroachdb/cockroach/issues/147585&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
 &lt;details&gt;
 &lt;summary&gt;sql: support SCRUB on temp tables&lt;/summary&gt;
 Status: confirmed&lt;br /&gt;
@@ -2723,7 +2729,7 @@ Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/47327&#34;&gt;https://github.com/cockroachdb/cockroach/issues/47327&lt;/a&gt; &lt;br /&gt;
 Found by: mrigger
 &lt;/details&gt;
-&lt;h3&gt;TiDB (74 bugs)&lt;/h3&gt;
+&lt;h3&gt;TiDB (81 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;incorrect unresolved column when using natural join&lt;/summary&gt;
 Status: confirmed&lt;br /&gt;
@@ -3013,6 +3019,48 @@ Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/53506&#34;&gt;https
 Found by: Suyang Zhong
 &lt;/details&gt;
 &lt;details&gt;
+&lt;summary&gt;Unexpected INNER JOIN Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/60322&#34;&gt;https://github.com/pingcap/tidb/issues/60322&lt;/a&gt;&lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Join Crash When dealing with inner join involving subquery and like operator&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/60625&#34;&gt;https://github.com/pingcap/tidb/issues/60625&lt;/a&gt;&lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Serious Wrong Result of Right Join involving subquery&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/60659&#34;&gt;https://github.com/pingcap/tidb/issues/60659&lt;/a&gt;&lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Inner Join result&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/61306&#34;&gt;https://github.com/pingcap/tidb/issues/61306&lt;/a&gt;&lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Multiple Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/61327&#34;&gt;https://github.com/pingcap/tidb/issues/61327&lt;/a&gt;&lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Wrong Inner Join Result&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/60217&#34;&gt;https://github.com/pingcap/tidb/issues/60217&lt;/a&gt;&lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Join Involving View and ATAN2 function produce wrong result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/60093&#34;&gt;https://github.com/pingcap/tidb/issues/60093&lt;/a&gt;&lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
 &lt;summary&gt;Double negation causes incorrect result&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/15725&#34;&gt;https://github.com/pingcap/tidb/issues/15725&lt;/a&gt; &lt;br /&gt;
@@ -3168,7 +3216,61 @@ Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/16779&#34;&gt;https://github.com/pingcap/tidb/issues/16779&lt;/a&gt; &lt;br /&gt;
 Found by: mrigger
 &lt;/details&gt;
-&lt;h3&gt;Umbra (46 bugs)&lt;/h3&gt;
+&lt;h3&gt;Umbra (55 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected lateral join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;An unexpected core dumped in index creation&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;An unexpected core dumped in multiple joins&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;An unexpected internal error in joins&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;An unexpected anti-join logic bug&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;An unexpected internal error in an equivalent join&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;An unexpected internal error in a left join&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;An unexpected internal error&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;An unexpected core dump in multiple joins&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
 &lt;details&gt;
 &lt;summary&gt;Unexpected Results when Comparing Boolean Values&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
@@ -4143,7 +4245,25 @@ Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/4010&#34;&gt;https://github.com/questdb/questdb/issues/4010&lt;/a&gt; &lt;br /&gt;
 Found by: Yuancheng Jiang
 &lt;/details&gt;
-&lt;h3&gt;cratedb (35 bugs)&lt;/h3&gt;
+&lt;h3&gt;cratedb (38 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected ANTI JOIN Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/18873&#34;&gt;https://github.com/crate/crate/issues/18873&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Inner Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/18860&#34;&gt;https://github.com/crate/crate/issues/18860&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Left Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/18680&#34;&gt;https://github.com/crate/crate/issues/18680&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
 &lt;details&gt;
 &lt;summary&gt;Couldn&#39;t create execution plan from logical plan because of: Index 2 out of bounds for length 2&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
@@ -4354,7 +4474,121 @@ Status: confirmed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/crate/crate/issues/16577&#34;&gt;https://github.com/crate/crate/issues/16577&lt;/a&gt; &lt;br /&gt;
 Found by: Suyang Zhong
 &lt;/details&gt;
-&lt;h3&gt;Dolt (28 bugs)&lt;/h3&gt;
+&lt;h3&gt;Dolt (47 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Incorrect indexes in left outer lookup join&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/10451&#34;&gt;https://github.com/dolthub/dolt/issues/10451&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Disable RangeHeapJoin with string and number columns&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/10435&#34;&gt;https://github.com/dolthub/dolt/issues/10435&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;`ColumnId`&#39;s not added for `EmptyTable` during `assignExecIndexes`, causing offset when getting column index&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/10434&#34;&gt;https://github.com/dolthub/dolt/issues/10434&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Invalid CrossJoin in query plan&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/10304&#34;&gt;https://github.com/dolthub/dolt/issues/10304&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Avoid RangeHeapJoin when lower and upper bounds are the same field&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/10284&#34;&gt;https://github.com/dolthub/dolt/issues/10284&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;`abs` returns `null` when inputs are boolean values&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/10270&#34;&gt;https://github.com/dolthub/dolt/issues/10270&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;`NATURAL FULL JOIN` incorrectly parsed as `NATURAL RIGHT JOIN`&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/10268&#34;&gt;https://github.com/dolthub/dolt/issues/10268&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;`WHERE NOT EXISTS` from an empty view does not return correct results&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/10258&#34;&gt;https://github.com/dolthub/dolt/issues/10258&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Booleans should not be used as keys for varchar index lookups&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/10246&#34;&gt;https://github.com/dolthub/dolt/issues/10246&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Anti Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/10243&#34;&gt;https://github.com/dolthub/dolt/issues/10243&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Anti Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/10234&#34;&gt;https://github.com/dolthub/dolt/issues/10234&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Lookup Join returns incorrect result due to out-of-range key conversion&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/10233&#34;&gt;https://github.com/dolthub/dolt/issues/10233&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Result Under Hint&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/10186&#34;&gt;https://github.com/dolthub/dolt/issues/10186&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected ANTI JOIN Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/10157&#34;&gt;https://github.com/dolthub/dolt/issues/10157&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected ANTI JOIN Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/10102&#34;&gt;https://github.com/dolthub/dolt/issues/10102&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected ANTI JOIN Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/10092&#34;&gt;https://github.com/dolthub/dolt/issues/10092&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected `DAYOFMONTH` Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/10075&#34;&gt;https://github.com/dolthub/dolt/issues/10075&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Result in ANTI-JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/10070&#34;&gt;https://github.com/dolthub/dolt/issues/10070&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected UNION ALL Result of INNER JOIN and ANTI JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/10064&#34;&gt;https://github.com/dolthub/dolt/issues/10064&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
 &lt;details&gt;
 &lt;summary&gt;Unexpected Results when Using &#39;%&#39; operator&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
