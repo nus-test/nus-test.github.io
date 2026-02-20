@@ -878,6 +878,69 @@
         "system": "TiDB"
     },
     {
+		"url": "https://github.com/pingcap/tidb/issues/60322",
+		"title": "Unexpected INNER JOIN Result",
+		"created_at": "03/28/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "TiDB",
+		"resolution": "fixed"
+	},
+	{
+		"url": "https://github.com/pingcap/tidb/issues/60625",
+		"title": "Join Crash When dealing with inner join involving subquery and like operator",
+		"created_at": "04/17/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "TiDB",
+		"resolution": "fixed"
+	},
+	{
+		"url": "https://github.com/pingcap/tidb/issues/60659",
+		"title": "Serious Wrong Result of Right Join involving subquery",
+		"created_at": "04/18/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "TiDB",
+		"resolution": "confirmed"
+	},
+	{
+		"url": "https://github.com/pingcap/tidb/issues/61306",
+		"title": "Unexpected Inner Join result",
+		"created_at": "05/25/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "TiDB",
+		"resolution": "fixed"
+	},
+	{
+		"url": "https://github.com/pingcap/tidb/issues/61327",
+		"title": "Unexpected Multiple Join Result ",
+		"created_at": "05/26/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "TiDB",
+		"resolution": "fixed"
+	},
+	{
+		"url": "https://github.com/pingcap/tidb/issues/60217",
+		"title": "Wrong Inner Join Result ",
+		"created_at": "03/21/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "TiDB",
+		"resolution": "fixed"
+	},
+	{
+		"url": "https://github.com/pingcap/tidb/issues/60093",
+		"title": "Join Involving View and ATAN2 function produce wrong result",
+		"created_at": "03/14/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "TiDB",
+		"resolution": "fixed"
+	},
+    {
         "url": "https://github.com/cockroachdb/cockroach/issues/83770",
         "title": "sql: support SCRUB on temp tables",
         "created_at": "04/07/2022",
@@ -1055,6 +1118,15 @@
         "domain": "dbms",
         "reported_by": "bajinsheng",
         "system": "CockroachDB"
+    },
+    {
+        "url": "https://github.com/cockroachdb/cockroach/issues/147585",
+        "title": "Join Crash with ERROR: internal error: invalid datum type given ",
+        "created_at": "06/02/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "CockroachDB",
+        "resolution": "fixed"
     },
     {
         "url": "https://github.com/duckdb/duckdb/issues/19984",
@@ -3650,6 +3722,33 @@
         "state": "closed"
     },
     {
+        "url": "https://github.com/crate/crate/issues/18873",
+        "title": "Unexpected ANTI JOIN Result",
+        "created_at": "01/05/2026",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "Crate",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/18860",
+        "title": "Unexpected Inner Join Result",
+        "created_at": "12/19/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "Crate",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/crate/crate/issues/18680",
+        "title": "Unexpected Left Join Result",
+        "created_at": "11/10/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "Crate",
+        "resolution": "fixed"
+    },
+    {
         "url": "https://github.com/crate/crate/issues/14805",
         "title": "Couldn't create execution plan from logical plan because of: Index 2 out of bounds for length 2",
         "created_at": "05/10/2023",
@@ -3714,6 +3813,177 @@
         "reported_by": "Suyang Zhong",
         "resolution": "fixed",
         "state": "closed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/10451",
+        "title": "Incorrect indexes in left outer lookup join",
+        "created_at": "02/07/2026",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "Dolt",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/10435",
+        "title": "Disable RangeHeapJoin with string and number columns",
+        "created_at": "02/06/2026",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "Dolt",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/10434",
+        "title": "`ColumnId`'s not added for `EmptyTable` during `assignExecIndexes`, causing offset when getting column index",
+        "created_at": "02/06/2026",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "Dolt",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/10304",
+        "title": "Invalid CrossJoin in query plan",
+        "created_at": "01/11/2026",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "Dolt",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/10284",
+        "title": "Avoid RangeHeapJoin when lower and upper bounds are the same field",
+        "created_at": "01/07/2026",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "Dolt",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/10270",
+        "title": "`abs` returns `null` when inputs are boolean values",
+        "created_at": "01/06/2026",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "Dolt",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/10268",
+        "title": "`NATURAL FULL JOIN` incorrectly parsed as `NATURAL RIGHT JOIN`",
+        "created_at": "01/06/2026",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "Dolt",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/10258",
+        "title": "`WHERE NOT EXISTS` from an empty view does not return correct results",
+        "created_at": "01/02/2026",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "Dolt",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/10246",
+        "title": "Booleans should not be used as keys for varchar index lookups",
+        "created_at": "12/27/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "Dolt",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/10243",
+        "title": "Unexpected Anti Join Result",
+        "created_at": "12/25/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "Dolt",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/10234",
+        "title": "Unexpected Anti Join Result",
+        "created_at": "12/21/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "Dolt",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/10233",
+        "title": "Lookup Join returns incorrect result due to out-of-range key conversion",
+        "created_at": "12/20/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "Dolt",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/10186",
+        "title": "Unexpected Result Under Hint",
+        "created_at": "12/09/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "Dolt",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/10157",
+        "title": "Unexpected ANTI JOIN Result",
+        "created_at": "12/03/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "Dolt",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/10102",
+        "title": "Unexpected ANTI JOIN Result",
+        "created_at": "11/19/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "Dolt",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/10092",
+        "title": "Unexpected ANTI JOIN Result",
+        "created_at": "11/18/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "Dolt",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/10075",
+        "title": "Unexpected `DAYOFMONTH` Result",
+        "created_at": "11/13/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "Dolt",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/10070",
+        "title": "Unexpected Result in ANTI-JOIN",
+        "created_at": "11/12/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "Dolt",
+        "resolution": "fixed"
+    },
+    {
+        "url": "https://github.com/dolthub/dolt/issues/10064",
+        "title": "Unexpected UNION ALL Result of INNER JOIN and ANTI JOIN",
+        "created_at": "11/11/2025",
+        "reported_by": "Zhaokun Xiang",
+        "domain": "dbms",
+        "system": "Dolt",
+        "resolution": "fixed"
     },
     {
         "url": "https://github.com/dolthub/dolt/issues/7006",
@@ -5335,6 +5605,87 @@
         "system": "Umbra",
         "reported_by": "Suyang Zhong",
         "resolution": "fixed"
+    },
+    {
+		"url": null,
+		"title": "Unexpected lateral join Result",
+		"created_at": "06/30/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "Umbra",
+		"resolution": "fixed"
+	},
+	{
+		"url": null,
+		"title": "An unexpected core dumped in index creation",
+		"created_at": "07/07/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "Umbra",
+		"resolution": "fixed"
+	},
+	{
+		"url": null,
+		"title": "An unexpected core dumped in multiple joins",
+		"created_at": "07/08/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "Umbra",
+		"resolution": "fixed"
+	},
+	{
+		"url": null,
+		"title": "An unexpected internal error in joins",
+		"created_at": "07/09/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "Umbra",
+		"resolution": "fixed"
+	},
+	{
+		"url": null,
+		"title": "An unexpected anti-join logic bug",
+		"created_at": "07/09/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "Umbra",
+		"resolution": "fixed"
+	},
+	{
+		"url": null,
+		"title": "An unexpected internal error in an equivalent join",
+		"created_at": "07/10/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "Umbra",
+		"resolution": "fixed"
+	},
+	{
+		"url": null,
+		"title": "An unexpected internal error in a left join",
+		"created_at": "07/11/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "Umbra",
+		"resolution": "fixed"
+	},
+	{
+		"url": null,
+		"title": " An unexpected internal error",
+		"created_at": "07/16/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "Umbra",
+		"resolution": "fixed"
+    },
+	{
+		"url": null,
+		"title": "An unexpected core dump in multiple joins",
+		"created_at": "07/23/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "Umbra",
+		"resolution": "fixed"
     },
     {
         "url": "https://github.com/FirebirdSQL/firebird/issues/7997",
