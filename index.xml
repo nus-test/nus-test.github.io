@@ -25,7 +25,7 @@
 &lt;a href=&#34;#xml&#34;&gt;&lt;li&gt;XML Processors: 26 bugs&lt;/li&gt;&lt;/a&gt;
 &lt;/ul&gt;
 &lt;br/&gt;
-&lt;h2 id=&#34;dbms&#34;&gt;Database Management Systems (839 bugs)&lt;/h2&gt;
+&lt;h2 id=&#34;dbms&#34;&gt;Database Management Systems (871 bugs)&lt;/h2&gt;
 &lt;h3&gt;SQLite (231 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;An Inconsistent Result Depending on Parenthesization&lt;/summary&gt;
@@ -3445,7 +3445,7 @@ Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
 Found by: Suyang Zhong
 &lt;/details&gt;
-&lt;h3&gt;MonetDB (45 bugs)&lt;/h3&gt;
+&lt;h3&gt;MonetDB (77 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;Unexpected result for INNER JOIN with IS NOT NULL &lt;/summary&gt;
 Status: fixed&lt;br /&gt;
@@ -3715,6 +3715,198 @@ Found by: Suyang Zhong
 Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7573&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7573&lt;/a&gt; &lt;br /&gt;
 Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected SEMI Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7761&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7761&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected ANTI JOIN Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7756&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7756&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Execution Results&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7745&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7745&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Error in Join&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7744&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7744&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Crash in Left Join&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7739&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7739&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Anti Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7716&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7716&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Anti Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7715&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7715&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Out of Memory&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7712&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7712&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Crash&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7711&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7711&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7708&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7708&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Right Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7707&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7707&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Anti Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7705&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7705&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Left Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7703&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7703&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Right Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7698&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7698&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected execution result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7697&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7697&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected execution result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7696&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7696&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected execution result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7695&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7695&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected execution result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7694&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7694&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Incorrect Inner Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7653&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7653&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Incorrect Anti Join Result related to optimization&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7652&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7652&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Incorrect Anti Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7651&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7651&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Right Join Crash&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7650&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7650&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Inner Join Crash&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7649&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7649&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Right Join Assertion Error&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7648&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7648&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Left Join Crash&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7646&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7646&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Internal Error in Inner Join&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7645&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7645&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected anti join crash&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7644&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7644&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Anti Join Crash&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7636&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7636&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Inner Join Crash&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7635&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7635&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Join with subquery crash&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7634&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7634&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Out of Memory of Inner Join&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7633&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7633&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Left Join Crash&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7632&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7632&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
 &lt;/details&gt;
 &lt;h3&gt;questdb (39 bugs)&lt;/h3&gt;
 &lt;details&gt;
