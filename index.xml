@@ -25,7 +25,7 @@
 &lt;a href=&#34;#xml&#34;&gt;&lt;li&gt;XML Processors: 26 bugs&lt;/li&gt;&lt;/a&gt;
 &lt;/ul&gt;
 &lt;br/&gt;
-&lt;h2 id=&#34;dbms&#34;&gt;Database Management Systems (871 bugs)&lt;/h2&gt;
+&lt;h2 id=&#34;dbms&#34;&gt;Database Management Systems (872 bugs)&lt;/h2&gt;
 &lt;h3&gt;SQLite (231 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;An Inconsistent Result Depending on Parenthesization&lt;/summary&gt;
@@ -5259,12 +5259,18 @@ Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;http://jira.cubrid.org/browse/CBRD-25067&#34;&gt;http://jira.cubrid.org/browse/CBRD-25067&lt;/a&gt; &lt;br /&gt;
 Found by: Manuel Rigger
 &lt;/details&gt;
-&lt;h3&gt;ClickHouse (1 bugs)&lt;/h3&gt;
+&lt;h3&gt;ClickHouse (2 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;Unexpected result when comparing IN expression and integer&lt;/summary&gt;
 Status: confirmed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/ClickHouse/ClickHouse/issues/65316&#34;&gt;https://github.com/ClickHouse/ClickHouse/issues/65316&lt;/a&gt; &lt;br /&gt;
 Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Equivalent semi join but the second form produces Cannot clone ReadFromStorage plan step&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/ClickHouse/ClickHouse/issues/80775&#34;&gt;https://github.com/ClickHouse/ClickHouse/issues/80775&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
 &lt;/details&gt;
 &lt;h3&gt;Presto (1 bugs)&lt;/h3&gt;
 &lt;details&gt;
