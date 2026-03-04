@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abdul Hakam | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+    <link>https://nus-test.github.io/author/abdul-hakam/</link>
+      <atom:link href="https://nus-test.github.io/author/abdul-hakam/index.xml" rel="self" type="application/rss+xml" />
+    <description>Abdul Hakam</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://nus-test.github.io/author/abdul-hakam/avatar_hu3046d6878a83146ea1b7d75c5f418c86_165307_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Abdul Hakam</title>
+      <link>https://nus-test.github.io/author/abdul-hakam/</link>
+    </image>
+    
+  </channel>
+</rss>
