@@ -5,12 +5,23 @@
     <link>https://nus-test.github.io/event/</link>
       <atom:link href="https://nus-test.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Events</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Apr 2026 14:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 22 Apr 2026 14:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Recent &amp; Upcoming Events</title>
       <link>https://nus-test.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>Once4All: Skeleton-Guided SMT Solver Fuzzing with LLM-Synthesized Generators</title>
+      <link>https://nus-test.github.io/event/260422/</link>
+      <pubDate>Wed, 22 Apr 2026 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/260422/</guid>
+      <description>&lt;p&gt;Speaker Info:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://merlin-cs.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Maolin Sun&lt;/a&gt; is pursuing the Ph.D. degree at School of Computer Science, Nanjing University, advised by Yuming Zhou and Yibiao Yang.
+He received my M.Sc. degree from Huazhong University of Science and Technology in 2023, advised by Ming Wen. His current research interests revolve around automated testing and analysis technologies for software.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>VDBFuzz: Understanding and Detecting Crash Bugs in Vector Database Management Systems</title>
