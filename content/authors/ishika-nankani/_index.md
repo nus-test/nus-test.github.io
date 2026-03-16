@@ -6,7 +6,7 @@ title: Ishika Nankani
 superuser: false
 
 # Role/position
-role: Visiting Undergraduate Student
+role: Undergraduate Intern
 
 # Organizations/Affiliations
 organizations:
