@@ -18,9 +18,15 @@ bio: Ishika Nankani is a final-year undergraduate student in Computer Science at
 
 # Social links
 social:
+- icon: envelope
+  icon_pack: fas
+  link: 'mailto:ishika.nankani.iitd.cse@gmail.com'
 - icon: github
   icon_pack: fab
   link: https://github.com/Ishika-Nankani
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/ishika-nankani-6870a7290/
 
 # Email
 email: "ishika.nankani.iitd.cse@gmail.com"
