@@ -54,7 +54,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Past Members
+  - Past Members (2026)
 ---
 
 Zhaokun was a master student at [DBHammer Lab](https://dbhammer.github.io) at East China Normal University, focusing on database testing and benchmarking, query optimization,

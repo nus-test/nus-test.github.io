@@ -34,7 +34,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Past Members
+- Past Members (2025)
 ---
 
 Emily was an undergraduate at the National University of Singapore working on automated testing tools for databases.

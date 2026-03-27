@@ -45,7 +45,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Past Members
+- Past Members (2023)
 ---
 
 Nathee Jaywaree is an undergraduate student from King Mongkut’s University of Technology Thonburi. He was doing an internship at the lab for 2.5 months (May 2023 to August 2023).

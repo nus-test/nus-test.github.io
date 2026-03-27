@@ -22,7 +22,10 @@ content:
   - Master Students
   - Undergraduate Students
   - Student Collaborators
-  - Past Members
+  - Past Members (2026)
+  - Past Members (2025)
+  - Past Members (2024)
+  - Past Members (2023)
 design:
   show_interests: true
   show_role: true

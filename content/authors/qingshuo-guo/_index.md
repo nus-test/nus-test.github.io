@@ -66,7 +66,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Past Members
+- Past Members (2023)
 ---
 
 Qingshuo Guo is doing an internship at the lab for one semester. Prior to this, He was a research assistant supervised by [Prof. Pinjia He](https://pinjiahe.github.io/) at Intelligent Software Engineering Lab of CUHK-SZ.

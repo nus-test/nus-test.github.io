@@ -66,7 +66,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Past Members
+- Past Members (2025)
 ---
 
 Find more information about [Wenjia](https://YeWenjia.github.io/).
