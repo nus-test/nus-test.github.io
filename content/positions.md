@@ -19,7 +19,8 @@ The group's core areas are software engineering, computer systems, and programmi
 More generally, topics of interest include, but are not limited to:
 * software reliability using techniques such as automated testing and program analysis;
 * creating and improving essential systems such as data processing systems, compilers, and programming language environments;
-* and programming languages, in particular, their efficient implementation.
+* programming languages, in particular, their efficient implementation;
+* and developing novel and applying existing computer science approaches to address nature conservation challenges.
 
 You can also consult my [Google Scholar page](https://scholar.google.com/citations?user=yRsLClYAAAAJ&view_op=list_works&sortby=pubdate) for an up-to-date view of our research activities.
 
@@ -40,5 +41,7 @@ If you are interested in a position, feel free to reach out to me and send me yo
 If you are considering a PhD position, you can also directly [apply here](https://www.comp.nus.edu.sg/programmes/pg/phdcs/application/) and mention my name in the application. The application deadlines are June 15 and December 15.
 
 
--- Manuel RIGGER (rigger@comp.nus.edu.sg)
+Please note that I am receiving many requests and will not be able to respond to most of them, in particular generic ones.
+
+-- Manuel RIGGER (rigger@nus.edu.sg)
 
