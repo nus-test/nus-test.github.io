@@ -65,6 +65,7 @@ Core Areas:
 * Software Engineering
 * Systems
 * Programming Languages
+* CS for Nature Conservation 🌿 *(new)*
   
 <!-- {{< figure src="group-photos/group-2025-1.jpg">}} -->
 
