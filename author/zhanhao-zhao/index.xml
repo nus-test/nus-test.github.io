@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/author/zhanhao-zhao/</link>
       <atom:link href="https://nus-test.github.io/author/zhanhao-zhao/index.xml" rel="self" type="application/rss+xml" />
     <description>Zhanhao Zhao</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 26 Mar 2025 14:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 Feb 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Zhanhao Zhao</title>
       <link>https://nus-test.github.io/author/zhanhao-zhao/</link>
     </image>
+    
+    <item>
+      <title>NRBench: A Benchmark Suite for Learned Database Components with Drift Modeling</title>
+      <link>https://nus-test.github.io/publication/2026-sigmod-nrbench/</link>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2026-sigmod-nrbench/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>NeurBench: Benchmarking Learned Database Components with Data and Workload Drift Modeling</title>

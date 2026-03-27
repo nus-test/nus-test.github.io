@@ -5,12 +5,36 @@
     <link>https://nus-test.github.io/author/manuel-rigger/</link>
       <atom:link href="https://nus-test.github.io/author/manuel-rigger/index.xml" rel="self" type="application/rss+xml" />
     <description>Manuel Rigger</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 30 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 Feb 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/author/manuel-rigger/avatar_hu80c0f478b5e05bba3f8a245bca9d50f5_225951_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Manuel Rigger</title>
       <link>https://nus-test.github.io/author/manuel-rigger/</link>
     </image>
+    
+    <item>
+      <title>Detecting Join Bugs in Database Engines via Join Implication Reasoning</title>
+      <link>https://nus-test.github.io/publication/2026-sigmod-join-bugs/</link>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2026-sigmod-join-bugs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dialect-Agnostic SQL Parsing via LLM-Based Segmentation</title>
+      <link>https://nus-test.github.io/publication/2026-sigmod-dialect-agnostic/</link>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2026-sigmod-dialect-agnostic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NRBench: A Benchmark Suite for Learned Database Components with Drift Modeling</title>
+      <link>https://nus-test.github.io/publication/2026-sigmod-nrbench/</link>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2026-sigmod-nrbench/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ACME: Automated Clause Mapping Engine for Testing Emerging Database Systems</title>
