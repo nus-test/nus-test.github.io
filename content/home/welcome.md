@@ -66,9 +66,10 @@ Core Areas:
 * Systems
 * Programming Languages
 * CS for Nature Conservation 🆕
-  
+
 <!-- {{< figure src="group-photos/group-2025-1.jpg">}} -->
 
+{{< bug-counter >}}
 
 [{{<icon name="twitter" pack="fab" >}}](https://twitter.com/test_nus)
 [{{<icon name="github" pack="fab" >}}](https://github.com/nus-test/)
