@@ -24,6 +24,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:tiancheng.x@u.nus.edu'
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=j_9YdekAAAAJ
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/tiancheng-xing-63877a29b/

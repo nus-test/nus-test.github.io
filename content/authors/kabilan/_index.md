@@ -36,6 +36,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: "mailto:kabilan.19@cse.mrt.ac.lk"
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=Qqy6DvYAAAAJ
   - icon: x-twitter
     icon_pack: fab
     link: https://x.com/KabilanMahathev

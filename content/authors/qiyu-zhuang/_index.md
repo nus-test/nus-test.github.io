@@ -36,6 +36,9 @@ social:
 - icon: envelope
   icon_pack: fas
 #    link: "mailto:t0935500@u.nus.edu"
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=G1_xspgAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/QiYuZhuang
