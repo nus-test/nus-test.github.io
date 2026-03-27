@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>GSlicer</title>
+      <link>https://nus-test.github.io/project/gslicer/</link>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 +0800</pubDate>
+      <guid>https://nus-test.github.io/project/gslicer/</guid>
+      <description>&lt;p&gt;GSlicer is an automated testing tool that finds logic bugs in graph-processing systems.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>A Unified Query Plan Representation</title>
       <link>https://nus-test.github.io/project/uplan/</link>
       <pubDate>Thu, 27 Mar 2025 00:41:03 +0800</pubDate>
