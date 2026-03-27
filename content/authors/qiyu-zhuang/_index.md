@@ -54,7 +54,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Student Collaborators
+- PhD Students
 ---
 
 Qiyu was a Ph.D. student at [DEKE](https://deke.ruc.edu.cn) at Renmin University of China, focusing on database system, database middleware, and isolation level.
