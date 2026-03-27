@@ -9,7 +9,7 @@ categories: []
 date: 2025-03-11T00:41:03+08:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://github.com/php/flowfusion"
+external_link: ""
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -27,7 +27,7 @@ image:
 #   icon_pack: fab
 #   icon: twitter
 
-url_code: ""
+url_code: "https://github.com/php/flowfusion"
 url_pdf: ""
 url_slides: ""
 url_video: ""
@@ -40,4 +40,4 @@ url_video: ""
 slides: ""
 ---
 
-FlowFusion is an automated testing tool that has found more than 300 bugs in the PHP interpreter (see https://github.com/php/php-src/issues?q=is%3Aissue%20author%3AYuanchengJiang%20).
+FlowFusion is an automated testing tool that has found more than 300 [bugs in the PHP interpreter](https://github.com/php/php-src/issues?q=is%3Aissue%20author%3AYuanchengJiang%20).
