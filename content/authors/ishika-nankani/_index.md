@@ -33,7 +33,7 @@ email: "ishika.nankani.iitd.cse@gmail.com"
 
 # Organizational groups
 user_groups:
-- Student Collaborators
+- Undergraduate Students
 ---
 
 Ishika Nankani is a final-year undergraduate student in Computer Science at the Indian Institute of Technology Delhi. She is visiting the lab as a research intern at the National University of Singapore.
