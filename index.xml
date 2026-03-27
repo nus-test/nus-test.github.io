@@ -19,14 +19,98 @@
       <guid>https://nus-test.github.io/bugs/</guid>
       <description>&lt;b&gt;Overview&lt;/b&gt;&lt;br/&gt;
 &lt;ul&gt;
-&lt;a href=&#34;#dbms&#34;&gt;&lt;li&gt;Database Management Systems: 909 bugs&lt;/li&gt;&lt;/a&gt;
+&lt;a href=&#34;#dbms&#34;&gt;&lt;li&gt;Database Management Systems: 911 bugs&lt;/li&gt;&lt;/a&gt;
 &lt;a href=&#34;#compiler&amp;interpreter&#34;&gt;&lt;li&gt;Compilers and Interpreters: 60 bugs&lt;/li&gt;&lt;/a&gt;
 &lt;a href=&#34;#datalog&#34;&gt;&lt;li&gt;Datalog Engines: 30 bugs&lt;/li&gt;&lt;/a&gt;
 &lt;a href=&#34;#xml&#34;&gt;&lt;li&gt;XML Processors: 26 bugs&lt;/li&gt;&lt;/a&gt;
 &lt;/ul&gt;
 &lt;br/&gt;
-&lt;h2 id=&#34;dbms&#34;&gt;Database Management Systems (909 bugs)&lt;/h2&gt;
+&lt;h2 id=&#34;dbms&#34;&gt;Database Management Systems (911 bugs)&lt;/h2&gt;
 &lt;h3&gt;SQLite (231 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Wrong INNER JOIN result involving subquery containing PERCENT_RANK()&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://www.sqlite.org/forum/info/fe8775443d482d60&#34;&gt;https://www.sqlite.org/forum/info/fe8775443d482d60&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Multiple JOIN involving subquery containing TOTAL function produces wrong result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://www.sqlite.org/forum/forumpost/35bf50ea011cba84&#34;&gt;https://www.sqlite.org/forum/forumpost/35bf50ea011cba84&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected multiple JOIN result involving FULL JOIN and INNER JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://www.sqlite.org/forum/forumpost/a8704b30f3&#34;&gt;https://www.sqlite.org/forum/forumpost/a8704b30f3&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected multiple JOIN result involving FULL JOIN, INNER JOIN and LEFT JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://www.sqlite.org/forum/forumpost/7dee41d32506c4ae&#34;&gt;https://www.sqlite.org/forum/forumpost/7dee41d32506c4ae&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected multiple JOIN result involving NATURAL JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://www.sqlite.org/forum/forumpost/4fc70203b61c7e12&#34;&gt;https://www.sqlite.org/forum/forumpost/4fc70203b61c7e12&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Wrong FULL JOIN result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://www.sqlite.org/forum/forumpost/5028c785b6&#34;&gt;https://www.sqlite.org/forum/forumpost/5028c785b6&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected multiple JOIN involving subquery containing CAST&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://www.sqlite.org/forum/forumpost/829306db47&#34;&gt;https://www.sqlite.org/forum/forumpost/829306db47&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected multiple JOIN result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://www.sqlite.org/forum/forumpost/68f29a2005&#34;&gt;https://www.sqlite.org/forum/forumpost/68f29a2005&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected ANTI JOIN result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://www.sqlite.org/forum/forumpost/3e45ed31d8&#34;&gt;https://www.sqlite.org/forum/forumpost/3e45ed31d8&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected LEFT JOIN result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://www.sqlite.org/forum/forumpost/428ef7c468&#34;&gt;https://www.sqlite.org/forum/forumpost/428ef7c468&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected execution result in the new EXISTS-to-JOIN optimization&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://www.sqlite.org/forum/info/6e1d387c7e50a06f&#34;&gt;https://www.sqlite.org/forum/info/6e1d387c7e50a06f&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;ON clause references tables to its right in INNER JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://www.sqlite.org/forum/info/ccfb3b5052&#34;&gt;https://www.sqlite.org/forum/info/ccfb3b5052&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected execution result in LEFT JOIN with subquery&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://www.sqlite.org/forum/info/d5f32040c5d50d2d&#34;&gt;https://www.sqlite.org/forum/info/d5f32040c5d50d2d&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected NATURAL FULL JOIN result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://www.sqlite.org/forum/info/e730f81d062f65d1&#34;&gt;https://www.sqlite.org/forum/info/e730f81d062f65d1&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
 &lt;details&gt;
 &lt;summary&gt;An Inconsistent Result Depending on Parenthesization&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
@@ -236,90 +320,6 @@ Found by: Chi Zhang
 Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;https://sqlite.org/forum/forumpost/96cd4a7e9e&#34;&gt;https://sqlite.org/forum/forumpost/96cd4a7e9e&lt;/a&gt; &lt;br /&gt;
 Found by: Chi Zhang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Wrong INNER JOIN result involving subquery containing PERCENT_RANK()&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://www.sqlite.org/forum/info/fe8775443d482d60&#34;&gt;https://www.sqlite.org/forum/info/fe8775443d482d60&lt;/a&gt;&lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Multiple JOIN involving subquery containing TOTAL function produces wrong result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://www.sqlite.org/forum/forumpost/35bf50ea011cba84&#34;&gt;https://www.sqlite.org/forum/forumpost/35bf50ea011cba84&lt;/a&gt;&lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected multiple JOIN result involving FULL JOIN and INNER JOIN&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://www.sqlite.org/forum/forumpost/a8704b30f3&#34;&gt;https://www.sqlite.org/forum/forumpost/a8704b30f3&lt;/a&gt;&lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected multiple JOIN result involving FULL JOIN, INNER JOIN and LEFT JOIN&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://www.sqlite.org/forum/forumpost/7dee41d32506c4ae&#34;&gt;https://www.sqlite.org/forum/forumpost/7dee41d32506c4ae&lt;/a&gt;&lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected multiple JOIN result involving NATURAL JOIN&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://www.sqlite.org/forum/forumpost/4fc70203b61c7e12&#34;&gt;https://www.sqlite.org/forum/forumpost/4fc70203b61c7e12&lt;/a&gt;&lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Wrong FULL JOIN result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://www.sqlite.org/forum/forumpost/5028c785b6&#34;&gt;https://www.sqlite.org/forum/forumpost/5028c785b6&lt;/a&gt;&lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected multiple JOIN involving subquery containing CAST&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://www.sqlite.org/forum/forumpost/829306db47&#34;&gt;https://www.sqlite.org/forum/forumpost/829306db47&lt;/a&gt;&lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected multiple JOIN result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://www.sqlite.org/forum/forumpost/68f29a2005&#34;&gt;https://www.sqlite.org/forum/forumpost/68f29a2005&lt;/a&gt;&lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected ANTI JOIN result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://www.sqlite.org/forum/forumpost/3e45ed31d8&#34;&gt;https://www.sqlite.org/forum/forumpost/3e45ed31d8&lt;/a&gt;&lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected LEFT JOIN result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://www.sqlite.org/forum/forumpost/428ef7c468&#34;&gt;https://www.sqlite.org/forum/forumpost/428ef7c468&lt;/a&gt;&lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected execution result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://www.sqlite.org/forum/info/6e1d387c7e50a06f&#34;&gt;https://www.sqlite.org/forum/info/6e1d387c7e50a06f&lt;/a&gt;&lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;ON clause references tables to its right in INNER JOIN&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://www.sqlite.org/forum/info/ccfb3b5052&#34;&gt;https://www.sqlite.org/forum/info/ccfb3b5052&lt;/a&gt;&lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected execution result in LEFT JOIN with subquery&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://www.sqlite.org/forum/info/d5f32040c5d50d2d&#34;&gt;https://www.sqlite.org/forum/info/d5f32040c5d50d2d&lt;/a&gt;&lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected NATURAL FULL JOIN result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://www.sqlite.org/forum/info/e730f81d062f65d1&#34;&gt;https://www.sqlite.org/forum/info/e730f81d062f65d1&lt;/a&gt;&lt;br /&gt;
-Found by: Zhaokun Xiang
 &lt;/details&gt;
 &lt;details&gt;
 &lt;summary&gt;Unexpected results when using `REPLACE` function&lt;/summary&gt;
@@ -1433,6 +1433,150 @@ Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/4976&#34;&gt;https
 Found by: bajinsheng
 &lt;/details&gt;
 &lt;details&gt;
+&lt;summary&gt;Unexpected Execution Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/19984&#34;&gt;https://github.com/duckdb/duckdb/issues/19984&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Execution Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/19680&#34;&gt;https://github.com/duckdb/duckdb/issues/19680&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Assertion Failure in INNER JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/19666&#34;&gt;https://github.com/duckdb/duckdb/issues/19666&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Inner Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/18603&#34;&gt;https://github.com/duckdb/duckdb/issues/18603&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Join Internal Error&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/18487&#34;&gt;https://github.com/duckdb/duckdb/issues/18487&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected internal error in joins&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/18267&#34;&gt;https://github.com/duckdb/duckdb/issues/18267&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Internal Error with Delim join - binding index out of range&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/18049&#34;&gt;https://github.com/duckdb/duckdb/issues/18049&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Join Crash&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/18000&#34;&gt;https://github.com/duckdb/duckdb/issues/18000&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Left Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/17792&#34;&gt;https://github.com/duckdb/duckdb/issues/17792&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;A inner join meets INTERNAL Error: Failed to bind column reference&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/17701&#34;&gt;https://github.com/duckdb/duckdb/issues/17701&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected internal error in multi-join query&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/17700&#34;&gt;https://github.com/duckdb/duckdb/issues/17700&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Wrong inner join result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/17561&#34;&gt;https://github.com/duckdb/duckdb/issues/17561&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;multiple joins crash with &#39;Execute called with a result vector of type INTEGER that does not match expression type VARCHAR&#39;&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/17446&#34;&gt;https://github.com/duckdb/duckdb/issues/17446&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Should-be rejected conversions unexpectedly execute successfully in the join and cause bugs&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/17440&#34;&gt;https://github.com/duckdb/duckdb/issues/17440&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;A wrong anti-join result when joining with an empty table&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/17417&#34;&gt;https://github.com/duckdb/duckdb/issues/17417&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Wrong inner join result when handling join condition related to primary key&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/17380&#34;&gt;https://github.com/duckdb/duckdb/issues/17380&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Binder Error about a non-existent table name&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/17378&#34;&gt;https://github.com/duckdb/duckdb/issues/17378&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Wrong multiple join result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/17372&#34;&gt;https://github.com/duckdb/duckdb/issues/17372&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Wrong join result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/17338&#34;&gt;https://github.com/duckdb/duckdb/issues/17338&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Multiple Join Crash with Vector::Reference used on vector of different type&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/17335&#34;&gt;https://github.com/duckdb/duckdb/issues/17335&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Wrong inner Join result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/17217&#34;&gt;https://github.com/duckdb/duckdb/issues/17217&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;multiple right joins produce wrong result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/16901&#34;&gt;https://github.com/duckdb/duckdb/issues/16901&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;An Anti-Join produces wrong result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/16803&#34;&gt;https://github.com/duckdb/duckdb/issues/16803&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Anti-join meets INTERNAL Error: Attempted to dereference unique_ptr that is NULL&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/16783&#34;&gt;https://github.com/duckdb/duckdb/issues/16783&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
 &lt;summary&gt;Segmentation fault on `BETWEEN`&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/6861&#34;&gt;https://github.com/duckdb/duckdb/issues/6861&lt;/a&gt; &lt;br /&gt;
@@ -1635,150 +1779,6 @@ Found by: Suyang Zhong
 Status: confirmed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/13813&#34;&gt;https://github.com/duckdb/duckdb/issues/13813&lt;/a&gt; &lt;br /&gt;
 Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Execution Result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/19984&#34;&gt;https://github.com/duckdb/duckdb/issues/19984&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Execution Result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/19680&#34;&gt;https://github.com/duckdb/duckdb/issues/19680&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Assertion Failure in INNER JOIN&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/19666&#34;&gt;https://github.com/duckdb/duckdb/issues/19666&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected INNER JOIN Result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/18603&#34;&gt;https://github.com/duckdb/duckdb/issues/18603&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected JOIN Internal Error&lt;/summary&gt;
-Status: confirmed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/18487&#34;&gt;https://github.com/duckdb/duckdb/issues/18487&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Internal Error in JOINS&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/18267&#34;&gt;https://github.com/duckdb/duckdb/issues/18267&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Internal Error with Delim Join - binding index out of range&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/18049&#34;&gt;https://github.com/duckdb/duckdb/issues/18049&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Join Crash&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/18000&#34;&gt;https://github.com/duckdb/duckdb/issues/18000&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Left Join Result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/17792&#34;&gt;https://github.com/duckdb/duckdb/issues/17792&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;A INNER JOIN meets INTERNAL Error: Failed to bind column reference&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/17701&#34;&gt;https://github.com/duckdb/duckdb/issues/17701&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Internal Error in Multi-Join Query&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/17700&#34;&gt;https://github.com/duckdb/duckdb/issues/17700&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Wrong INNER JOIN result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/17561&#34;&gt;https://github.com/duckdb/duckdb/issues/17561&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Multiple JOINS Crash With &#39;Execute called with a result vector of type INTEGER that does not match expression type VARCHAR&#39;&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/17446&#34;&gt;https://github.com/duckdb/duckdb/issues/17446&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Should-be Rejected Conversions Unexpectedly Execute Successfully in the Join and Cause Bugs&lt;/summary&gt;
-Status: confirmed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/17440&#34;&gt;https://github.com/duckdb/duckdb/issues/17440&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;A Wrong Anti-Join Result When Joining With an Empty Table&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/17417&#34;&gt;https://github.com/duckdb/duckdb/issues/17417&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Wrong INNER JOIN Result When Handling Join Condition Related to Primary Key&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/17380&#34;&gt;https://github.com/duckdb/duckdb/issues/17380&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Binder Error about a non-existent table name&lt;/summary&gt;
-Status: confirmed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/17378&#34;&gt;https://github.com/duckdb/duckdb/issues/17378&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Wrong Multiple JOIN Result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/17372&#34;&gt;https://github.com/duckdb/duckdb/issues/17372&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Wrong JOIN Result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/17338&#34;&gt;https://github.com/duckdb/duckdb/issues/17338&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Multiple Join Crash with Vector::Reference used on vector of different type&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/17335&#34;&gt;https://github.com/duckdb/duckdb/issues/17335&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Wrong INNER Join result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/17217&#34;&gt;https://github.com/duckdb/duckdb/issues/17217&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Multiple RIGHT JOINS Produce Wrong Result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/16901&#34;&gt;https://github.com/duckdb/duckdb/issues/16901&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;An Anti-Join Produces Wrong Result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/16803&#34;&gt;https://github.com/duckdb/duckdb/issues/16803&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Anti-join meets INTERNAL Error: Attempted to dereference unique_ptr that is NULL&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/duckdb/duckdb/issues/16783&#34;&gt;https://github.com/duckdb/duckdb/issues/16783&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
 &lt;/details&gt;
 &lt;details&gt;
 &lt;summary&gt;INTERNAL ERROR: Unimplemented type for normalify&lt;/summary&gt;
@@ -2226,12 +2226,6 @@ Found by: mrigger
 &lt;/details&gt;
 &lt;h3&gt;CockroachDB (84 bugs)&lt;/h3&gt;
 &lt;details&gt;
-&lt;summary&gt;Join Crash with ERROR: internal error: invalid datum type given&lt;/summary&gt;
-Status: confirmed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/147585&#34;&gt;https://github.com/cockroachdb/cockroach/issues/147585&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
 &lt;summary&gt;sql: support SCRUB on temp tables&lt;/summary&gt;
 Status: confirmed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/83770&#34;&gt;https://github.com/cockroachdb/cockroach/issues/83770&lt;/a&gt; &lt;br /&gt;
@@ -2338,6 +2332,12 @@ Found by: bajinsheng
 Status: unconfirmed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/94264&#34;&gt;https://github.com/cockroachdb/cockroach/issues/94264&lt;/a&gt; &lt;br /&gt;
 Found by: bajinsheng
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Join Crash with ERROR: internal error: invalid datum type given &lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/cockroachdb/cockroach/issues/147585&#34;&gt;https://github.com/cockroachdb/cockroach/issues/147585&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
 &lt;/details&gt;
 &lt;details&gt;
 &lt;summary&gt;An Unexpected Error in `CROSS MERGE JOIN`&lt;/summary&gt;
@@ -2839,6 +2839,48 @@ Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/38736&#34;&gt;https
 Found by: bajinsheng
 &lt;/details&gt;
 &lt;details&gt;
+&lt;summary&gt;Unexpected INNER JOIN Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/60322&#34;&gt;https://github.com/pingcap/tidb/issues/60322&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Join Crash When dealing with inner join involving subquery and like operator&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/60625&#34;&gt;https://github.com/pingcap/tidb/issues/60625&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Serious Wrong Result of Right Join involving subquery&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/60659&#34;&gt;https://github.com/pingcap/tidb/issues/60659&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Inner Join result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/61306&#34;&gt;https://github.com/pingcap/tidb/issues/61306&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Multiple Join Result &lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/61327&#34;&gt;https://github.com/pingcap/tidb/issues/61327&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Wrong Inner Join Result &lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/60217&#34;&gt;https://github.com/pingcap/tidb/issues/60217&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Join Involving View and ATAN2 function produce wrong result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/60093&#34;&gt;https://github.com/pingcap/tidb/issues/60093&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
 &lt;summary&gt;ERROR 8141 (HY000): assertion failed&lt;/summary&gt;
 Status: unconfirmed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/38295&#34;&gt;https://github.com/pingcap/tidb/issues/38295&lt;/a&gt; &lt;br /&gt;
@@ -3019,48 +3061,6 @@ Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/53506&#34;&gt;https
 Found by: Suyang Zhong
 &lt;/details&gt;
 &lt;details&gt;
-&lt;summary&gt;Unexpected INNER JOIN Result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/60322&#34;&gt;https://github.com/pingcap/tidb/issues/60322&lt;/a&gt;&lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Join Crash When dealing with inner join involving subquery and like operator&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/60625&#34;&gt;https://github.com/pingcap/tidb/issues/60625&lt;/a&gt;&lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Serious Wrong Result of Right Join involving subquery&lt;/summary&gt;
-Status: confirmed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/60659&#34;&gt;https://github.com/pingcap/tidb/issues/60659&lt;/a&gt;&lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Inner Join result&lt;/summary&gt;
-Status: confirmed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/61306&#34;&gt;https://github.com/pingcap/tidb/issues/61306&lt;/a&gt;&lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Multiple Join Result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/61327&#34;&gt;https://github.com/pingcap/tidb/issues/61327&lt;/a&gt;&lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Wrong Inner Join Result&lt;/summary&gt;
-Status: confirmed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/60217&#34;&gt;https://github.com/pingcap/tidb/issues/60217&lt;/a&gt;&lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Join Involving View and ATAN2 function produce wrong result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/60093&#34;&gt;https://github.com/pingcap/tidb/issues/60093&lt;/a&gt;&lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
 &lt;summary&gt;Double negation causes incorrect result&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/15725&#34;&gt;https://github.com/pingcap/tidb/issues/15725&lt;/a&gt; &lt;br /&gt;
@@ -3216,61 +3216,470 @@ Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/pingcap/tidb/issues/16779&#34;&gt;https://github.com/pingcap/tidb/issues/16779&lt;/a&gt; &lt;br /&gt;
 Found by: mrigger
 &lt;/details&gt;
+&lt;h3&gt;MonetDB (77 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected SEMI Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7761&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7761&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected ANTI JOIN Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7756&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7756&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Execution Results&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7745&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7745&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Error in Join&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7744&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7744&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Crash in Left Join&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7739&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7739&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Anti Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7716&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7716&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Anti Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7715&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7715&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Out of Memory&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7712&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7712&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Crash&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7711&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7711&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7708&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7708&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Right Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7707&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7707&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Anti Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7705&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7705&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Left Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7703&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7703&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Right Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7698&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7698&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected execution result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7697&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7697&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected execution result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7696&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7696&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected execution result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7695&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7695&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected execution result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7694&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7694&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Incorrect Inner Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7653&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7653&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Incorrect Anti Join Result related to optimization&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7652&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7652&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Incorrect Anti Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7651&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7651&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Right Join Crash&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7650&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7650&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Inner Join Crash&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7649&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7649&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Right Join Assertion Error&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7648&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7648&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Left Join Crash&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7646&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7646&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Internal Error in Inner Join&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7645&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7645&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected anti join crash&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7644&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7644&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Anti Join Crash&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7636&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7636&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Inner Join Crash&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7635&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7635&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Join with subquery crash&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7634&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7634&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Out of Memory of Inner Join&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7633&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7633&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Left Join Crash&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7632&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7632&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result for INNER JOIN with IS NOT NULL &lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7426&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7426&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using AND and IS NOT NULL&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7430&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7430&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using CASE WHEN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7429&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7429&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using BETWEEN operator&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7428&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7428&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using AND/OR chain&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7448&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7448&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using BETWEEN in INNER JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7447&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7447&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using BETWEEN and CAST&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7451&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7451&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when CREATE VIEW with WHERE NULL&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7450&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7450&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using BETWEEN with BOOLEAN values&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7455&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7455&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Crash when INNER JOIN with VIEW&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7456&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7456&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using AND with INTEGER&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7457&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7457&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using SIGN &lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7458&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7458&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Crash when using CONTAINS in ORDER BY clause&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7459&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7459&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Crash when using CAST and BETWEEN AND&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7460&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7460&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Crash by potentially use of bad escape characters&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7461&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7461&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using CONTAINS and type casting&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7463&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7463&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Crash when using BETWEEN AND&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7462&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7462&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Crash when INNER JOIN with CONTAINS&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7466&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7466&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using NULL in BETWEEN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7465&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7465&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using IFNULL with large numbers &lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7468&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7468&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Crash when using CONTAINS&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7469&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7469&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using IS DISTINCT FROM&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7521&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7521&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Assertion failure when using CONTAINS&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7523&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7523&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Crash when creating view with HAVING&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7522&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7522&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected error when using NATURAL RIGHT JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7524&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7524&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using IS DISTINCT FROM with RIGHT JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7527&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7527&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Assertion failure when using JAROWINKLER in ORDER BY clause&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7528&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7528&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Assertion failure when using JAROWINKLER with empty string&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7530&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7530&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using IS DISTINCT FROM with AND&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7534&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7534&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Assertion failure when using GROUP BY when CREATE VIEW&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7535&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7535&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Crash when using IS DISTINCT FROM with SIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7539&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7539&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Assertion failure when using STARTSWITH&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7540&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7540&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using LEVENSHTEIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7541&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7541&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using IS DISTINCT FROM with constants&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7543&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7543&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using STARTSWITH&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7544&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7544&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Crash when creating view with GROUP BY&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7545&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7545&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Assertion failure when using INNER JOIN on STARTSWITH&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7553&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7553&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using NULL constant in comparison&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7552&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7552&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using range comparison with NULL&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7554&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7554&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when casting integer to boolean in comparison&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7555&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7555&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Assertion failure when using STARTSWITH with view&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7556&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7556&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Assertion failure when comparing INTERVAL value&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7562&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7562&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using IS DISTINCT FROM in VIEW&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7563&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7563&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Crash when integer overflow in ORDER BY&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7571&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7571&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Crash at strcpy_len ()&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7573&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7573&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
 &lt;h3&gt;Umbra (55 bugs)&lt;/h3&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected lateral join Result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;An unexpected core dumped in index creation&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;An unexpected core dumped in multiple joins&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;An unexpected internal error in joins&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;An unexpected anti-join logic bug&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;An unexpected internal error in an equivalent join&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;An unexpected internal error in a left join&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;An unexpected internal error&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;An unexpected core dump in multiple joins&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
 &lt;details&gt;
 &lt;summary&gt;Unexpected Results when Comparing Boolean Values&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
@@ -3547,932 +3956,59 @@ Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
 Found by: Suyang Zhong
 &lt;/details&gt;
-&lt;h3&gt;MonetDB (77 bugs)&lt;/h3&gt;
 &lt;details&gt;
-&lt;summary&gt;Unexpected result for INNER JOIN with IS NOT NULL &lt;/summary&gt;
+&lt;summary&gt;Unexpected lateral join Result&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7426&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7426&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using AND and IS NOT NULL&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7430&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7430&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using CASE WHEN&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7429&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7429&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using BETWEEN operator&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7428&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7428&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using AND/OR chain&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7448&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7448&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using BETWEEN in INNER JOIN&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7447&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7447&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using BETWEEN and CAST&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7451&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7451&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when CREATE VIEW with WHERE NULL&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7450&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7450&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using BETWEEN with BOOLEAN values&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7455&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7455&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Crash when INNER JOIN with VIEW&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7456&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7456&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using AND with INTEGER&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7457&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7457&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using SIGN &lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7458&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7458&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Crash when using CONTAINS in ORDER BY clause&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7459&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7459&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Crash when using CAST and BETWEEN AND&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7460&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7460&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Crash by potentially use of bad escape characters&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7461&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7461&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using CONTAINS and type casting&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7463&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7463&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Crash when using BETWEEN AND&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7462&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7462&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Crash when INNER JOIN with CONTAINS&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7466&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7466&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using NULL in BETWEEN&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7465&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7465&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using IFNULL with large numbers &lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7468&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7468&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Crash when using CONTAINS&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7469&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7469&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using IS DISTINCT FROM&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7521&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7521&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Assertion failure when using CONTAINS&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7523&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7523&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Crash when creating view with HAVING&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7522&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7522&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected error when using NATURAL RIGHT JOIN&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7524&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7524&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using IS DISTINCT FROM with RIGHT JOIN&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7527&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7527&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Assertion failure when using JAROWINKLER in ORDER BY clause&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7528&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7528&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Assertion failure when using JAROWINKLER with empty string&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7530&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7530&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using IS DISTINCT FROM with AND&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7534&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7534&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Assertion failure when using GROUP BY when CREATE VIEW&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7535&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7535&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Crash when using IS DISTINCT FROM with SIN&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7539&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7539&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Assertion failure when using STARTSWITH&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7540&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7540&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using LEVENSHTEIN&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7541&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7541&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using IS DISTINCT FROM with constants&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7543&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7543&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using STARTSWITH&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7544&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7544&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Crash when creating view with GROUP BY&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7545&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7545&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Assertion failure when using INNER JOIN on STARTSWITH&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7553&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7553&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using NULL constant in comparison&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7552&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7552&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using range comparison with NULL&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7554&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7554&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when casting integer to boolean in comparison&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7555&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7555&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Assertion failure when using STARTSWITH with view&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7556&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7556&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Assertion failure when comparing INTERVAL value&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7562&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7562&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using IS DISTINCT FROM in VIEW&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7563&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7563&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Crash when integer overflow in ORDER BY&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7571&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7571&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Crash at strcpy_len ()&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7573&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7573&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected SEMI Join Result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7761&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7761&lt;/a&gt; &lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
 Found by: Zhaokun Xiang
 &lt;/details&gt;
 &lt;details&gt;
-&lt;summary&gt;Unexpected ANTI JOIN Result&lt;/summary&gt;
+&lt;summary&gt;An unexpected core dumped in index creation&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7756&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7756&lt;/a&gt; &lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
 Found by: Zhaokun Xiang
 &lt;/details&gt;
 &lt;details&gt;
-&lt;summary&gt;Unexpected Execution Results&lt;/summary&gt;
+&lt;summary&gt;An unexpected core dumped in multiple joins&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7745&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7745&lt;/a&gt; &lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
 Found by: Zhaokun Xiang
 &lt;/details&gt;
 &lt;details&gt;
-&lt;summary&gt;Unexpected Error in Join&lt;/summary&gt;
+&lt;summary&gt;An unexpected internal error in joins&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7744&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7744&lt;/a&gt; &lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
 Found by: Zhaokun Xiang
 &lt;/details&gt;
 &lt;details&gt;
-&lt;summary&gt;Unexpected Crash in Left Join&lt;/summary&gt;
+&lt;summary&gt;An unexpected anti-join logic bug&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7739&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7739&lt;/a&gt; &lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
 Found by: Zhaokun Xiang
 &lt;/details&gt;
 &lt;details&gt;
-&lt;summary&gt;Unexpected Anti Join Result&lt;/summary&gt;
+&lt;summary&gt;An unexpected internal error in an equivalent join&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7716&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7716&lt;/a&gt; &lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
 Found by: Zhaokun Xiang
 &lt;/details&gt;
 &lt;details&gt;
-&lt;summary&gt;Unexpected Anti Join Result&lt;/summary&gt;
+&lt;summary&gt;An unexpected internal error in a left join&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7715&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7715&lt;/a&gt; &lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
 Found by: Zhaokun Xiang
 &lt;/details&gt;
 &lt;details&gt;
-&lt;summary&gt;Unexpected Out of Memory&lt;/summary&gt;
+&lt;summary&gt; An unexpected internal error&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7712&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7712&lt;/a&gt; &lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
 Found by: Zhaokun Xiang
 &lt;/details&gt;
 &lt;details&gt;
-&lt;summary&gt;Unexpected Crash&lt;/summary&gt;
+&lt;summary&gt;An unexpected core dump in multiple joins&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7711&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7711&lt;/a&gt; &lt;br /&gt;
+Link: &lt;a href=&#34;None&#34;&gt;None&lt;/a&gt; &lt;br /&gt;
 Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Join Result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7708&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7708&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Right Join Result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7707&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7707&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Anti Join Result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7705&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7705&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Left Join Result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7703&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7703&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Right Join Result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7698&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7698&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected execution result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7697&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7697&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected execution result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7696&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7696&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected execution result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7695&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7695&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected execution result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7694&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7694&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Incorrect Inner Join Result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7653&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7653&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Incorrect Anti Join Result related to optimization&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7652&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7652&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Incorrect Anti Join Result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7651&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7651&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Right Join Crash&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7650&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7650&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Inner Join Crash&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7649&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7649&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Right Join Assertion Error&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7648&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7648&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Left Join Crash&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7646&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7646&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Internal Error in Inner Join&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7645&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7645&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected anti join crash&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7644&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7644&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Anti Join Crash&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7636&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7636&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Inner Join Crash&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7635&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7635&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Join with subquery crash&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7634&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7634&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Out of Memory of Inner Join&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7633&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7633&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Left Join Crash&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/MonetDB/MonetDB/issues/7632&#34;&gt;https://github.com/MonetDB/MonetDB/issues/7632&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;h3&gt;questdb (39 bugs)&lt;/h3&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Internal Error: Index -1 out of bounds for length 16&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3322&#34;&gt;https://github.com/questdb/questdb/issues/3322&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Internal Error: UnsupportedOperationException&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3323&#34;&gt;https://github.com/questdb/questdb/issues/3323&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Internal Error: NullPointerException&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3324&#34;&gt;https://github.com/questdb/questdb/issues/3324&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected NullPointerException with null query&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3356&#34;&gt;https://github.com/questdb/questdb/issues/3356&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected ClassCastException with null query&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3357&#34;&gt;https://github.com/questdb/questdb/issues/3357&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Consuming input failed: server closed the connection unexpectedly&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3376&#34;&gt;https://github.com/questdb/questdb/issues/3376&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected UnsupportedOperationException with join query on non-boolean expression&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3386&#34;&gt;https://github.com/questdb/questdb/issues/3386&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected StringIndexOutOfBoundsException with empty string&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3418&#34;&gt;https://github.com/questdb/questdb/issues/3418&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;NullPointerException Cannot invoke &#39;.getAst()&#39; because &#39;queryColumn&#39; is null with order by clause&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3419&#34;&gt;https://github.com/questdb/questdb/issues/3419&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;NullPointerException: Cannot read field &#39;type&#39; because &#39;node&#39; is null with constant expression&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3420&#34;&gt;https://github.com/questdb/questdb/issues/3420&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 16&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3433&#34;&gt;https://github.com/questdb/questdb/issues/3433&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;NullPointerException Cannot invoke &#39;.isUndefined()&#39; because the return value of &#39;.getQuick(int)&#39; is null&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3445&#34;&gt;https://github.com/questdb/questdb/issues/3445&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;ImplicitCastException and stuck when comparing STRING with NULL&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3454&#34;&gt;https://github.com/questdb/questdb/issues/3454&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;ClassCastException: NullConstant cannot be cast to class SymbolFunction&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3455&#34;&gt;https://github.com/questdb/questdb/issues/3455&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;StringIndexOutOfBoundsException: String index out of range: 0&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3467&#34;&gt;https://github.com/questdb/questdb/issues/3467&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;NullPointerException: Cannot read field &#39;type&#39; because &#39;column&#39; is null&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3468&#34;&gt;https://github.com/questdb/questdb/issues/3468&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 0 at io.questdb.std.LongList.extendAndSet&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3469&#34;&gt;https://github.com/questdb/questdb/issues/3469&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;CairoException when casting string to timestamp&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3470&#34;&gt;https://github.com/questdb/questdb/issues/3470&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;java.lang.NullPointerException: Cannot read field &#39;type&#39; because &#39;op&#39; is null in rewriteAggregate(SqlOptimiser.java:3300)&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3526&#34;&gt;https://github.com/questdb/questdb/issues/3526&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unrobust comparison between string and char&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3576&#34;&gt;https://github.com/questdb/questdb/issues/3576&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Inaccurate results with EXCEPT/INTERSECT&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3580&#34;&gt;https://github.com/questdb/questdb/issues/3580&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Incorrect result returned by INTERSECT&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3581&#34;&gt;https://github.com/questdb/questdb/issues/3581&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;ClassCastException: GenericRecordMetadata cannot be cast to JoinRecordMetadata in generateJoins()&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3590&#34;&gt;https://github.com/questdb/questdb/issues/3590&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Error Invalid Column with multiple JOIN&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3595&#34;&gt;https://github.com/questdb/questdb/issues/3595&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Invalid Column error with multiple JOIN&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3619&#34;&gt;https://github.com/questdb/questdb/issues/3619&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;UnsupportedOperationException in IntFunction.getStr(IntFunction.java:145)&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3622&#34;&gt;https://github.com/questdb/questdb/issues/3622&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;StringIndexOutOfBoundsException: String index out of range: 0 with ORDER BY empty string&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3623&#34;&gt;https://github.com/questdb/questdb/issues/3623&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Incorrect results returned from UNION&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3669&#34;&gt;https://github.com/questdb/questdb/issues/3669&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Invalid column error with LEFT OUTER JOIN&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3670&#34;&gt;https://github.com/questdb/questdb/issues/3670&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Invalid column error not completely fixed&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3733&#34;&gt;https://github.com/questdb/questdb/issues/3733&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Incorrect results with symbol comparison&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3828&#34;&gt;https://github.com/questdb/questdb/issues/3828&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 16&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3833&#34;&gt;https://github.com/questdb/questdb/issues/3833&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected invalid column not completely fixed&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3933&#34;&gt;https://github.com/questdb/questdb/issues/3933&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected DatabaseError: queries have different number of columns in window function with union&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3934&#34;&gt;https://github.com/questdb/questdb/issues/3934&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;NullPointerException: Cannot invoke &#39;io.questdb.cairo.sql.SymbolTable.valueOf(int)&#39; because &#39;this.symbolTable&#39; is null&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3935&#34;&gt;https://github.com/questdb/questdb/issues/3935&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Incorrect result with window function&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3936&#34;&gt;https://github.com/questdb/questdb/issues/3936&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected results when having brackets with window query&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3938&#34;&gt;https://github.com/questdb/questdb/issues/3938&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;NullPointerException: Cannot read field &#39;token&#39; because &#39;first&#39; is null&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3949&#34;&gt;https://github.com/questdb/questdb/issues/3949&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Incorrect results with nested joins&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/4010&#34;&gt;https://github.com/questdb/questdb/issues/4010&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;h3&gt;cratedb (38 bugs)&lt;/h3&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected ANTI JOIN Result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/18873&#34;&gt;https://github.com/crate/crate/issues/18873&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Inner Join Result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/18860&#34;&gt;https://github.com/crate/crate/issues/18860&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Left Join Result&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/18680&#34;&gt;https://github.com/crate/crate/issues/18680&lt;/a&gt; &lt;br /&gt;
-Found by: Zhaokun Xiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Couldn&#39;t create execution plan from logical plan because of: Index 2 out of bounds for length 2&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/14805&#34;&gt;https://github.com/crate/crate/issues/14805&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Incorrect result returned by UNION&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/14807&#34;&gt;https://github.com/crate/crate/issues/14807&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Exception with ORDER BY clause with UNION&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/14815&#34;&gt;https://github.com/crate/crate/issues/14815&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using CASE statement&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15029&#34;&gt;https://github.com/crate/crate/issues/15029&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Results when Using AND Operator&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15050&#34;&gt;https://github.com/crate/crate/issues/15050&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Results when Using Concat Operator&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15083&#34;&gt;https://github.com/crate/crate/issues/15083&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Results Using Boolean &lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15120&#34;&gt;https://github.com/crate/crate/issues/15120&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Results Using NULLIF&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15121&#34;&gt;https://github.com/crate/crate/issues/15121&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using BETWEEN AND&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15201&#34;&gt;https://github.com/crate/crate/issues/15201&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when Concatenating NULL&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15202&#34;&gt;https://github.com/crate/crate/issues/15202&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Result when using IS NOT NULL&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15265&#34;&gt;https://github.com/crate/crate/issues/15265&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Result when using LEFT JOIN&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15324&#34;&gt;https://github.com/crate/crate/issues/15324&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Results Using NULLIF with VARCHAR &lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15325&#34;&gt;https://github.com/crate/crate/issues/15325&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected Result when using IN &lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15326&#34;&gt;https://github.com/crate/crate/issues/15326&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using string comparison AND IS NULL&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15395&#34;&gt;https://github.com/crate/crate/issues/15395&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected results when using AND&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15458&#34;&gt;https://github.com/crate/crate/issues/15458&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using CONCAT_WS containing NULL&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15459&#34;&gt;https://github.com/crate/crate/issues/15459&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using % with NULL&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15500&#34;&gt;https://github.com/crate/crate/issues/15500&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using LTRIM with NULL as second argument &lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15527&#34;&gt;https://github.com/crate/crate/issues/15527&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when casting integer as boolean&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15537&#34;&gt;https://github.com/crate/crate/issues/15537&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Weird string substitution when using JDBC&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15566&#34;&gt;https://github.com/crate/crate/issues/15566&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using OR&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15592&#34;&gt;https://github.com/crate/crate/issues/15592&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using INNER JOIN and CASE in filter&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15613&#34;&gt;https://github.com/crate/crate/issues/15613&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using LIKE&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15743&#34;&gt;https://github.com/crate/crate/issues/15743&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected results when using system information functions&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/16026&#34;&gt;https://github.com/crate/crate/issues/16026&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using CURRENT_SETTING&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/16062&#34;&gt;https://github.com/crate/crate/issues/16062&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using PG_GET_PARTKEYDEF&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/16172&#34;&gt;https://github.com/crate/crate/issues/16172&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using DEFAULT during creating table&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/16173&#34;&gt;https://github.com/crate/crate/issues/16173&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when querying with boolean comparisons&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/16227&#34;&gt;https://github.com/crate/crate/issues/16227&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using FORMAT_TYPE&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/16225&#34;&gt;https://github.com/crate/crate/issues/16225&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using escape character in LIKE&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/16350&#34;&gt;https://github.com/crate/crate/issues/16350&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when using empty OBJECT literal&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/16476&#34;&gt;https://github.com/crate/crate/issues/16476&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected results when using OBJECT nulls&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/16556&#34;&gt;https://github.com/crate/crate/issues/16556&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected results when matching empty string with indexing disabled&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/16567&#34;&gt;https://github.com/crate/crate/issues/16567&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result when querying partitioned table with null values&lt;/summary&gt;
-Status: confirmed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/crate/crate/issues/16577&#34;&gt;https://github.com/crate/crate/issues/16577&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
 &lt;/details&gt;
 &lt;h3&gt;Dolt (47 bugs)&lt;/h3&gt;
 &lt;details&gt;
@@ -4757,6 +4293,452 @@ Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/dolthub/dolt/issues/7515&#34;&gt;https://github.com/dolthub/dolt/issues/7515&lt;/a&gt; &lt;br /&gt;
 Found by: Suyang Zhong
 &lt;/details&gt;
+&lt;h3&gt;questdb (39 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Internal Error: Index -1 out of bounds for length 16&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3322&#34;&gt;https://github.com/questdb/questdb/issues/3322&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Internal Error: UnsupportedOperationException&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3323&#34;&gt;https://github.com/questdb/questdb/issues/3323&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Internal Error: NullPointerException&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3324&#34;&gt;https://github.com/questdb/questdb/issues/3324&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected NullPointerException with null query&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3356&#34;&gt;https://github.com/questdb/questdb/issues/3356&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected ClassCastException with null query&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3357&#34;&gt;https://github.com/questdb/questdb/issues/3357&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Consuming input failed: server closed the connection unexpectedly&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3376&#34;&gt;https://github.com/questdb/questdb/issues/3376&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected UnsupportedOperationException with join query on non-boolean expression&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3386&#34;&gt;https://github.com/questdb/questdb/issues/3386&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected StringIndexOutOfBoundsException with empty string&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3418&#34;&gt;https://github.com/questdb/questdb/issues/3418&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;NullPointerException Cannot invoke &#39;.getAst()&#39; because &#39;queryColumn&#39; is null with order by clause&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3419&#34;&gt;https://github.com/questdb/questdb/issues/3419&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;NullPointerException: Cannot read field &#39;type&#39; because &#39;node&#39; is null with constant expression&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3420&#34;&gt;https://github.com/questdb/questdb/issues/3420&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 16&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3433&#34;&gt;https://github.com/questdb/questdb/issues/3433&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;NullPointerException Cannot invoke &#39;.isUndefined()&#39; because the return value of &#39;.getQuick(int)&#39; is null&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3445&#34;&gt;https://github.com/questdb/questdb/issues/3445&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;ImplicitCastException and stuck when comparing STRING with NULL&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3454&#34;&gt;https://github.com/questdb/questdb/issues/3454&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;ClassCastException: NullConstant cannot be cast to class SymbolFunction&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3455&#34;&gt;https://github.com/questdb/questdb/issues/3455&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;StringIndexOutOfBoundsException: String index out of range: 0&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3467&#34;&gt;https://github.com/questdb/questdb/issues/3467&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;NullPointerException: Cannot read field &#39;type&#39; because &#39;column&#39; is null&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3468&#34;&gt;https://github.com/questdb/questdb/issues/3468&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 0 at io.questdb.std.LongList.extendAndSet&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3469&#34;&gt;https://github.com/questdb/questdb/issues/3469&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;CairoException when casting string to timestamp&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3470&#34;&gt;https://github.com/questdb/questdb/issues/3470&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;java.lang.NullPointerException: Cannot read field &#39;type&#39; because &#39;op&#39; is null in rewriteAggregate(SqlOptimiser.java:3300)&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3526&#34;&gt;https://github.com/questdb/questdb/issues/3526&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unrobust comparison between string and char&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3576&#34;&gt;https://github.com/questdb/questdb/issues/3576&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Inaccurate results with EXCEPT/INTERSECT&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3580&#34;&gt;https://github.com/questdb/questdb/issues/3580&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Incorrect result returned by INTERSECT&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3581&#34;&gt;https://github.com/questdb/questdb/issues/3581&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;ClassCastException: GenericRecordMetadata cannot be cast to JoinRecordMetadata in generateJoins()&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3590&#34;&gt;https://github.com/questdb/questdb/issues/3590&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Error Invalid Column with multiple JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3595&#34;&gt;https://github.com/questdb/questdb/issues/3595&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Invalid Column error with multiple JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3619&#34;&gt;https://github.com/questdb/questdb/issues/3619&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;UnsupportedOperationException in IntFunction.getStr(IntFunction.java:145)&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3622&#34;&gt;https://github.com/questdb/questdb/issues/3622&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;StringIndexOutOfBoundsException: String index out of range: 0 with ORDER BY empty string&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3623&#34;&gt;https://github.com/questdb/questdb/issues/3623&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Incorrect results returned from UNION&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3669&#34;&gt;https://github.com/questdb/questdb/issues/3669&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Invalid column error with LEFT OUTER JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3670&#34;&gt;https://github.com/questdb/questdb/issues/3670&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Invalid column error not completely fixed&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3733&#34;&gt;https://github.com/questdb/questdb/issues/3733&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Incorrect results with symbol comparison&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3828&#34;&gt;https://github.com/questdb/questdb/issues/3828&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 16&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3833&#34;&gt;https://github.com/questdb/questdb/issues/3833&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected invalid column not completely fixed&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3933&#34;&gt;https://github.com/questdb/questdb/issues/3933&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected DatabaseError: queries have different number of columns in window function with union&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3934&#34;&gt;https://github.com/questdb/questdb/issues/3934&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;NullPointerException: Cannot invoke &#39;io.questdb.cairo.sql.SymbolTable.valueOf(int)&#39; because &#39;this.symbolTable&#39; is null&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3935&#34;&gt;https://github.com/questdb/questdb/issues/3935&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Incorrect result with window function&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3936&#34;&gt;https://github.com/questdb/questdb/issues/3936&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when having brackets with window query&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3938&#34;&gt;https://github.com/questdb/questdb/issues/3938&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;NullPointerException: Cannot read field &#39;token&#39; because &#39;first&#39; is null&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/3949&#34;&gt;https://github.com/questdb/questdb/issues/3949&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Incorrect results with nested joins&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/4010&#34;&gt;https://github.com/questdb/questdb/issues/4010&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;h3&gt;cratedb (35 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Couldn&#39;t create execution plan from logical plan because of: Index 2 out of bounds for length 2&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/14805&#34;&gt;https://github.com/crate/crate/issues/14805&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Incorrect result returned by UNION&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/14807&#34;&gt;https://github.com/crate/crate/issues/14807&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Exception with ORDER BY clause with UNION&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/14815&#34;&gt;https://github.com/crate/crate/issues/14815&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using CASE statement&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15029&#34;&gt;https://github.com/crate/crate/issues/15029&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Using AND Operator&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15050&#34;&gt;https://github.com/crate/crate/issues/15050&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Using Concat Operator&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15083&#34;&gt;https://github.com/crate/crate/issues/15083&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results Using Boolean &lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15120&#34;&gt;https://github.com/crate/crate/issues/15120&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results Using NULLIF&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15121&#34;&gt;https://github.com/crate/crate/issues/15121&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using BETWEEN AND&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15201&#34;&gt;https://github.com/crate/crate/issues/15201&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when Concatenating NULL&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15202&#34;&gt;https://github.com/crate/crate/issues/15202&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Result when using IS NOT NULL&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15265&#34;&gt;https://github.com/crate/crate/issues/15265&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Result when using LEFT JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15324&#34;&gt;https://github.com/crate/crate/issues/15324&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results Using NULLIF with VARCHAR &lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15325&#34;&gt;https://github.com/crate/crate/issues/15325&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Result when using IN &lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15326&#34;&gt;https://github.com/crate/crate/issues/15326&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using string comparison AND IS NULL&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15395&#34;&gt;https://github.com/crate/crate/issues/15395&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when using AND&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15458&#34;&gt;https://github.com/crate/crate/issues/15458&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using CONCAT_WS containing NULL&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15459&#34;&gt;https://github.com/crate/crate/issues/15459&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using % with NULL&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15500&#34;&gt;https://github.com/crate/crate/issues/15500&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using LTRIM with NULL as second argument &lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15527&#34;&gt;https://github.com/crate/crate/issues/15527&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when casting integer as boolean&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15537&#34;&gt;https://github.com/crate/crate/issues/15537&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Weird string substitution when using JDBC&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15566&#34;&gt;https://github.com/crate/crate/issues/15566&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using OR&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15592&#34;&gt;https://github.com/crate/crate/issues/15592&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using INNER JOIN and CASE in filter&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15613&#34;&gt;https://github.com/crate/crate/issues/15613&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using LIKE&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/15743&#34;&gt;https://github.com/crate/crate/issues/15743&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when using system information functions&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/16026&#34;&gt;https://github.com/crate/crate/issues/16026&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using CURRENT_SETTING&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/16062&#34;&gt;https://github.com/crate/crate/issues/16062&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using PG_GET_PARTKEYDEF&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/16172&#34;&gt;https://github.com/crate/crate/issues/16172&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using DEFAULT during creating table&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/16173&#34;&gt;https://github.com/crate/crate/issues/16173&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when querying with boolean comparisons&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/16227&#34;&gt;https://github.com/crate/crate/issues/16227&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using FORMAT_TYPE&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/16225&#34;&gt;https://github.com/crate/crate/issues/16225&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using escape character in LIKE&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/16350&#34;&gt;https://github.com/crate/crate/issues/16350&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when using empty OBJECT literal&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/16476&#34;&gt;https://github.com/crate/crate/issues/16476&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when using OBJECT nulls&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/16556&#34;&gt;https://github.com/crate/crate/issues/16556&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when matching empty string with indexing disabled&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/16567&#34;&gt;https://github.com/crate/crate/issues/16567&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected result when querying partitioned table with null values&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/16577&#34;&gt;https://github.com/crate/crate/issues/16577&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
 &lt;h3&gt;MySQL (27 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;Suspicious Estimated Rows&lt;/summary&gt;
@@ -5029,73 +5011,6 @@ Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/h2database/h2database/issues/2832&#34;&gt;https://github.com/h2database/h2database/issues/2832&lt;/a&gt; &lt;br /&gt;
 Found by: mrigger
 &lt;/details&gt;
-&lt;h3&gt;PostgreSQL (11 bugs)&lt;/h3&gt;
-&lt;details&gt;
-&lt;summary&gt;GROUP BY and inheritance issue&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://www.postgresql.org/message-id/CA%2Bu7OA7VLKf_vEr6kLF3MnWSA9LToJYncgpNX2tQ-oWzYCBQAw%40mail.gmail.com&#34;&gt;https://www.postgresql.org/message-id/CA%2Bu7OA7VLKf_vEr6kLF3MnWSA9LToJYncgpNX2tQ-oWzYCBQAw%40mail.gmail.com&lt;/a&gt; &lt;br /&gt;
-Found by: mrigger
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;DISCARD TEMP results in &#34;ERROR: cache lookup failed for type 0&#34;&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://www.postgresql.org/message-id/CA%2Bu7OA4JKCPFrdrAbOs7XBiCyD61XJxeNav4LefkSmBLQ-Vobg%40mail.gmail.com&#34;&gt;https://www.postgresql.org/message-id/CA%2Bu7OA4JKCPFrdrAbOs7XBiCyD61XJxeNav4LefkSmBLQ-Vobg%40mail.gmail.com&lt;/a&gt; &lt;br /&gt;
-Found by: mrigger
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;ERROR: found unexpected null value in index&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://www.postgresql.org/message-id/CA%2Bu7OA7W4NWEhCvftdV6_8bbm2vgypi5nuxfnSEJQqVKFSUoMg%40mail.gmail.com&#34;&gt;https://www.postgresql.org/message-id/CA%2Bu7OA7W4NWEhCvftdV6_8bbm2vgypi5nuxfnSEJQqVKFSUoMg%40mail.gmail.com&lt;/a&gt; &lt;br /&gt;
-Found by: mrigger
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;ERROR: negative bitmapset member not allowed in SELECT&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://www.postgresql.org/message-id/CA%2Bu7OA7fmtm3kR%2BY6Mgr9djU3WeOsMzQLWtNPMvoEVSm%3Dr9XaQ%40mail.gmail.com&#34;&gt;https://www.postgresql.org/message-id/CA%2Bu7OA7fmtm3kR%2BY6Mgr9djU3WeOsMzQLWtNPMvoEVSm%3Dr9XaQ%40mail.gmail.com&lt;/a&gt; &lt;br /&gt;
-Found by: mrigger
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;REINDEX CONCURRENTLY causes ALTER TABLE to fail&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://www.postgresql.org/message-id/CA%2Bu7OA5Hp0ra235F3czPom_FyAd-3%2BXwSJmX95r1%2BsRPOJc9VQ%40mail.gmail.com&#34;&gt;https://www.postgresql.org/message-id/CA%2Bu7OA5Hp0ra235F3czPom_FyAd-3%2BXwSJmX95r1%2BsRPOJc9VQ%40mail.gmail.com&lt;/a&gt; &lt;br /&gt;
-Found by: mrigger
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;INSERT INTO causes segfault on trunk&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;&#34;&gt;&lt;/a&gt; &lt;br /&gt;
-Found by: mrigger
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected &#34;cache lookup failed for collation 0&#34; failure&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://www.postgresql.org/message-id/flat/CA%2Bu7OA4HOjtymxAbuGNh4-X_2R0Lw5n01tzvP8E5-i-2gQXYWA%40mail.gmail.com&#34;&gt;https://www.postgresql.org/message-id/flat/CA%2Bu7OA4HOjtymxAbuGNh4-X_2R0Lw5n01tzvP8E5-i-2gQXYWA%40mail.gmail.com&lt;/a&gt; &lt;br /&gt;
-Found by: mrigger
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Failed assertion clauses != NIL&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://www.postgresql.org/message-id/flat/CA%2Bu7OA7H5rcE2%3D8f263w4NZD6ipO_XOrYB816nuLXbmSTH9pQQ%40mail.gmail.com&#34;&gt;https://www.postgresql.org/message-id/flat/CA%2Bu7OA7H5rcE2%3D8f263w4NZD6ipO_XOrYB816nuLXbmSTH9pQQ%40mail.gmail.com&lt;/a&gt; &lt;br /&gt;
-Found by: mrigger
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;No = operator for opfamily 426&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://www.postgresql.org/message-id/flat/CA%2Bu7OA7nnGYy8rY0vdTe811NuA%2BFrr9nbcBO9u2Z%2BJxqNaud%2Bg%40mail.gmail.com&#34;&gt;https://www.postgresql.org/message-id/flat/CA%2Bu7OA7nnGYy8rY0vdTe811NuA%2BFrr9nbcBO9u2Z%2BJxqNaud%2Bg%40mail.gmail.com&lt;/a&gt; &lt;br /&gt;
-Found by: mrigger
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Fetching from information_schema.tables results in segfault&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;&#34;&gt;&lt;/a&gt; &lt;br /&gt;
-Found by: mrigger
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Segfault when creating constant bit_length() index on TEMP table&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;&#34;&gt;&lt;/a&gt; &lt;br /&gt;
-Found by: mrigger
-&lt;/details&gt;
 &lt;h3&gt;neo4j (11 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;A potential performance bug (missing optimization)&lt;/summary&gt;
@@ -5163,66 +5078,72 @@ Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/neo4j/neo4j/issues/13041&#34;&gt;https://github.com/neo4j/neo4j/issues/13041&lt;/a&gt; &lt;br /&gt;
 Found by: Yuancheng Jiang
 &lt;/details&gt;
-&lt;h3&gt;Firebird (10 bugs)&lt;/h3&gt;
+&lt;h3&gt;PostgreSQL (11 bugs)&lt;/h3&gt;
 &lt;details&gt;
-&lt;summary&gt;Potential bug in BETWEEN Operator&lt;/summary&gt;
+&lt;summary&gt;GROUP BY and inheritance issue&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/7839&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/7839&lt;/a&gt; &lt;br /&gt;
-Found by: Manuel Rigger
+Link: &lt;a href=&#34;https://www.postgresql.org/message-id/CA%2Bu7OA7VLKf_vEr6kLF3MnWSA9LToJYncgpNX2tQ-oWzYCBQAw%40mail.gmail.com&#34;&gt;https://www.postgresql.org/message-id/CA%2Bu7OA7VLKf_vEr6kLF3MnWSA9LToJYncgpNX2tQ-oWzYCBQAw%40mail.gmail.com&lt;/a&gt; &lt;br /&gt;
+Found by: mrigger
 &lt;/details&gt;
 &lt;details&gt;
-&lt;summary&gt;Crash potentially caused by BETWEEN Operator&lt;/summary&gt;
+&lt;summary&gt;DISCARD TEMP results in &#34;ERROR: cache lookup failed for type 0&#34;&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/7860&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/7860&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
+Link: &lt;a href=&#34;https://www.postgresql.org/message-id/CA%2Bu7OA4JKCPFrdrAbOs7XBiCyD61XJxeNav4LefkSmBLQ-Vobg%40mail.gmail.com&#34;&gt;https://www.postgresql.org/message-id/CA%2Bu7OA4JKCPFrdrAbOs7XBiCyD61XJxeNav4LefkSmBLQ-Vobg%40mail.gmail.com&lt;/a&gt; &lt;br /&gt;
+Found by: mrigger
 &lt;/details&gt;
 &lt;details&gt;
-&lt;summary&gt;Unexpected Results when Using Natural Right Join&lt;/summary&gt;
+&lt;summary&gt;ERROR: found unexpected null value in index&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/7879&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/7879&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
+Link: &lt;a href=&#34;https://www.postgresql.org/message-id/CA%2Bu7OA7W4NWEhCvftdV6_8bbm2vgypi5nuxfnSEJQqVKFSUoMg%40mail.gmail.com&#34;&gt;https://www.postgresql.org/message-id/CA%2Bu7OA7W4NWEhCvftdV6_8bbm2vgypi5nuxfnSEJQqVKFSUoMg%40mail.gmail.com&lt;/a&gt; &lt;br /&gt;
+Found by: mrigger
 &lt;/details&gt;
 &lt;details&gt;
-&lt;summary&gt;Unexpected Results when Using CASE-WHEN with LEFT JOIN&lt;/summary&gt;
+&lt;summary&gt;ERROR: negative bitmapset member not allowed in SELECT&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/7903&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/7903&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
+Link: &lt;a href=&#34;https://www.postgresql.org/message-id/CA%2Bu7OA7fmtm3kR%2BY6Mgr9djU3WeOsMzQLWtNPMvoEVSm%3Dr9XaQ%40mail.gmail.com&#34;&gt;https://www.postgresql.org/message-id/CA%2Bu7OA7fmtm3kR%2BY6Mgr9djU3WeOsMzQLWtNPMvoEVSm%3Dr9XaQ%40mail.gmail.com&lt;/a&gt; &lt;br /&gt;
+Found by: mrigger
 &lt;/details&gt;
 &lt;details&gt;
-&lt;summary&gt;Unexpected results when the join condition contains the OR predicate&lt;/summary&gt;
+&lt;summary&gt;REINDEX CONCURRENTLY causes ALTER TABLE to fail&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/7908&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/7908&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
+Link: &lt;a href=&#34;https://www.postgresql.org/message-id/CA%2Bu7OA5Hp0ra235F3czPom_FyAd-3%2BXwSJmX95r1%2BsRPOJc9VQ%40mail.gmail.com&#34;&gt;https://www.postgresql.org/message-id/CA%2Bu7OA5Hp0ra235F3czPom_FyAd-3%2BXwSJmX95r1%2BsRPOJc9VQ%40mail.gmail.com&lt;/a&gt; &lt;br /&gt;
+Found by: mrigger
 &lt;/details&gt;
 &lt;details&gt;
-&lt;summary&gt;Unexpected results when using CASE WHEN with RIGHT JOIN&lt;/summary&gt;
+&lt;summary&gt;INSERT INTO causes segfault on trunk&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/7993&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/7993&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
+Link: &lt;a href=&#34;&#34;&gt;&lt;/a&gt; &lt;br /&gt;
+Found by: mrigger
 &lt;/details&gt;
 &lt;details&gt;
-&lt;summary&gt;Unexpected results after creating partial index&lt;/summary&gt;
+&lt;summary&gt;Unexpected &#34;cache lookup failed for collation 0&#34; failure&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/7995&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/7995&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
+Link: &lt;a href=&#34;https://www.postgresql.org/message-id/flat/CA%2Bu7OA4HOjtymxAbuGNh4-X_2R0Lw5n01tzvP8E5-i-2gQXYWA%40mail.gmail.com&#34;&gt;https://www.postgresql.org/message-id/flat/CA%2Bu7OA4HOjtymxAbuGNh4-X_2R0Lw5n01tzvP8E5-i-2gQXYWA%40mail.gmail.com&lt;/a&gt; &lt;br /&gt;
+Found by: mrigger
 &lt;/details&gt;
 &lt;details&gt;
-&lt;summary&gt;Unexpected results when using string concatenation for INTEGER&lt;/summary&gt;
+&lt;summary&gt;Failed assertion clauses != NIL&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/7997&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/7997&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
+Link: &lt;a href=&#34;https://www.postgresql.org/message-id/flat/CA%2Bu7OA7H5rcE2%3D8f263w4NZD6ipO_XOrYB816nuLXbmSTH9pQQ%40mail.gmail.com&#34;&gt;https://www.postgresql.org/message-id/flat/CA%2Bu7OA7H5rcE2%3D8f263w4NZD6ipO_XOrYB816nuLXbmSTH9pQQ%40mail.gmail.com&lt;/a&gt; &lt;br /&gt;
+Found by: mrigger
 &lt;/details&gt;
 &lt;details&gt;
-&lt;summary&gt;Unexpected error and crash after creating a partial index&lt;/summary&gt;
+&lt;summary&gt;No = operator for opfamily 426&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/7998&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/7998&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
+Link: &lt;a href=&#34;https://www.postgresql.org/message-id/flat/CA%2Bu7OA7nnGYy8rY0vdTe811NuA%2BFrr9nbcBO9u2Z%2BJxqNaud%2Bg%40mail.gmail.com&#34;&gt;https://www.postgresql.org/message-id/flat/CA%2Bu7OA7nnGYy8rY0vdTe811NuA%2BFrr9nbcBO9u2Z%2BJxqNaud%2Bg%40mail.gmail.com&lt;/a&gt; &lt;br /&gt;
+Found by: mrigger
 &lt;/details&gt;
 &lt;details&gt;
-&lt;summary&gt;Unexpected results when using LIKE with boolean values&lt;/summary&gt;
-Status: confirmed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/8132&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/8132&lt;/a&gt; &lt;br /&gt;
-Found by: Suyang Zhong
+&lt;summary&gt;Fetching from information_schema.tables results in segfault&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;&#34;&gt;&lt;/a&gt; &lt;br /&gt;
+Found by: mrigger
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Segfault when creating constant bit_length() index on TEMP table&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;&#34;&gt;&lt;/a&gt; &lt;br /&gt;
+Found by: mrigger
 &lt;/details&gt;
 &lt;h3&gt;Virtuoso (10 bugs)&lt;/h3&gt;
 &lt;details&gt;
@@ -5283,6 +5204,67 @@ Found by: Suyang Zhong
 &lt;summary&gt;Unexpected results when using INNER JOIN and UNION&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/openlink/virtuoso-opensource/issues/1251&#34;&gt;https://github.com/openlink/virtuoso-opensource/issues/1251&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;h3&gt;Firebird (10 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Potential bug in BETWEEN Operator&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/7839&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/7839&lt;/a&gt; &lt;br /&gt;
+Found by: Manuel Rigger
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Crash potentially caused by BETWEEN Operator&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/7860&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/7860&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Using Natural Right Join&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/7879&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/7879&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Results when Using CASE-WHEN with LEFT JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/7903&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/7903&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when the join condition contains the OR predicate&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/7908&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/7908&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when using CASE WHEN with RIGHT JOIN&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/7993&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/7993&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results after creating partial index&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/7995&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/7995&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when using string concatenation for INTEGER&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/7997&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/7997&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected error and crash after creating a partial index&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/7998&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/7998&lt;/a&gt; &lt;br /&gt;
+Found by: Suyang Zhong
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when using LIKE with boolean values&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/FirebirdSQL/firebird/issues/8132&#34;&gt;https://github.com/FirebirdSQL/firebird/issues/8132&lt;/a&gt; &lt;br /&gt;
 Found by: Suyang Zhong
 &lt;/details&gt;
 &lt;h3&gt;risingwave (7 bugs)&lt;/h3&gt;
@@ -5359,31 +5341,6 @@ Status: open&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/apache/doris/issues/36070&#34;&gt;https://github.com/apache/doris/issues/36070&lt;/a&gt; &lt;br /&gt;
 Found by: Ming Wei Tan
 &lt;/details&gt;
-&lt;h3&gt;redisgraph (4 bugs)&lt;/h3&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected results&lt;/summary&gt;
-Status: confirmed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/RedisGraph/RedisGraph/issues/2744&#34;&gt;https://github.com/RedisGraph/RedisGraph/issues/2744&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Buggy result&lt;/summary&gt;
-Status: confirmed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/RedisGraph/RedisGraph/issues/2858&#34;&gt;https://github.com/RedisGraph/RedisGraph/issues/2858&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Inconsistent results&lt;/summary&gt;
-Status: confirmed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/RedisGraph/RedisGraph/issues/2859&#34;&gt;https://github.com/RedisGraph/RedisGraph/issues/2859&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Inconsistent results when querying a symmetric path&lt;/summary&gt;
-Status: confirmed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/RedisGraph/RedisGraph/issues/2865&#34;&gt;https://github.com/RedisGraph/RedisGraph/issues/2865&lt;/a&gt; &lt;br /&gt;
-Found by: Yuancheng Jiang
-&lt;/details&gt;
 &lt;h3&gt;tdengine (4 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;Segmentation fault with certain queries&lt;/summary&gt;
@@ -5409,24 +5366,30 @@ Status: confirmed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/taosdata/TDengine/issues/22857&#34;&gt;https://github.com/taosdata/TDengine/issues/22857&lt;/a&gt; &lt;br /&gt;
 Found by: Yuancheng Jiang
 &lt;/details&gt;
-&lt;h3&gt;Databend (3 bugs)&lt;/h3&gt;
+&lt;h3&gt;redisgraph (4 bugs)&lt;/h3&gt;
 &lt;details&gt;
-&lt;summary&gt;`FALSE AND exp1 OR exp1` in WHERE clause results in Lost connection from server&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/databendlabs/databend/issues/15569&#34;&gt;https://github.com/databendlabs/databend/issues/15569&lt;/a&gt; &lt;br /&gt;
-Found by: Ming Wei Tan
+&lt;summary&gt;Unexpected results&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/RedisGraph/RedisGraph/issues/2744&#34;&gt;https://github.com/RedisGraph/RedisGraph/issues/2744&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
 &lt;/details&gt;
 &lt;details&gt;
-&lt;summary&gt;WHERE clause not working as expected with NOT&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/databendlabs/databend/issues/15572&#34;&gt;https://github.com/databendlabs/databend/issues/15572&lt;/a&gt; &lt;br /&gt;
-Found by: Ming Wei Tan
+&lt;summary&gt;Buggy result&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/RedisGraph/RedisGraph/issues/2858&#34;&gt;https://github.com/RedisGraph/RedisGraph/issues/2858&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
 &lt;/details&gt;
 &lt;details&gt;
-&lt;summary&gt;Mismatch between SUM and AVERAGE due to optimisation&lt;/summary&gt;
-Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/databendlabs/databend/issues/15867&#34;&gt;https://github.com/databendlabs/databend/issues/15867&lt;/a&gt; &lt;br /&gt;
-Found by: Ming Wei Tan
+&lt;summary&gt;Inconsistent results&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/RedisGraph/RedisGraph/issues/2859&#34;&gt;https://github.com/RedisGraph/RedisGraph/issues/2859&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Inconsistent results when querying a symmetric path&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/RedisGraph/RedisGraph/issues/2865&#34;&gt;https://github.com/RedisGraph/RedisGraph/issues/2865&lt;/a&gt; &lt;br /&gt;
+Found by: Yuancheng Jiang
 &lt;/details&gt;
 &lt;h3&gt;agensgraph (3 bugs)&lt;/h3&gt;
 &lt;details&gt;
@@ -5447,31 +5410,43 @@ Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/bitnine-oss/agensgraph/issues/617&#34;&gt;https://github.com/bitnine-oss/agensgraph/issues/617&lt;/a&gt; &lt;br /&gt;
 Found by: Yuancheng Jiang
 &lt;/details&gt;
-&lt;h3&gt;MariaDB (2 bugs)&lt;/h3&gt;
+&lt;h3&gt;Databend (3 bugs)&lt;/h3&gt;
 &lt;details&gt;
-&lt;summary&gt;Internal error from OPTIMIZE TABLE t0 NOWAIT&lt;/summary&gt;
-Status: confirmed&lt;br /&gt;
-Link: &lt;a href=&#34;https://jira.mariadb.org/browse/MDEV-33893&#34;&gt;https://jira.mariadb.org/browse/MDEV-33893&lt;/a&gt; &lt;br /&gt;
+&lt;summary&gt;`FALSE AND exp1 OR exp1` in WHERE clause results in Lost connection from server&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/databendlabs/databend/issues/15569&#34;&gt;https://github.com/databendlabs/databend/issues/15569&lt;/a&gt; &lt;br /&gt;
 Found by: Ming Wei Tan
 &lt;/details&gt;
 &lt;details&gt;
-&lt;summary&gt;UNIQUE constraint causes a query with string comparison to omit a row in the result set&lt;/summary&gt;
+&lt;summary&gt;WHERE clause not working as expected with NOT&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://jira.mariadb.org/browse/MDEV-21065&#34;&gt;https://jira.mariadb.org/browse/MDEV-21065&lt;/a&gt; &lt;br /&gt;
-Found by: mrigger
-&lt;/details&gt;
-&lt;h3&gt;Percona (2 bugs)&lt;/h3&gt;
-&lt;details&gt;
-&lt;summary&gt;Unexpected result related to CREATE INDEX and RADIANS&lt;/summary&gt;
-Status: confirmed&lt;br /&gt;
-Link: &lt;a href=&#34;https://perconadev.atlassian.net/browse/PS-9049&#34;&gt;https://perconadev.atlassian.net/browse/PS-9049&lt;/a&gt; &lt;br /&gt;
-Found by: Albert Zhang
+Link: &lt;a href=&#34;https://github.com/databendlabs/databend/issues/15572&#34;&gt;https://github.com/databendlabs/databend/issues/15572&lt;/a&gt; &lt;br /&gt;
+Found by: Ming Wei Tan
 &lt;/details&gt;
 &lt;details&gt;
-&lt;summary&gt;Unexpected results when using ASIN function with NULLIF&lt;/summary&gt;
-Status: confirmed&lt;br /&gt;
-Link: &lt;a href=&#34;https://perconadev.atlassian.net/jira/software/c/projects/PS/issues/PS-9085&#34;&gt;https://perconadev.atlassian.net/jira/software/c/projects/PS/issues/PS-9085&lt;/a&gt; &lt;br /&gt;
-Found by: Albert Zhang
+&lt;summary&gt;Mismatch between SUM and AVERAGE due to optimisation&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/databendlabs/databend/issues/15867&#34;&gt;https://github.com/databendlabs/databend/issues/15867&lt;/a&gt; &lt;br /&gt;
+Found by: Ming Wei Tan
+&lt;/details&gt;
+&lt;h3&gt;Crate (3 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected ANTI JOIN Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/18873&#34;&gt;https://github.com/crate/crate/issues/18873&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Inner Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/18860&#34;&gt;https://github.com/crate/crate/issues/18860&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected Left Join Result&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/crate/crate/issues/18680&#34;&gt;https://github.com/crate/crate/issues/18680&lt;/a&gt; &lt;br /&gt;
+Found by: Zhaokun Xiang
 &lt;/details&gt;
 &lt;h3&gt;QuestDB (2 bugs)&lt;/h3&gt;
 &lt;details&gt;
@@ -5486,12 +5461,31 @@ Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/questdb/questdb/issues/4981&#34;&gt;https://github.com/questdb/questdb/issues/4981&lt;/a&gt; &lt;br /&gt;
 Found by: Ming Wei Tan
 &lt;/details&gt;
-&lt;h3&gt;CUBRID (1 bugs)&lt;/h3&gt;
+&lt;h3&gt;Percona (2 bugs)&lt;/h3&gt;
 &lt;details&gt;
-&lt;summary&gt;ORDER BY causes row to be omitted with index and case expression&lt;/summary&gt;
+&lt;summary&gt;Unexpected result related to CREATE INDEX and RADIANS&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://perconadev.atlassian.net/browse/PS-9049&#34;&gt;https://perconadev.atlassian.net/browse/PS-9049&lt;/a&gt; &lt;br /&gt;
+Found by: Albert Zhang
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Unexpected results when using ASIN function with NULLIF&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://perconadev.atlassian.net/jira/software/c/projects/PS/issues/PS-9085&#34;&gt;https://perconadev.atlassian.net/jira/software/c/projects/PS/issues/PS-9085&lt;/a&gt; &lt;br /&gt;
+Found by: Albert Zhang
+&lt;/details&gt;
+&lt;h3&gt;MariaDB (2 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Internal error from OPTIMIZE TABLE t0 NOWAIT&lt;/summary&gt;
+Status: confirmed&lt;br /&gt;
+Link: &lt;a href=&#34;https://jira.mariadb.org/browse/MDEV-33893&#34;&gt;https://jira.mariadb.org/browse/MDEV-33893&lt;/a&gt; &lt;br /&gt;
+Found by: Ming Wei Tan
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;UNIQUE constraint causes a query with string comparison to omit a row in the result set&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;http://jira.cubrid.org/browse/CBRD-25067&#34;&gt;http://jira.cubrid.org/browse/CBRD-25067&lt;/a&gt; &lt;br /&gt;
-Found by: Manuel Rigger
+Link: &lt;a href=&#34;https://jira.mariadb.org/browse/MDEV-21065&#34;&gt;https://jira.mariadb.org/browse/MDEV-21065&lt;/a&gt; &lt;br /&gt;
+Found by: mrigger
 &lt;/details&gt;
 &lt;h3&gt;ClickHouse (2 bugs)&lt;/h3&gt;
 &lt;details&gt;
@@ -5506,6 +5500,13 @@ Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/ClickHouse/ClickHouse/issues/80775&#34;&gt;https://github.com/ClickHouse/ClickHouse/issues/80775&lt;/a&gt; &lt;br /&gt;
 Found by: Zhaokun Xiang
 &lt;/details&gt;
+&lt;h3&gt;TDEngine (1 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;DROP DATABASE seems to leave behind a table when using the &#34;tables&#34; configuration option&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://github.com/taosdata/TDengine/issues/586&#34;&gt;https://github.com/taosdata/TDengine/issues/586&lt;/a&gt; &lt;br /&gt;
+Found by: mrigger
+&lt;/details&gt;
 &lt;h3&gt;Presto (1 bugs)&lt;/h3&gt;
 &lt;details&gt;
 &lt;summary&gt;Query failed with error `failed: at index 1`&lt;/summary&gt;
@@ -5513,12 +5514,12 @@ Status: fixed&lt;br /&gt;
 Link: &lt;a href=&#34;https://github.com/prestodb/presto/issues/23613&#34;&gt;https://github.com/prestodb/presto/issues/23613&lt;/a&gt; &lt;br /&gt;
 Found by: Ming Wei Tan
 &lt;/details&gt;
-&lt;h3&gt;TDEngine (1 bugs)&lt;/h3&gt;
+&lt;h3&gt;CUBRID (1 bugs)&lt;/h3&gt;
 &lt;details&gt;
-&lt;summary&gt;DROP DATABASE seems to leave behind a table when using the &#34;tables&#34; configuration option&lt;/summary&gt;
+&lt;summary&gt;ORDER BY causes row to be omitted with index and case expression&lt;/summary&gt;
 Status: fixed&lt;br /&gt;
-Link: &lt;a href=&#34;https://github.com/taosdata/TDengine/issues/586&#34;&gt;https://github.com/taosdata/TDengine/issues/586&lt;/a&gt; &lt;br /&gt;
-Found by: mrigger
+Link: &lt;a href=&#34;http://jira.cubrid.org/browse/CBRD-25067&#34;&gt;http://jira.cubrid.org/browse/CBRD-25067&lt;/a&gt; &lt;br /&gt;
+Found by: Manuel Rigger
 &lt;/details&gt;
 &lt;h2 id=&#34;compiler&amp;interpreter&#34;&gt;Compilers and Interpreters (60 bugs)&lt;/h2&gt;
 &lt;h3&gt;php-src (60 bugs)&lt;/h3&gt;
