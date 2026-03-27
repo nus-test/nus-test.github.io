@@ -26,9 +26,8 @@ Timetable for upcoming events in AY25/26 (subject to changes):
 | April 22 | <font color=blue>Once-for-All: Skeleton-Guided SMT Solver Fuzzing with LLM-Synthesized Generators</font> | Suyang | Maolin Sun |
 | April 15 |  | --- | ---|
 | April 8 | <font color=brown>Beyond Correctness: Exposing LLM-generated Logical Flaws in Reasoning via Multi-step Automated Theorem Proving</font> | Ningke | Ningke |
-| April 7 | <font color=green>Reading Group</font> | Zhaokun | ---|
 | April 1 | <font color=blue>VDBFuzz: Understanding and Detecting Crash Bugs in Vector Database Management Systems</font> | Ningke | Shenao Wang |
-| March 25 |  | --- | ---|
+| March 25 |  | <font color=brown>Group Discussion</font> | ---| ---|
 | March 24 | <font color=green>Reading Group</font> | Yuancheng | ---|
 | March 18 | <font color=blue>Comparables XAI: Faithful Example-based AI Explanations with Counterfactual Trace Adjustments</font> | Yibo | Yifan Zhang|
 | March 11 | <font color=brown>How Should Applications Choose Optimal Isolation Levels</font> | Qiyu | Qiyu|
