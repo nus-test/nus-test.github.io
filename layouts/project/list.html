@@ -1,0 +1,80 @@
+{{- define "main" -}}
+
+{{ partial "page_header.html" . }}
+
+<div class="universal-wrapper">
+  {{ with .Content }}
+  <div class="article-style">{{ . }}</div>
+  {{ end }}
+
+  <div id="project-list">
+  {{ $paginator := .Paginate .Data.Pages }}
+  {{ range $paginator.Pages }}
+    {{ $link := .RelPermalink }}
+    {{ $target := "" }}
+    {{ with .Params.external_link }}
+      {{ $link = . }}
+      {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+    {{ end }}
+
+    {{/* Detect GitHub URL */}}
+    {{ $githubURL := "" }}
+    {{ if hasPrefix .Params.external_link "https://github.com/" }}
+      {{ $githubURL = .Params.external_link }}
+    {{ else if hasPrefix .Params.url_code "https://github.com/" }}
+      {{ $githubURL = .Params.url_code }}
+    {{ end }}
+    {{ $githubRepo := "" }}
+    {{ if $githubURL }}
+      {{ $githubRepo = replaceRE "^https://github\\.com/([^/]+/[^/?#]+).*" "$1" $githubURL }}
+    {{ end }}
+
+    <div class="project-item" data-stars="-1" {{ if $githubRepo }}data-github-repo="{{ $githubRepo }}"{{ end }} style="margin-bottom: 1.5rem;">
+      <h2 style="margin-bottom: 0.2rem;">
+        <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ .Title }}</a>
+        {{ if $githubRepo }}
+        &nbsp;<a href="{{ $githubURL }}" target="_blank" rel="noopener" style="vertical-align: middle;">
+          <img src="https://img.shields.io/github/stars/{{ $githubRepo }}?style=social" alt="GitHub stars" loading="lazy" style="vertical-align: middle;">
+        </a>
+        {{ end }}
+      </h2>
+      <div class="article-style">
+        {{ if .Params.summary }}
+          {{ .Params.summary | plainify | emojify }}
+        {{ else if .Params.abstract }}
+          {{ .Params.abstract | plainify | emojify | truncate 250 }}
+        {{ else if .Summary }}
+          {{ .Summary | plainify | emojify }}
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+  </div>
+
+  {{ partial "pagination" . }}
+</div>
+
+<script>
+(function () {
+  const list = document.getElementById('project-list');
+  const items = Array.from(list.querySelectorAll('.project-item[data-github-repo]'));
+
+  const fetches = items.map(el => {
+    const repo = el.dataset.githubRepo;
+    return fetch('https://api.github.com/repos/' + repo)
+      .then(r => r.json())
+      .then(data => {
+        el.dataset.stars = data.stargazers_count ?? 0;
+      })
+      .catch(() => { el.dataset.stars = 0; });
+  });
+
+  Promise.all(fetches).then(() => {
+    const allItems = Array.from(list.querySelectorAll('.project-item'));
+    allItems.sort((a, b) => Number(b.dataset.stars) - Number(a.dataset.stars));
+    allItems.forEach(el => list.appendChild(el));
+  });
+})();
+</script>
+
+{{- end -}}
