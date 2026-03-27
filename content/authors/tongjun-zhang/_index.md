@@ -51,7 +51,7 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/albert-zhang-tongjun
-- icon: twitter
+- icon: x-twitter
   icon_pack: fab
   link: https://x.com/albertzhangtj
 

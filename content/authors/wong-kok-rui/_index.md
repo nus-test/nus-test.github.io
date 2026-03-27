@@ -41,7 +41,7 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:kokrui@u.nus.edu'
-- icon: twitter
+- icon: x-twitter
   icon_pack: fab
   link: https://twitter.com/wongkokrui
 #- icon: google-scholar

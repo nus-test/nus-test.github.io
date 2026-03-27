@@ -45,7 +45,7 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:dongy1bo@comp.nus.edu.sg'
-# - icon: twitter
+# - icon: x-twitter
 #   icon_pack: fab
 #   link: https://twitter.com/GeorgeCushen
 # - icon: google-scholar

@@ -27,7 +27,7 @@ bio: Working on making CPython faster.
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: twitter
+- icon: x-twitter
   icon_pack: fab
   link: https://twitter.com/kenjin4096
 #- icon: google-scholar

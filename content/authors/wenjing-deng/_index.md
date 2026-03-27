@@ -24,7 +24,7 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:wendy.wenjing.deng@gmail.com'
-# - icon: twitter
+# - icon: x-twitter
 #   icon_pack: fab
 #   link: 
 # - icon: google-scholar

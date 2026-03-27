@@ -45,7 +45,7 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:wenjiaye@nus.edu.sg'
-- icon: twitter
+- icon: x-twitter
   icon_pack: fab
   link: https://twitter.com/YeWenjia
 # - icon: google-scholar

@@ -45,7 +45,7 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:junwenan@u.nus.edu'
-- icon: twitter
+- icon: x-twitter
   icon_pack: fab
   link: https://x.com/junwenjesse
 # - icon: google-scholar
