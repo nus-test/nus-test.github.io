@@ -1,7 +1,7 @@
 ---
 # Display name
 title: Yuancheng Jiang
-native_name: 蒋远程
+native_name: 蒋元丞
 
 # Is this the primary user of the site?
 superuser: false
