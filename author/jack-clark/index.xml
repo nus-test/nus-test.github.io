@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/author/jack-clark/</link>
       <atom:link href="https://nus-test.github.io/author/jack-clark/index.xml" rel="self" type="application/rss+xml" />
     <description>Jack Clark</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 08 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 17 Jan 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Jack Clark</title>
       <link>https://nus-test.github.io/author/jack-clark/</link>
     </image>
+    
+    <item>
+      <title>Bringing Order to Practical Validation of Database Isolation Levels</title>
+      <link>https://nus-test.github.io/publication/2026-tocs-isolation/</link>
+      <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2026-tocs-isolation/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Validating Database System Isolation Level Implementations with Version Certificate Recovery</title>
