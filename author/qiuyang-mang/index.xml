@@ -5,12 +5,21 @@
     <link>https://nus-test.github.io/author/qiuyang-mang/</link>
       <atom:link href="https://nus-test.github.io/author/qiuyang-mang/index.xml" rel="self" type="application/rss+xml" />
     <description>Qiuyang Mang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 18 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 15 Apr 2026 14:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/author/qiuyang-mang/avatar_hu646805c6aa6239fb44ebd306bc1d884d_212347_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Qiuyang Mang</title>
       <link>https://nus-test.github.io/author/qiuyang-mang/</link>
     </image>
+    
+    <item>
+      <title>Argus: Automated Discovery of Test Oracles for Database Management Systems Using LLMs</title>
+      <link>https://nus-test.github.io/event/260415/</link>
+      <pubDate>Wed, 15 Apr 2026 14:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/260415/</guid>
+      <description>&lt;p&gt;For more info about the paper, see &lt;a href=&#34;https://joyemang33.github.io/blog/2026/argus/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Finding Logic Bugs in Graph-processing Systems via Graph-cutting</title>
