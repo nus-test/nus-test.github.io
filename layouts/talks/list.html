@@ -1,0 +1,46 @@
+{{- define "main" -}}
+
+{{ partial "page_header.html" . }}
+
+<div class="universal-wrapper">
+
+  {{ $pubs := where site.RegularPages "Type" "publication" }}
+  {{ $talks := where $pubs ".Params.url_video" "ne" "" }}
+  {{ $talks = where $talks ".Params.url_video" "ne" nil }}
+
+  {{ range ($talks.GroupByDate "2006").Reverse }}
+  <h2 style="margin: 2rem 0 1rem;">{{ .Key }}</h2>
+  <div class="row">
+    {{ range .Pages.ByDate.Reverse }}
+      {{ $videoID := replaceRE "(?:.*[?&]v=|.*youtu\\.be/)([^&?#]+).*" "$1" .Params.url_video }}
+      <div class="col-12 col-md-6" style="margin-bottom: 2rem;">
+        <div class="card h-100" style="border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden;">
+          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+            <iframe
+              src="https://www.youtube.com/embed/{{ $videoID }}"
+              title="{{ .Title }}"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              loading="lazy"
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+            </iframe>
+          </div>
+          <div class="card-text" style="padding: 0.9rem 1rem 0.8rem;">
+            <h4 style="margin: 0 0 0.3rem; font-size: 1rem; line-height: 1.4;">
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h4>
+            <div style="font-size: 0.88rem; color: #555;">
+              {{ range $i, $a := .Params.authors }}{{ if $i }}, {{ end }}{{ $a }}{{ end }}
+              &mdash; <em>{{ .Params.publication_short | default .Params.publication | markdownify }}</em>
+            </div>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+  {{ end }}
+
+</div>
+
+{{- end -}}

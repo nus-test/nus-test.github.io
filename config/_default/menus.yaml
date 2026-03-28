@@ -16,6 +16,9 @@ main:
   - name: Seminars
     url: event
     wegith: 36
+  - name: Talk Recordings
+    url: talks
+    weight: 37
   - name: Found Bugs
     url: bugs
     weight: 38
