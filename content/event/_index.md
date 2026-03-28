@@ -24,7 +24,7 @@ Timetable for upcoming events in AY25/26 (subject to changes):
 | May 6 | <font color=brown>Group Discussion</font> | --- | ---|
 | April 29 |  | --- | ---|
 | April 22 | <font color=blue>Once-for-All: Skeleton-Guided SMT Solver Fuzzing with LLM-Synthesized Generators</font> | Suyang | Maolin Sun |
-| April 15 |  | --- | ---|
+| April 15 | <font color=blue>Argus: Automated Discovery of Test Oracles for Database Management Systems Using LLMs</font> | Test Lab | Qiuyang|
 | April 8 | <font color=brown>Beyond Correctness: Exposing LLM-generated Logical Flaws in Reasoning via Multi-step Automated Theorem Proving</font> | Ningke | Ningke |
 | April 1 | <font color=blue>VDBFuzz: Understanding and Detecting Crash Bugs in Vector Database Management Systems</font> | Ningke | Shenao Wang |
 | March 25 |  | <font color=brown>Group Discussion</font> | ---| ---|
