@@ -1,0 +1,35 @@
+{{- define "main" -}}
+
+{{/* Author profile page. */}}
+
+{{ if not .File }}
+<div class="universal-wrapper pt-3">
+  <h1>{{ .Title }}</h1>
+</div>
+{{ end }}
+
+<section id="profile-page" class="pt-5">
+  <div class="container">
+    {{ if .File }}
+      {{ $widget := "widgets/about.html" }}
+      {{ $username := (path.Base (path.Split .Path).Dir) }}
+      {{ $params := dict "root" $ "page" . "author" $username }}
+      {{ partial $widget $params }}
+    {{ end }}
+
+    {{ $pubs := where .Pages "Type" "publication" }}
+    {{ $pubs = $pubs.ByDate.Reverse }}
+    {{ if $pubs }}
+    <div class="content-widget-hr" style="margin-top: 2rem;">
+      <h3>Publications</h3>
+
+      {{ range $pubs }}
+        {{ partial "li_citation" . }}
+      {{ end }}
+
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+{{- end -}}
