@@ -10,8 +10,8 @@ role: Faculty
 
 # Organizations/Affiliations
 organizations:
-- name: ETH Zurich
-  url: ""
+- name: National University of Singapore
+  url: "https://www.nus.edu.sg/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Manuel is an Assistant Professor and leads the group.
