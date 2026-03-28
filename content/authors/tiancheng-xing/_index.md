@@ -16,6 +16,13 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: Working on database testing.
 
+education:
+  courses:
+  - course: M.Sc. in Computer Science
+    institution: National University of Singapore
+  - course: B.Eng in Software Engineering
+    institution: Nanjing University
+
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
@@ -35,7 +42,6 @@ social:
   link: https://github.com/NayameoW
 
 # Highlight the author in author lists? (true/false)
-highlight_name: true
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

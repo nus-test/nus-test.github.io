@@ -17,6 +17,17 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: Yuancheng Jiang is a Ph.D. student at National University of Singapore
 
+education:
+  courses:
+  - course: Ph.D. in Computer Science
+    institution: National University of Singapore
+  - course: M.Sc. in Computing
+    institution: National University of Singapore
+    year: 2021
+  - course: B.Sc. in Information Security
+    institution: Fudan University
+    year: 2020
+
 social:
 - icon: envelope
   icon_pack: fas
