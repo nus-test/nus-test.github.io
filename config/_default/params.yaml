@@ -71,7 +71,7 @@ show_related:
   project: true
   publication: true
   talk: true
-reading_time: true
+reading_time: false
 section_pager: false
 sharing: true
 copyright_license:
