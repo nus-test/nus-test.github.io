@@ -10,7 +10,7 @@ title: Anxing Zhang
 superuser: false
 
 # Role/position
-role: Master Student
+role: Master's Student
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Anxing Zhang is a master student working on testing JDBC drivers.
+bio: Anxing Zhang is a master's student working on testing JDBC drivers.
 
 # interests:
 # - Artificial Intelligence
@@ -74,4 +74,4 @@ user_groups:
 - Past Members (2023)
 ---
 
-Anxing graduated from the [David R. Cheriton School of Computer Science](https://cs.uwaterloo.ca/) at [University of Waterloo](https://uwaterloo.ca/), previously employed at [CashApp](https://cash.app/). She joined [NUS](https://nus.edu.sg/) as a Master student in January 2022.
+Anxing graduated from the [David R. Cheriton School of Computer Science](https://cs.uwaterloo.ca/) at [University of Waterloo](https://uwaterloo.ca/), previously employed at [CashApp](https://cash.app/). She joined [NUS](https://nus.edu.sg/) as a Master's student in January 2022.

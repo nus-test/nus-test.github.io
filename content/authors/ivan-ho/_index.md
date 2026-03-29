@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Masters Student, Research Assistant
+role: Master's Student, Research Assistant
 
 # Organizations/Affiliations
 organizations:
@@ -74,4 +74,4 @@ next_affiliation:
 user_groups:
 - Past Members (2024)
 ---
-Ivan is a final year Masters Stduent working on software reliability, program analysis and compilers. Once upon a time, he used to make [games](https://undefinist.itch.io/thebigpicture) as well.
+Ivan is a final year Master's Student working on software reliability, program analysis and compilers. Once upon a time, he used to make [games](https://undefinist.itch.io/thebigpicture) as well.

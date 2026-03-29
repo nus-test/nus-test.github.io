@@ -6,7 +6,7 @@ title: Mehtab Zafar
 superuser: false
 
 # Role/position
-role: Masters Student
+role: Master's Student
 
 # Organizations/Affiliations
 organizations:

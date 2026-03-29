@@ -6,7 +6,7 @@ title: Haoxiang Jia
 superuser: false
 
 # Role/position
-role: Master Intern
+role: Master's Intern
 
 # Organizations/Affiliations
 organizations:
@@ -14,7 +14,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Haoxiang Jia is a master student focusing on software analysis and testing.
+bio: Haoxiang Jia is a master's student focusing on software analysis and testing.
 
 social:
 - icon: envelope
@@ -44,5 +44,5 @@ user_groups:
 ---
 Haoxiang is doing an internship at the lab for half a year.
 
-He is a master student supervised by [Prof. Ming Wen](https://mingwen-cs.github.io/) at Huazhong University of Science and Technology. 
+He is a master's student supervised by [Prof. Ming Wen](https://mingwen-cs.github.io/) at Huazhong University of Science and Technology. 
 

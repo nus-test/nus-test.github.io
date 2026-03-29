@@ -10,7 +10,7 @@ title: Nishita Dutta
 superuser: false
 
 # Role/position
-role: Master Student
+role: Master's Student
 
 # Organizations/Affiliations
 organizations:
@@ -18,11 +18,11 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Nishita Dutta is a masters student working on her Masters project, SQuaLity, Reusing test suites of databases.
+bio: Nishita Dutta is a master's student working on her Master's project, SQuaLity, Reusing test suites of databases.
 
 education:
    courses:
-   - course: Masters in Computing
+   - course: Master's in Computing
      institution: National University of Singapore
      year: 2023
    - course: B.Eng in Information Technology
@@ -73,7 +73,7 @@ user_groups:
 - Past Members (2023)
 ---
 
-Nishita, graduated with a Masters in Computing from NUS in July 2023.
+Nishita, graduated with a Master's in Computing from NUS in July 2023.
 She currently holds the role of a fullstack developer at PSA, Singapore, where she is actively engaged in crafting innovative solutions that bridge the realms of frontend and backend development.
 Find more information about [Nishita](https://nish-d.github.io/).
 

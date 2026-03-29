@@ -6,7 +6,7 @@ title: Tiancheng Xing
 superuser: false
 
 # Role/position
-role: Master Intern
+role: Master's Intern
 
 # Organizations/Affiliations
 organizations:
@@ -54,6 +54,6 @@ user_groups:
 - Past Members (2025)
 ---
 
-Tiancheng is currently a Master student at School of Computing, NUS. He graduated from Nanjing University(NJU).
+Tiancheng is currently a Master's student at School of Computing, NUS. He graduated from Nanjing University(NJU).
 
 Find more about Tiancheng at [nayameow.github.io](https://nayameow.github.io)

@@ -6,7 +6,7 @@ title: Qiyu Zhuang
 superuser: false
 
 # Role/position
-role: Visiting Student
+role: Visiting Ph.D. Student
 
 # Organizations/Affiliations
 organizations:

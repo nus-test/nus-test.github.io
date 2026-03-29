@@ -10,7 +10,7 @@ title: Wenjing Deng
 superuser: false
 
 # Role/position
-role: Master Intern
+role: Master's Intern
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
   url: "https://lab301.cn/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Wenjing Deng is a master student doing an internship at the lab for half a year.
+bio: Wenjing Deng is a master's student doing an internship at the lab for half a year.
 
 social:
 - icon: envelope
@@ -56,7 +56,7 @@ user_groups:
 
 Wenjing is doing an internship at the lab for half a year.
 
-She is a master student supervised by [Prof. Geguang Pu](https://scholar.google.com/citations?user=niQAGcQAAAAJ&hl=en) and [Dr. Chengyu Zhang](https://chengyuzhang.com/) at [Trusted Intelligent Software Engineering Lab at East China Normal University](https://lab301.cn/).
+She is a master's student supervised by [Prof. Geguang Pu](https://scholar.google.com/citations?user=niQAGcQAAAAJ&hl=en) and [Dr. Chengyu Zhang](https://chengyuzhang.com/) at [Trusted Intelligent Software Engineering Lab at East China Normal University](https://lab301.cn/).
 
 She received B.S. degree from the [School of Psychology and Cognitive Science](https://psy.ecnu.edu.cn/) at [East China Normal University](https://english.ecnu.edu.cn/) in 2021.
 

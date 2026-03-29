@@ -56,6 +56,6 @@ user_groups:
   - Past Members (2026)
 ---
 
-Zhaokun was a master student at [DBHammer Lab](https://dbhammer.github.io) at East China Normal University, focusing on database testing and benchmarking, query optimization,
+Zhaokun was a master's student at [DBHammer Lab](https://dbhammer.github.io) at East China Normal University, focusing on database testing and benchmarking, query optimization,
 and intersection between DB and SE(DBMS Fuzzing and Verification, Query
 Oracle Generation).
