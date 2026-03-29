@@ -57,6 +57,17 @@
       {{ if and $show_role .Params.role }}<h3>{{ .Params.role | markdownify | emojify }}</h3>{{ end }}
       {{ if $show_social }}{{ partial "social_links" . }}{{ end }}
       {{ if and $show_interests .Params.interests }}<p class="people-interests">{{ delimit .Params.interests ", " | markdownify | emojify }}</p>{{ end }}
+
+      {{/* Next/current affiliation for past members */}}
+      {{ $next := .Params.next_affiliation }}
+      {{ $current := .Params.current_affiliation }}
+      {{ $display := $current | default $next }}
+      {{ if $display }}
+        <p class="people-interests" style="font-size: 0.85rem; color: #555; margin-top: 0.2rem;">
+          Now: {{ with $display.role }}{{ . }} at {{ end }}{{with $display.url}}<a href="{{.}}" target="_blank" rel="noopener">{{end}}{{ $display.name }}{{if $display.url}}</a>{{end}}
+        </p>
+      {{ end }}
+
     </div>
   </div>
   {{ end }}

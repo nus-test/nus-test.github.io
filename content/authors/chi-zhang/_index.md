@@ -64,6 +64,11 @@ email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
+next_affiliation:
+  name: "Tsinghua University"
+  url: "https://www.tsinghua.edu.cn"
+  role: "Postdoctoral Researcher"
+
 user_groups:
 #- PhD Students
 - Past Members (2023)

@@ -65,6 +65,15 @@ email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
+next_affiliation:
+  name: "ETH Zurich"
+  url: "https://ethz.ch"
+  role: "Postdoctoral Researcher"
+current_affiliation:
+  name: "Chinese University of Hong Kong, Shenzhen"
+  url: "https://www.cuhk.edu.cn"
+  role: "Assistant Professor"
+
 user_groups:
 - Past Members (2024)
 ---

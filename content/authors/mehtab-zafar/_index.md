@@ -60,6 +60,11 @@ email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
+next_affiliation:
+  name: "National University of Singapore"
+  url: "https://www.nus.edu.sg"
+  role: "Research Assistant"
+
 user_groups:
 - Past Members (2024)
 ---

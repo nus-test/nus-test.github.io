@@ -61,6 +61,11 @@ email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
+next_affiliation:
+  name: "Virginia Tech"
+  url: "https://www.vt.edu"
+  role: "PhD Student"
+
 user_groups:
   - Past Members (2025)
 ---

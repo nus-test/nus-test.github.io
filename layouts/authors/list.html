@@ -17,6 +17,20 @@
       {{ partial $widget $params }}
     {{ end }}
 
+    {{/* Next/current affiliation for past members */}}
+    {{ $next := .Params.next_affiliation }}
+    {{ $current := .Params.current_affiliation }}
+    {{ if $next }}
+    <div style="margin-top: 1rem; font-size: 0.95rem; color: #555;">
+      {{ if and $current (or (ne $current.name $next.name) (ne $current.role $next.role)) }}
+        Next: {{ with $next.role }}{{ . }} at {{ end }}{{with $next.url}}<a href="{{.}}" target="_blank" rel="noopener">{{end}}{{ $next.name }}{{if $next.url}}</a>{{end}}
+        &rarr; Now: {{ with $current.role }}{{ . }} at {{ end }}{{with $current.url}}<a href="{{.}}" target="_blank" rel="noopener">{{end}}{{ $current.name }}{{if $current.url}}</a>{{end}}
+      {{ else }}
+        Now: {{ with $next.role }}{{ . }} at {{ end }}{{with $next.url}}<a href="{{.}}" target="_blank" rel="noopener">{{end}}{{ $next.name }}{{if $next.url}}</a>{{end}}
+      {{ end }}
+    </div>
+    {{ end }}
+
     {{ $pubs := where .Pages "Type" "publication" }}
     {{ $pubs = $pubs.ByDate.Reverse }}
     {{ if $pubs }}

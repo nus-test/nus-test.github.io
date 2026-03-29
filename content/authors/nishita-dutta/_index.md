@@ -60,6 +60,15 @@ email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
+next_affiliation:
+  name: "PSA Singapore"
+  url: "https://www.singaporepsa.com/"
+  role: "Software Engineer"
+current_affiliation:
+  name: "PSA Singapore"
+  url: "https://www.singaporepsa.com/"
+  role: "Senior Software Engineer"
+
 user_groups:
 - Past Members (2023)
 ---

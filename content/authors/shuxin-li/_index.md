@@ -65,6 +65,11 @@ email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
+next_affiliation:
+  name: "University of Tokyo"
+  url: "https://www.u-tokyo.ac.jp"
+  role: "Master's Student"
+
 user_groups:
 #- Undergraduate Students
 - Past Members (2023)
