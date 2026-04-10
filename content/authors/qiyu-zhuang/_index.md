@@ -1,6 +1,7 @@
 ---
 # Display name
 title: Qiyu Zhuang
+native_name: 庄琪钰
 
 # Is this the primary user of the site?
 superuser: false
@@ -22,11 +23,14 @@ interests:
 #- High performance computing
 #- Program Analysis
 
-#education:
-#  courses:
-#  - course: Undergraduate
-#    institution: University of Moratuwa
-#    year: 2020-2024
+education:
+  courses:
+  - course: Ph.D. in Computer Science
+    institution: Renmin University of China
+    year: 2022
+  - course: Undergraduate
+    institution: Huazhong University of Science and Technology
+    year: 2018-2022
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
