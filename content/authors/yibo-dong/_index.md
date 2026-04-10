@@ -1,6 +1,7 @@
 ---
 # Display name
 title: Yibo DONG
+native_name: 董弈伯
 
 # Username (this should match the folder name)
 # authors:
