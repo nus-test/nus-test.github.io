@@ -1,6 +1,7 @@
 ---
 # Display name
 title: Ningke Li
+native_name: 李宁珂
 
 # Username (this should match the folder name)
 # authors:
