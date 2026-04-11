@@ -878,68 +878,68 @@
         "system": "TiDB"
     },
     {
-        "url": "https://github.com/pingcap/tidb/issues/60322",
-        "title": "Unexpected INNER JOIN Result",
-        "created_at": "03/28/2025",
-        "reported_by": "Zhaokun Xiang",
-        "domain": "dbms",
-        "system": "TiDB",
-        "resolution": "fixed"
-    },
-    {
-        "url": "https://github.com/pingcap/tidb/issues/60625",
-        "title": "Join Crash When dealing with inner join involving subquery and like operator",
-        "created_at": "04/17/2025",
-        "reported_by": "Zhaokun Xiang",
-        "domain": "dbms",
-        "system": "TiDB",
-        "resolution": "fixed"
-    },
-    {
-        "url": "https://github.com/pingcap/tidb/issues/60659",
-        "title": "Serious Wrong Result of Right Join involving subquery",
-        "created_at": "04/18/2025",
-        "reported_by": "Zhaokun Xiang",
-        "domain": "dbms",
-        "system": "TiDB",
-        "resolution": "confirmed"
-    },
-    {
-        "url": "https://github.com/pingcap/tidb/issues/61306",
-        "title": "Unexpected Inner Join result",
-        "created_at": "05/25/2025",
-        "reported_by": "Zhaokun Xiang",
-        "domain": "dbms",
-        "system": "TiDB",
-        "resolution": "fixed"
-    },
-    {
-        "url": "https://github.com/pingcap/tidb/issues/61327",
-        "title": "Unexpected Multiple Join Result ",
-        "created_at": "05/26/2025",
-        "reported_by": "Zhaokun Xiang",
-        "domain": "dbms",
-        "system": "TiDB",
-        "resolution": "fixed"
-    },
-    {
-        "url": "https://github.com/pingcap/tidb/issues/60217",
-        "title": "Wrong Inner Join Result ",
-        "created_at": "03/21/2025",
-        "reported_by": "Zhaokun Xiang",
-        "domain": "dbms",
-        "system": "TiDB",
-        "resolution": "fixed"
-    },
-    {
-        "url": "https://github.com/pingcap/tidb/issues/60093",
-        "title": "Join Involving View and ATAN2 function produce wrong result",
-        "created_at": "03/14/2025",
-        "reported_by": "Zhaokun Xiang",
-        "domain": "dbms",
-        "system": "TiDB",
-        "resolution": "fixed"
-    },
+		"url": "https://github.com/pingcap/tidb/issues/60322",
+		"title": "Unexpected INNER JOIN Result",
+		"created_at": "03/28/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "TiDB",
+		"resolution": "fixed"
+	},
+	{
+		"url": "https://github.com/pingcap/tidb/issues/60625",
+		"title": "Join Crash When dealing with inner join involving subquery and like operator",
+		"created_at": "04/17/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "TiDB",
+		"resolution": "fixed"
+	},
+	{
+		"url": "https://github.com/pingcap/tidb/issues/60659",
+		"title": "Serious Wrong Result of Right Join involving subquery",
+		"created_at": "04/18/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "TiDB",
+		"resolution": "confirmed"
+	},
+	{
+		"url": "https://github.com/pingcap/tidb/issues/61306",
+		"title": "Unexpected Inner Join result",
+		"created_at": "05/25/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "TiDB",
+		"resolution": "fixed"
+	},
+	{
+		"url": "https://github.com/pingcap/tidb/issues/61327",
+		"title": "Unexpected Multiple Join Result ",
+		"created_at": "05/26/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "TiDB",
+		"resolution": "fixed"
+	},
+	{
+		"url": "https://github.com/pingcap/tidb/issues/60217",
+		"title": "Wrong Inner Join Result ",
+		"created_at": "03/21/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "TiDB",
+		"resolution": "fixed"
+	},
+	{
+		"url": "https://github.com/pingcap/tidb/issues/60093",
+		"title": "Join Involving View and ATAN2 function produce wrong result",
+		"created_at": "03/14/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "TiDB",
+		"resolution": "fixed"
+	},
     {
         "url": "https://github.com/cockroachdb/cockroach/issues/83770",
         "title": "sql: support SCRUB on temp tables",
@@ -1984,7 +1984,7 @@
         "url": "https://github.com/souffle-lang/souffle/issues/2311",
         "domain": "datalog",
         "reported_by": "Chi Zhang",
-        "system": "Soufflé",
+        "system": "Souffl\u00e9",
         "title": "Negative zero causes different results for interpreter mode and compiler mode",
         "created_at": "26/09/2022",
         "state": "open",
@@ -1994,7 +1994,7 @@
         "url": "https://github.com/souffle-lang/souffle/issues/2318",
         "domain": "datalog",
         "reported_by": "Chi Zhang",
-        "system": "Soufflé",
+        "system": "Souffl\u00e9",
         "title": "A problem about ungrounded variable",
         "created_at": "14/10/2022",
         "state": "open"
@@ -2003,7 +2003,7 @@
         "url": "https://github.com/souffle-lang/souffle/issues/2320",
         "domain": "datalog",
         "reported_by": "Chi Zhang",
-        "system": "Soufflé",
+        "system": "Souffl\u00e9",
         "title": "Souffle crashed on aggregates",
         "created_at": "18/10/2022",
         "state": "open",
@@ -2013,7 +2013,7 @@
         "url": "https://github.com/souffle-lang/souffle/issues/2321",
         "domain": "datalog",
         "reported_by": "Chi Zhang",
-        "system": "Soufflé",
+        "system": "Souffl\u00e9",
         "title": "Assertion failure \"relation not found\" on provenance",
         "created_at": "18/10/2022",
         "state": "open",
@@ -2023,7 +2023,7 @@
         "url": "https://github.com/souffle-lang/souffle/issues/2322",
         "domain": "datalog",
         "reported_by": "Chi Zhang",
-        "system": "Soufflé",
+        "system": "Souffl\u00e9",
         "title": "A problem about subsumption",
         "created_at": "18/10/2022",
         "state": "open",
@@ -2033,7 +2033,7 @@
         "url": "https://github.com/souffle-lang/souffle/issues/2323",
         "domain": "datalog",
         "reported_by": "Chi Zhang",
-        "system": "Soufflé",
+        "system": "Souffl\u00e9",
         "title": "A problem that the result of subsumption is correct, but the final result is wrong",
         "created_at": "18/10/2022",
         "state": "open"
@@ -2042,7 +2042,7 @@
         "url": "https://github.com/souffle-lang/souffle/issues/2324",
         "domain": "datalog",
         "reported_by": "Chi Zhang",
-        "system": "Soufflé",
+        "system": "Souffl\u00e9",
         "title": "The subsumption causes the execution of program been killed",
         "created_at": "18/10/2022",
         "state": "open",
@@ -2052,7 +2052,7 @@
         "url": "https://github.com/souffle-lang/souffle/issues/2326",
         "domain": "datalog",
         "reported_by": "Chi Zhang",
-        "system": "Soufflé",
+        "system": "Souffl\u00e9",
         "title": "\"inline\" causes assertion failure \"functor type not set\"",
         "created_at": "19/10/2022",
         "state": "open",
@@ -2062,7 +2062,7 @@
         "url": "https://github.com/souffle-lang/souffle/issues/2327",
         "domain": "datalog",
         "reported_by": "Chi Zhang",
-        "system": "Soufflé",
+        "system": "Souffl\u00e9",
         "title": "Wrong result caused by \"eqrel\"",
         "created_at": "19/10/2022",
         "state": "open"
@@ -2071,7 +2071,7 @@
         "url": "https://github.com/souffle-lang/souffle/issues/2337",
         "domain": "datalog",
         "reported_by": "Chi Zhang",
-        "system": "Soufflé",
+        "system": "Souffl\u00e9",
         "title": "Wrong result with `inline` and `no_magic`",
         "created_at": "23/10/2022",
         "state": "open"
@@ -2080,7 +2080,7 @@
         "url": "https://github.com/souffle-lang/souffle/issues/2338",
         "domain": "datalog",
         "reported_by": "Chi Zhang",
-        "system": "Soufflé",
+        "system": "Souffl\u00e9",
         "title": "`inline` cause `Ungrounded variable` not assertion failure",
         "created_at": "25/10/2022",
         "state": "open"
@@ -2089,7 +2089,7 @@
         "url": "https://github.com/souffle-lang/souffle/issues/2339",
         "domain": "datalog",
         "reported_by": "Chi Zhang",
-        "system": "Soufflé",
+        "system": "Souffl\u00e9",
         "title": "`inline` cause `Floating-point arithmetic exception` without divide-by-zero",
         "created_at": "25/10/2022",
         "state": "open"
@@ -2098,7 +2098,7 @@
         "url": "https://github.com/souffle-lang/souffle/issues/2340",
         "domain": "datalog",
         "reported_by": "Chi Zhang",
-        "system": "Soufflé",
+        "system": "Souffl\u00e9",
         "title": "`inline` and `magic` used together cause `Segmentation violation`",
         "created_at": "26/10/2022",
         "state": "open",
@@ -2108,7 +2108,7 @@
         "url": "https://github.com/souffle-lang/souffle/issues/2343",
         "domain": "datalog",
         "reported_by": "Chi Zhang",
-        "system": "Soufflé",
+        "system": "Souffl\u00e9",
         "title": "different result under interpreter and compiler mode",
         "created_at": "28/10/2022",
         "state": "open"
@@ -2117,7 +2117,7 @@
         "url": "https://github.com/souffle-lang/souffle/issues/2346",
         "domain": "datalog",
         "reported_by": "Chi Zhang",
-        "system": "Soufflé",
+        "system": "Souffl\u00e9",
         "title": "Assertion failure on auto-tuning",
         "created_at": "30/10/2022",
         "closed_at": "03/07/2023",
@@ -2128,7 +2128,7 @@
         "url": "https://github.com/souffle-lang/souffle/issues/2351",
         "domain": "datalog",
         "reported_by": "Chi Zhang",
-        "system": "Soufflé",
+        "system": "Souffl\u00e9",
         "title": "Insufficient grammar check for query plan",
         "created_at": "03/11/2022",
         "closed_at": "30/12/2022",
@@ -2139,7 +2139,7 @@
         "url": "https://github.com/souffle-lang/souffle/issues/2355",
         "domain": "datalog",
         "reported_by": "Chi Zhang",
-        "system": "Soufflé",
+        "system": "Souffl\u00e9",
         "title": "`inline` causes assertion failure `numeric constant type not set`",
         "created_at": "06/11/2022",
         "state": "open",
@@ -2149,7 +2149,7 @@
         "url": "https://github.com/souffle-lang/souffle/issues/2369",
         "domain": "datalog",
         "reported_by": "Chi Zhang",
-        "system": "Soufflé",
+        "system": "Souffl\u00e9",
         "title": "`inline` in recursive query trigger an error with query plan",
         "created_at": "02/12/2022",
         "state": "open"
@@ -2158,7 +2158,7 @@
         "url": "https://github.com/souffle-lang/souffle/issues/2375",
         "domain": "datalog",
         "reported_by": "Chi Zhang",
-        "system": "Soufflé",
+        "system": "Souffl\u00e9",
         "title": "`magic` causes different result",
         "created_at": "20/12/2022",
         "state": "open"
@@ -2167,7 +2167,7 @@
         "url": "https://github.com/souffle-lang/souffle/issues/2379",
         "domain": "datalog",
         "reported_by": "Chi Zhang",
-        "system": "Soufflé",
+        "system": "Souffl\u00e9",
         "title": "Insufficient checking on unground variable",
         "created_at": "23/12/2022",
         "state": "open"
@@ -2176,7 +2176,7 @@
         "url": "https://github.com/souffle-lang/souffle/issues/2382",
         "domain": "datalog",
         "reported_by": "Chi Zhang",
-        "system": "Soufflé",
+        "system": "Souffl\u00e9",
         "title": "A problem about subsumption.",
         "created_at": "03/01/2023",
         "state": "open"
@@ -2185,7 +2185,7 @@
         "url": "https://github.com/souffle-lang/souffle/issues/2385",
         "domain": "datalog",
         "reported_by": "Chi Zhang",
-        "system": "Soufflé",
+        "system": "Souffl\u00e9",
         "title": "`eqrel` doesn't work well with provenance",
         "created_at": "05/01/2023",
         "state": "open"
@@ -2194,7 +2194,7 @@
         "url": "https://github.com/souffle-lang/souffle/issues/2426",
         "domain": "datalog",
         "reported_by": "Chi Zhang",
-        "system": "Soufflé",
+        "system": "Souffl\u00e9",
         "title": "Assertion failure on `Auto-Scheduling`",
         "created_at": "18/07/2023",
         "state": "open",
@@ -2204,7 +2204,7 @@
         "url": "https://github.com/Z3Prover/z3/issues/6446",
         "domain": "datalog",
         "reported_by": "Chi Zhang",
-        "system": "μZ",
+        "system": "\u03bcZ",
         "title": "Wrong result of z3 datalog",
         "created_at": "09/11/2022",
         "closed_at": "09/11/2022",
@@ -2215,7 +2215,7 @@
         "url": "https://github.com/Z3Prover/z3/issues/6447",
         "domain": "datalog",
         "reported_by": "Chi Zhang",
-        "system": "μZ",
+        "system": "\u03bcZ",
         "title": "Wrong result of z3 datalog with predict",
         "created_at": "09/11/2022",
         "closed_at": "09/11/2022",
@@ -5607,85 +5607,85 @@
         "resolution": "fixed"
     },
     {
-        "url": null,
-        "title": "Unexpected lateral join Result",
-        "created_at": "06/30/2025",
-        "reported_by": "Zhaokun Xiang",
-        "domain": "dbms",
-        "system": "Umbra",
-        "resolution": "fixed"
+		"url": null,
+		"title": "Unexpected lateral join Result",
+		"created_at": "06/30/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "Umbra",
+		"resolution": "fixed"
+	},
+	{
+		"url": null,
+		"title": "An unexpected core dumped in index creation",
+		"created_at": "07/07/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "Umbra",
+		"resolution": "fixed"
+	},
+	{
+		"url": null,
+		"title": "An unexpected core dumped in multiple joins",
+		"created_at": "07/08/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "Umbra",
+		"resolution": "fixed"
+	},
+	{
+		"url": null,
+		"title": "An unexpected internal error in joins",
+		"created_at": "07/09/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "Umbra",
+		"resolution": "fixed"
+	},
+	{
+		"url": null,
+		"title": "An unexpected anti-join logic bug",
+		"created_at": "07/09/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "Umbra",
+		"resolution": "fixed"
+	},
+	{
+		"url": null,
+		"title": "An unexpected internal error in an equivalent join",
+		"created_at": "07/10/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "Umbra",
+		"resolution": "fixed"
+	},
+	{
+		"url": null,
+		"title": "An unexpected internal error in a left join",
+		"created_at": "07/11/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "Umbra",
+		"resolution": "fixed"
+	},
+	{
+		"url": null,
+		"title": " An unexpected internal error",
+		"created_at": "07/16/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "Umbra",
+		"resolution": "fixed"
     },
-    {
-        "url": null,
-        "title": "An unexpected core dumped in index creation",
-        "created_at": "07/07/2025",
-        "reported_by": "Zhaokun Xiang",
-        "domain": "dbms",
-        "system": "Umbra",
-        "resolution": "fixed"
-    },
-    {
-        "url": null,
-        "title": "An unexpected core dumped in multiple joins",
-        "created_at": "07/08/2025",
-        "reported_by": "Zhaokun Xiang",
-        "domain": "dbms",
-        "system": "Umbra",
-        "resolution": "fixed"
-    },
-    {
-        "url": null,
-        "title": "An unexpected internal error in joins",
-        "created_at": "07/09/2025",
-        "reported_by": "Zhaokun Xiang",
-        "domain": "dbms",
-        "system": "Umbra",
-        "resolution": "fixed"
-    },
-    {
-        "url": null,
-        "title": "An unexpected anti-join logic bug",
-        "created_at": "07/09/2025",
-        "reported_by": "Zhaokun Xiang",
-        "domain": "dbms",
-        "system": "Umbra",
-        "resolution": "fixed"
-    },
-    {
-        "url": null,
-        "title": "An unexpected internal error in an equivalent join",
-        "created_at": "07/10/2025",
-        "reported_by": "Zhaokun Xiang",
-        "domain": "dbms",
-        "system": "Umbra",
-        "resolution": "fixed"
-    },
-    {
-        "url": null,
-        "title": "An unexpected internal error in a left join",
-        "created_at": "07/11/2025",
-        "reported_by": "Zhaokun Xiang",
-        "domain": "dbms",
-        "system": "Umbra",
-        "resolution": "fixed"
-    },
-    {
-        "url": null,
-        "title": " An unexpected internal error",
-        "created_at": "07/16/2025",
-        "reported_by": "Zhaokun Xiang",
-        "domain": "dbms",
-        "system": "Umbra",
-        "resolution": "fixed"
-    },
-    {
-        "url": null,
-        "title": "An unexpected core dump in multiple joins",
-        "created_at": "07/23/2025",
-        "reported_by": "Zhaokun Xiang",
-        "domain": "dbms",
-        "system": "Umbra",
-        "resolution": "fixed"
+	{
+		"url": null,
+		"title": "An unexpected core dump in multiple joins",
+		"created_at": "07/23/2025",
+		"reported_by": "Zhaokun Xiang",
+		"domain": "dbms",
+		"system": "Umbra",
+		"resolution": "fixed"
     },
     {
         "url": "https://github.com/FirebirdSQL/firebird/issues/7997",
