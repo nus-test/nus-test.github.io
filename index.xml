@@ -6325,6 +6325,15 @@ Guided by human-centered principles, her work aims to provide cognitively access
     </item>
     
     <item>
+      <title>SQLFlex</title>
+      <link>https://nus-test.github.io/project/sqlflex/</link>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://nus-test.github.io/project/sqlflex/</guid>
+      <description>&lt;p&gt;SQLFlex is a dialect-agnostic SQL parsing tool that uses LLM-based segmentation to analyze and transform SQL queries across different database dialects.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Software-Style Hardware Testing: Information-Flow Tracking, Fuzzing, and What ML Might Add.</title>
       <link>https://nus-test.github.io/event/260304/</link>
       <pubDate>Wed, 04 Mar 2026 14:00:00 +0000</pubDate>

@@ -5,12 +5,21 @@
     <link>https://nus-test.github.io/project/</link>
       <atom:link href="https://nus-test.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 26 Nov 2025 00:00:00 +0800</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Mar 2026 00:00:00 +0800</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Projects</title>
       <link>https://nus-test.github.io/project/</link>
     </image>
+    
+    <item>
+      <title>SQLFlex</title>
+      <link>https://nus-test.github.io/project/sqlflex/</link>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://nus-test.github.io/project/sqlflex/</guid>
+      <description>&lt;p&gt;SQLFlex is a dialect-agnostic SQL parsing tool that uses LLM-based segmentation to analyze and transform SQL queries across different database dialects.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>SQLancer&#43;&#43;</title>
