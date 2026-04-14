@@ -1345,6 +1345,50 @@
         "resolution": "fixed"
     },
     {
+        "url": "https://sqlite.org/forum/info/7a308e933db9b702",
+        "title": "Incorrect use of collation sequences on non-PK columns of a WITHOUT ROWID table for row value comparison",
+        "created_at": "20/03/2026",
+        "closed_at": "20/03/2026",
+        "reported_by": "Axel Teo",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed",
+        "state": "closed"
+    },   
+    {
+        "url": "https://sqlite.org/forum/info/5c0ce7ae01f92c99",
+        "title": "Incorrect skip-ahead optimization after modification to internal statistics table",
+        "created_at": "05/03/2026",
+        "closed_at": "05/03/2026",
+        "reported_by": "Axel Teo",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed",
+        "state": "closed"
+    },   
+    {
+        "url": "https://sqlite.org/forum/info/6ceca07fc3ef868c",
+        "title": "Wrong collation used as part of a row-value comparison between columns with different collation sequences.",
+        "created_at": "26/01/2026",
+        "closed_at": "26/01/2026",
+        "reported_by": "Axel Teo",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed",
+        "state": "closed"
+    },   
+    {
+        "url": "https://sqlite.org/forum/info/0b299630cbe94a2c",
+        "title": "Incorrect comparison optimization on collation sequences",
+        "created_at": "16/01/2026",
+        "closed_at": "16/01/2026",
+        "reported_by": "Axel Teo",
+        "domain": "dbms",
+        "system": "SQLite",
+        "resolution": "fixed",
+        "state": "closed"
+    },    
+    {
         "url": "https://www.sqlite.org/forum/info/fe8775443d482d60",
         "title": "Wrong INNER JOIN result involving subquery containing PERCENT_RANK()",
         "created_at": "10/04/2025",
