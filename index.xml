@@ -19,14 +19,38 @@
       <guid>https://nus-test.github.io/bugs/</guid>
       <description>&lt;b&gt;Overview&lt;/b&gt;&lt;br/&gt;
 &lt;ul&gt;
-&lt;a href=&#34;#dbms&#34;&gt;&lt;li&gt;Database Management Systems: 911 bugs&lt;/li&gt;&lt;/a&gt;
+&lt;a href=&#34;#dbms&#34;&gt;&lt;li&gt;Database Management Systems: 915 bugs&lt;/li&gt;&lt;/a&gt;
 &lt;a href=&#34;#compiler&amp;interpreter&#34;&gt;&lt;li&gt;Compilers and Interpreters: 60 bugs&lt;/li&gt;&lt;/a&gt;
 &lt;a href=&#34;#datalog&#34;&gt;&lt;li&gt;Datalog Engines: 30 bugs&lt;/li&gt;&lt;/a&gt;
 &lt;a href=&#34;#xml&#34;&gt;&lt;li&gt;XML Processors: 26 bugs&lt;/li&gt;&lt;/a&gt;
 &lt;/ul&gt;
 &lt;br/&gt;
-&lt;h2 id=&#34;dbms&#34;&gt;Database Management Systems (911 bugs)&lt;/h2&gt;
-&lt;h3&gt;SQLite (231 bugs)&lt;/h3&gt;
+&lt;h2 id=&#34;dbms&#34;&gt;Database Management Systems (915 bugs)&lt;/h2&gt;
+&lt;h3&gt;SQLite (235 bugs)&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Incorrect use of collation sequences on non-PK columns of a WITHOUT ROWID table for row value comparison&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/info/7a308e933db9b702&#34;&gt;https://sqlite.org/forum/info/7a308e933db9b702&lt;/a&gt; &lt;br /&gt;
+Found by: Axel Teo
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Incorrect skip-ahead optimization after modification to internal statistics table&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/info/5c0ce7ae01f92c99&#34;&gt;https://sqlite.org/forum/info/5c0ce7ae01f92c99&lt;/a&gt; &lt;br /&gt;
+Found by: Axel Teo
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Wrong collation used as part of a row-value comparison between columns with different collation sequences.&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/info/6ceca07fc3ef868c&#34;&gt;https://sqlite.org/forum/info/6ceca07fc3ef868c&lt;/a&gt; &lt;br /&gt;
+Found by: Axel Teo
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Incorrect comparison optimization on collation sequences&lt;/summary&gt;
+Status: fixed&lt;br /&gt;
+Link: &lt;a href=&#34;https://sqlite.org/forum/info/0b299630cbe94a2c&#34;&gt;https://sqlite.org/forum/info/0b299630cbe94a2c&lt;/a&gt; &lt;br /&gt;
+Found by: Axel Teo
+&lt;/details&gt;
 &lt;details&gt;
 &lt;summary&gt;Wrong INNER JOIN result involving subquery containing PERCENT_RANK()&lt;/summary&gt;
 Status: fixed&lt;br /&gt;

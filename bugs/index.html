@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="Overview Database Management Systems: 911 bugs Compilers and Interpreters: 60 bugs Datalog Engines: 30 bugs XML Processors: 26 bugs Database Management Systems (911 bugs) SQLite (231 bugs) Wrong INNER JOIN result involving subquery containing PERCENT_RANK() Status: fixed" />
+  <meta name="description" content="Overview Database Management Systems: 915 bugs Compilers and Interpreters: 60 bugs Datalog Engines: 30 bugs XML Processors: 26 bugs Database Management Systems (915 bugs) SQLite (235 bugs) Incorrect use of collation sequences on non-PK columns of a WITHOUT ROWID table for row value comparison Status: fixed" />
 
   
   <link rel="alternate" hreflang="en-us" href="https://nus-test.github.io/bugs/" />
@@ -281,7 +281,7 @@
   <meta property="og:site_name" content="Trustworthy Engineering of Software Technologies (TEST) Lab" />
   <meta property="og:url" content="https://nus-test.github.io/bugs/" />
   <meta property="og:title" content=" | Trustworthy Engineering of Software Technologies (TEST) Lab" />
-  <meta property="og:description" content="Overview Database Management Systems: 911 bugs Compilers and Interpreters: 60 bugs Datalog Engines: 30 bugs XML Processors: 26 bugs Database Management Systems (911 bugs) SQLite (231 bugs) Wrong INNER JOIN result involving subquery containing PERCENT_RANK() Status: fixed" /><meta property="og:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" />
+  <meta property="og:description" content="Overview Database Management Systems: 915 bugs Compilers and Interpreters: 60 bugs Datalog Engines: 30 bugs XML Processors: 26 bugs Database Management Systems (915 bugs) SQLite (235 bugs) Incorrect use of collation sequences on non-PK columns of a WITHOUT ROWID table for row value comparison Status: fixed" /><meta property="og:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" />
     <meta property="twitter:image" content="https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -688,14 +688,38 @@
     <div class="article-style">
       <b>Overview</b><br/>
 <ul>
-<a href="#dbms"><li>Database Management Systems: 911 bugs</li></a>
+<a href="#dbms"><li>Database Management Systems: 915 bugs</li></a>
 <a href="#compiler&interpreter"><li>Compilers and Interpreters: 60 bugs</li></a>
 <a href="#datalog"><li>Datalog Engines: 30 bugs</li></a>
 <a href="#xml"><li>XML Processors: 26 bugs</li></a>
 </ul>
 <br/>
-<h2 id="dbms">Database Management Systems (911 bugs)</h2>
-<h3>SQLite (231 bugs)</h3>
+<h2 id="dbms">Database Management Systems (915 bugs)</h2>
+<h3>SQLite (235 bugs)</h3>
+<details>
+<summary>Incorrect use of collation sequences on non-PK columns of a WITHOUT ROWID table for row value comparison</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/info/7a308e933db9b702">https://sqlite.org/forum/info/7a308e933db9b702</a> <br />
+Found by: Axel Teo
+</details>
+<details>
+<summary>Incorrect skip-ahead optimization after modification to internal statistics table</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/info/5c0ce7ae01f92c99">https://sqlite.org/forum/info/5c0ce7ae01f92c99</a> <br />
+Found by: Axel Teo
+</details>
+<details>
+<summary>Wrong collation used as part of a row-value comparison between columns with different collation sequences.</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/info/6ceca07fc3ef868c">https://sqlite.org/forum/info/6ceca07fc3ef868c</a> <br />
+Found by: Axel Teo
+</details>
+<details>
+<summary>Incorrect comparison optimization on collation sequences</summary>
+Status: fixed<br />
+Link: <a href="https://sqlite.org/forum/info/0b299630cbe94a2c">https://sqlite.org/forum/info/0b299630cbe94a2c</a> <br />
+Found by: Axel Teo
+</details>
 <details>
 <summary>Wrong INNER JOIN result involving subquery containing PERCENT_RANK()</summary>
 Status: fixed<br />
