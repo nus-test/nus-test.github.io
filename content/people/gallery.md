@@ -14,7 +14,7 @@ Below are some of our group photos:star:
 <!-- Vertical timeline gallery -->
 <div class="people-gallery-timeline">
 <div class="people-gallery-item">
-		{{< responsive-figure src="media/group-photos/group-2026-2.jpg" caption="April 2026, Lab Dinner @ Citrus Kitchen>}}
+		{{< responsive-figure src="media/group-photos/group-2026-2.jpg" caption="April 2026, Lab Dinner @ Citrus Kitchen">}}
 </div>
 <div class="people-gallery-item">
 		{{< responsive-figure src="media/group-photos/group-2026-1.jpg" caption="April 2026, by <a href=\"https://zhangyedi.github.io/\" target=\"_blank\" rel=\"noopener noreferrer\">Yedi Zhang</a>" >}}
