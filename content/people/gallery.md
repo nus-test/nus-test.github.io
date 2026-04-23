@@ -17,7 +17,7 @@ Below are some of our group photos:star:
 		{{< responsive-figure src="media/group-photos/group-2026-2.jpg" caption="April 2026, Lab Dinner @ Citrus Kitchen">}}
 </div>
 <div class="people-gallery-item">
-		{{< responsive-figure src="media/group-photos/group-2026-1.jpg" caption="April 2026, by <a href=\"https://zhangyedi.github.io/\" target=\"_blank\" rel=\"noopener noreferrer\">Yedi Zhang</a>" >}}
+		{{< responsive-figure src="media/group-photos/group-2026-1.JPG" caption="April 2026, by <a href=\"https://zhangyedi.github.io/\" target=\"_blank\" rel=\"noopener noreferrer\">Yedi Zhang</a>" >}}
 </div>
 <div class="people-gallery-item">
 		{{< responsive-figure src="media/group-photos/group-2025-1.jpg" >}}
