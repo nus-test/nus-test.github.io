@@ -14,7 +14,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Axel is working on Automated Database System Testing for his final year project.
+bio: Axel was working on Automated Database System Testing for his final year project.
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -35,8 +35,13 @@ social:
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
+next_affiliation:
+  name: "Shopee"
+  url: "https://shopee.sg"
+  role: "Software Engineer"
+
 user_groups:
-- Undergraduate Students
+- Past Members (2026)
 ---
 
-Axel is an undergraduate at the National University of Singapore, working on Automated Database System Testing for his final year project.
+Axel was an undergraduate at the National University of Singapore, working on Automated Database System Testing for his final year project.
