@@ -6,8 +6,35 @@
   </url><url>
     <loc>https://nus-test.github.io/positions/</loc>
   </url><url>
+    <loc>https://nus-test.github.io/publication-type/2/</loc>
+    <lastmod>2026-06-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://nus-test.github.io/authors/</loc>
-    <lastmod>2026-04-22T14:00:00+00:00</lastmod>
+    <lastmod>2026-06-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/publication/2027-sigmod-llm-sql-features/</loc>
+    <lastmod>2026-06-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/post/</loc>
+    <lastmod>2026-06-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/author/manuel-rigger/</loc>
+    <lastmod>2026-06-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/post/26-06-13-sigmod-r1-llm-sql-features/</loc>
+    <lastmod>2026-06-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/publication_types/</loc>
+    <lastmod>2026-06-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/publication/</loc>
+    <lastmod>2026-06-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/author/suyang-zhong/</loc>
+    <lastmod>2026-06-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/</loc>
+    <lastmod>2026-06-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/author/maolin-sun/</loc>
     <lastmod>2026-04-22T14:00:00+00:00</lastmod>
@@ -19,9 +46,6 @@
     <lastmod>2026-04-22T14:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/tags/</loc>
-    <lastmod>2026-04-22T14:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/</loc>
     <lastmod>2026-04-22T14:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/tag/weekly-talk/</loc>
@@ -54,9 +78,6 @@
     <loc>https://nus-test.github.io/post/26-03-10-jinsheng-faculty/</loc>
     <lastmod>2026-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nus-test.github.io/post/</loc>
-    <lastmod>2026-03-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://nus-test.github.io/project/</loc>
     <lastmod>2026-03-10T00:00:00+08:00</lastmod>
   </url><url>
@@ -68,9 +89,6 @@
   </url><url>
     <loc>https://nus-test.github.io/event/260304/</loc>
     <lastmod>2026-03-04T14:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/publication-type/2/</loc>
-    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/author/beng-chin-ooi/</loc>
     <lastmod>2026-02-24T00:00:00+00:00</lastmod>
@@ -96,9 +114,6 @@
     <loc>https://nus-test.github.io/author/lingze-zeng/</loc>
     <lastmod>2026-02-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nus-test.github.io/author/manuel-rigger/</loc>
-    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://nus-test.github.io/author/meihui-zhang/</loc>
     <lastmod>2026-02-24T00:00:00+00:00</lastmod>
   </url><url>
@@ -109,15 +124,6 @@
     <lastmod>2026-02-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/post/26-02-24-sigmod-r4-papers/</loc>
-    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/publication_types/</loc>
-    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/publication/</loc>
-    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/author/suyang-zhong/</loc>
     <lastmod>2026-02-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/author/zhanhao-zhao/</loc>

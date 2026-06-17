@@ -5,12 +5,28 @@
     <link>https://nus-test.github.io/author/manuel-rigger/</link>
       <atom:link href="https://nus-test.github.io/author/manuel-rigger/index.xml" rel="self" type="application/rss+xml" />
     <description>Manuel Rigger</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 13 Jun 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/author/manuel-rigger/avatar_hu80c0f478b5e05bba3f8a245bca9d50f5_225951_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Manuel Rigger</title>
       <link>https://nus-test.github.io/author/manuel-rigger/</link>
     </image>
+    
+    <item>
+      <title>Automated Database Testing via LLM-Synthesized SQL Features</title>
+      <link>https://nus-test.github.io/publication/2027-sigmod-llm-sql-features/</link>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2027-sigmod-llm-sql-features/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Our paper &#34;Automated Database Testing via LLM-Synthesized SQL Features&#34; was accepted at SIGMOD 2027.</title>
+      <link>https://nus-test.github.io/post/26-06-13-sigmod-r1-llm-sql-features/</link>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/post/26-06-13-sigmod-r1-llm-sql-features/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Detecting Join Bugs in Database Engines via Join Implication Reasoning</title>
