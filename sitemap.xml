@@ -6,19 +6,28 @@
   </url><url>
     <loc>https://nus-test.github.io/positions/</loc>
   </url><url>
+    <loc>https://nus-test.github.io/authors/</loc>
+    <lastmod>2026-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/author/emily-ong/</loc>
+    <lastmod>2026-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/post/26-06-20-emilyong-ourp/</loc>
+    <lastmod>2026-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/post/</loc>
+    <lastmod>2026-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/author/manuel-rigger/</loc>
+    <lastmod>2026-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/</loc>
+    <lastmod>2026-06-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://nus-test.github.io/publication-type/2/</loc>
     <lastmod>2026-06-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nus-test.github.io/authors/</loc>
-    <lastmod>2026-06-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://nus-test.github.io/publication/2027-sigmod-llm-sql-features/</loc>
-    <lastmod>2026-06-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/post/</loc>
-    <lastmod>2026-06-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/author/manuel-rigger/</loc>
     <lastmod>2026-06-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/post/26-06-13-sigmod-r1-llm-sql-features/</loc>
@@ -31,9 +40,6 @@
     <lastmod>2026-06-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/author/suyang-zhong/</loc>
-    <lastmod>2026-06-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/</loc>
     <lastmod>2026-06-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/author/maolin-sun/</loc>
@@ -197,9 +203,6 @@
   </url><url>
     <loc>https://nus-test.github.io/author/jingjing-liang/</loc>
     <lastmod>2025-10-28T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/author/emily-ong/</loc>
-    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/post/25-10-18-splash-sv/</loc>
     <lastmod>2025-10-17T00:00:00+00:00</lastmod>
