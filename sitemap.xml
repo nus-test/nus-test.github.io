@@ -6,22 +6,43 @@
   </url><url>
     <loc>https://nus-test.github.io/positions/</loc>
   </url><url>
+    <loc>https://nus-test.github.io/publication-type/1/</loc>
+    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://nus-test.github.io/authors/</loc>
-    <lastmod>2026-06-20T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/author/jinsheng-ba/</loc>
+    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/post/</loc>
+    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/author/manuel-rigger/</loc>
+    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/publication/2026-issta-metamorphic-coverage/</loc>
+    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/post/26-06-23-issta26/</loc>
+    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/publication_types/</loc>
+    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/publication/</loc>
+    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/</loc>
+    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/author/yuancheng-jiang/</loc>
+    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/author/emily-ong/</loc>
     <lastmod>2026-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/post/26-06-20-emilyong-ourp/</loc>
-    <lastmod>2026-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/post/</loc>
-    <lastmod>2026-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/author/manuel-rigger/</loc>
-    <lastmod>2026-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/</loc>
     <lastmod>2026-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/publication-type/2/</loc>
@@ -31,12 +52,6 @@
     <lastmod>2026-06-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/post/26-06-13-sigmod-r1-llm-sql-features/</loc>
-    <lastmod>2026-06-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/publication_types/</loc>
-    <lastmod>2026-06-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/publication/</loc>
     <lastmod>2026-06-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/author/suyang-zhong/</loc>
@@ -159,9 +174,6 @@
     <loc>https://nus-test.github.io/post/26-01-17-tocs/</loc>
     <lastmod>2026-01-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nus-test.github.io/publication-type/1/</loc>
-    <lastmod>2025-12-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://nus-test.github.io/publication/2026-fse-acme/</loc>
     <lastmod>2025-12-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -175,9 +187,6 @@
     <lastmod>2025-12-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/author/roland-yap/</loc>
-    <lastmod>2025-12-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/author/yuancheng-jiang/</loc>
     <lastmod>2025-12-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/author/zhenkai-liang/</loc>
@@ -247,9 +256,6 @@
     <lastmod>2025-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/publication/2025-sigmod-graphcutting/</loc>
-    <lastmod>2025-06-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/author/jinsheng-ba/</loc>
     <lastmod>2025-06-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/author/pinjia-he/</loc>
