@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ewen Low | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+    <link>https://nus-test.github.io/author/ewen-low/</link>
+      <atom:link href="https://nus-test.github.io/author/ewen-low/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ewen Low</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://nus-test.github.io/author/ewen-low/avatar_hua9f7aba373cb4b8780fbfd01f0df32e1_391081_270x270_fill_lanczos_center_3.png</url>
+      <title>Ewen Low</title>
+      <link>https://nus-test.github.io/author/ewen-low/</link>
+    </image>
+    
+  </channel>
+</rss>
