@@ -17,6 +17,29 @@ header:
 
 
 
+Timetable for upcoming events in AY26/27 (subject to changes):
+
+| Date   | Title                                                        | Host      | Invitee    |
+| ------ | ------------------------------------------------------------ | --------- | ---------- |
+| Dec 2 |  | --- | --- |
+| Nov 25 |  | --- | --- |
+| Nov 18 |  | --- | --- |
+| Nov 11 |  | --- | --- |
+| Nov 4 |  | --- | --- |
+| Oct 28 |  | --- | --- |
+| Oct 21 |  | --- | --- |
+| Oct 14 | <font color=gray>ASE week</font> | --- | --- |
+| Oct 7 | <font color=gray>ISSTA week</font> | --- | --- |
+| Sep 30 |  | --- | --- |
+| Sep 23 | <font color=gray>Recess Week</font> | --- | --- |
+| Sep 16 |  | --- | --- |
+| Sep 9 |  | --- | --- |
+| Sep 2 |  | --- | --- |
+| Aug 26 |  | --- | --- |
+| Aug 19 | <font color=gray>No meeting</font> | --- | --- |
+| Aug 12 | <font color=brown>Group Introduction Session: Past and Current Work Sharing</font> | --- | --- |
+
+
 Timetable for upcoming events in AY25/26 (subject to changes):
 
 | Date   | Title                                                        | Host      | Invitee    |
@@ -64,6 +87,12 @@ Timetable for upcoming events in AY25/26 (subject to changes):
 Details of upcoming and past talks below.
 
 <style>
+.article-style table {
+  display: table;
+  width: 100% !important;
+  min-width: 100%;
+}
+
 .past-events-toggle {
   margin: 0.8rem 0;
   padding: 0.4rem 1rem;
@@ -89,73 +118,109 @@ document.addEventListener('DOMContentLoaded', function() {
     'sep': 8, 'oct': 9, 'nov': 10, 'dec': 11
   };
 
-  var table = document.querySelector('.article-style table');
-  if (!table) return;
+  var article = document.querySelector('.article-style');
+  if (!article) return;
 
-  var rows = table.querySelectorAll('tbody tr');
-  if (!rows.length) return;
+  var headings = article.querySelectorAll('p');
+  var currentHeading = null;
+  var archiveHeading = null;
+
+  for (var i = 0; i < headings.length; i++) {
+    var headingText = headings[i].textContent.trim();
+    if (headingText.indexOf('Timetable for upcoming events in AY26/27') === 0) {
+      currentHeading = headings[i];
+    } else if (headingText.indexOf('Timetable for upcoming events in AY25/26') === 0) {
+      archiveHeading = headings[i];
+    }
+  }
+
+  function findFollowingTable(element) {
+    var sibling = element && element.nextElementSibling;
+    while (sibling) {
+      if (sibling.tagName && sibling.tagName.toLowerCase() === 'table') return sibling;
+      sibling = sibling.nextElementSibling;
+    }
+    return null;
+  }
+
+  var currentTable = findFollowingTable(currentHeading);
+  var archiveTable = findFollowingTable(archiveHeading);
+
+  if (!currentTable && !archiveTable) return;
+
+  // Keep the previous academic year's timetable collapsed by default.
+  if (archiveTable) {
+    var archiveToggle = document.createElement('button');
+    archiveToggle.textContent = '\u25B6 Show AY25/26 timetable';
+    archiveToggle.className = 'past-events-toggle';
+    archiveTable.style.display = 'none';
+    if (archiveHeading) archiveHeading.style.display = 'none';
+
+    archiveToggle.addEventListener('click', function() {
+      var isHidden = archiveTable.style.display === 'none';
+      archiveTable.style.display = isHidden ? '' : 'none';
+      if (archiveHeading) archiveHeading.style.display = isHidden ? '' : 'none';
+      archiveToggle.textContent = isHidden
+        ? '\u25B2 Hide AY25/26 timetable'
+        : '\u25B6 Show AY25/26 timetable';
+    });
+
+    var archiveInsertPoint = archiveHeading || archiveTable;
+    archiveInsertPoint.parentNode.insertBefore(archiveToggle, archiveInsertPoint);
+  }
+
+  if (!currentTable) return;
 
   var today = new Date();
   today.setHours(0, 0, 0, 0);
 
-  // Infer year for each row: the table is reverse-chronological.
-  // When month jumps upward (e.g. Jan → Dec going down), we crossed into the previous calendar year.
-  var year = today.getFullYear();
-  var prevMonth = null;
-  var rowData = [];
+  var currentYearMatch = currentHeading && currentHeading.textContent.match(/AY(\d{2})\/\d{2}/);
+  var academicYearStart = currentYearMatch
+    ? 2000 + parseInt(currentYearMatch[1], 10)
+    : today.getFullYear();
+  var rows = currentTable.querySelectorAll('tbody tr');
+  var pastRows = [];
 
   for (var i = 0; i < rows.length; i++) {
     var cells = rows[i].querySelectorAll('td');
     if (!cells.length) continue;
 
     var dateText = cells[0].textContent.trim();
-    var match = dateText.match(/^(\w+)\s+(\d+)/);
+    var match = dateText.match(/^([A-Za-z]+)\s+(\d+)/);
 
     if (match) {
       var monthNum = MONTHS[match[1].toLowerCase().substring(0, 3)];
       var day = parseInt(match[2]);
 
       if (monthNum !== undefined) {
-        if (prevMonth !== null && monthNum > prevMonth) year--;
-        prevMonth = monthNum;
-        rowData.push({ row: rows[i], date: new Date(year, monthNum, day) });
-        continue;
+        var year = monthNum >= MONTHS.aug ? academicYearStart : academicYearStart + 1;
+        var date = new Date(year, monthNum, day);
+        if (date < today) pastRows.push(rows[i]);
       }
     }
-    rowData.push({ row: rows[i], date: null });
   }
 
-  // Find the first row whose date is strictly before today
-  var splitIndex = -1;
-  for (var i = 0; i < rowData.length; i++) {
-    if (rowData[i].date && rowData[i].date < today) {
-      splitIndex = i;
-      break;
-    }
-  }
+  if (!pastRows.length) return;
 
-  if (splitIndex <= 0) return;
-
-  var pastCount = rowData.length - splitIndex;
-  for (var i = splitIndex; i < rowData.length; i++) {
-    rowData[i].row.classList.add('past-event');
-    rowData[i].row.style.display = 'none';
+  for (var i = 0; i < pastRows.length; i++) {
+    pastRows[i].classList.add('past-event');
+    pastRows[i].style.display = 'none';
   }
 
   var btn = document.createElement('button');
-  btn.textContent = '\u25B6 Show Past Events (' + pastCount + ')';
+  btn.textContent = '\u25B6 Show Past Events (' + pastRows.length + ')';
   btn.className = 'past-events-toggle';
   btn.addEventListener('click', function() {
-    var pastRows = table.querySelectorAll('.past-event');
-    var isHidden = pastRows[0] && pastRows[0].style.display === 'none';
-    for (var j = 0; j < pastRows.length; j++) {
-      pastRows[j].style.display = isHidden ? '' : 'none';
+    var hiddenRows = currentTable.querySelectorAll('.past-event');
+    var isHidden = hiddenRows[0] && hiddenRows[0].style.display === 'none';
+    for (var j = 0; j < hiddenRows.length; j++) {
+      hiddenRows[j].style.display = isHidden ? '' : 'none';
     }
     btn.textContent = isHidden
       ? '\u25B2 Hide Past Events'
-      : '\u25B6 Show Past Events (' + pastRows.length + ')';
+      : '\u25B6 Show Past Events (' + hiddenRows.length + ')';
   });
 
-  table.parentNode.insertBefore(btn, table.nextSibling);
+  currentTable.parentNode.insertBefore(btn, currentTable.nextSibling);
 });
 </script>
