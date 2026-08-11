@@ -22,6 +22,9 @@ jobs:
           hugo-version: '0.119.0'
           extended: true
 
+      - name: Generate bugs page
+        run: python3 export.py > layouts/shortcodes/bugs.html
+
       - name: Build
         run: hugo
 
