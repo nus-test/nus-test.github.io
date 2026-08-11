@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wong Ke Xin | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+    <link>https://nus-test.github.io/author/wong-ke-xin/</link>
+      <atom:link href="https://nus-test.github.io/author/wong-ke-xin/index.xml" rel="self" type="application/rss+xml" />
+    <description>Wong Ke Xin</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://nus-test.github.io/author/wong-ke-xin/avatar_huf4574a1c11db75fe4c478caee7de2379_6339365_270x270_fill_lanczos_center_3.png</url>
+      <title>Wong Ke Xin</title>
+      <link>https://nus-test.github.io/author/wong-ke-xin/</link>
+    </image>
+    
+  </channel>
+</rss>
