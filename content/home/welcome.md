@@ -71,6 +71,8 @@ Core Areas:
 
 {{< bug-counter >}}
 
+[Interested in a FYP or UROP?](/undergraduate-research/)
+
 [{{<icon name="twitter" pack="fab" >}}](https://twitter.com/test_nus)
 [{{<icon name="github" pack="fab" >}}](https://github.com/nus-test/)
 [{{<icon name="envelope" pack="fas" >}}](mailto:rigger@comp.nus.edu.sg)

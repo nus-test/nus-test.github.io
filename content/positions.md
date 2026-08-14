@@ -12,6 +12,8 @@ design:
 share: false  # Show social sharing links?
 ---
 
+*NUS undergraduate student? See our dedicated [Undergraduate Research](/undergraduate-research/) page.*
+
 I am looking for PhD students, postdocs, interns, and visitors whose vision aligns with ours to join our lab. In general, we aim to both have a practical impact by creating relevant and usable tools as well as by designing principled and fundamental approaches.
 
 The group's core areas are software engineering, computer systems, and programming languages. A current key focus is reliability aspects of data-centric systems.
