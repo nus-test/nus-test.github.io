@@ -30,12 +30,12 @@ Timetable for upcoming events in AY26/27 (subject to changes):
 | Oct 21 |  | --- | --- |
 | Oct 14 | <font color=gray>ASE week</font> | --- | --- |
 | Oct 7 | <font color=gray>ISSTA week</font> | --- | --- |
-| Sep 30 |  | --- | --- |
+| Sep 30 |  <font color=blue>Metamorphic Coverage</font> | TEST Lab | Jinsheng |
 | Sep 23 | <font color=gray>Recess Week</font> | --- | --- |
 | Sep 16 |  | --- | --- |
 | Sep 9 |  | --- | --- |
-| Sep 2 |  | --- | --- |
-| Aug 26 |  | --- | --- |
+| Sep 2 | <font color=brown>Data Fusion</font> | TEST Lab | Yuancheng |
+| Aug 26 | <font color=brown>Group Discussion: How We Use Agents in Our Research</font> | --- | --- |
 | Aug 19 | <font color=gray>No meeting</font> | --- | --- |
 | Aug 12 | <font color=brown>Group Introduction Session: Past and Current Work Sharing</font> | --- | --- |
 
