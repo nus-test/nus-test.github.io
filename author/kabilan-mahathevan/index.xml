@@ -5,12 +5,20 @@
     <link>https://nus-test.github.io/author/kabilan-mahathevan/</link>
       <atom:link href="https://nus-test.github.io/author/kabilan-mahathevan/index.xml" rel="self" type="application/rss+xml" />
     <description>Kabilan Mahathevan</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 Feb 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://nus-test.github.io/author/kabilan-mahathevan/avatar_hubb01268e689a64c9915dc6163b5acdfe_200155_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Kabilan Mahathevan</title>
       <link>https://nus-test.github.io/author/kabilan-mahathevan/</link>
     </image>
+    
+    <item>
+      <title>Dialect-Agnostic SQL Parsing via LLM-Based Segmentation</title>
+      <link>https://nus-test.github.io/publication/2026-sigmod-dialect-agnostic/</link>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2026-sigmod-dialect-agnostic/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
