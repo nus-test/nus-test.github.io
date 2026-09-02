@@ -7,7 +7,7 @@ native_name: 蒋元丞
 superuser: false
 
 # Role/position
-role: Student Collaborators
+role: Research Fellow
 
 # Organizations/Affiliations
 organizations:
