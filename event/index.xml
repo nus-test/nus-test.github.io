@@ -5,12 +5,42 @@
     <link>https://nus-test.github.io/event/</link>
       <atom:link href="https://nus-test.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Events</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 22 Apr 2026 14:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 30 Sep 2026 15:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Recent &amp; Upcoming Events</title>
       <link>https://nus-test.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>Metamorphic Coverage</title>
+      <link>https://nus-test.github.io/event/260930/</link>
+      <pubDate>Wed, 30 Sep 2026 15:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/260930/</guid>
+      <description>&lt;p&gt;Speaker Info:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bajinsheng.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jinsheng Ba&lt;/a&gt; is an Assistant Professor in the School of Data Science at the Chinese University of Hong Kong, Shenzhen. His research interests span Software Engineering and LLM, with a specific focus on observing, manipulating, and shaping software behaviors at a semantic level to enhance the reliability and correctness of critical data- and AI-driven systems. All of his research has been published in top-tier venues, including ICSE, SIGMOD, and Usenix Security. As the first author, he is the recipient of two ACM SIGSOFT Distinguished Paper Awards at ICSE 2023 and ASE 2022 and was nominated for the Best Ph.D. Thesis Award. His research led to the discovery of over 200 previously unknown bugs and vulnerabilities in widely used fundamental software systems. Prior to joining CUHK-Shenzhen, he was a postdoctoral researcher at ETH Zurich, advised by Prof. Zhendong Su. He received his Ph.D. degree in Computer Science from National University of Singapore in 2024, advised by Dr. Manuel Rigger.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fortifying Software through the Lens of Neuro-Symbolic Software Analysis</title>
+      <link>https://nus-test.github.io/event/260916/</link>
+      <pubDate>Wed, 16 Sep 2026 15:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/260916/</guid>
+      <description>&lt;p&gt;Speaker Info:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://jiekeshi.tech/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jieke Shi&lt;/a&gt; is a Research Scientist and NRF Postdoctoral Award Recipient at the School of Computing and Information Systems (SCIS), Singapore Management University (SMU), where he also obtained my PhD. He is working with Professor David Lo, an ACM/IEEE/ASE Fellow, as his supervisor.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Turning Bias into Bugs: Bandit-Guided Style Manipulation Attacks on LLM Judges</title>
+      <link>https://nus-test.github.io/event/260909/</link>
+      <pubDate>Wed, 09 Sep 2026 15:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/260909/</guid>
+      <description>&lt;p&gt;Speaker Info:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://xianglinyang.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xianglin Yang&lt;/a&gt; is currently a research fellow at the National University of Singapore under Prof. Dong Jin Song. Before that, She received her Ph.D. degree from NUS in 2025 and her bachelor&amp;rsquo;s degree from Fudan University in 2020.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Once4All: Skeleton-Guided SMT Solver Fuzzing with LLM-Synthesized Generators</title>

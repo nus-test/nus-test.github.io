@@ -5,12 +5,22 @@
     <link>https://nus-test.github.io/author/jinsheng-ba/</link>
       <atom:link href="https://nus-test.github.io/author/jinsheng-ba/index.xml" rel="self" type="application/rss+xml" />
     <description>Jinsheng Ba</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 23 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 30 Sep 2026 15:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/author/jinsheng-ba/avatar_hu70f7a172fee042e8bd87231fc4c7d853_59600_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Jinsheng Ba</title>
       <link>https://nus-test.github.io/author/jinsheng-ba/</link>
     </image>
+    
+    <item>
+      <title>Metamorphic Coverage</title>
+      <link>https://nus-test.github.io/event/260930/</link>
+      <pubDate>Wed, 30 Sep 2026 15:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/260930/</guid>
+      <description>&lt;p&gt;Speaker Info:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bajinsheng.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jinsheng Ba&lt;/a&gt; is an Assistant Professor in the School of Data Science at the Chinese University of Hong Kong, Shenzhen. His research interests span Software Engineering and LLM, with a specific focus on observing, manipulating, and shaping software behaviors at a semantic level to enhance the reliability and correctness of critical data- and AI-driven systems. All of his research has been published in top-tier venues, including ICSE, SIGMOD, and Usenix Security. As the first author, he is the recipient of two ACM SIGSOFT Distinguished Paper Awards at ICSE 2023 and ASE 2022 and was nominated for the Best Ph.D. Thesis Award. His research led to the discovery of over 200 previously unknown bugs and vulnerabilities in widely used fundamental software systems. Prior to joining CUHK-Shenzhen, he was a postdoctoral researcher at ETH Zurich, advised by Prof. Zhendong Su. He received his Ph.D. degree in Computer Science from National University of Singapore in 2024, advised by Dr. Manuel Rigger.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Metamorphic Coverage</title>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xianglin Yang | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+    <link>https://nus-test.github.io/author/xianglin-yang/</link>
+      <atom:link href="https://nus-test.github.io/author/xianglin-yang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xianglin Yang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 09 Sep 2026 15:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
+      <title>Xianglin Yang</title>
+      <link>https://nus-test.github.io/author/xianglin-yang/</link>
+    </image>
+    
+    <item>
+      <title>Turning Bias into Bugs: Bandit-Guided Style Manipulation Attacks on LLM Judges</title>
+      <link>https://nus-test.github.io/event/260909/</link>
+      <pubDate>Wed, 09 Sep 2026 15:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/260909/</guid>
+      <description>&lt;p&gt;Speaker Info:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://xianglinyang.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xianglin Yang&lt;/a&gt; is currently a research fellow at the National University of Singapore under Prof. Dong Jin Song. Before that, She received her Ph.D. degree from NUS in 2025 and her bachelor&amp;rsquo;s degree from Fudan University in 2020.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
