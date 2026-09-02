@@ -5,7 +5,7 @@
     <link>https://nus-test.github.io/</link>
       <atom:link href="https://nus-test.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Trustworthy Engineering of Software Technologies (TEST) Lab</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 23 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 16 Sep 2026 15:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/media/logo_hu54a81beaedce3437486bda7d4bb96888_11488_300x300_fit_lanczos_3.png</url>
       <title>Trustworthy Engineering of Software Technologies (TEST) Lab</title>
@@ -8767,6 +8767,16 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 &lt;p&gt;If you are interested in a research opportunity, it would be best to directly reach out to me (&lt;a href=&#34;mailto:rigger@nus.edu.sg&#34;&gt;rigger@nus.edu.sg&lt;/a&gt;). We do &lt;em&gt;not&lt;/em&gt; maintain a list of open projects or problems that we are interested in. To get an impression of the kind of research you are interested in, you can check out our &lt;a href=&#34;https://nus-test.github.io/publication&#34;&gt;publications page&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&amp;ndash; Manuel RIGGER (&lt;a href=&#34;mailto:rigger@nus.edu.sg&#34;&gt;rigger@nus.edu.sg&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;Last updated: 2026-08-15&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning With Fine-Grained Privacy</title>
+      <link>https://nus-test.github.io/event/260916/</link>
+      <pubDate>Wed, 16 Sep 2026 15:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/event/260916/</guid>
+      <description>&lt;p&gt;Speaker Info:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://yangfan-jiang.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yangfan Jiang&lt;/a&gt; is a Ph.D. candidate in Computer Science at the National University of Singapore, advised by &lt;a href=&#34;https://www.comp.nus.edu.sg/~xiaoxk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Xiaokui Xiao&lt;/a&gt;. His research focuses on privacy and security for modern AI over sensitive data, including algorithms that enable large language models and data analytics methods to learn from private data with formal privacy and security guarantees.&lt;/p&gt;
 </description>
     </item>
     
