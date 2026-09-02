@@ -32,7 +32,7 @@ Timetable for upcoming events in AY26/27 (subject to changes):
 | Oct 7 | <font color=gray>ISSTA week</font> | --- | --- |
 | Sep 30 |  <font color=blue>Metamorphic Coverage</font> | TEST Lab | Jinsheng |
 | Sep 23 | <font color=gray>Recess Week</font> | --- | --- |
-| Sep 16 | <font color=blue>TBD</font> | Ningke | Jieke Shi |
+| Sep 16 | <font color=blue>Fortifying Software through the Lens of Neuro-Symbolic Software Analysis</font> | Ningke | Jieke Shi |
 | Sep 9 | <font color=blue>Bandit-Guided Style Manipulation Attacks on LLM Judges</font> | Yuancheng | Xianglin Yang |
 | Sep 2 | <font color=brown>Data Fusion</font> | TEST Lab | Yuancheng |
 | Aug 26 | <font color=brown>Group Discussion: How We Use Agents in Our Research</font> | --- | --- |
