@@ -8791,6 +8791,22 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     </item>
     
     <item>
+      <title>Efficient Dialect-Agnostic SQL Equivalence Refutation</title>
+      <link>https://nus-test.github.io/publication/2027-sigmod-sql-equivalence-refutation/</link>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2027-sigmod-sql-equivalence-refutation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Our paper &#34;Efficient Dialect-Agnostic SQL Equivalence Refutation&#34; was accepted at SIGMOD 2027.</title>
+      <link>https://nus-test.github.io/post/26-09-13-sigmod-r2-sql-equivalence-refutation/</link>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/post/26-09-13-sigmod-r2-sql-equivalence-refutation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Turning Bias into Bugs: Bandit-Guided Style Manipulation Attacks on LLM Judges</title>
       <link>https://nus-test.github.io/event/260909/</link>
       <pubDate>Wed, 09 Sep 2026 15:00:00 +0000</pubDate>

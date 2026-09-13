@@ -5,12 +5,28 @@
     <link>https://nus-test.github.io/author/junwen-an/</link>
       <atom:link href="https://nus-test.github.io/author/junwen-an/index.xml" rel="self" type="application/rss+xml" />
     <description>Junwen An</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Sep 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nus-test.github.io/author/junwen-an/avatar_hu66fa1b2152f064be6635137925d03433_131844_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Junwen An</title>
       <link>https://nus-test.github.io/author/junwen-an/</link>
     </image>
+    
+    <item>
+      <title>Efficient Dialect-Agnostic SQL Equivalence Refutation</title>
+      <link>https://nus-test.github.io/publication/2027-sigmod-sql-equivalence-refutation/</link>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/publication/2027-sigmod-sql-equivalence-refutation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Our paper &#34;Efficient Dialect-Agnostic SQL Equivalence Refutation&#34; was accepted at SIGMOD 2027.</title>
+      <link>https://nus-test.github.io/post/26-09-13-sigmod-r2-sql-equivalence-refutation/</link>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://nus-test.github.io/post/26-09-13-sigmod-r2-sql-equivalence-refutation/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Dialect-Agnostic SQL Parsing via LLM-Based Segmentation</title>

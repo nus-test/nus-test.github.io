@@ -35,6 +35,30 @@
     <loc>https://nus-test.github.io/author/jieke-shi/</loc>
     <lastmod>2026-09-16T15:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://nus-test.github.io/publication-type/2/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/publication/2027-sigmod-sql-equivalence-refutation/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/author/junwen-an/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/post/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/author/manuel-rigger/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/post/26-09-13-sigmod-r2-sql-equivalence-refutation/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/publication_types/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/publication/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://nus-test.github.io/event/260909/</loc>
     <lastmod>2026-09-09T15:00:00+00:00</lastmod>
   </url><url>
@@ -44,22 +68,10 @@
     <loc>https://nus-test.github.io/publication-type/1/</loc>
     <lastmod>2026-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nus-test.github.io/post/</loc>
-    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/author/manuel-rigger/</loc>
-    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://nus-test.github.io/publication/2026-issta-metamorphic-coverage/</loc>
     <lastmod>2026-06-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/post/26-06-23-issta26/</loc>
-    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/publication_types/</loc>
-    <lastmod>2026-06-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/publication/</loc>
     <lastmod>2026-06-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/author/yuancheng-jiang/</loc>
@@ -70,9 +82,6 @@
   </url><url>
     <loc>https://nus-test.github.io/post/26-06-20-emilyong-ourp/</loc>
     <lastmod>2026-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/publication-type/2/</loc>
-    <lastmod>2026-06-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/publication/2027-sigmod-llm-sql-features/</loc>
     <lastmod>2026-06-13T00:00:00+00:00</lastmod>
@@ -141,9 +150,6 @@
     <lastmod>2026-02-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/author/haotian-gao/</loc>
-    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/author/junwen-an/</loc>
     <lastmod>2026-02-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/author/kabilan-mahathevan/</loc>
