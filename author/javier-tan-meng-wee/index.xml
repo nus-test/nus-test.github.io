@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javier Tan Meng Wee | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+    <link>https://nus-test.github.io/author/javier-tan-meng-wee/</link>
+      <atom:link href="https://nus-test.github.io/author/javier-tan-meng-wee/index.xml" rel="self" type="application/rss+xml" />
+    <description>Javier Tan Meng Wee</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://nus-test.github.io/author/javier-tan-meng-wee/avatar_hue22bbefc958ad03addfdfca550c76c59_323149_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Javier Tan Meng Wee</title>
+      <link>https://nus-test.github.io/author/javier-tan-meng-wee/</link>
+    </image>
+    
+  </channel>
+</rss>
