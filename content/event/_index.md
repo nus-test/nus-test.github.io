@@ -27,7 +27,7 @@ Timetable for upcoming events in AY26/27 (subject to changes):
 | Nov 11 |  | --- | --- |
 | Nov 4 |  | --- | --- |
 | Oct 28 |  | --- | --- |
-| Oct 21 |  | --- | --- |
+| Oct 21 | <font color=blue>Learning With Fine-Grained Privacy</font> | Suyang | Yangfan Jiang |
 | Oct 14 | <font color=gray>ASE week</font> | --- | --- |
 | Oct 7 | <font color=gray>ISSTA week</font> | --- | --- |
 | Sep 30 |  <font color=blue>Metamorphic Coverage</font> | TEST Lab | Jinsheng |
