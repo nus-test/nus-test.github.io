@@ -27,9 +27,6 @@ bio: Working on making CPython faster.
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: x-twitter
-  icon_pack: fab
-  link: https://twitter.com/kenjin4096
 #- icon: google-scholar
 #  icon_pack: ai
 #  link: https://scholar.google.com/citations?user=yRsLClYAAAAJ
@@ -48,10 +45,10 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 next_affiliation:
-  name: "King's College London"
-  url: "https://www.kcl.ac.uk"
-  role: "PhD Student"
+  name: "University of Cambridge / OpenAI (Contractor)"
+  url: "https://www.cst.cam.ac.uk/"
+  role: "MPhil Student / Software Engineer"
 
 user_groups:
-- Student Collaborators
+- Past Members (2025)
 ---
