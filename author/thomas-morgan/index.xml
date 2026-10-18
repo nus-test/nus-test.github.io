@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thomas Morgan | Trustworthy Engineering of Software Technologies (TEST) Lab</title>
+    <link>https://nus-test.github.io/author/thomas-morgan/</link>
+      <atom:link href="https://nus-test.github.io/author/thomas-morgan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Thomas Morgan</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://nus-test.github.io/author/thomas-morgan/avatar_hude8919e9182ab512f5c86fae0280f2c3_501726_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Thomas Morgan</title>
+      <link>https://nus-test.github.io/author/thomas-morgan/</link>
+    </image>
+    
+  </channel>
+</rss>
