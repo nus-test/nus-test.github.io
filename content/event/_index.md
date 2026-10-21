@@ -24,9 +24,9 @@ Timetable for upcoming events in AY26/27 (subject to changes):
 | Dec 2 |  | --- | --- |
 | Nov 25 |  | --- | --- |
 | Nov 18 |  | --- | --- |
-| Nov 11 |  | --- | --- |
-| Nov 4 |  | --- | --- |
-| Oct 28 |  | --- | --- |
+| Nov 11 | <font color=brown>Yibo Dry Run</font> | --- | ---|
+| Nov 4 | <font color=brown>FYP Dry Run</font> | --- | ---|
+| Oct 28 | <font color=brown>Ningke Dry Run</font> | --- | ---|
 | Oct 21 | <font color=blue>Learning With Fine-Grained Privacy</font> | Suyang | Yangfan Jiang |
 | Oct 14 | <font color=gray>ASE week</font> | --- | --- |
 | Oct 7 | <font color=gray>ISSTA week</font> | --- | --- |
