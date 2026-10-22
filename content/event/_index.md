@@ -23,7 +23,7 @@ Timetable for upcoming events in AY26/27 (subject to changes):
 | ------ | ------------------------------------------------------------ | --------- | ---------- |
 | Dec 2 |  | --- | --- |
 | Nov 25 |  | --- | --- |
-| Nov 18 |  | --- | --- |
+| Nov 18 | <font color=brown>Efficient Dialect-Agnostic SQL Equivalence Refutation</font> | Junwen An | --- |
 | Nov 11 | <font color=brown>Yibo Dry Run</font> | --- | ---|
 | Nov 4 | <font color=brown>FYP Dry Run</font> | --- | ---|
 | Oct 28 | <font color=brown>Ningke Dry Run</font> | --- | ---|

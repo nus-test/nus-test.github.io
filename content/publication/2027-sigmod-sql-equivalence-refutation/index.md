@@ -21,11 +21,11 @@ publication_short: In *SIGMOD 2027*
 
 abstract: ""
 
-#url_pdf:
+url_pdf: "https://arxiv.org/pdf/2610.22442"
 #url_code: '#'
 #url_dataset: '#'
 #url_poster: '#'
-#url_project: ''
+url_project: "https://github.com/wanteatfruit/SQLWitness"
 #url_slides: ''
 #url_source: '#'
 #url_video: '#'
