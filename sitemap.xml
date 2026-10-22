@@ -9,21 +9,33 @@
     <loc>https://nus-test.github.io/undergraduate-research/</loc>
   </url><url>
     <loc>https://nus-test.github.io/authors/</loc>
-    <lastmod>2026-10-21T15:00:00+00:00</lastmod>
+    <lastmod>2026-11-18T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://nus-test.github.io/event/261021/</loc>
-    <lastmod>2026-10-21T15:00:00+00:00</lastmod>
+    <loc>https://nus-test.github.io/event/261118/</loc>
+    <lastmod>2026-11-18T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/author/junwen-an/</loc>
+    <lastmod>2026-11-18T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/event/</loc>
-    <lastmod>2026-10-21T15:00:00+00:00</lastmod>
+    <lastmod>2026-11-18T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/tags/</loc>
-    <lastmod>2026-10-21T15:00:00+00:00</lastmod>
+    <lastmod>2026-11-18T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/</loc>
-    <lastmod>2026-10-21T15:00:00+00:00</lastmod>
+    <lastmod>2026-11-18T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/tag/weekly-talk/</loc>
+    <lastmod>2026-11-18T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/project/</loc>
+    <lastmod>2026-10-22T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/project/sqlwitness/</loc>
+    <lastmod>2026-10-22T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://nus-test.github.io/event/261021/</loc>
     <lastmod>2026-10-21T15:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/author/yangfan-jiang/</loc>
@@ -45,9 +57,6 @@
     <lastmod>2026-09-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/publication/2027-sigmod-sql-equivalence-refutation/</loc>
-    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/author/junwen-an/</loc>
     <lastmod>2026-09-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/post/</loc>
@@ -130,9 +139,6 @@
   </url><url>
     <loc>https://nus-test.github.io/post/26-03-10-jinsheng-faculty/</loc>
     <lastmod>2026-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nus-test.github.io/project/</loc>
-    <lastmod>2026-03-10T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://nus-test.github.io/project/sqlflex/</loc>
     <lastmod>2026-03-10T00:00:00+08:00</lastmod>
