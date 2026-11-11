@@ -24,7 +24,7 @@ Timetable for upcoming events in AY26/27 (subject to changes):
 | Dec 2 |  | --- | --- |
 | Nov 25 |  | --- | --- |
 | Nov 18 | <font color=brown>Efficient Dialect-Agnostic SQL Equivalence Refutation</font> | Junwen An | --- |
-| Nov 11 | <font color=brown>Yibo Dry Run</font> | --- | ---|
+| Nov 11 | <font color=brown>Lab rotation student pre</font> | --- | ---|
 | Nov 4 | <font color=brown>FYP Dry Run</font> | --- | ---|
 | Oct 28 | <font color=brown>Ningke Dry Run</font> | --- | ---|
 | Oct 21 | <font color=blue>Learning With Fine-Grained Privacy</font> | Suyang | Yangfan Jiang |
