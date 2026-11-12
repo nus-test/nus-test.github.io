@@ -14,7 +14,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Working on database testing.
+bio: Worked on database testing.
 
 education:
   courses:
@@ -30,7 +30,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:tiancheng.x@u.nus.edu'
+  link: 'mailto:xing.t.13fb@m.isct.ac.jp'
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=j_9YdekAAAAJ
@@ -46,14 +46,12 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 next_affiliation:
-  name: "National University of Singapore"
-  url: "https://www.nus.edu.sg"
-  role: "Master's Student"
+  name: "Institute of Science Tokyo"
+  url: "https://www.isct.ac.jp/en"
+  role: "PhD Student"
 
 user_groups:
 - Past Members (2025)
 ---
-
-Tiancheng is currently a Master's student at School of Computing, NUS. He graduated from Nanjing University(NJU).
 
 Find more about Tiancheng at [nayameow.github.io](https://nayameow.github.io)
